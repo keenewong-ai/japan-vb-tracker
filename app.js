@@ -2,9 +2,12 @@
   const HKT = "Asia/Hong_Kong";
   let matches = [];
   let players = [];
+  let playerStatsMap = {};
   let meta = {};
   let activeTab = "upcoming";
   let genderFilter = "all";
+  const PHOTO_V = "20261013d";
+  const CACHE_V = "20261013d";
 
   const $ = (sel, el = document) => el.querySelector(sel);
   const $$ = (sel, el = document) => [...el.querySelectorAll(sel)];
@@ -103,12 +106,13 @@
   function playerCardHtml(p) {
     const pos = p.position ? `<span class="pos">${esc(p.position)}</span>` : "";
     const clubBits = [p.club, p.league].filter(Boolean).join(" · ");
-    const PHOTO_V = "20261013c";
     const base = p.photo || "/japan-vb-tracker/assets/players/placeholder.svg";
     const photo = base + (base.includes("?") ? "&" : "?") + "v=" + PHOTO_V;
     const fallback = "/japan-vb-tracker/assets/players/placeholder.svg?v=" + PHOTO_V;
+    const hasStats = !!playerStatsMap[p.id];
     return `
-      <article class="player-card">
+      <article class="player-card" tabindex="0" data-player-id="${esc(p.id)}" role="button"
+        aria-label="${esc(p.name)} 球員詳情">
         <div class="player-identity">
           <img class="player-photo" src="${esc(photo)}" alt="" width="64" height="64"
             decoding="async" fetchpriority="high"
@@ -121,6 +125,7 @@
         <div class="player-tags">
           <span class="badge ${esc(p.gender)}">${p.gender === "men" ? "男排" : "女排"}</span>
           ${pos}
+          ${hasStats ? `<span class="pos stats-hint">有數據</span>` : ""}
         </div>
         ${clubBits ? `<div class="club">${esc(clubBits)}</div>` : ""}
         ${p.note ? `<div class="club note">${esc(p.note)}</div>` : ""}
@@ -154,6 +159,108 @@
 
     $$(".match-card", upEl).forEach(bindMatch);
     $$(".match-card", pastEl).forEach(bindMatch);
+    $$(".player-card", plEl).forEach(bindPlayer);
+  }
+
+
+  function bindPlayer(el) {
+    const open = () => openPlayer(el.dataset.playerId);
+    el.addEventListener("click", open);
+    el.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        open();
+      }
+    });
+  }
+
+  function fmtNum(n, digits = 2) {
+    if (n == null || Number.isNaN(Number(n))) return null;
+    const x = Number(n);
+    if (Number.isInteger(x)) return String(x);
+    return x.toFixed(digits);
+  }
+
+  function playerStatsSection(s) {
+    if (!s) {
+      return `<p class="no-stats">暫無公開數據（唔會估分）。</p>`;
+    }
+    const cards = [];
+    const push = (label, value, sub) => {
+      if (value == null || value === "") return;
+      cards.push(`
+        <div class="pstat-card">
+          <div class="pstat-label">${esc(label)}</div>
+          <div class="pstat-value">${esc(String(value))}</div>
+          ${sub ? `<div class="pstat-sub">${esc(sub)}</div>` : ""}
+        </div>`);
+    };
+
+    const isLiberoLike = (s.receptions != null || s.digs != null) && (s.points == null || s.points === 0) && !s.runningSets;
+
+    push("出場場數", s.matches, s.sets != null ? `${s.sets} 局` : null);
+    if (!isLiberoLike) {
+      push("總得分", s.points, s.avgPoints != null ? `場均 ${fmtNum(s.avgPoints)}` : null);
+      push("場均得分", s.avgPoints != null ? fmtNum(s.avgPoints) : null, "長均得分");
+      push("扣球得分", s.attackPoints, s.avgAttackPoints != null ? `場均 ${fmtNum(s.avgAttackPoints)}` : null);
+      if (s.attackAttempts != null) {
+        const pct = s.attackSuccessPct != null ? `成功率 ${fmtNum(s.attackSuccessPct, 1)}%` : null;
+        push("扣球出手", s.attackAttempts, pct);
+      } else if (s.attackSuccessPct != null) {
+        push("扣球成功率", `${fmtNum(s.attackSuccessPct, 1)}%`, null);
+      }
+      push("攔網得分", s.blockPoints, s.avgBlocks != null ? `場均 ${fmtNum(s.avgBlocks)}` : null);
+      push("發球得分／Ace", s.servePoints, s.avgAces != null ? `場均 ${fmtNum(s.avgAces)}` : null);
+    }
+    push("救球", s.digs, s.digSuccessPct != null ? `成功率 ${fmtNum(s.digSuccessPct, 1)}%` : null);
+    push("接發球", s.receptions, [
+      s.recPositivePct != null ? `到位率 ${fmtNum(s.recPositivePct, 1)}%` : null,
+      s.receptionErrors != null ? `失誤 ${s.receptionErrors}` : null,
+    ].filter(Boolean).join(" · ") || null);
+    push("組織傳球", s.runningSets, "Running sets");
+
+    if (!cards.length) {
+      return `<p class="no-stats">暫無公開數據（唔會估分）。</p>`;
+    }
+    return `
+      <div class="season-tag">
+        <span class="badge upcoming">${esc(s.season || "VNL 2026")}</span>
+        <span class="comp">來源：${esc(s.source || "Volleyball World / VBLineup")}</span>
+      </div>
+      ${s.note ? `<div class="note-box" style="margin-top:0;margin-bottom:12px">${esc(s.note)}</div>` : ""}
+      <div class="pstat-grid">${cards.join("")}</div>`;
+  }
+
+  function openPlayer(id) {
+    const p = players.find((x) => x.id === id);
+    if (!p) return;
+    const s = playerStatsMap[id] || null;
+    const body = $("#modal-body");
+    const base = p.photo || "/japan-vb-tracker/assets/players/placeholder.svg";
+    const photo = base + (base.includes("?") ? "&" : "?") + "v=" + PHOTO_V;
+    const fallback = "/japan-vb-tracker/assets/players/placeholder.svg?v=" + PHOTO_V;
+    const clubBits = [p.club, p.league].filter(Boolean).join(" · ");
+    body.innerHTML = `
+      <div class="player-detail-head">
+        <img class="player-photo lg" src="${esc(photo)}" alt="" width="88" height="88"
+          decoding="async"
+          onerror="this.onerror=null;this.src='${fallback}';" />
+        <div>
+          <h2 id="modal-title">${esc(p.name)}</h2>
+          ${p.nameEn ? `<div class="sub" style="margin:0 0 6px">${esc(p.nameEn)}</div>` : ""}
+          <div class="sub" style="margin:0">
+            <span class="badge ${esc(p.gender)}">${p.gender === "men" ? "男排" : "女排"}</span>
+            ${p.position ? `<span class="pos">${esc(p.position)}</span>` : ""}
+          </div>
+          ${clubBits ? `<div class="club" style="margin-top:6px">${esc(clubBits)}</div>` : ""}
+        </div>
+      </div>
+      ${p.note ? `<div class="note-box">${esc(p.note)}</div>` : ""}
+      <h3 style="margin:16px 0 8px;font-size:0.95rem">賽季數據</h3>
+      ${playerStatsSection(s)}
+    `;
+    $("#modal").hidden = false;
+    document.body.style.overflow = "hidden";
   }
 
   function bindMatch(el) {
@@ -272,11 +379,16 @@
     });
 
     try {
-      [matches, players, meta] = await Promise.all([
+      const [m, pl, metaRaw, statsRaw] = await Promise.all([
         loadJson("data/matches.json"),
         loadJson("data/players.json"),
         loadJson("data/meta.json"),
+        loadJson("data/player-stats.json").catch(() => ({ players: {} })),
       ]);
+      matches = m;
+      players = pl;
+      meta = metaRaw;
+      playerStatsMap = (statsRaw && statsRaw.players) || {};
       renderMeta();
       renderPanels();
       setTab("upcoming");

@@ -336,3 +336,62 @@ main {
   padding: 8px 16px 28px;
 }
 .footnote { opacity: 0.75; }
+
+
+.player-card { cursor: pointer; }
+.player-card .stats-hint {
+  color: #ffb08a;
+  border-color: rgba(255,107,53,.35);
+}
+
+.player-detail-head {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin: 0 28px 10px 0;
+}
+.player-photo.lg {
+  width: 88px;
+  height: 88px;
+  border-width: 3px;
+}
+.season-tag {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.pstat-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+@media (min-width: 520px) {
+  .pstat-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+.pstat-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 12px 10px;
+  min-height: 76px;
+}
+.pstat-label {
+  color: var(--muted);
+  font-size: 0.72rem;
+  letter-spacing: 0.03em;
+  margin-bottom: 4px;
+}
+.pstat-value {
+  font-size: 1.35rem;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+  line-height: 1.2;
+}
+.pstat-sub {
+  margin-top: 4px;
+  color: var(--accent-2);
+  font-size: 0.75rem;
+}
