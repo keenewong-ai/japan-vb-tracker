@@ -103,8 +103,10 @@
   function playerCardHtml(p) {
     const pos = p.position ? `<span class="pos">${esc(p.position)}</span>` : "";
     const clubBits = [p.club, p.league].filter(Boolean).join(" · ");
-    const photo = p.photo || "/japan-vb-tracker/assets/players/placeholder.svg";
-    const fallback = "/japan-vb-tracker/assets/players/placeholder.svg";
+    const PHOTO_V = "20261013c";
+    const base = p.photo || "/japan-vb-tracker/assets/players/placeholder.svg";
+    const photo = base + (base.includes("?") ? "&" : "?") + "v=" + PHOTO_V;
+    const fallback = "/japan-vb-tracker/assets/players/placeholder.svg?v=" + PHOTO_V;
     return `
       <article class="player-card">
         <div class="player-identity">
