@@ -178,14 +178,39 @@ main {
 }
 
 .player-card {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 6px 12px;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
   cursor: default;
+}
+.player-photo {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  background: #1a2740;
+  border: 2px solid rgba(255,255,255,.08);
+  box-shadow: 0 4px 12px rgba(0,0,0,.25);
+}
+.player-body { flex: 1; min-width: 0; }
+.player-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.player-tags {
+  display: flex;
+  gap: 6px;
+  align-items: start;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 .player-card .name { font-weight: 700; font-size: 1.05rem; }
 .player-card .en { color: var(--muted); font-size: 0.8rem; }
-.player-card .club { grid-column: 1 / -1; color: var(--muted); font-size: 0.85rem; }
+.player-card .club { color: var(--muted); font-size: 0.85rem; margin-top: 4px; }
 .player-card .pos {
   font-size: 0.75rem;
   color: var(--accent-2);

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="Miyu Kawazoe">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4a1a3a"/>
+      <stop offset="100%" stop-color="#8c2a5a"/>
+    </linearGradient>
+  </defs>
+  <circle cx="40" cy="40" r="40" fill="url(#bg)"/>
+  <circle cx="40" cy="40" r="36" fill="none" stroke="#a13d8b" stroke-opacity="0.25" stroke-width="2"/>
+  <text x="40" y="46" text-anchor="middle" font-family="Segoe UI, PingFang TC, sans-serif" font-size="26" font-weight="700" fill="#e8eef8">MK</text>
+</svg>

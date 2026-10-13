@@ -103,18 +103,25 @@
   function playerCardHtml(p) {
     const pos = p.position ? `<span class="pos">${esc(p.position)}</span>` : "";
     const clubBits = [p.club, p.league].filter(Boolean).join(" · ");
+    const photo = p.photo || "assets/players/placeholder.svg";
     return `
       <article class="player-card">
-        <div>
-          <div class="name">${esc(p.name)}</div>
-          ${p.nameEn ? `<div class="en">${esc(p.nameEn)}</div>` : ""}
+        <img class="player-photo" src="${esc(photo)}" alt="${esc(p.name)}" loading="lazy" width="56" height="56"
+          onerror="this.onerror=null;this.src='assets/players/placeholder.svg';" />
+        <div class="player-body">
+          <div class="player-head">
+            <div>
+              <div class="name">${esc(p.name)}</div>
+              ${p.nameEn ? `<div class="en">${esc(p.nameEn)}</div>` : ""}
+            </div>
+            <div class="player-tags">
+              <span class="badge ${esc(p.gender)}">${p.gender === "men" ? "男排" : "女排"}</span>
+              ${pos}
+            </div>
+          </div>
+          ${clubBits ? `<div class="club">${esc(clubBits)}</div>` : ""}
+          ${p.note ? `<div class="club">${esc(p.note)}</div>` : ""}
         </div>
-        <div style="display:flex;gap:6px;align-items:start;flex-wrap:wrap;justify-content:flex-end">
-          <span class="badge ${esc(p.gender)}">${p.gender === "men" ? "男排" : "女排"}</span>
-          ${pos}
-        </div>
-        ${clubBits ? `<div class="club">${esc(clubBits)}</div>` : ""}
-        ${p.note ? `<div class="club">${esc(p.note)}</div>` : ""}
       </article>`;
   }
 
