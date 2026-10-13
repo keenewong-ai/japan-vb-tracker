@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>日本排球賽事追蹤</title>
+  <meta name="description" content="日本男排／女排相關球員賽事列表、過往賽果同每場數據" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <span class="ball" aria-hidden="true">🏐</span>
+      <div>
+        <h1>日本排球賽事追蹤</h1>
+        <p class="tagline">男排 · 女排 · 國家隊同球會賽事</p>
+      </div>
+    </div>
+    <p class="updated" id="lastUpdated">載入中…</p>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="主要分類">
+    <button class="tab active" data-tab="upcoming" role="tab" aria-selected="true">即將開波</button>
+    <button class="tab" data-tab="past" role="tab" aria-selected="false">過往賽果</button>
+    <button class="tab" data-tab="players" role="tab" aria-selected="false">球員</button>
+  </nav>
+
+  <div class="filters" role="group" aria-label="性別篩選">
+    <button class="filter active" data-gender="all">全部</button>
+    <button class="filter" data-gender="men">男排</button>
+    <button class="filter" data-gender="women">女排</button>
+  </div>
+
+  <main>
+    <section id="panel-upcoming" class="panel active" role="tabpanel"></section>
+    <section id="panel-past" class="panel" role="tabpanel" hidden></section>
+    <section id="panel-players" class="panel" role="tabpanel" hidden></section>
+  </main>
+
+  <div id="modal" class="modal" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-sheet" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" data-close aria-label="關閉">×</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>靜態站 · 朝晚搜尋更新 · 冇後端 API</p>
+    <p class="footnote">未知數據留空，唔會估分。</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

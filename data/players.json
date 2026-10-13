@@ -1,0 +1,162 @@
+[
+  {
+    "id": "ishikawa-yuki",
+    "name": "石川祐希",
+    "nameEn": "Yuki Ishikawa",
+    "gender": "men",
+    "position": "OH",
+    "club": "Ziraat Bank Ankara",
+    "league": "Sultanlar Ligi (Men)",
+    "note": "著 11 號；土超"
+  },
+  {
+    "id": "takahashi-ran",
+    "name": "高橋藍",
+    "nameEn": "Ran Takahashi",
+    "gender": "men",
+    "position": "OH",
+    "club": "LUK Lublin",
+    "league": "PlusLiga",
+    "note": null
+  },
+  {
+    "id": "ogawa-tomohiro",
+    "name": "小川智大",
+    "nameEn": "Tomohiro Ogawa",
+    "gender": "men",
+    "position": "L",
+    "club": "LUK Lublin",
+    "league": "PlusLiga",
+    "note": "Bogdanka Cup 決賽最佳自由人"
+  },
+  {
+    "id": "otsuka-tatsunori",
+    "name": "大塚達宣",
+    "nameEn": "Tatsunori Otsuka",
+    "gender": "men",
+    "position": "OH",
+    "club": "Power Volley Milano",
+    "league": "SuperLega",
+    "note": "亞運決賽 22 分後返米蘭"
+  },
+  {
+    "id": "nishida-yuji",
+    "name": "西田有志",
+    "nameEn": "Yuji Nishida",
+    "gender": "men",
+    "position": "OP",
+    "club": "大阪ブルテオン",
+    "league": "SV.LEAGUE MEN",
+    "note": "隊長；目標衛冕"
+  },
+  {
+    "id": "nishiyama-taisho",
+    "name": "西山大翔",
+    "nameEn": "Taisho Nishiyama",
+    "gender": "men",
+    "position": null,
+    "club": null,
+    "league": null,
+    "note": "亞運準決對中國 28 分"
+  },
+  {
+    "id": "kai-yuto",
+    "name": "甲斐優斗",
+    "nameEn": "Yuto Kai",
+    "gender": "men",
+    "position": null,
+    "club": null,
+    "league": null,
+    "note": "亞運準決對中國 18 分"
+  },
+  {
+    "id": "onodera-taishi",
+    "name": "小野寺太志",
+    "nameEn": "Taishi Onodera",
+    "gender": "men",
+    "position": "MB",
+    "club": "サントリーサンバーズ大阪",
+    "league": "SV.LEAGUE MEN",
+    "note": "新隊長"
+  },
+  {
+    "id": "ishikawa-mayu",
+    "name": "石川真佑",
+    "nameEn": "Mayu Ishikawa",
+    "gender": "women",
+    "position": "OH",
+    "club": "Eczacıbaşı Dynavit",
+    "league": "Sultanlar Ligi (Women)",
+    "note": "轉會土超"
+  },
+  {
+    "id": "seki-nanami",
+    "name": "關菜々巳",
+    "nameEn": "Nanami Seki",
+    "gender": "women",
+    "position": "S",
+    "club": "UYBA Busto Arsizio",
+    "league": "Serie A1",
+    "note": "正選二傳"
+  },
+  {
+    "id": "wada-yukiko",
+    "name": "和田由紀子",
+    "nameEn": "Yukiko Wada",
+    "gender": "women",
+    "position": "OH",
+    "club": "UYBA Busto Arsizio",
+    "league": "Serie A1",
+    "note": null
+  },
+  {
+    "id": "akimoto-misora",
+    "name": "秋本美空",
+    "nameEn": "Misora Akimoto",
+    "gender": "women",
+    "position": "OH/MB",
+    "club": "UYBA Busto Arsizio",
+    "league": "Serie A1",
+    "note": "亞運 OH／MB 混合打法"
+  },
+  {
+    "id": "sato-yoshino",
+    "name": "佐藤淑乃",
+    "nameEn": "Yoshino Sato",
+    "gender": "women",
+    "position": null,
+    "club": "Power Volley Milano",
+    "league": "Serie A1",
+    "note": "意甲米蘭首秀後備入場"
+  },
+  {
+    "id": "araki-ayaka",
+    "name": "荒木彩花",
+    "nameEn": "Ayaka Araki",
+    "gender": "women",
+    "position": null,
+    "club": "SAGA久光スプリングス",
+    "league": "SV.LEAGUE WOMEN",
+    "note": "左腳傷後恢復操練"
+  },
+  {
+    "id": "sakae-erika",
+    "name": "栄絵里香",
+    "nameEn": "Erika Sakae",
+    "gender": "women",
+    "position": "S",
+    "club": "SAGA久光スプリングス",
+    "league": "SV.LEAGUE WOMEN",
+    "note": null
+  },
+  {
+    "id": "nakagawa-tsukasa",
+    "name": "中川つかさ",
+    "nameEn": "Tsukasa Nakagawa",
+    "gender": "women",
+    "position": null,
+    "club": "NEC レッドロケッツ川崎",
+    "league": "SV.LEAGUE WOMEN",
+    "note": "新主將"
+  }
+]
