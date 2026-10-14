@@ -8,8 +8,8 @@
   let meta = {};
   let activeTab = "upcoming";
   let genderFilter = "all";
-  const PHOTO_V = "20261014d";
-  const CACHE_V = "20261014d";
+  const PHOTO_V = "20261014e";
+  const CACHE_V = "20261014e";
 
   const $ = (sel, el = document) => el.querySelector(sel);
   const $$ = (sel, el = document) => [...el.querySelectorAll(sel)];
@@ -73,6 +73,20 @@
       .replace(/"/g, "&quot;");
   }
 
+  const POS_JA = {
+    OP: "オポジット",
+    OH: "アウトサイドヒッター",
+    MB: "ミドルブロッカー",
+    S: "セッター",
+    L: "リベロ",
+    WS: "アウトサイドヒッター",
+    OPP: "オポジット",
+  };
+
+  function positionLabel(pos) {
+    if (!pos) return "";
+    return POS_JA[String(pos).toUpperCase()] || pos;
+  }
 
   function playerByName(name) {
     return players.find((p) => p.name === name) || null;
@@ -123,31 +137,33 @@
   }
 
   function playerCardHtml(p) {
-    const pos = p.position ? `<span class="pos">${esc(p.position)}</span>` : "";
+    const posJa = positionLabel(p.position);
     const clubBits = [p.club, p.league].filter(Boolean).join(" · ");
     const base = p.photo || "/japan-vb-tracker/assets/players/placeholder.svg";
     const photo = base + (base.includes("?") ? "&" : "?") + "v=" + PHOTO_V;
     const fallback = "/japan-vb-tracker/assets/players/placeholder.svg?v=" + PHOTO_V;
     const hasStats = !!playerStatsMap[p.id];
+    const en = p.nameEn ? String(p.nameEn).toUpperCase() : "";
     return `
       <article class="player-card" tabindex="0" data-player-id="${esc(p.id)}" role="button"
         aria-label="${esc(p.name)} 球員詳情">
-        <div class="player-identity">
-          <img class="player-photo" src="${esc(photo)}" alt="" width="64" height="64"
-            decoding="async" fetchpriority="high"
+        <div class="pc-photo">
+          <img class="player-photo" src="${esc(photo)}" alt="${esc(p.name)}"
+            decoding="async" loading="lazy"
             onerror="this.onerror=null;this.src='${fallback}';" />
-          <div class="player-names">
-            <div class="name">${esc(p.name)}</div>
-            ${p.nameEn ? `<div class="en">${esc(p.nameEn)}</div>` : ""}
+        </div>
+        <div class="pc-info">
+          ${posJa ? `<span class="pc-pos">${esc(posJa)}</span>` : ""}
+          <h3 class="name">${esc(p.name)}</h3>
+          ${en ? `<p class="en">${esc(en)}</p>` : ""}
+          ${clubBits ? `<p class="club">${esc(clubBits)}</p>` : ""}
+          <div class="player-tags">
+            <span class="badge ${esc(p.gender)}">${p.gender === "men" ? "男排" : "女排"}</span>
+            ${p.position ? `<span class="pos">${esc(p.position)}</span>` : ""}
+            ${hasStats ? `<span class="pos stats-hint">有數據</span>` : ""}
           </div>
+          ${p.note ? `<p class="club note">${esc(p.note)}</p>` : ""}
         </div>
-        <div class="player-tags">
-          <span class="badge ${esc(p.gender)}">${p.gender === "men" ? "男排" : "女排"}</span>
-          ${pos}
-          ${hasStats ? `<span class="pos stats-hint">有數據</span>` : ""}
-        </div>
-        ${clubBits ? `<div class="club">${esc(clubBits)}</div>` : ""}
-        ${p.note ? `<div class="club note">${esc(p.note)}</div>` : ""}
       </article>`;
   }
 
@@ -197,15 +213,17 @@
     const source = g.source ? esc(g.source) : "來源";
     return `
       <article class="gossip-card">
-        <div class="gossip-top">
-          <time class="gossip-date" datetime="${esc(g.date || "")}">${esc(formatGossipDate(g.date))}</time>
-          ${tags}
-        </div>
-        <h3 class="gossip-title">${esc(g.title || "")}</h3>
-        <p class="gossip-summary">${esc(g.summary || "")}</p>
-        ${chips ? `<div class="japan-players">${chips}</div>` : ""}
-        <div class="gossip-actions">
-          <a class="gossip-link" href="${esc(url)}" target="_blank" rel="noopener noreferrer">睇原文 · ${source} ↗</a>
+        <div class="gossip-card-inner">
+          <div class="gossip-top">
+            <time class="gossip-date" datetime="${esc(g.date || "")}">${esc(formatGossipDate(g.date))}</time>
+            ${tags}
+          </div>
+          <h3 class="gossip-title">${esc(g.title || "")}</h3>
+          <p class="gossip-summary">${esc(g.summary || "")}</p>
+          ${chips ? `<div class="japan-players">${chips}</div>` : ""}
+          <div class="gossip-actions">
+            <a class="gossip-link" href="${esc(url)}" target="_blank" rel="noopener noreferrer">睇原文 · ${source} ↗</a>
+          </div>
         </div>
       </article>`;
   }
@@ -299,20 +317,20 @@
       .sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
 
     upEl.innerHTML = upcoming.length
-      ? `<div class="match-list">${upcoming.map(matchCardHtml).join("")}</div>`
-      : `<div class="empty">暫時冇即將開波嘅賽事</div>`;
+      ? `<div class="section-head"><h2 class="section-title">UPCOMING</h2><p class="section-sub">即將開波</p></div><div class="match-list">${upcoming.map(matchCardHtml).join("")}</div>`
+      : `<div class="section-head"><h2 class="section-title">UPCOMING</h2><p class="section-sub">即將開波</p></div><div class="empty">暫時冇即將開波嘅賽事</div>`;
     pastEl.innerHTML = past.length
-      ? `<div class="match-list">${past.map(matchCardHtml).join("")}</div>`
-      : `<div class="empty">暫時冇過往賽果</div>`;
+      ? `<div class="section-head"><h2 class="section-title">RESULTS</h2><p class="section-sub">過往賽果</p></div><div class="match-list">${past.map(matchCardHtml).join("")}</div>`
+      : `<div class="section-head"><h2 class="section-title">RESULTS</h2><p class="section-sub">過往賽果</p></div><div class="empty">暫時冇過往賽果</div>`;
     plEl.innerHTML = plist.length
-      ? `<div class="player-list">${plist.map(playerCardHtml).join("")}</div>`
-      : `<div class="empty">暫時冇球員資料</div>`;
+      ? `<div class="section-head"><h2 class="section-title">PLAYERS</h2><p class="section-sub">2026 VNL 登錄球員</p></div><div class="player-list">${plist.map(playerCardHtml).join("")}</div>`
+      : `<div class="section-head"><h2 class="section-title">PLAYERS</h2><p class="section-sub">2026 VNL 登錄球員</p></div><div class="empty">暫時冇球員資料</div>`;
     goEl.innerHTML = glist.length
-      ? `<div class="gossip-list">${glist.map(gossipCardHtml).join("")}</div>`
-      : `<div class="empty">暫時未有公開八卦／生活動態<br/><span style="font-size:0.85em">只會刊登有可靠來源同原文連結嘅項目，唔會杜撰。</span></div>`;
+      ? `<div class="section-head"><h2 class="section-title">NEWS</h2><p class="section-sub">八卦新聞</p></div><div class="gossip-list">${glist.map(gossipCardHtml).join("")}</div>`
+      : `<div class="section-head"><h2 class="section-title">NEWS</h2><p class="section-sub">八卦新聞</p></div><div class="empty">暫時未有公開八卦／生活動態<br/><span style="font-size:0.85em">只會刊登有可靠來源同原文連結嘅項目，唔會杜撰。</span></div>`;
     soEl.innerHTML = slist.length
-      ? `<div class="social-list">${slist.map(socialCardHtml).join("")}</div>`
-      : `<div class="empty">暫時未有可驗證嘅球員社交動態<br/><span style="font-size:0.85em">只會刊登有真實 post 連結嘅項目（IG／X 等），唔會杜撰。</span></div>`;
+      ? `<div class="section-head"><h2 class="section-title">SOCIAL</h2><p class="section-sub">球員動態 · IG／X</p></div><div class="social-list">${slist.map(socialCardHtml).join("")}</div>`
+      : `<div class="section-head"><h2 class="section-title">SOCIAL</h2><p class="section-sub">球員動態 · IG／X</p></div><div class="empty">暫時未有可驗證嘅球員社交動態<br/><span style="font-size:0.85em">只會刊登有真實 post 連結嘅項目（IG／X 等），唔會杜撰。</span></div>`;
 
     $$(".match-card", upEl).forEach(bindMatch);
     $$(".match-card", pastEl).forEach(bindMatch);
