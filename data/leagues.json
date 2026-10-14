@@ -1,0 +1,47 @@
+{
+  "SV.LEAGUE WOMEN": {
+    "country": "日本",
+    "countryCode": "jp",
+    "flag": "assets/flags/jp.svg"
+  },
+  "SV.LEAGUE MEN": {
+    "country": "日本",
+    "countryCode": "jp",
+    "flag": "assets/flags/jp.svg"
+  },
+  "PlusLiga": {
+    "country": "波蘭",
+    "countryCode": "pl",
+    "flag": "assets/flags/pl.svg"
+  },
+  "Bogdanka Cup": {
+    "country": "波蘭",
+    "countryCode": "pl",
+    "flag": "assets/flags/pl.svg"
+  },
+  "Sultanlar Ligi (Women)": {
+    "country": "土耳其",
+    "countryCode": "tr",
+    "flag": "assets/flags/tr.svg"
+  },
+  "Efeler Ligi (Men)": {
+    "country": "土耳其",
+    "countryCode": "tr",
+    "flag": "assets/flags/tr.svg"
+  },
+  "Serie A1": {
+    "country": "意大利",
+    "countryCode": "it",
+    "flag": "assets/flags/it.svg"
+  },
+  "SuperLega": {
+    "country": "意大利",
+    "countryCode": "it",
+    "flag": "assets/flags/it.svg"
+  },
+  "Asian Games": {
+    "country": "亞洲",
+    "countryCode": "asia",
+    "flag": "assets/flags/asia.svg"
+  }
+}

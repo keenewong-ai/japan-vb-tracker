@@ -5,11 +5,13 @@
   let playerStatsMap = {};
   let gossip = [];
   let social = [];
+  let teamsMap = {};
+  let leaguesMap = {};
   let meta = {};
   let activeTab = "upcoming";
   let genderFilter = "all";
-  const PHOTO_V = "20261014f";
-  const CACHE_V = "20261014f";
+  const PHOTO_V = "20261014j";
+  const CACHE_V = "20261014j";
 
   const $ = (sel, el = document) => el.querySelector(sel);
   const $$ = (sel, el = document) => [...el.querySelectorAll(sel)];
@@ -88,6 +90,64 @@
     return POS_JA[String(pos).toUpperCase()] || pos;
   }
 
+
+  const ASSET_BASE = "/japan-vb-tracker/";
+
+  function assetUrl(path) {
+    if (!path) return "";
+    if (/^https?:\/\//i.test(path) || path.startsWith("data:")) return path;
+    if (path.startsWith("/japan-vb-tracker/")) return path;
+    if (path.startsWith("/")) return path;
+    return ASSET_BASE + path.replace(/^\.\//, "");
+  }
+
+  function teamInitials(name) {
+    const s = String(name || "").trim();
+    const latin = s.match(/[A-Za-zÀ-ÿ]+/g);
+    if (latin && latin.length >= 2) return (latin[0][0] + latin[1][0]).toUpperCase();
+    if (latin && latin.length === 1) return latin[0].slice(0, 2).toUpperCase();
+    const cjk = s.match(/[\u3040-\u30ff\u4e00-\u9fff]/g);
+    if (cjk && cjk.length) return cjk.slice(0, 2).join("");
+    return (s.slice(0, 2) || "?").toUpperCase();
+  }
+
+  function teamLogoUrl(name) {
+    const meta = teamsMap[name];
+    const logo = meta && meta.logo;
+    if (!logo) return "";
+    const base = assetUrl(logo);
+    return base + (base.includes("?") ? "&" : "?") + "v=" + CACHE_V;
+  }
+
+  function teamNameHtml(name) {
+    const logo = teamLogoUrl(name);
+    const ini = teamInitials(name);
+    const ph = assetUrl("assets/teams/placeholder.svg") + "?v=" + CACHE_V;
+    const img = logo
+      ? `<img class="team-logo" src="${esc(logo)}" alt="" width="28" height="28" decoding="async" loading="lazy" onerror="this.onerror=null;this.src='${ph}';" />`
+      : `<span class="team-logo-fallback" aria-hidden="true">${esc(ini)}</span>`;
+    return `<span class="team-with-logo">${img}<span class="team-name">${esc(name)}</span></span>`;
+  }
+
+  function leagueMeta(competition) {
+    return leaguesMap[competition] || null;
+  }
+
+  function competitionHtml(m) {
+    const comp = m.competition || "";
+    const meta = leagueMeta(comp) || {};
+    const country = m.leagueCountry || meta.country || "";
+    const flagPath = meta.flag || (m.leagueCountryCode ? `assets/flags/${m.leagueCountryCode}.svg` : "");
+    const flagUrl = flagPath ? assetUrl(flagPath) + (flagPath.includes("?") ? "&" : "?") + "v=" + CACHE_V : "";
+    const flag = flagUrl
+      ? `<img class="league-flag" src="${esc(flagUrl)}" alt="" width="18" height="12" decoding="async" loading="lazy" onerror="this.style.display='none'" />`
+      : "";
+    const countryHtml = country
+      ? `<span class="league-country">${esc(country)}</span>`
+      : "";
+    return `<span class="comp">${flag}${countryHtml}<span class="league-name">${esc(comp)}</span></span>`;
+  }
+
   function playerByName(name) {
     return players.find((p) => p.name === name) || null;
   }
@@ -119,12 +179,12 @@
         <div class="match-top">
           <span class="badge ${esc(m.gender)}">${m.gender === "men" ? "男排" : "女排"}</span>
           <span class="badge ${esc(m.status)}">${m.status === "upcoming" ? "即將" : "完場"}</span>
-          <span class="comp">${esc(m.competition || "")}</span>
+          ${competitionHtml(m)}
         </div>
         <div class="match-teams">
-          <span>${esc(m.home)}</span>
+          ${teamNameHtml(m.home)}
           <span class="vs">vs</span>
-          <span>${esc(m.away)}</span>
+          ${teamNameHtml(m.away)}
           ${score}
         </div>
         <div class="match-meta">
@@ -481,11 +541,11 @@
     }
 
     body.innerHTML = `
-      <h2 id="modal-title">${esc(m.home)} vs ${esc(m.away)}</h2>
+      <h2 id="modal-title" class="modal-match-title">${teamNameHtml(m.home)}<span class="vs">vs</span>${teamNameHtml(m.away)}</h2>
       <div class="sub">
         <span class="badge ${esc(m.gender)}">${m.gender === "men" ? "男排" : "女排"}</span>
         <span class="badge ${esc(m.status)}">${m.status === "upcoming" ? "即將" : "完場"}</span>
-        ${esc(m.competition || "")}
+        ${competitionHtml(m)}
       </div>
       <div class="match-meta" style="margin:0 0 8px">
         <span>🕐 ${esc(formatHkt(m.datetime))}</span>
@@ -638,13 +698,15 @@
     });
 
     try {
-      const [m, pl, metaRaw, statsRaw, gossipRaw, socialRaw] = await Promise.all([
+      const [m, pl, metaRaw, statsRaw, gossipRaw, socialRaw, teamsRaw, leaguesRaw] = await Promise.all([
         loadJson("data/matches.json"),
         loadJson("data/players.json"),
         loadJson("data/meta.json"),
         loadJson("data/player-stats.json").catch(() => ({ players: {} })),
         loadJson("data/gossip.json").catch(() => []),
         loadJson("data/social.json").catch(() => []),
+        loadJson("data/teams.json").catch(() => ({})),
+        loadJson("data/leagues.json").catch(() => ({})),
       ]);
       matches = m;
       players = pl;
@@ -652,6 +714,8 @@
       playerStatsMap = (statsRaw && statsRaw.players) || {};
       gossip = Array.isArray(gossipRaw) ? gossipRaw.filter((g) => g && g.sourceUrl) : [];
       social = Array.isArray(socialRaw) ? socialRaw.filter((s) => s && s.postUrl) : [];
+      teamsMap = teamsRaw && typeof teamsRaw === "object" ? teamsRaw : {};
+      leaguesMap = leaguesRaw && typeof leaguesRaw === "object" ? leaguesRaw : {};
       renderMeta();
       renderPanels();
       setTab("upcoming");

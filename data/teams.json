@@ -1,0 +1,226 @@
+{
+  "東京グレートベアーズ": {
+    "logo": "assets/teams/sv-tokyogb.png",
+    "source": "svleague"
+  },
+  "北海道イエロースターズ": {
+    "logo": "assets/teams/sv-hokkaidoys.png",
+    "source": "svleague"
+  },
+  "ヴォレアス北海道": {
+    "logo": "assets/teams/sv-voreas.png",
+    "source": "svleague"
+  },
+  "大阪ブルテオン": {
+    "logo": "assets/teams/sv-osakab.png",
+    "source": "svleague"
+  },
+  "サントリーサンバーズ大阪": {
+    "logo": "assets/teams/sv-suntory.png",
+    "source": "svleague"
+  },
+  "ジェイテクトSTINGS愛知": {
+    "logo": "assets/teams/sv-stingsaichi.png",
+    "source": "svleague"
+  },
+  "東レアローズ静岡": {
+    "logo": "assets/teams/sv-trshizuoka.png",
+    "source": "svleague"
+  },
+  "ウルフドッグス名古屋": {
+    "logo": "assets/teams/sv-wdnagoya.png",
+    "source": "svleague"
+  },
+  "信州松本トライデンツ": {
+    "logo": "assets/teams/sv-matsumototd.png",
+    "source": "svleague"
+  },
+  "広島サンダーズ": {
+    "logo": "assets/teams/sv-hiroshima.png",
+    "source": "svleague"
+  },
+  "群馬グリーンウイングス": {
+    "logo": "assets/teams/sv-gunma.png",
+    "source": "svleague"
+  },
+  "SAGA久光スプリングス": {
+    "logo": "assets/teams/sv-sagahm.png",
+    "source": "svleague"
+  },
+  "アリーザ愛知": {
+    "logo": "assets/teams/sv-aaichi.png",
+    "source": "svleague"
+  },
+  "デンソーエアリービーズ": {
+    "logo": "assets/teams/sv-denso.png",
+    "source": "svleague"
+  },
+  "PFUブルーキャッツ石川かほく": {
+    "logo": "assets/teams/sv-pfu.png",
+    "source": "svleague"
+  },
+  "東レアローズ滋賀": {
+    "logo": "assets/teams/sv-torayshiga.png",
+    "source": "svleague"
+  },
+  "アランマーレ秋田庄内": {
+    "logo": "assets/teams/sv-aranmare.png",
+    "source": "svleague"
+  },
+  "ＫＵＲＯＢＥアクアフェアリーズ富山": {
+    "logo": "assets/teams/sv-toyama.png",
+    "source": "svleague"
+  },
+  "Astemoリヴァーレ茨城": {
+    "logo": "assets/teams/sv-astemo.png",
+    "source": "svleague"
+  },
+  "大阪マーヴェラス": {
+    "logo": "assets/teams/sv-osaka.png",
+    "source": "svleague"
+  },
+  "NEC レッドロケッツ川崎": {
+    "logo": "assets/teams/sv-nec.png",
+    "source": "svleague"
+  },
+  "ヴィクトリーナ姫路": {
+    "logo": "assets/teams/sv-himeji.png",
+    "source": "svleague"
+  },
+  "埼玉上尾メディックス": {
+    "logo": "assets/teams/sv-ageo.png",
+    "source": "svleague"
+  },
+  "岡山シーガルズ": {
+    "logo": "assets/teams/sv-okayama.png",
+    "source": "svleague"
+  },
+  "日本": {
+    "logo": "assets/teams/t-4dbed2e6.png",
+    "source": "public"
+  },
+  "卡塔爾": {
+    "logo": "assets/teams/t-4d0a0d7b.png",
+    "source": "public"
+  },
+  "伊朗": {
+    "logo": "assets/teams/t-b572d23a.png",
+    "source": "public"
+  },
+  "ZAKSA Kędzierzyn-Koźle": {
+    "logo": "assets/teams/zaksa-k-dzierzyn-ko-le.png",
+    "source": "public"
+  },
+  "Energa Trefl Gdańsk": {
+    "logo": "assets/teams/energa-trefl-gda-sk.png",
+    "source": "public"
+  },
+  "Projekt Warszawa": {
+    "logo": "assets/teams/projekt-warszawa.png",
+    "source": "public"
+  },
+  "VakıfBank": {
+    "logo": "assets/teams/vak-fbank.png",
+    "source": "public"
+  },
+  "Fenerbahçe": {
+    "logo": "assets/teams/fenerbah-e.png",
+    "source": "public"
+  },
+  "Fenerbahçe Medicana": {
+    "logo": "assets/teams/fenerbah-e-medicana.png",
+    "source": "public"
+  },
+  "Imoco Conegliano": {
+    "logo": "assets/teams/imoco-conegliano.png",
+    "source": "public"
+  },
+  "Igor Gorgonzola Novara": {
+    "logo": "assets/teams/igor-gorgonzola-novara.png",
+    "source": "public"
+  },
+  "AGIL Novara": {
+    "logo": "assets/teams/agil-novara.png",
+    "source": "public"
+  },
+  "Allianz Milano": {
+    "logo": "assets/teams/allianz-milano.png",
+    "source": "public"
+  },
+  "UYBA Busto Arsizio": {
+    "logo": "assets/teams/uyba-busto-arsizio.png",
+    "source": "public"
+  },
+  "ChorusLife Volley Bergamo": {
+    "logo": "assets/teams/choruslife-volley-bergamo.png",
+    "source": "public"
+  },
+  "Acqua Sant’Anna Cuneo": {
+    "logo": "assets/teams/acqua-sant-anna-cuneo.png",
+    "source": "public"
+  },
+  "中國": {
+    "logo": "assets/teams/flag-t-b07d0292.svg",
+    "source": "public"
+  },
+  "Altekma": {
+    "logo": "assets/teams/init-altekma.svg",
+    "source": "initials"
+  },
+  "Aras Kargo": {
+    "logo": "assets/teams/init-aras-kargo.svg",
+    "source": "initials"
+  },
+  "BOGDANKA LUK Lublin": {
+    "logo": "assets/teams/init-bogdanka-luk-lublin.svg",
+    "source": "initials"
+  },
+  "CBF Balducci HR Macerata": {
+    "logo": "assets/teams/init-cbf-balducci-hr-macerata.svg",
+    "source": "initials"
+  },
+  "CDA Volley Talmassons FVG": {
+    "logo": "assets/teams/init-cda-volley-talmassons-fvg.svg",
+    "source": "initials"
+  },
+  "Cisterna Volley": {
+    "logo": "assets/teams/init-cisterna-volley.svg",
+    "source": "initials"
+  },
+  "Eczacıbaşı Dynavit": {
+    "logo": "assets/teams/init-eczac-ba-dynavit.svg",
+    "source": "initials"
+  },
+  "Eczacıbaşı Peron İstanbul": {
+    "logo": "assets/teams/init-eczac-ba-peron-stanbul.svg",
+    "source": "initials"
+  },
+  "Gaziantep Gençlik Spor": {
+    "logo": "assets/teams/init-gaziantep-gen-lik-spor.svg",
+    "source": "initials"
+  },
+  "Il Bisonte Firenze": {
+    "logo": "assets/teams/init-il-bisonte-firenze.svg",
+    "source": "initials"
+  },
+  "LUK Lublin": {
+    "logo": "assets/teams/init-luk-lublin.svg",
+    "source": "initials"
+  },
+  "Numia Vero Volley Milano": {
+    "logo": "assets/teams/init-numia-vero-volley-milano.svg",
+    "source": "initials"
+  },
+  "ON Hotels Alanya Belediyespor": {
+    "logo": "assets/teams/init-on-hotels-alanya-belediyespor.svg",
+    "source": "initials"
+  },
+  "Ziraat Bankkart": {
+    "logo": "assets/teams/init-ziraat-bankkart.svg",
+    "source": "initials"
+  },
+  "İlbank": {
+    "logo": "assets/teams/init-lbank.svg",
+    "source": "initials"
+  }
+}

@@ -321,7 +321,40 @@ main {
 .badge.women { color: #ffb0cb; border-color: rgba(255,107,154,.4); background: rgba(255,107,154,.12); }
 .badge.upcoming { color: #ffb3b8; border-color: rgba(230,0,18,.45); background: rgba(230,0,18,.15); }
 .badge.final { color: var(--final); border-color: rgba(125,138,163,.4); background: rgba(125,138,163,.12); }
-.comp { color: var(--muted); font-size: 0.78rem; font-weight: 700; letter-spacing: 0.03em; }
+.comp {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  min-width: 0;
+}
+.league-flag {
+  width: 18px;
+  height: 12px;
+  object-fit: cover;
+  border-radius: 2px;
+  flex-shrink: 0;
+  box-shadow: 0 0 0 1px rgba(255,255,255,.15);
+  background: #222;
+}
+.league-country {
+  color: #e8e8e8;
+  font-weight: 800;
+  white-space: nowrap;
+}
+.league-country::after {
+  content: "·";
+  margin-left: 6px;
+  color: var(--muted);
+  font-weight: 600;
+}
+.league-name {
+  color: var(--muted);
+  font-weight: 700;
+}
 
 .match-teams {
   display: flex;
@@ -331,11 +364,55 @@ main {
   font-size: 1.05rem;
   font-weight: 800;
 }
+.team-with-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+.team-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: rgba(255,255,255,.92);
+  padding: 2px;
+  box-sizing: border-box;
+}
+.team-logo-fallback {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  background: #333;
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+.team-name {
+  line-height: 1.2;
+}
 .vs {
   color: var(--muted);
   font-weight: 600;
   font-size: 0.85rem;
   margin: 0 2px;
+}
+.modal-match-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.15rem;
+}
+.modal-match-title .team-logo {
+  width: 32px;
+  height: 32px;
 }
 .score {
   margin-left: auto;
