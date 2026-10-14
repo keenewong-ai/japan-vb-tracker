@@ -3,11 +3,12 @@
   let matches = [];
   let players = [];
   let playerStatsMap = {};
+  let gossip = [];
   let meta = {};
   let activeTab = "upcoming";
   let genderFilter = "all";
-  const PHOTO_V = "20261014a";
-  const CACHE_V = "20261014a";
+  const PHOTO_V = "20261014c";
+  const CACHE_V = "20261014c";
 
   const $ = (sel, el = document) => el.querySelector(sel);
   const $$ = (sel, el = document) => [...el.querySelectorAll(sel)];
@@ -149,6 +150,65 @@
       </article>`;
   }
 
+
+  function playerById(id) {
+    return players.find((p) => p.id === id) || null;
+  }
+
+  function gossipGenderOk(g) {
+    if (genderFilter === "all") return true;
+    const ids = g.playerIds || [];
+    const names = g.playerNames || [];
+    const linked = [];
+    ids.forEach((id) => {
+      const p = playerById(id);
+      if (p) linked.push(p);
+    });
+    names.forEach((n) => {
+      const p = playerByName(n);
+      if (p && !linked.some((x) => x.id === p.id)) linked.push(p);
+    });
+    if (!linked.length) return true;
+    return linked.some((p) => p.gender === genderFilter);
+  }
+
+  function formatGossipDate(isoDate) {
+    if (!isoDate) return "";
+    const d = new Date(isoDate + "T12:00:00+08:00");
+    if (Number.isNaN(d.getTime())) return isoDate;
+    return new Intl.DateTimeFormat("zh-HK", {
+      timeZone: HKT,
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      weekday: "short",
+    }).format(d);
+  }
+
+  function gossipCardHtml(g) {
+    const url = g.sourceUrl || "";
+    if (!url) return "";
+    const names = g.playerNames || [];
+    const chips = names.map((n) => playerChipHtml(n)).join("");
+    const tags = (g.tags || [])
+      .map((t) => `<span class="gossip-tag">${esc(t)}</span>`)
+      .join("");
+    const source = g.source ? esc(g.source) : "來源";
+    return `
+      <article class="gossip-card">
+        <div class="gossip-top">
+          <time class="gossip-date" datetime="${esc(g.date || "")}">${esc(formatGossipDate(g.date))}</time>
+          ${tags}
+        </div>
+        <h3 class="gossip-title">${esc(g.title || "")}</h3>
+        <p class="gossip-summary">${esc(g.summary || "")}</p>
+        ${chips ? `<div class="japan-players">${chips}</div>` : ""}
+        <div class="gossip-actions">
+          <a class="gossip-link" href="${esc(url)}" target="_blank" rel="noopener noreferrer">睇原文 · ${source} ↗</a>
+        </div>
+      </article>`;
+  }
+
   function renderPanels() {
     const upcoming = matches
       .filter((m) => m.status === "upcoming" && genderOk(m))
@@ -159,10 +219,15 @@
     const plist = players
       .filter((p) => genderFilter === "all" || p.gender === genderFilter)
       .sort((a, b) => a.name.localeCompare(b.name, "ja"));
+    const glist = gossip
+      .filter((g) => g.sourceUrl && gossipGenderOk(g))
+      .slice()
+      .sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
 
     const upEl = $("#panel-upcoming");
     const pastEl = $("#panel-past");
     const plEl = $("#panel-players");
+    const goEl = $("#panel-gossip");
 
     upEl.innerHTML = upcoming.length
       ? `<div class="match-list">${upcoming.map(matchCardHtml).join("")}</div>`
@@ -173,6 +238,9 @@
     plEl.innerHTML = plist.length
       ? `<div class="player-list">${plist.map(playerCardHtml).join("")}</div>`
       : `<div class="empty">暫時冇球員資料</div>`;
+    goEl.innerHTML = glist.length
+      ? `<div class="gossip-list">${glist.map(gossipCardHtml).join("")}</div>`
+      : `<div class="empty">暫時未有公開八卦／生活動態<br/><span style="font-size:0.85em">只會刊登有可靠來源同原文連結嘅項目，唔會杜撰。</span></div>`;
 
     $$(".match-card", upEl).forEach(bindMatch);
     $$(".match-card", pastEl).forEach(bindMatch);
@@ -396,16 +464,18 @@
     });
 
     try {
-      const [m, pl, metaRaw, statsRaw] = await Promise.all([
+      const [m, pl, metaRaw, statsRaw, gossipRaw] = await Promise.all([
         loadJson("data/matches.json"),
         loadJson("data/players.json"),
         loadJson("data/meta.json"),
         loadJson("data/player-stats.json").catch(() => ({ players: {} })),
+        loadJson("data/gossip.json").catch(() => []),
       ]);
       matches = m;
       players = pl;
       meta = metaRaw;
       playerStatsMap = (statsRaw && statsRaw.players) || {};
+      gossip = Array.isArray(gossipRaw) ? gossipRaw.filter((g) => g && g.sourceUrl) : [];
       renderMeta();
       renderPanels();
       setTab("upcoming");

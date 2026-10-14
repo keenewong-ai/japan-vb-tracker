@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-14T17:32:00+08:00",
+  "lastUpdated": "2026-10-14T17:39:41+08:00",
   "timezone": "Asia/Taipei",
-  "sourcesNote": "2026-10-14: header ball replaced with official Mikasa V200W-VNL product photo (yellow/navy + red stripes, VNL branding).",
-  "version": 5
+  "sourcesNote": "2026-10-14: added 八卦新聞 tab + data/gossip.json (12 real public items with sourceUrl).",
+  "version": 6
 }

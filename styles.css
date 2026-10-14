@@ -425,3 +425,88 @@ main {
   color: var(--accent-2);
   font-size: 0.75rem;
 }
+
+/* 八卦新聞 */
+.gossip-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.gossip-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  box-shadow: var(--shadow);
+  transition: background .12s, border-color .12s;
+}
+.gossip-card:hover {
+  background: var(--bg-card-hover);
+  border-color: #35507a;
+}
+.gossip-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.gossip-date {
+  color: var(--muted);
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+}
+.gossip-tag {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding: 2px 8px;
+  border-radius: 999px;
+  color: #c4b5fd;
+  border: 1px solid rgba(167,139,250,.35);
+  background: rgba(167,139,250,.12);
+}
+.gossip-title {
+  margin: 0 0 8px;
+  font-size: 1.02rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+.gossip-summary {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+.gossip-card .japan-players {
+  margin-top: 10px;
+}
+.gossip-actions {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.gossip-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, rgba(61,214,195,.18), rgba(78,161,255,.15));
+  border: 1px solid rgba(61,214,195,.4);
+  color: var(--accent-2);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background .15s, border-color .15s, color .15s;
+}
+.gossip-link:hover {
+  background: linear-gradient(135deg, rgba(61,214,195,.28), rgba(78,161,255,.22));
+  border-color: var(--accent-2);
+  color: #a8fff4;
+}
+.gossip-link:focus-visible {
+  outline: 2px solid var(--accent-2);
+  outline-offset: 2px;
+}

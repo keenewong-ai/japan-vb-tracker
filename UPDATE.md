@@ -12,7 +12,7 @@
 
 ## 步驟
 
-1. 讀取現有 `data/matches.json`、`data/players.json`、`data/meta.json`。
+1. 讀取現有 `data/matches.json`、`data/players.json`、`data/meta.json`、`data/gossip.json`（若有）。
 2. Web search（關鍵字例子）：
    - 球員名 + 球會／聯賽 + 最近賽果／下一場
    - `SV.LEAGUE` 今周賽程
@@ -31,9 +31,28 @@
 6. 驗證 JSON 合法（`python3 -m json.tool data/matches.json` 等）。
 7. 若 repo 有 git remote：**可 commit** 訊息如 `chore: update matches YYYY-MM-DD AM/PM`；**唔好 force-push**。Push／Pages 由 parent／用戶授權處理。
 
+
+## 八卦新聞（`data/gossip.json`）
+
+可選：若搵到**有可靠公開來源**嘅球員生活動態／移籍／訪談／社交更新，可 append 到 `gossip.json`。
+
+每項**必須**有可點開嘅原文連結 `sourceUrl`（新聞稿、球會頁、IG／X 帖等）。**搵唔到連結就唔好寫入**——唔好發明八卦，亦唔好無連結就刊登。
+
+欄位建議：
+- `id`：穩定 slug（如 `mayu-ecz-first-point-2026-10-11`）
+- `date`：`YYYY-MM-DD`（事件／報道日期）
+- `title` / `summary`：粵語或繁中均可；摘要唔好誇大
+- `playerIds` / `playerNames`：對應 `players.json`
+- `tags`：如 `移籍`、`生活`、`訪談`、`出國`
+- `source`：媒體／球會名
+- `sourceUrl`：**必填**，真實可開嘅 URL
+
+UI 會按 `date` 新到舊排序；性別篩選跟關聯球員。
+
 ## 唔好做
 
 - 發明 score / setScores / points / attacks / blocks / serves
+- 發明八卦／生活傳聞；無 `sourceUrl` 就唔好加 gossip 項目
 - 加後端 API、爬蟲帳密、破解付費牆
 - 刪未完場但未開波嘅合理預告（除非官方取消）
 - 把未確認傳聞寫成 final
