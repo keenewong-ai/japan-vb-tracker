@@ -563,10 +563,13 @@
       img.src = src;
       img.alt = "";
       img.decoding = "async";
+      img.fetchPriority = "low";
       wrap.appendChild(img);
       stage.insertBefore(wrap, scrim);
       return { wrap, img };
     });
+    // First slide visible immediately (CSS default is opacity:0)
+    layers[0].wrap.style.opacity = "1";
 
     function lerp(a, b, t) {
       return a + (b - a) * t;
@@ -583,13 +586,21 @@
         `scale(${s.toFixed(4)}) translate(${x.toFixed(2)}%, ${y.toFixed(2)}%)`;
     }
 
-    function onScroll() {
-      const max = document.documentElement.scrollHeight - window.innerHeight;
-      const p = max > 0 ? window.scrollY / max : 0;
+    const CYCLE_MS = 14000; // slow Ken Burns loop on the active slide
+    const CROSS_MS = 52000; // full idle tour across all 4 photos
+    let start = performance.now();
+
+    function paint(now) {
+      const max = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
+      const scrollP = max > 0 ? window.scrollY / max : 0;
+      const idleP = ((now - start) / CROSS_MS) % 1;
+      // Scroll takes over once the user moves; otherwise idle auto-tour
+      const useP = window.scrollY > 32 ? scrollP : idleP;
       const n = layers.length;
-      const raw = p * n;
+      const raw = useP * n;
       const i = clamp(Math.floor(raw), 0, n - 1);
       const frac = raw - Math.floor(raw);
+      const timeLocal = ((now - start) / CYCLE_MS) % 1;
 
       layers.forEach((layer, idx) => {
         let op = 0;
@@ -597,18 +608,18 @@
           op = frac < 0.75 ? 1 : 1 - (frac - 0.75) / 0.25;
         } else if (idx === i + 1) {
           op = frac < 0.75 ? 0 : (frac - 0.75) / 0.25;
-        } else if (idx === n - 1 && p >= 0.999) {
+        } else if (idx === n - 1 && useP >= 0.999) {
           op = 1;
         }
-        const local = clamp(raw - idx, 0, 1);
+        const scrollLocal = clamp(raw - idx, 0, 1);
+        const local = idx === i ? Math.max(scrollLocal, timeLocal) : scrollLocal;
         layer.wrap.style.opacity = String(clamp(op, 0, 1));
         applyKB(layer, local, recipes[idx]);
       });
+      requestAnimationFrame(paint);
     }
 
-    window.addEventListener("scroll", onScroll, { passive: true });
-    window.addEventListener("resize", onScroll);
-    onScroll();
+    requestAnimationFrame(paint);
   }
 
   async function init() {
