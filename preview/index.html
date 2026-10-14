@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UI 預覽 · 兩版對比</title>
+  <style>
+    :root {
+      --jva-red: #e60012;
+      --jva-black: #0a0a0a;
+      --jva-charcoal: #1a1a1a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--jva-black);
+      color: #fff;
+      font-family: "Segoe UI", "PingFang TC", "Noto Sans TC", "Hiragino Sans", sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 32px 20px;
+      gap: 28px;
+    }
+    .badge {
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: #aaa;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(1.4rem, 5vw, 2rem);
+      font-weight: 900;
+      letter-spacing: 0.04em;
+    }
+    h1 span { color: var(--jva-red); }
+    .sub { margin: 0; color: #888; font-size: 0.9rem; text-align: center; max-width: 420px; line-height: 1.6; }
+    .cards {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+      width: 100%;
+      max-width: 560px;
+    }
+    @media (min-width: 640px) {
+      .cards { grid-template-columns: 1fr 1fr; }
+    }
+    a.card {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      background: var(--jva-charcoal);
+      border: 1px solid #2a2a2a;
+      border-radius: 12px;
+      overflow: hidden;
+      transition: transform .15s, border-color .15s;
+    }
+    a.card:hover { transform: translateY(-2px); border-color: var(--jva-red); }
+    .card-stripe {
+      height: 8px;
+      background: repeating-linear-gradient(
+        -45deg,
+        var(--jva-red) 0 10px,
+        #111 10px 20px
+      );
+    }
+    .card-body { padding: 20px 18px 22px; }
+    .card-body .ver {
+      font-size: 0.7rem;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      color: var(--jva-red);
+      margin-bottom: 6px;
+    }
+    .card-body h2 { margin: 0 0 8px; font-size: 1.15rem; font-weight: 800; }
+    .card-body p { margin: 0; color: #999; font-size: 0.82rem; line-height: 1.5; }
+    .back {
+      margin-top: 8px;
+      color: #666;
+      font-size: 0.8rem;
+    }
+    .back a { color: #aaa; }
+  </style>
+</head>
+<body>
+  <p class="badge">Preview only · 未取代主站</p>
+  <h1>JVA 風格 <span>UI</span> 預覽</h1>
+  <p class="sub">參考日本排球協會官網色調（黑／白／鮮紅）同對角紅條。揀一版睇吓邊款啱。</p>
+  <div class="cards">
+    <a class="card" href="v1.html">
+      <div class="card-stripe"></div>
+      <div class="card-body">
+        <div class="ver">VERSION A</div>
+        <h2>JVA 官網風</h2>
+        <p>Hero 對角紅條、黑底 PLAYERS 卡片（頭像左＋資料右）、頂欄白＋主 nav 紅底線。</p>
+      </div>
+    </a>
+    <a class="card" href="v2.html">
+      <div class="card-stripe"></div>
+      <div class="card-body">
+        <div class="ver">VERSION B</div>
+        <h2>手機 App 風</h2>
+        <p>同色調但更密：底部 tab、清單式球員列、賽事卡左側紅條，適合手機一欄瀏覽。</p>
+      </div>
+    </a>
+  </div>
+  <p class="back"><a href="../">← 返主站</a></p>
+</body>
+</html>

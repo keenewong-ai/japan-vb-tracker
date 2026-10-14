@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>預覽 A · JVA 官網風</title>
+  <link rel="stylesheet" href="v1.css" />
+</head>
+<body>
+  <!-- Top utility bar (JVA-like) -->
+  <div class="topbar">
+    <span class="slogan">PASS IT FORWARD</span>
+    <span class="topbar-brand">日本排球賽事追蹤</span>
+    <span class="topbar-links">預覽 A · EN</span>
+  </div>
+
+  <!-- Main nav -->
+  <nav class="main-nav">
+    <a class="active" href="#upcoming">即將開波</a>
+    <a href="#past">過往賽果</a>
+    <a href="#players">球員</a>
+    <a href="#gossip">八卦新聞</a>
+    <a href="#social">球員動態</a>
+  </nav>
+
+  <!-- Hero with diagonal stripes -->
+  <header class="hero">
+    <div class="hero-stripes" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="hero-kicker">PREVIEW · VERSION A</p>
+        <h1>JAPAN<br />VB TRACKER</h1>
+        <p class="hero-sub">日本排球賽事追蹤 · 參考 JVA 色調</p>
+      </div>
+      <div class="hero-ball">
+        <img src="../assets/mikasa-vnl-ball.png" alt="Mikasa VNL 球" width="120" height="120" />
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Filters -->
+    <div class="filters">
+      <button class="chip active">全部</button>
+      <button class="chip">男排</button>
+      <button class="chip">女排</button>
+    </div>
+
+    <!-- Upcoming matches -->
+    <section id="upcoming" class="section">
+      <h2 class="section-title">UPCOMING</h2>
+      <p class="section-sub">即將開波</p>
+
+      <article class="match-card">
+        <div class="match-meta">
+          <span class="league">SV.LEAGUE MEN</span>
+          <span class="when">10/17 · 14:05</span>
+        </div>
+        <div class="match-teams">東京 GB <span class="vs">vs</span> 北海道イエロースターズ</div>
+        <div class="match-venue">有明アリーナ</div>
+        <div class="player-tags">
+          <span class="ptag"><img src="../assets/players/nishida-yuji.jpg" alt="" /><b>西田有志</b></span>
+          <span class="ptag"><img src="../assets/players/miyaura-kento.jpg" alt="" /><b>宮浦健人</b></span>
+        </div>
+      </article>
+
+      <article class="match-card">
+        <div class="match-meta">
+          <span class="league women">PlusLiga</span>
+          <span class="when">10/18 · 21:00</span>
+        </div>
+        <div class="match-teams">ZAKSA <span class="vs">vs</span> Jastrzębski</div>
+        <div class="match-venue">波蘭 · 作客</div>
+        <div class="player-tags">
+          <span class="ptag"><img src="../assets/players/takahashi-ran.jpg" alt="" /><b>高橋藍</b></span>
+          <span class="ptag"><img src="../assets/players/ogawa-tomohiro.jpg" alt="" /><b>小川智大</b></span>
+        </div>
+      </article>
+
+      <article class="match-card">
+        <div class="match-meta">
+          <span class="league women">Sultanlar Ligi</span>
+          <span class="when">10/15 · 00:00</span>
+        </div>
+        <div class="match-teams">İlbank <span class="vs">vs</span> Eczacıbaşı</div>
+        <div class="match-venue">土耳其女超</div>
+        <div class="player-tags">
+          <span class="ptag"><img src="../assets/players/ishikawa-mayu.jpg" alt="" /><b>石川真佑</b></span>
+        </div>
+      </article>
+    </section>
+
+    <!-- Players grid (JVA style) -->
+    <section id="players" class="section">
+      <h2 class="section-title">PLAYERS</h2>
+      <p class="section-sub">2026 VNL 登錄球員（樣式預覽）</p>
+
+      <div class="player-grid">
+        <article class="player-card">
+          <div class="pc-photo"><img src="../assets/players/nishida-yuji.jpg" alt="西田有志" /></div>
+          <div class="pc-info">
+            <span class="pc-pos">オポジット</span>
+            <h3>西田有志</h3>
+            <p class="pc-en">NISHIDA, Yuji</p>
+            <p class="pc-club">大阪ブルテオン</p>
+            <p class="pc-meta">OP · VNL 2026</p>
+          </div>
+        </article>
+
+        <article class="player-card">
+          <div class="pc-photo"><img src="../assets/players/ishikawa-yuki.jpg" alt="石川祐希" /></div>
+          <div class="pc-info">
+            <span class="pc-pos">アウトサイドヒッター</span>
+            <h3>石川祐希</h3>
+            <p class="pc-en">ISHIKAWA, Yuki</p>
+            <p class="pc-club">Halkbank Ankara</p>
+            <p class="pc-meta">OH · VNL 2026</p>
+          </div>
+        </article>
+
+        <article class="player-card">
+          <div class="pc-photo"><img src="../assets/players/takahashi-ran.jpg" alt="高橋藍" /></div>
+          <div class="pc-info">
+            <span class="pc-pos">アウトサイドヒッター</span>
+            <h3>高橋藍</h3>
+            <p class="pc-en">TAKAHASHI, Ran</p>
+            <p class="pc-club">Jastrzębski Węgiel</p>
+            <p class="pc-meta">OH · VNL 2026</p>
+          </div>
+        </article>
+
+        <article class="player-card">
+          <div class="pc-photo"><img src="../assets/players/otsuka-tatsunori.jpg" alt="大塚達宣" /></div>
+          <div class="pc-info">
+            <span class="pc-pos">アウトサイドヒッター</span>
+            <h3>大塚達宣</h3>
+            <p class="pc-en">OTSUKA, Tatsunori</p>
+            <p class="pc-club">Power Volley Milano</p>
+            <p class="pc-meta">OH · VNL 2026</p>
+          </div>
+        </article>
+
+        <article class="player-card">
+          <div class="pc-photo"><img src="../assets/players/ishikawa-mayu.jpg" alt="石川真佑" /></div>
+          <div class="pc-info">
+            <span class="pc-pos">アウトサイドヒッター</span>
+            <h3>石川真佑</h3>
+            <p class="pc-en">ISHIKAWA, Mayu</p>
+            <p class="pc-club">Eczacıbaşı Dynavit</p>
+            <p class="pc-meta">OH · VNL 2026</p>
+          </div>
+        </article>
+
+        <article class="player-card">
+          <div class="pc-photo"><img src="../assets/players/araki-ayaka.jpg" alt="荒木彩花" /></div>
+          <div class="pc-info">
+            <span class="pc-pos">ミドルブロッカー</span>
+            <h3>荒木彩花</h3>
+            <p class="pc-en">ARAKI, Ayaka</p>
+            <p class="pc-club">東レアローズ滋賀</p>
+            <p class="pc-meta">MB · VNL 2026</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Gossip sample -->
+    <section id="gossip" class="section">
+      <h2 class="section-title">NEWS</h2>
+      <p class="section-sub">八卦新聞（樣式）</p>
+      <article class="news-card">
+        <div class="news-stripe"></div>
+        <div class="news-body">
+          <span class="news-tag">生活動態</span>
+          <h3>石川真佑土超開幕連勝，聯賽首分出爐</h3>
+          <p>Eczacıbaşı 開季兩連勝；作客 İlbank 一戰途中出場扣球得分。</p>
+          <a class="news-link" href="#">睇原文 →</a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>預覽 A · 未取代主站 · <a href="index.html">返對比頁</a> · <a href="v2.html">睇 Version B</a></p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>預覽 B · 手機 App 風</title>
+  <link rel="stylesheet" href="v2.css" />
+</head>
+<body>
+  <!-- Compact header: thin red diagonal stripe bar -->
+  <header class="app-header">
+    <div class="stripe-bar" aria-hidden="true"></div>
+    <div class="header-row">
+      <img class="ball" src="../assets/mikasa-vnl-ball.png" alt="" width="36" height="36" />
+      <div class="titles">
+        <h1>日本排球賽事追蹤</h1>
+        <p>預覽 B · 手機密集佈局</p>
+      </div>
+      <span class="ver-pill">B</span>
+    </div>
+  </header>
+
+  <!-- Gender segmented control -->
+  <div class="seg">
+    <button class="seg-btn active">全部</button>
+    <button class="seg-btn">男排</button>
+    <button class="seg-btn">女排</button>
+  </div>
+
+  <main class="app-main">
+    <!-- Dense match list -->
+    <section class="block">
+      <div class="block-head">
+        <h2>即將開波</h2>
+        <span class="count">3</span>
+      </div>
+
+      <a class="row-match" href="#">
+        <div class="rm-accent"></div>
+        <div class="rm-body">
+          <div class="rm-top">
+            <span class="rm-league">SV MEN</span>
+            <span class="rm-time">10/17 14:05</span>
+          </div>
+          <div class="rm-teams">東京 GB <em>vs</em> 北海道YS</div>
+          <div class="rm-chips">
+            <span><img src="../assets/players/nishida-yuji.jpg" alt="" />西田</span>
+            <span><img src="../assets/players/miyaura-kento.jpg" alt="" />宮浦</span>
+          </div>
+        </div>
+        <span class="rm-chev">›</span>
+      </a>
+
+      <a class="row-match" href="#">
+        <div class="rm-accent"></div>
+        <div class="rm-body">
+          <div class="rm-top">
+            <span class="rm-league">PlusLiga</span>
+            <span class="rm-time">10/18 21:00</span>
+          </div>
+          <div class="rm-teams">ZAKSA <em>vs</em> Jastrzębski</div>
+          <div class="rm-chips">
+            <span><img src="../assets/players/takahashi-ran.jpg" alt="" />高橋藍</span>
+            <span><img src="../assets/players/ogawa-tomohiro.jpg" alt="" />小川</span>
+          </div>
+        </div>
+        <span class="rm-chev">›</span>
+      </a>
+
+      <a class="row-match" href="#">
+        <div class="rm-accent pink"></div>
+        <div class="rm-body">
+          <div class="rm-top">
+            <span class="rm-league pink">土超女排</span>
+            <span class="rm-time">10/15 00:00</span>
+          </div>
+          <div class="rm-teams">İlbank <em>vs</em> Eczacıbaşı</div>
+          <div class="rm-chips">
+            <span><img src="../assets/players/ishikawa-mayu.jpg" alt="" />石川真佑</span>
+          </div>
+        </div>
+        <span class="rm-chev">›</span>
+      </a>
+    </section>
+
+    <!-- Dense player list (full-width rows, not grid cards) -->
+    <section class="block">
+      <div class="block-head">
+        <h2>球員</h2>
+        <span class="count">6</span>
+      </div>
+
+      <a class="row-player" href="#">
+        <img class="rp-photo" src="../assets/players/nishida-yuji.jpg" alt="" />
+        <div class="rp-info">
+          <div class="rp-name">西田有志 <small>NISHIDA</small></div>
+          <div class="rp-meta">OP · 大阪ブルテオン</div>
+        </div>
+        <span class="rp-badge">MEN</span>
+      </a>
+
+      <a class="row-player" href="#">
+        <img class="rp-photo" src="../assets/players/ishikawa-yuki.jpg" alt="" />
+        <div class="rp-info">
+          <div class="rp-name">石川祐希 <small>ISHIKAWA</small></div>
+          <div class="rp-meta">OH · Halkbank</div>
+        </div>
+        <span class="rp-badge">MEN</span>
+      </a>
+
+      <a class="row-player" href="#">
+        <img class="rp-photo" src="../assets/players/takahashi-ran.jpg" alt="" />
+        <div class="rp-info">
+          <div class="rp-name">高橋藍 <small>TAKAHASHI</small></div>
+          <div class="rp-meta">OH · Jastrzębski</div>
+        </div>
+        <span class="rp-badge">MEN</span>
+      </a>
+
+      <a class="row-player" href="#">
+        <img class="rp-photo" src="../assets/players/otsuka-tatsunori.jpg" alt="" />
+        <div class="rp-info">
+          <div class="rp-name">大塚達宣 <small>OTSUKA</small></div>
+          <div class="rp-meta">OH · Milano</div>
+        </div>
+        <span class="rp-badge">MEN</span>
+      </a>
+
+      <a class="row-player" href="#">
+        <img class="rp-photo" src="../assets/players/ishikawa-mayu.jpg" alt="" />
+        <div class="rp-info">
+          <div class="rp-name">石川真佑 <small>MAYU</small></div>
+          <div class="rp-meta">OH · Eczacıbaşı</div>
+        </div>
+        <span class="rp-badge women">WOMEN</span>
+      </a>
+
+      <a class="row-player" href="#">
+        <img class="rp-photo" src="../assets/players/araki-ayaka.jpg" alt="" />
+        <div class="rp-info">
+          <div class="rp-name">荒木彩花 <small>ARAKI</small></div>
+          <div class="rp-meta">MB · 東レアローズ</div>
+        </div>
+        <span class="rp-badge women">WOMEN</span>
+      </a>
+    </section>
+
+    <!-- Social / gossip compact -->
+    <section class="block">
+      <div class="block-head">
+        <h2>動態</h2>
+      </div>
+      <article class="feed-item">
+        <div class="feed-stripe"></div>
+        <div>
+          <span class="feed-src">八卦 · Instagram</span>
+          <p>石川真佑土超開幕連勝，途中出場取得聯賽首分。</p>
+          <a href="#">睇原文</a>
+        </div>
+      </article>
+    </section>
+
+    <p class="preview-note">預覽 B · 未取代主站 · <a href="index.html">返對比頁</a> · <a href="v1.html">睇 Version A</a></p>
+  </main>
+
+  <!-- Bottom tab bar (app-like) -->
+  <nav class="bottom-tabs" aria-label="底部導覽">
+    <a class="bt active" href="#">
+      <span class="bt-icon">⏱</span>
+      <span>開波</span>
+    </a>
+    <a class="bt" href="#">
+      <span class="bt-icon">📊</span>
+      <span>賽果</span>
+    </a>
+    <a class="bt" href="#">
+      <span class="bt-icon">👤</span>
+      <span>球員</span>
+    </a>
+    <a class="bt" href="#">
+      <span class="bt-icon">📰</span>
+      <span>八卦</span>
+    </a>
+    <a class="bt" href="#">
+      <span class="bt-icon">⌁</span>
+      <span>動態</span>
+    </a>
+  </nav>
+</body>
+</html>
