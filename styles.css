@@ -421,6 +421,72 @@ main {
   font-weight: 800;
   font-size: 1.15rem;
 }
+
+.match-teams-result {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+.team-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  min-width: 0;
+}
+.team-row .team-with-logo {
+  flex: 1;
+  min-width: 0;
+}
+.team-sets {
+  margin-left: auto;
+  flex-shrink: 0;
+  min-width: 1.6em;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #aaa;
+  line-height: 1;
+}
+.team-sets.winner {
+  color: var(--jva-red);
+}
+.modal-result {
+  margin: 4px 0 12px;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.social-media {
+  display: block;
+  margin: 0 0 12px;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid #333;
+  background: #111;
+  aspect-ratio: 16 / 10;
+  max-height: 280px;
+}
+.social-thumb {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
 .match-meta {
   margin-top: 8px;
   display: flex;

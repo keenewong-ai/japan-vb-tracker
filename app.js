@@ -10,8 +10,8 @@
   let meta = {};
   let activeTab = "upcoming";
   let genderFilter = "all";
-  const PHOTO_V = "20261014j";
-  const CACHE_V = "20261014j";
+  const PHOTO_V = "20261014k";
+  const CACHE_V = "20261014k";
 
   const $ = (sel, el = document) => el.querySelector(sel);
   const $$ = (sel, el = document) => [...el.querySelectorAll(sel)];
@@ -164,16 +164,47 @@
     return `<span class="chip"><img class="chip-avatar" src="${esc(photo)}" alt="" width="22" height="22" decoding="async" loading="lazy" onerror="this.onerror=null;this.src='${fallback}';" /><span class="chip-name">${esc(name)}</span></span>`;
   }
 
+
+  function parseSetWins(score) {
+    if (!score) return null;
+    const m = String(score).trim().match(/^(\d+)\s*[-–—]\s*(\d+)$/);
+    if (!m) return null;
+    return { home: Number(m[1]), away: Number(m[2]) };
+  }
+
   function matchCardHtml(m) {
     const playerChips = (m.japanPlayers || [])
       .map((p) => playerChipHtml(p))
       .join("");
-    const score = m.score
-      ? `<span class="score">${esc(m.score)}</span>`
-      : "";
     const venue = m.venue ? `<span>📍 ${esc(m.venue)}</span>` : "";
     const broadcast = m.broadcast ? `<span>📺 ${esc(m.broadcast)}</span>` : "";
     const rel = relativeLabel(m.datetime);
+    const sets = m.status === "final" ? parseSetWins(m.score) : null;
+    let teamsHtml;
+    if (sets) {
+      const homeWin = sets.home > sets.away;
+      const awayWin = sets.away > sets.home;
+      teamsHtml = `
+        <div class="match-teams match-teams-result" aria-label="賽果 ${esc(String(sets.home))}-${esc(String(sets.away))}">
+          <div class="team-row">
+            ${teamNameHtml(m.home)}
+            <span class="team-sets${homeWin ? " winner" : ""}">${esc(String(sets.home))}</span>
+          </div>
+          <div class="team-row">
+            ${teamNameHtml(m.away)}
+            <span class="team-sets${awayWin ? " winner" : ""}">${esc(String(sets.away))}</span>
+          </div>
+        </div>`;
+    } else {
+      const score = m.score ? `<span class="score">${esc(m.score)}</span>` : "";
+      teamsHtml = `
+        <div class="match-teams">
+          ${teamNameHtml(m.home)}
+          <span class="vs">vs</span>
+          ${teamNameHtml(m.away)}
+          ${score}
+        </div>`;
+    }
     return `
       <article class="match-card" tabindex="0" data-id="${esc(m.id)}" role="button" aria-label="${esc(m.home)} vs ${esc(m.away)}">
         <div class="match-top">
@@ -181,12 +212,7 @@
           <span class="badge ${esc(m.status)}">${m.status === "upcoming" ? "即將" : "完場"}</span>
           ${competitionHtml(m)}
         </div>
-        <div class="match-teams">
-          ${teamNameHtml(m.home)}
-          <span class="vs">vs</span>
-          ${teamNameHtml(m.away)}
-          ${score}
-        </div>
+        ${teamsHtml}
         <div class="match-meta">
           <span>🕐 ${esc(formatHkt(m.datetime))}${rel ? ` · ${esc(rel)}` : ""}</span>
           ${venue}
@@ -326,6 +352,14 @@
     const plat = platformLabel(s.platform);
     const platClass = platformBadgeClass(s.platform);
     const account = s.account ? esc(s.account) : "";
+    const postImg = s.image ? assetUrl(s.image) + "?v=" + CACHE_V : "";
+    const media = postImg
+      ? `<a class="social-media" href="${esc(url)}" target="_blank" rel="noopener noreferrer" tabindex="-1">
+          <img class="social-thumb" src="${esc(postImg)}" alt="" width="640" height="360"
+            decoding="async" loading="lazy"
+            onerror="this.closest('.social-media').style.display='none'" />
+        </a>`
+      : "";
     return `
       <article class="social-card">
         <div class="social-head">
@@ -343,6 +377,7 @@
             </div>
           </div>
         </div>
+        ${media}
         <p class="social-caption">${esc(s.caption || "")}</p>
         <div class="social-actions">
           <a class="gossip-link" href="${esc(url)}" target="_blank" rel="noopener noreferrer">睇原 post · ${esc(plat)} ↗</a>
@@ -540,8 +575,17 @@
         .join("")}</div>`;
     }
 
+    const modalSets = m.status === "final" ? parseSetWins(m.score) : null;
+    const resultBlock = modalSets
+      ? `<div class="match-teams match-teams-result modal-result" aria-label="賽果 ${esc(String(modalSets.home))}-${esc(String(modalSets.away))}">
+          <div class="team-row">${teamNameHtml(m.home)}<span class="team-sets${modalSets.home > modalSets.away ? " winner" : ""}">${esc(String(modalSets.home))}</span></div>
+          <div class="team-row">${teamNameHtml(m.away)}<span class="team-sets${modalSets.away > modalSets.home ? " winner" : ""}">${esc(String(modalSets.away))}</span></div>
+        </div>`
+      : `<h2 id="modal-title" class="modal-match-title">${teamNameHtml(m.home)}<span class="vs">vs</span>${teamNameHtml(m.away)}</h2>
+         ${m.score ? `<p style="font-size:1.4rem;font-weight:800;color:var(--accent);margin:8px 0">${esc(m.score)}</p>` : ""}`;
+
     body.innerHTML = `
-      <h2 id="modal-title" class="modal-match-title">${teamNameHtml(m.home)}<span class="vs">vs</span>${teamNameHtml(m.away)}</h2>
+      ${modalSets ? `<h2 id="modal-title" class="sr-only">${esc(m.home)} ${esc(String(modalSets.home))} - ${esc(m.away)} ${esc(String(modalSets.away))}</h2>${resultBlock}` : resultBlock}
       <div class="sub">
         <span class="badge ${esc(m.gender)}">${m.gender === "men" ? "男排" : "女排"}</span>
         <span class="badge ${esc(m.status)}">${m.status === "upcoming" ? "即將" : "完場"}</span>
@@ -552,7 +596,6 @@
         ${m.venue ? `<span>📍 ${esc(m.venue)}</span>` : ""}
         ${m.broadcast ? `<span>📺 ${esc(m.broadcast)}</span>` : ""}
       </div>
-      ${m.score ? `<p style="font-size:1.4rem;font-weight:800;color:var(--accent);margin:8px 0">${esc(m.score)}</p>` : ""}
       ${setHtml ? `<div class="set-scores">${setHtml}</div>` : ""}
       ${(m.japanPlayers || []).length ? `<div class="japan-players" style="margin-bottom:12px">${(m.japanPlayers || []).map((p) => playerChipHtml(p)).join("")}</div>` : ""}
       <h3 style="margin:12px 0 8px;font-size:0.95rem">球員數據</h3>

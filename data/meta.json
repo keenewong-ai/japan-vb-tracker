@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-14T17:48:00+08:00",
+  "lastUpdated": "2026-10-14T18:44:45+08:00",
   "timezone": "Asia/Taipei",
-  "sourcesNote": "2026-10-14: added 球員動態 tab + data/social.json (17 verified IG/X posts with postUrl).",
-  "version": 7
+  "sourcesNote": "2026-10-14: social post thumbs (17/17) in assets/social; past cards show per-team set wins.",
+  "version": 8
 }
