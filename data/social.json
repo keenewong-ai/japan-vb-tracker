@@ -1,5 +1,60 @@
 [
   {
+    "id": "otsuka-milano-kit-2026-10-14",
+    "date": "2026-10-14",
+    "playerId": "otsuka-tatsunori",
+    "playerName": "大塚達宣",
+    "platform": "x",
+    "account": "@tatsu_staff",
+    "caption": "大塚達宣 STAFF 轉發／評 Milano 本季新球衣：「今期のユニフォームも素敵ですね」。",
+    "postUrl": "https://x.com/tatsu_staff/status/2110329306149016055",
+    "image": "assets/social/otsuka-milano-kit-2026-10-14.jpg"
+  },
+  {
+    "id": "jva-iwasawa-punch-2026-10-14",
+    "date": "2026-10-14",
+    "playerId": "iwasawa-miiku",
+    "playerName": "岩澤実育",
+    "platform": "x",
+    "account": "@JVA_Volleyball",
+    "caption": "JVA 官方：岩澤実育「打ち抜きチャレンジ」短片，打一下反應大啲。",
+    "postUrl": "https://x.com/JVA_Volleyball/status/2110294542482370785",
+    "image": "assets/social/jva-iwasawa-punch-2026-10-14.jpg"
+  },
+  {
+    "id": "yuki-anan-spur-2026-10-14",
+    "date": "2026-10-14",
+    "playerId": "ishikawa-yuki",
+    "playerName": "石川祐希",
+    "platform": "x",
+    "account": "@yuki14_official",
+    "caption": "石川祐希經理人帳：マニフレックス廣告登上『anan』10/14號同即將出嘅『SPUR』12月號，標語「休むことは、進むこと。」",
+    "postUrl": "https://x.com/yuki14_official/status/2110289554079109556",
+    "image": "assets/social/yuki-anan-spur-2026-10-14.jpg"
+  },
+  {
+    "id": "ecz-matchday-ilbank-2026-10-14",
+    "date": "2026-10-14",
+    "playerId": "ishikawa-mayu",
+    "playerName": "石川真佑",
+    "platform": "x",
+    "account": "@EczacibasiSK",
+    "caption": "Eczacıbaşı 官方：今晚土超第3節作客 İlbank（土19:00／港00:00），TVF Voleybol TV 直播。",
+    "postUrl": "https://x.com/EczacibasiSK/status/2110264350917415017",
+    "image": "assets/social/ecz-matchday-ilbank-2026-10-14.jpg"
+  },
+  {
+    "id": "ecz-mayu-kombine-tr-2026-10-13",
+    "date": "2026-10-13",
+    "playerId": "ishikawa-mayu",
+    "playerName": "石川真佑",
+    "platform": "x",
+    "account": "@EczacibasiSK",
+    "caption": "Eczacıbaşı 官方季票宣傳片：石川真佑試講土耳其語介紹購票（日刊亦有報道）。",
+    "postUrl": "https://x.com/EczacibasiSK/status/2109977752736547277",
+    "image": "assets/social/ecz-mayu-kombine-tr-2026-10-13.jpg"
+  },
+  {
     "id": "jva-iwasawa-hbd-2026-10-13",
     "date": "2026-10-13",
     "playerId": "iwasawa-miiku",
