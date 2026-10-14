@@ -8,8 +8,8 @@
   let meta = {};
   let activeTab = "upcoming";
   let genderFilter = "all";
-  const PHOTO_V = "20261014e";
-  const CACHE_V = "20261014e";
+  const PHOTO_V = "20261014f";
+  const CACHE_V = "20261014f";
 
   const $ = (sel, el = document) => el.querySelector(sel);
   const $$ = (sel, el = document) => [...el.querySelectorAll(sel)];
@@ -539,7 +539,80 @@
     el.textContent = "最後更新：" + formatHkt(meta.lastUpdated);
   }
 
+
+  function initKenBurns() {
+    const stage = document.getElementById("kb-stage");
+    if (!stage) return;
+    const scrim = stage.querySelector(".kb-scrim");
+    const IMAGES = [
+      "assets/bg/team1.jpg",
+      "assets/bg/team2.jpg",
+      "assets/bg/team3.jpg",
+      "assets/bg/team4.jpg",
+    ];
+    const recipes = [
+      { s0: 1.0, x0: 0, y0: 0, s1: 1.18, x1: -4, y1: -3 },
+      { s0: 1.15, x0: 3, y0: 2, s1: 1.0, x1: -2, y1: 0 },
+      { s0: 1.05, x0: -3, y0: 2, s1: 1.2, x1: 3, y1: -2 },
+      { s0: 1.12, x0: 2, y0: -2, s1: 1.0, x1: -3, y1: 3 },
+    ];
+    const layers = IMAGES.map((src) => {
+      const wrap = document.createElement("div");
+      wrap.className = "kb";
+      const img = document.createElement("img");
+      img.src = src;
+      img.alt = "";
+      img.decoding = "async";
+      wrap.appendChild(img);
+      stage.insertBefore(wrap, scrim);
+      return { wrap, img };
+    });
+
+    function lerp(a, b, t) {
+      return a + (b - a) * t;
+    }
+    function clamp(v, a, b) {
+      return Math.max(a, Math.min(b, v));
+    }
+    function applyKB(layer, localT, recipe) {
+      const t = clamp(localT, 0, 1);
+      const s = lerp(recipe.s0, recipe.s1, t);
+      const x = lerp(recipe.x0, recipe.x1, t);
+      const y = lerp(recipe.y0, recipe.y1, t);
+      layer.img.style.transform =
+        `scale(${s.toFixed(4)}) translate(${x.toFixed(2)}%, ${y.toFixed(2)}%)`;
+    }
+
+    function onScroll() {
+      const max = document.documentElement.scrollHeight - window.innerHeight;
+      const p = max > 0 ? window.scrollY / max : 0;
+      const n = layers.length;
+      const raw = p * n;
+      const i = clamp(Math.floor(raw), 0, n - 1);
+      const frac = raw - Math.floor(raw);
+
+      layers.forEach((layer, idx) => {
+        let op = 0;
+        if (idx === i) {
+          op = frac < 0.75 ? 1 : 1 - (frac - 0.75) / 0.25;
+        } else if (idx === i + 1) {
+          op = frac < 0.75 ? 0 : (frac - 0.75) / 0.25;
+        } else if (idx === n - 1 && p >= 0.999) {
+          op = 1;
+        }
+        const local = clamp(raw - idx, 0, 1);
+        layer.wrap.style.opacity = String(clamp(op, 0, 1));
+        applyKB(layer, local, recipes[idx]);
+      });
+    }
+
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+    onScroll();
+  }
+
   async function init() {
+    initKenBurns();
     $$(".tab").forEach((btn) =>
       btn.addEventListener("click", () => setTab(btn.dataset.tab))
     );
@@ -571,6 +644,7 @@
       renderMeta();
       renderPanels();
       setTab("upcoming");
+      window.dispatchEvent(new Event("resize"));
     } catch (err) {
       $("#panel-upcoming").innerHTML =
         `<div class="empty">載入失敗：${esc(err.message)}<br/>用本地伺服器開（唔好直接 file://）</div>`;
