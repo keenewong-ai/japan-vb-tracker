@@ -53,15 +53,16 @@ body {
   display: block;
   transform-origin: center center;
   will-change: transform;
+  filter: brightness(0.55) saturate(0.9);
 }
 .kb-scrim {
   position: absolute;
   inset: 0;
   z-index: 5;
-  /* Light enough that team photos stay clearly visible behind content */
+  /* Dark enough for readable text/cards; photos still faintly visible */
   background:
-    radial-gradient(ellipse at center, rgba(0,0,0,.08) 0%, rgba(0,0,0,.28) 65%, rgba(0,0,0,.42) 100%),
-    linear-gradient(180deg, rgba(0,0,0,.12) 0%, rgba(0,0,0,.24) 50%, rgba(0,0,0,.38) 100%);
+    radial-gradient(ellipse at center, rgba(0,0,0,.55) 0%, rgba(0,0,0,.78) 62%, rgba(0,0,0,.90) 100%),
+    linear-gradient(180deg, rgba(0,0,0,.62) 0%, rgba(0,0,0,.78) 50%, rgba(0,0,0,.88) 100%);
   pointer-events: none;
 }
 .site-shell {
@@ -143,8 +144,8 @@ body {
   position: relative;
   overflow: hidden;
   min-height: 200px;
-  /* Transparent so Ken Burns team photos show through */
-  background: transparent;
+  /* Solid JVA banner — Ken Burns only shows around/behind page content */
+  background: #111;
 }
 .hero-stripes {
   position: absolute;
@@ -152,19 +153,19 @@ body {
   background:
     repeating-linear-gradient(
       -32deg,
-      rgba(230, 0, 18, 0.55) 0 28px,
-      rgba(13, 13, 13, 0.25) 28px 56px,
-      rgba(26, 5, 8, 0.35) 56px 84px,
-      rgba(13, 13, 13, 0.2) 84px 112px
+      var(--jva-red) 0 28px,
+      #0d0d0d 28px 56px,
+      #1a0508 56px 84px,
+      #0d0d0d 84px 112px
     );
-  opacity: 0.72;
+  opacity: 0.95;
   pointer-events: none;
 }
 .hero-stripes::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(0,0,0,.55) 0%, rgba(0,0,0,.22) 55%, rgba(0,0,0,.08) 100%);
+  background: linear-gradient(90deg, rgba(0,0,0,.75) 0%, rgba(0,0,0,.35) 55%, transparent 100%);
 }
 .hero-inner {
   position: relative;
