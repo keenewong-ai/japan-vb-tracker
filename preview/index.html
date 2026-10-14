@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>UI 預覽 · 兩版對比</title>
+  <title>預覽入口 · UI / 背景動畫</title>
   <style>
     :root {
       --jva-red: #e60012;
@@ -20,9 +20,8 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      padding: 32px 20px;
-      gap: 28px;
+      padding: 36px 20px 48px;
+      gap: 22px;
     }
     .badge {
       font-size: 0.75rem;
@@ -32,21 +31,40 @@
     }
     h1 {
       margin: 0;
-      font-size: clamp(1.4rem, 5vw, 2rem);
+      font-size: clamp(1.35rem, 5vw, 1.9rem);
       font-weight: 900;
       letter-spacing: 0.04em;
+      text-align: center;
     }
     h1 span { color: var(--jva-red); }
-    .sub { margin: 0; color: #888; font-size: 0.9rem; text-align: center; max-width: 420px; line-height: 1.6; }
+    .sub {
+      margin: 0;
+      color: #888;
+      font-size: 0.88rem;
+      text-align: center;
+      max-width: 460px;
+      line-height: 1.6;
+    }
+    .section {
+      width: 100%;
+      max-width: 640px;
+      margin-top: 8px;
+    }
+    .section h2 {
+      margin: 0 0 12px;
+      font-size: 0.72rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #666;
+      font-weight: 700;
+    }
     .cards {
       display: grid;
       grid-template-columns: 1fr;
-      gap: 16px;
-      width: 100%;
-      max-width: 560px;
+      gap: 14px;
     }
     @media (min-width: 640px) {
-      .cards { grid-template-columns: 1fr 1fr; }
+      .cards.two { grid-template-columns: 1fr 1fr; }
     }
     a.card {
       display: block;
@@ -67,18 +85,21 @@
         #111 10px 20px
       );
     }
-    .card-body { padding: 20px 18px 22px; }
+    .card-stripe.alt {
+      background: linear-gradient(90deg, var(--jva-red), #7a0010 40%, #222);
+    }
+    .card-body { padding: 18px 16px 20px; }
     .card-body .ver {
-      font-size: 0.7rem;
+      font-size: 0.68rem;
       font-weight: 800;
       letter-spacing: 0.14em;
       color: var(--jva-red);
       margin-bottom: 6px;
     }
-    .card-body h2 { margin: 0 0 8px; font-size: 1.15rem; font-weight: 800; }
+    .card-body h3 { margin: 0 0 8px; font-size: 1.05rem; font-weight: 800; }
     .card-body p { margin: 0; color: #999; font-size: 0.82rem; line-height: 1.5; }
     .back {
-      margin-top: 8px;
+      margin-top: 12px;
       color: #666;
       font-size: 0.8rem;
     }
@@ -87,26 +108,61 @@
 </head>
 <body>
   <p class="badge">Preview only · 未取代主站</p>
-  <h1>JVA 風格 <span>UI</span> 預覽</h1>
-  <p class="sub">參考日本排球協會官網色調（黑／白／鮮紅）同對角紅條。揀一版睇吓邊款啱。</p>
-  <div class="cards">
-    <a class="card" href="v1.html">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="ver">VERSION A</div>
-        <h2>JVA 官網風</h2>
-        <p>Hero 對角紅條、黑底 PLAYERS 卡片（頭像左＋資料右）、頂欄白＋主 nav 紅底線。</p>
-      </div>
-    </a>
-    <a class="card" href="v2.html">
-      <div class="card-stripe"></div>
-      <div class="card-body">
-        <div class="ver">VERSION B</div>
-        <h2>手機 App 風</h2>
-        <p>同色調但更密：底部 tab、清單式球員列、賽事卡左側紅條，適合手機一欄瀏覽。</p>
-      </div>
-    </a>
+  <h1>預覽 <span>入口</span></h1>
+  <p class="sub">UI 色調對比同背景動畫 demo。揀完再決定套落主站。</p>
+
+  <div class="section">
+    <h2>背景動畫 · 三個版本</h2>
+    <div class="cards">
+      <a class="card" href="bg-anim-1.html">
+        <div class="card-stripe alt"></div>
+        <div class="card-body">
+          <div class="ver">BG ANIM 1</div>
+          <h3>視差層 + 交叉淡入</h3>
+          <p>碌落去時背景相會慢速漂移（parallax），同時用透明度交叉淡入換下一張——感覺似「掃過場地」再溶入新相。</p>
+        </div>
+      </a>
+      <a class="card" href="bg-anim-2.html">
+        <div class="card-stripe alt"></div>
+        <div class="card-body">
+          <div class="ver">BG ANIM 2</div>
+          <h3>Sticky 全屏上滑換相</h3>
+          <p>每張相釘住全屏；你繼續碌時舊相向上滑走淡出、新相由下面頂上——似 Apple 產品頁嗰種有戲換場。</p>
+        </div>
+      </a>
+      <a class="card" href="bg-anim-3.html">
+        <div class="card-stripe alt"></div>
+        <div class="card-body">
+          <div class="ver">BG ANIM 3</div>
+          <h3>Ken Burns 慢推鏡</h3>
+          <p>每張相自己慢慢放大／平移（電影預告片鏡頭），滾動進度控制相與相之間嘅淡換——最靜、最唔搶戲。</p>
+        </div>
+      </a>
+    </div>
   </div>
+
+  <div class="section">
+    <h2>UI 色調（已選 A）</h2>
+    <div class="cards two">
+      <a class="card" href="v1.html">
+        <div class="card-stripe"></div>
+        <div class="card-body">
+          <div class="ver">VERSION A · 已採用</div>
+          <h3>JVA 官網風</h3>
+          <p>Hero 對角紅條、黑底 PLAYERS 卡片、頂欄白＋主 nav 紅底線。</p>
+        </div>
+      </a>
+      <a class="card" href="v2.html">
+        <div class="card-stripe"></div>
+        <div class="card-body">
+          <div class="ver">VERSION B</div>
+          <h3>手機 App 風</h3>
+          <p>同色調但更密：底部 tab、清單式球員列，適合手機一欄瀏覽。</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
   <p class="back"><a href="../">← 返主站</a></p>
 </body>
 </html>

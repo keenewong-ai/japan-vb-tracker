@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>背景動畫 Demo 2 · Sticky 全屏滑動換相</title>
+  <style>
+    :root { --jva-red: #e60012; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Segoe UI", "PingFang TC", "Noto Sans TC", "Hiragino Sans", sans-serif;
+      color: #fff;
+      background: #000;
+    }
+    .topbar {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 20;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 16px;
+      background: linear-gradient(180deg, rgba(0,0,0,.65), transparent);
+      pointer-events: none;
+    }
+    .topbar a {
+      pointer-events: auto;
+      color: #ccc;
+      text-decoration: none;
+      font-size: .8rem;
+      background: rgba(0,0,0,.45);
+      padding: 6px 10px;
+      border-radius: 8px;
+      border: 1px solid rgba(255,255,255,.12);
+    }
+    .badge {
+      font-size: .68rem;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: #ffb3b8;
+    }
+    /* Each slide: tall scroller, sticky panel pins while you scroll through it */
+    .slide {
+      position: relative;
+      height: 220vh;
+    }
+    .slide-pin {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow: hidden;
+    }
+    .slide-bg {
+      position: absolute;
+      inset: 0;
+      background-size: cover;
+      background-position: center;
+      transform: scale(1.06);
+      will-change: transform, opacity;
+    }
+    .slide-scrim {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(0,0,0,.4) 0%, rgba(0,0,0,.58) 50%, rgba(0,0,0,.78) 100%);
+    }
+    .slide-copy {
+      position: relative;
+      z-index: 2;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 24px;
+    }
+    .slide-copy h1 {
+      font-size: clamp(1.55rem, 6vw, 2.7rem);
+      font-weight: 900;
+      letter-spacing: .06em;
+      text-shadow: 0 4px 24px rgba(0,0,0,.65);
+    }
+    .slide-copy h1 span { color: var(--jva-red); }
+    .slide-copy .cap {
+      margin-top: 14px;
+      max-width: 360px;
+      font-size: .9rem;
+      color: rgba(255,255,255,.82);
+      line-height: 1.55;
+    }
+    .slide-copy .num {
+      font-size: .72rem;
+      letter-spacing: .2em;
+      color: var(--jva-red);
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+    .hint {
+      margin-top: 22px;
+      font-size: .82rem;
+      color: rgba(255,255,255,.65);
+    }
+    /* Incoming slide starts below and slides up while fading in via scroll progress */
+    .slide.is-exiting .slide-bg {
+      /* driven by JS */
+    }
+    .rail {
+      position: fixed;
+      left: 50%;
+      bottom: 18px;
+      transform: translateX(-50%);
+      z-index: 20;
+      display: flex;
+      gap: 8px;
+      padding: 8px 12px;
+      background: rgba(0,0,0,.5);
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,.12);
+    }
+    .rail i {
+      width: 28px; height: 4px;
+      border-radius: 2px;
+      background: rgba(255,255,255,.25);
+      transition: background .2s, width .2s;
+    }
+    .rail i.on {
+      background: var(--jva-red);
+      width: 40px;
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <a href="index.html">← 返預覽入口</a>
+    <span class="badge">Demo 2 · Sticky pin + slide-up</span>
+  </div>
+  <div class="rail" id="rail" aria-hidden="true"></div>
+
+  <section class="slide" data-i="0">
+    <div class="slide-pin">
+      <div class="slide-bg" style="background-image:url(../assets/bg/team1.jpg)"></div>
+      <div class="slide-scrim"></div>
+      <div class="slide-copy">
+        <div class="num">01 / 04</div>
+        <h1>日本排球<span>賽事追蹤</span></h1>
+        <p class="cap">每一張相會「釘」住全屏，你繼續碌落去時，舊相會向上滑走、淡出，新相由下面頂上嚟。</p>
+        <p class="hint">↓ 繼續向下碌</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide" data-i="1">
+    <div class="slide-pin">
+      <div class="slide-bg" style="background-image:url(../assets/bg/team2.jpg)"></div>
+      <div class="slide-scrim"></div>
+      <div class="slide-copy">
+        <div class="num">02 / 04</div>
+        <h1>日本排球<span>賽事追蹤</span></h1>
+        <p class="cap">類似 Apple 產品頁嗰種 sticky 全屏體驗：滾動進度直接推動換相動畫。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide" data-i="2">
+    <div class="slide-pin">
+      <div class="slide-bg" style="background-image:url(../assets/bg/team3.jpg)"></div>
+      <div class="slide-scrim"></div>
+      <div class="slide-copy">
+        <div class="num">03 / 04</div>
+        <h1>日本排球<span>賽事追蹤</span></h1>
+        <p class="cap">黑半透明遮罩確保白字永遠清楚；手機直向都一樣順。</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="slide" data-i="3">
+    <div class="slide-pin">
+      <div class="slide-bg" style="background-image:url(../assets/bg/team4.jpg)"></div>
+      <div class="slide-scrim"></div>
+      <div class="slide-copy">
+        <div class="num">04 / 04</div>
+        <h1>日本排球<span>賽事追蹤</span></h1>
+        <p class="cap">呢個版本換相最「有戲」——感覺相係一張張由下推上去。</p>
+        <p class="hint">↑ 可以碌返上</p>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const slides = [...document.querySelectorAll(".slide")];
+    const rail = document.getElementById("rail");
+    slides.forEach((_, i) => {
+      const el = document.createElement("i");
+      if (i === 0) el.classList.add("on");
+      rail.appendChild(el);
+    });
+    const marks = [...rail.children];
+
+    function clamp(v, a, b) { return Math.max(a, Math.min(b, v)); }
+
+    function update() {
+      const vh = window.innerHeight;
+      let active = 0;
+      slides.forEach((slide, idx) => {
+        const rect = slide.getBoundingClientRect();
+        // progress 0..1 while sticky is pinned (first vh of the 220vh section)
+        // When top hits 0 and we scroll through remaining height:
+        const total = slide.offsetHeight - vh;
+        const scrolled = clamp(-rect.top, 0, total);
+        const p = total > 0 ? scrolled / total : 0;
+
+        const bg = slide.querySelector(".slide-bg");
+        const copy = slide.querySelector(".slide-copy");
+        // Exit: slide up + fade as we leave the pin zone
+        const exit = clamp((p - 0.55) / 0.45, 0, 1);
+        const enter = clamp(p / 0.25, 0, 1); // slight zoom settle on enter
+
+        const y = -exit * 28; // percent-ish via transform
+        const scale = 1.06 - enter * 0.04 + exit * 0.03;
+        bg.style.transform = `translate3d(0, ${y}vh, 0) scale(${scale})`;
+        bg.style.opacity = String(1 - exit * 0.85);
+        copy.style.opacity = String(1 - exit);
+        copy.style.transform = `translate3d(0, ${exit * -40}px, 0)`;
+
+        if (rect.top <= vh * 0.4 && rect.bottom > vh * 0.4) active = idx;
+      });
+      marks.forEach((m, i) => m.classList.toggle("on", i === active));
+    }
+    window.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update);
+    update();
+  </script>
+</body>
+</html>

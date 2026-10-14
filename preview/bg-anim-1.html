@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>背景動畫 Demo 1 · 視差 + 漸變交叉淡入</title>
+  <style>
+    :root { --jva-red: #e60012; --overlay: rgba(0,0,0,.55); }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: auto; }
+    body {
+      font-family: "Segoe UI", "PingFang TC", "Noto Sans TC", "Hiragino Sans", sans-serif;
+      color: #fff;
+      background: #000;
+      overflow-x: hidden;
+    }
+    .bg-stack {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      overflow: hidden;
+      pointer-events: none;
+    }
+    .bg-layer {
+      position: absolute;
+      inset: -12%;
+      background-size: cover;
+      background-position: center;
+      opacity: 0;
+      will-change: transform, opacity;
+      transition: none;
+    }
+    .bg-layer.active { opacity: 1; }
+    .bg-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(0,0,0,.45) 0%, var(--overlay) 45%, rgba(0,0,0,.72) 100%);
+      z-index: 2;
+    }
+    .content {
+      position: relative;
+      z-index: 1;
+      min-height: 400vh;
+    }
+    .hero {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 24px;
+      pointer-events: none;
+    }
+    .badge {
+      font-size: .7rem;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      color: #ffb3b8;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: clamp(1.6rem, 6vw, 2.8rem);
+      font-weight: 900;
+      letter-spacing: .06em;
+      text-shadow: 0 4px 24px rgba(0,0,0,.6);
+    }
+    h1 span { color: var(--jva-red); }
+    .hint {
+      margin-top: 18px;
+      font-size: .85rem;
+      color: rgba(255,255,255,.75);
+      animation: bounce 1.6s ease-in-out infinite;
+    }
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); opacity: .7; }
+      50% { transform: translateY(6px); opacity: 1; }
+    }
+    .progress {
+      position: fixed;
+      left: 0; right: 0; top: 0;
+      height: 3px;
+      background: rgba(255,255,255,.15);
+      z-index: 10;
+    }
+    .progress > i {
+      display: block;
+      height: 100%;
+      width: 0%;
+      background: var(--jva-red);
+    }
+    .dots {
+      position: fixed;
+      right: 14px;
+      top: 50%;
+      transform: translateY(-50%);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      z-index: 10;
+    }
+    .dots span {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: rgba(255,255,255,.35);
+      transition: background .2s, transform .2s;
+    }
+    .dots span.on {
+      background: var(--jva-red);
+      transform: scale(1.35);
+    }
+    .panel {
+      max-width: 520px;
+      margin: 0 auto;
+      padding: 40vh 20px 20vh;
+    }
+    .card {
+      background: rgba(10,10,10,.72);
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 14px;
+      padding: 22px 20px;
+      margin-bottom: 28vh;
+      backdrop-filter: blur(8px);
+    }
+    .card h2 { font-size: 1.05rem; margin-bottom: 8px; }
+    .card p { color: #bbb; font-size: .88rem; line-height: 1.6; }
+    .back {
+      position: fixed;
+      left: 14px; bottom: 14px;
+      z-index: 10;
+      color: #ccc;
+      font-size: .8rem;
+      text-decoration: none;
+      background: rgba(0,0,0,.55);
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: 1px solid rgba(255,255,255,.12);
+    }
+    .back:hover { color: #fff; border-color: var(--jva-red); }
+  </style>
+</head>
+<body>
+  <div class="progress"><i id="bar"></i></div>
+  <div class="dots" id="dots" aria-hidden="true"></div>
+  <div class="bg-stack" id="stack" aria-hidden="true">
+    <div class="bg-overlay"></div>
+  </div>
+  <main class="content">
+    <div class="hero">
+      <p class="badge">Demo 1 · Parallax + Crossfade</p>
+      <h1>日本排球<span>賽事追蹤</span></h1>
+      <p class="hint">↓ 向下碌 · 視差層慢慢換相</p>
+    </div>
+    <div class="panel">
+      <div class="card">
+        <h2>視差層移動</h2>
+        <p>背景相會跟住滾動進度上下漂移（parallax），唔同層速度唔同，有種「慢慢掃過場地」嘅感覺。</p>
+      </div>
+      <div class="card">
+        <h2>交叉淡入換相</h2>
+        <p>滾動到下一節時，舊相淡出、新相淡入，過渡平滑，唔會突然跳換。</p>
+      </div>
+      <div class="card">
+        <h2>適合主站</h2>
+        <p>唔搶控制權，普通滾動就得；文字卡疊喺半透明黑底上面，手機都睇得清楚。</p>
+      </div>
+    </div>
+  </main>
+  <a class="back" href="index.html">← 返預覽入口</a>
+  <script>
+    const IMAGES = [
+      "../assets/bg/team1.jpg",
+      "../assets/bg/team2.jpg",
+      "../assets/bg/team3.jpg",
+      "../assets/bg/team4.jpg"
+    ];
+    const stack = document.getElementById("stack");
+    const overlay = stack.querySelector(".bg-overlay");
+    const layers = IMAGES.map((src, i) => {
+      const el = document.createElement("div");
+      el.className = "bg-layer" + (i === 0 ? " active" : "");
+      el.style.backgroundImage = `url(${src})`;
+      el.style.zIndex = String(i);
+      stack.insertBefore(el, overlay);
+      return el;
+    });
+    const dots = document.getElementById("dots");
+    IMAGES.forEach((_, i) => {
+      const s = document.createElement("span");
+      if (i === 0) s.classList.add("on");
+      dots.appendChild(s);
+    });
+    const bar = document.getElementById("bar");
+    const dotEls = [...dots.children];
+
+    function onScroll() {
+      const max = document.documentElement.scrollHeight - window.innerHeight;
+      const p = max > 0 ? window.scrollY / max : 0;
+      bar.style.width = (p * 100).toFixed(2) + "%";
+
+      const n = layers.length;
+      const seg = Math.min(n - 1, Math.max(0, p * (n - 1)));
+      const i = Math.floor(seg);
+      const t = seg - i;
+
+      layers.forEach((el, idx) => {
+        let op = 0;
+        if (idx === i) op = 1 - t;
+        else if (idx === i + 1) op = t;
+        else if (idx === i && t === 0) op = 1;
+        if (idx === n - 1 && i === n - 1) op = 1;
+        el.style.opacity = String(op);
+        // parallax: different speeds + slight scale
+        const drift = (p - idx / (n - 1)) * 80;
+        const y = drift * (1 + idx * 0.15);
+        const scale = 1.08 + Math.sin(p * Math.PI + idx) * 0.02;
+        el.style.transform = `translate3d(0, ${y.toFixed(2)}px, 0) scale(${scale.toFixed(4)})`;
+      });
+
+      const active = Math.round(seg);
+      dotEls.forEach((d, idx) => d.classList.toggle("on", idx === active));
+    }
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+    onScroll();
+  </script>
+</body>
+</html>
