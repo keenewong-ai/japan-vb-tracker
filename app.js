@@ -6,8 +6,8 @@
   let meta = {};
   let activeTab = "upcoming";
   let genderFilter = "all";
-  const PHOTO_V = "20261013d";
-  const CACHE_V = "20261013d";
+  const PHOTO_V = "20261014a";
+  const CACHE_V = "20261014a";
 
   const $ = (sel, el = document) => el.querySelector(sel);
   const $$ = (sel, el = document) => [...el.querySelectorAll(sel)];
@@ -71,9 +71,26 @@
       .replace(/"/g, "&quot;");
   }
 
+
+  function playerByName(name) {
+    return players.find((p) => p.name === name) || null;
+  }
+
+  function playerPhotoUrl(p) {
+    const base = (p && p.photo) || "/japan-vb-tracker/assets/players/placeholder.svg";
+    return base + (base.includes("?") ? "&" : "?") + "v=" + PHOTO_V;
+  }
+
+  function playerChipHtml(name) {
+    const p = playerByName(name);
+    const photo = playerPhotoUrl(p);
+    const fallback = "/japan-vb-tracker/assets/players/placeholder.svg?v=" + PHOTO_V;
+    return `<span class="chip"><img class="chip-avatar" src="${esc(photo)}" alt="" width="22" height="22" decoding="async" loading="lazy" onerror="this.onerror=null;this.src='${fallback}';" /><span class="chip-name">${esc(name)}</span></span>`;
+  }
+
   function matchCardHtml(m) {
-    const players = (m.japanPlayers || [])
-      .map((p) => `<span class="chip">${esc(p)}</span>`)
+    const playerChips = (m.japanPlayers || [])
+      .map((p) => playerChipHtml(p))
       .join("");
     const score = m.score
       ? `<span class="score">${esc(m.score)}</span>`
@@ -99,7 +116,7 @@
           ${venue}
           ${broadcast}
         </div>
-        ${players ? `<div class="japan-players">${players}</div>` : ""}
+        ${playerChips ? `<div class="japan-players">${playerChips}</div>` : ""}
       </article>`;
   }
 
@@ -319,7 +336,7 @@
       </div>
       ${m.score ? `<p style="font-size:1.4rem;font-weight:800;color:var(--accent);margin:8px 0">${esc(m.score)}</p>` : ""}
       ${setHtml ? `<div class="set-scores">${setHtml}</div>` : ""}
-      ${(m.japanPlayers || []).length ? `<div class="japan-players" style="margin-bottom:12px">${(m.japanPlayers || []).map((p) => `<span class="chip">${esc(p)}</span>`).join("")}</div>` : ""}
+      ${(m.japanPlayers || []).length ? `<div class="japan-players" style="margin-bottom:12px">${(m.japanPlayers || []).map((p) => playerChipHtml(p)).join("")}</div>` : ""}
       <h3 style="margin:12px 0 8px;font-size:0.95rem">球員數據</h3>
       ${statsHtml}
       ${m.note ? `<div class="note-box">${esc(m.note)}</div>` : ""}

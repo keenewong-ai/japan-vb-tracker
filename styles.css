@@ -38,7 +38,14 @@ body {
   margin: 0 auto;
 }
 .brand { display: flex; gap: 12px; align-items: center; }
-.ball { font-size: 2rem; filter: drop-shadow(0 4px 8px rgba(255,107,53,.4)); }
+.ball {
+  width: 40px;
+  height: 40px;
+  display: block;
+  flex-shrink: 0;
+  filter: drop-shadow(0 4px 10px rgba(30,79,156,.45));
+  border-radius: 50%;
+}
 h1 { margin: 0; font-size: 1.35rem; letter-spacing: 0.02em; }
 .tagline { margin: 2px 0 0; color: var(--muted); font-size: 0.85rem; }
 .updated { margin: 0; color: var(--muted); font-size: 0.8rem; }
@@ -169,12 +176,33 @@ main {
   gap: 6px;
 }
 .chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   font-size: 0.75rem;
-  padding: 3px 9px;
+  padding: 3px 9px 3px 3px;
   border-radius: 999px;
   background: rgba(255,107,53,.12);
   color: #ffb08a;
   border: 1px solid rgba(255,107,53,.25);
+  max-width: 100%;
+  line-height: 1.2;
+}
+.chip-avatar {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  background: linear-gradient(135deg, #1a3a5c, #3d8bfd);
+  border: 1.5px solid rgba(255,255,255,.28);
+  box-shadow: 0 1px 4px rgba(0,0,0,.3);
+}
+.chip-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-right: 2px;
 }
 
 .player-card {
