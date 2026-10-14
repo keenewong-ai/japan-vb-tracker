@@ -53,16 +53,17 @@ body {
   display: block;
   transform-origin: center center;
   will-change: transform;
-  filter: brightness(0.55) saturate(0.9);
+  filter: brightness(0.7) saturate(0.9);
 }
 .kb-scrim {
   position: absolute;
   inset: 0;
   z-index: 5;
   /* Dark enough for readable text/cards; photos still faintly visible */
+  /* Darkness ~70 vs previous 100: ~30% lighter scrim + brighter photos */
   background:
-    radial-gradient(ellipse at center, rgba(0,0,0,.55) 0%, rgba(0,0,0,.78) 62%, rgba(0,0,0,.90) 100%),
-    linear-gradient(180deg, rgba(0,0,0,.62) 0%, rgba(0,0,0,.78) 50%, rgba(0,0,0,.88) 100%);
+    radial-gradient(ellipse at center, rgba(0,0,0,.38) 0%, rgba(0,0,0,.55) 62%, rgba(0,0,0,.63) 100%),
+    linear-gradient(180deg, rgba(0,0,0,.43) 0%, rgba(0,0,0,.55) 50%, rgba(0,0,0,.62) 100%);
   pointer-events: none;
 }
 .site-shell {
