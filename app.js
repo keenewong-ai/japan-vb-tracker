@@ -4,11 +4,12 @@
   let players = [];
   let playerStatsMap = {};
   let gossip = [];
+  let social = [];
   let meta = {};
   let activeTab = "upcoming";
   let genderFilter = "all";
-  const PHOTO_V = "20261014c";
-  const CACHE_V = "20261014c";
+  const PHOTO_V = "20261014d";
+  const CACHE_V = "20261014d";
 
   const $ = (sel, el = document) => el.querySelector(sel);
   const $$ = (sel, el = document) => [...el.querySelectorAll(sel)];
@@ -209,6 +210,68 @@
       </article>`;
   }
 
+
+  function socialGenderOk(s) {
+    if (genderFilter === "all") return true;
+    const p = (s.playerId && playerById(s.playerId)) || (s.playerName && playerByName(s.playerName));
+    if (!p) return true;
+    return p.gender === genderFilter;
+  }
+
+  function platformLabel(platform) {
+    const map = {
+      instagram: "Instagram",
+      x: "X",
+      twitter: "X",
+      threads: "Threads",
+      facebook: "Facebook",
+      youtube: "YouTube",
+    };
+    return map[String(platform || "").toLowerCase()] || (platform || "社交");
+  }
+
+  function platformBadgeClass(platform) {
+    const key = String(platform || "").toLowerCase();
+    if (key === "instagram") return "ig";
+    if (key === "x" || key === "twitter") return "x";
+    if (key === "threads") return "threads";
+    return "other";
+  }
+
+  function socialCardHtml(s) {
+    const url = s.postUrl || "";
+    if (!url) return "";
+    const name = s.playerName || "";
+    const p = (s.playerId && playerById(s.playerId)) || (name && playerByName(name)) || null;
+    const photo = playerPhotoUrl(p);
+    const fallback = "/japan-vb-tracker/assets/players/placeholder.svg?v=" + PHOTO_V;
+    const plat = platformLabel(s.platform);
+    const platClass = platformBadgeClass(s.platform);
+    const account = s.account ? esc(s.account) : "";
+    return `
+      <article class="social-card">
+        <div class="social-head">
+          <img class="social-avatar" src="${esc(photo)}" alt="" width="48" height="48"
+            decoding="async" loading="lazy"
+            onerror="this.onerror=null;this.src='${fallback}';" />
+          <div class="social-meta">
+            <div class="social-name-row">
+              <span class="social-name">${esc(name || "球員")}</span>
+              <span class="platform-badge ${platClass}">${esc(plat)}</span>
+            </div>
+            <div class="social-sub">
+              <time datetime="${esc(s.date || "")}">${esc(formatGossipDate(s.date))}</time>
+              ${account ? `<span class="social-account">${account}</span>` : ""}
+            </div>
+          </div>
+        </div>
+        <p class="social-caption">${esc(s.caption || "")}</p>
+        <div class="social-actions">
+          <a class="gossip-link" href="${esc(url)}" target="_blank" rel="noopener noreferrer">睇原 post · ${esc(plat)} ↗</a>
+        </div>
+      </article>`;
+  }
+
   function renderPanels() {
     const upcoming = matches
       .filter((m) => m.status === "upcoming" && genderOk(m))
@@ -228,6 +291,12 @@
     const pastEl = $("#panel-past");
     const plEl = $("#panel-players");
     const goEl = $("#panel-gossip");
+    const soEl = $("#panel-social");
+
+    const slist = social
+      .filter((s) => s.postUrl && socialGenderOk(s))
+      .slice()
+      .sort((a, b) => String(b.date || "").localeCompare(String(a.date || "")));
 
     upEl.innerHTML = upcoming.length
       ? `<div class="match-list">${upcoming.map(matchCardHtml).join("")}</div>`
@@ -241,6 +310,9 @@
     goEl.innerHTML = glist.length
       ? `<div class="gossip-list">${glist.map(gossipCardHtml).join("")}</div>`
       : `<div class="empty">暫時未有公開八卦／生活動態<br/><span style="font-size:0.85em">只會刊登有可靠來源同原文連結嘅項目，唔會杜撰。</span></div>`;
+    soEl.innerHTML = slist.length
+      ? `<div class="social-list">${slist.map(socialCardHtml).join("")}</div>`
+      : `<div class="empty">暫時未有可驗證嘅球員社交動態<br/><span style="font-size:0.85em">只會刊登有真實 post 連結嘅項目（IG／X 等），唔會杜撰。</span></div>`;
 
     $$(".match-card", upEl).forEach(bindMatch);
     $$(".match-card", pastEl).forEach(bindMatch);
@@ -464,18 +536,20 @@
     });
 
     try {
-      const [m, pl, metaRaw, statsRaw, gossipRaw] = await Promise.all([
+      const [m, pl, metaRaw, statsRaw, gossipRaw, socialRaw] = await Promise.all([
         loadJson("data/matches.json"),
         loadJson("data/players.json"),
         loadJson("data/meta.json"),
         loadJson("data/player-stats.json").catch(() => ({ players: {} })),
         loadJson("data/gossip.json").catch(() => []),
+        loadJson("data/social.json").catch(() => []),
       ]);
       matches = m;
       players = pl;
       meta = metaRaw;
       playerStatsMap = (statsRaw && statsRaw.players) || {};
       gossip = Array.isArray(gossipRaw) ? gossipRaw.filter((g) => g && g.sourceUrl) : [];
+      social = Array.isArray(socialRaw) ? socialRaw.filter((s) => s && s.postUrl) : [];
       renderMeta();
       renderPanels();
       setTab("upcoming");

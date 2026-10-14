@@ -510,3 +510,98 @@ main {
   outline: 2px solid var(--accent-2);
   outline-offset: 2px;
 }
+
+/* 球員動態（IG／X 等） */
+.social-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.social-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  box-shadow: var(--shadow);
+  transition: background .12s, border-color .12s;
+}
+.social-card:hover {
+  background: var(--bg-card-hover);
+  border-color: #35507a;
+}
+.social-head {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.social-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(78,161,255,.35);
+  background: #1a2436;
+  flex-shrink: 0;
+}
+.social-meta { min-width: 0; flex: 1; }
+.social-name-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 8px;
+  align-items: center;
+}
+.social-name {
+  font-weight: 700;
+  font-size: 1rem;
+}
+.platform-badge {
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  padding: 2px 8px;
+  border-radius: 999px;
+  text-transform: none;
+}
+.platform-badge.ig {
+  color: #f9a8d4;
+  border: 1px solid rgba(236,72,153,.4);
+  background: linear-gradient(135deg, rgba(236,72,153,.18), rgba(168,85,247,.15));
+}
+.platform-badge.x {
+  color: #e2e8f0;
+  border: 1px solid rgba(148,163,184,.45);
+  background: rgba(148,163,184,.12);
+}
+.platform-badge.threads {
+  color: #fdba74;
+  border: 1px solid rgba(251,146,60,.4);
+  background: rgba(251,146,60,.12);
+}
+.platform-badge.other {
+  color: var(--accent-2);
+  border: 1px solid rgba(61,214,195,.35);
+  background: rgba(61,214,195,.1);
+}
+.social-sub {
+  margin-top: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+}
+.social-account { color: #94a3b8; }
+.social-caption {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+.social-actions {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}

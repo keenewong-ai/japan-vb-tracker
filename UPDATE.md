@@ -12,7 +12,7 @@
 
 ## 步驟
 
-1. 讀取現有 `data/matches.json`、`data/players.json`、`data/meta.json`、`data/gossip.json`（若有）。
+1. 讀取現有 `data/matches.json`、`data/players.json`、`data/meta.json`、`data/gossip.json`、`data/social.json`（若有）。
 2. Web search（關鍵字例子）：
    - 球員名 + 球會／聯賽 + 最近賽果／下一場
    - `SV.LEAGUE` 今周賽程
@@ -49,10 +49,29 @@
 
 UI 會按 `date` 新到舊排序；性別篩選跟關聯球員。
 
+## 球員動態（`data/social.json`）
+
+可選：追蹤球員本人／球會／JVA **公開社交帳號** 嘅 Instagram、X（Twitter）等 post。
+
+每項**必須**有可直接打開嘅 `postUrl`（單則 post／tweet 連結，唔係個人主頁）。**搵唔到真實 post 就唔好寫入**——永遠唔好發明貼文或假短碼。
+
+欄位建議：
+- `id`：穩定 slug（如 `ran-suntory-ambassador-ig-2026-09-29`）
+- `date`：`YYYY-MM-DD`（發佈日期）
+- `playerId` / `playerName`：對應 `players.json`
+- `platform`：`instagram` / `x` / `threads` 等
+- `account`：帳號顯示名（如 `@ran.volleyball0902`）
+- `caption`：粵語摘要或短日文原文摘錄；唔好誇大
+- `postUrl`：**必填**，真實可開嘅 post URL
+- 可選 `thumbnail`：公開縮圖 URL（唔穩就唔寫）
+
+UI 按 `date` 新到舊；性別篩選跟關聯球員。朝晚更新若見到新公開 post 可 append。
+
 ## 唔好做
 
 - 發明 score / setScores / points / attacks / blocks / serves
 - 發明八卦／生活傳聞；無 `sourceUrl` 就唔好加 gossip 項目
+- 發明社交 post；無真實 `postUrl` 就唔好加 social 項目
 - 加後端 API、爬蟲帳密、破解付費牆
 - 刪未完場但未開波嘅合理預告（除非官方取消）
 - 把未確認傳聞寫成 final
