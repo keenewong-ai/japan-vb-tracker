@@ -1,0 +1,32 @@
+{
+  "expected_counts": {
+    "leagues": 13,
+    "teams": 64,
+    "players": 58,
+    "player_season_stats": 80,
+    "matches": 72,
+    "match_sets": 28,
+    "match_roster": 210,
+    "match_player_stats": 8,
+    "gossip_posts": 13,
+    "gossip_players": 16,
+    "gossip_tags": 23,
+    "social_posts": 24,
+    "site_meta": 4
+  },
+  "batches": 27,
+  "skipped_notes": [
+    "added_missing_league:Sultanlar Ligi (Men)",
+    "added_missing_league:LOVB",
+    "added_missing_league:USA League",
+    "added_missing_league:Ligue A",
+    "added_stub_team:Galatasaray",
+    "added_stub_team:LOVB Miami",
+    "added_stub_team:LOVB Salt Lake",
+    "added_stub_team:Levallois Paris Saint-Cloud",
+    "added_stub_team:Minnesota",
+    "added_stub_team:Power Volley Milano",
+    "added_stub_team:Vero Volley Milano",
+    "added_stub_team:Ziraat Bank Ankara"
+  ]
+}
