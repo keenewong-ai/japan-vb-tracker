@@ -154,12 +154,17 @@
     "away": "アリーザ愛知",
     "venue": "フアマーク・インドアスタジアム, 曼谷",
     "score": "3-1",
-    "setScores": null,
+    "setScores": [
+      "23-25",
+      "25-21",
+      "26-24",
+      "27-25"
+    ],
     "broadcast": "J SPORTS",
     "japanPlayers": [],
     "gender": "women",
     "playerStats": {},
-    "note": "SV 女排曼谷開幕 GAME1",
+    "note": "SV 女排曼谷海外開幕 GAME1（常規賽第1節）；官方 match/detail/37428",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
@@ -233,19 +238,25 @@
   },
   {
     "id": "sv-women-bangkok-g2-2026-10-11",
-    "datetime": "2026-10-11T18:05:00+08:00",
+    "datetime": "2026-10-11T17:05:00+08:00",
     "status": "final",
     "competition": "SV.LEAGUE WOMEN",
     "home": "SAGA久光スプリングス",
     "away": "アリーザ愛知",
     "venue": "フアマーク・インドアスタジアム, 曼谷",
     "score": "3-2",
-    "setScores": null,
+    "setScores": [
+      "19-25",
+      "25-16",
+      "17-25",
+      "25-23",
+      "15-12"
+    ],
     "broadcast": "U-NEXT / J SPORTS",
     "japanPlayers": [],
     "gender": "women",
     "playerStats": {},
-    "note": "曼谷開幕系列 GAME2；久光開幕 2 連勝",
+    "note": "曼谷開幕系列 GAME2；久光開幕 2 連勝；官方 match/detail/37429",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
