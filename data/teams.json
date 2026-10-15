@@ -160,67 +160,133 @@
     "source": "public"
   },
   "中國": {
-    "logo": "assets/teams/flag-t-b07d0292.svg",
-    "source": "public"
+    "logo": "assets/teams/china-flag.png",
+    "source": "public",
+    "sourceUrl": "https://commons.wikimedia.org (China flag)"
   },
   "Altekma": {
-    "logo": "assets/teams/init-altekma.svg",
-    "source": "initials"
+    "logo": "assets/teams/altekma.png",
+    "source": "volleybox",
+    "sourceUrl": "https://volleybox.net/media/upload/teams/big_1761809155Ltoz6.png"
   },
   "Aras Kargo": {
-    "logo": "assets/teams/init-aras-kargo.svg",
-    "source": "initials"
+    "logo": "assets/teams/aras-kargo.png",
+    "source": "volleybox",
+    "sourceUrl": "https://volleybox.net/media/upload/teams/big_1784530297PMG2o.png"
   },
   "BOGDANKA LUK Lublin": {
-    "logo": "assets/teams/init-bogdanka-luk-lublin.svg",
-    "source": "initials"
+    "logo": "assets/teams/luk-lublin.png",
+    "source": "volleybox",
+    "sourceUrl": "https://volleybox.net/media/upload/teams/big_1772971599wZaJ4.png"
   },
   "CBF Balducci HR Macerata": {
-    "logo": "assets/teams/init-cbf-balducci-hr-macerata.svg",
-    "source": "initials"
+    "logo": "assets/teams/cbf-balducci-hr-macerata.png",
+    "source": "volleybox",
+    "sourceUrl": "https://volleybox.net/media/upload/teams/big_1736181455YmK9o.png"
   },
   "CDA Volley Talmassons FVG": {
-    "logo": "assets/teams/init-cda-volley-talmassons-fvg.svg",
-    "source": "initials"
+    "logo": "assets/teams/cda-talmassons.png",
+    "source": "volleybox",
+    "sourceUrl": "https://volleybox.net/media/upload/teams/big_17751328222piiI.png"
   },
   "Cisterna Volley": {
-    "logo": "assets/teams/init-cisterna-volley.svg",
-    "source": "initials"
+    "logo": "assets/teams/cisterna-volley.png",
+    "source": "legavolley",
+    "sourceUrl": "https://www.legavolley.it/wp-content/uploads/2023/09/Logo-Cisterna.jpg"
   },
   "Eczacıbaşı Dynavit": {
-    "logo": "assets/teams/init-eczac-ba-dynavit.svg",
-    "source": "initials"
+    "logo": "assets/teams/eczacibasi.png",
+    "source": "volleybox",
+    "sourceUrl": "https://volleybox.net/media/upload/teams/big_1677603180cIuV2.png"
   },
   "Eczacıbaşı Peron İstanbul": {
-    "logo": "assets/teams/init-eczac-ba-peron-stanbul.svg",
-    "source": "initials"
+    "logo": "assets/teams/eczacibasi.png",
+    "source": "volleybox",
+    "sourceUrl": "https://volleybox.net/media/upload/teams/big_1677603180cIuV2.png"
   },
   "Gaziantep Gençlik Spor": {
-    "logo": "assets/teams/init-gaziantep-gen-lik-spor.svg",
-    "source": "initials"
+    "logo": "assets/teams/gaziantep-genclik.png",
+    "source": "volleybox",
+    "sourceUrl": "https://volleybox.net/media/upload/teams/big_1785269306j8V7p.png"
   },
   "Il Bisonte Firenze": {
-    "logo": "assets/teams/init-il-bisonte-firenze.svg",
-    "source": "initials"
+    "logo": "assets/teams/il-bisonte-firenze.png",
+    "source": "volleybox",
+    "sourceUrl": "https://volleybox.net/media/upload/teams/big_1665468079pp95L.png"
   },
   "LUK Lublin": {
-    "logo": "assets/teams/init-luk-lublin.svg",
-    "source": "initials"
+    "logo": "assets/teams/luk-lublin.png",
+    "source": "volleybox",
+    "sourceUrl": "https://volleybox.net/media/upload/teams/big_1772971599wZaJ4.png"
   },
   "Numia Vero Volley Milano": {
-    "logo": "assets/teams/init-numia-vero-volley-milano.svg",
-    "source": "initials"
+    "logo": "assets/teams/numia-vero-volley-milano.png",
+    "source": "volleybox",
+    "sourceUrl": "https://volleybox.net/media/upload/teams/big_1770123159O7zIF.png"
   },
   "ON Hotels Alanya Belediyespor": {
-    "logo": "assets/teams/init-on-hotels-alanya-belediyespor.svg",
-    "source": "initials"
+    "logo": "assets/teams/alanya-belediyespor.png",
+    "source": "volleybox",
+    "sourceUrl": "https://volleybox.net/media/upload/teams/big_1785269272a4TPs.png"
   },
   "Ziraat Bankkart": {
-    "logo": "assets/teams/init-ziraat-bankkart.svg",
-    "source": "initials"
+    "logo": "assets/teams/ziraat-bankkart.png",
+    "source": "volleybox",
+    "sourceUrl": "https://volleybox.net/media/upload/teams/big_1773402090Rb2jt.png"
   },
   "İlbank": {
-    "logo": "assets/teams/init-lbank.svg",
-    "source": "initials"
+    "logo": "assets/teams/ilbank.png",
+    "source": "volleybox",
+    "sourceUrl": "https://volleybox.net/media/upload/teams/big_1762255057Ezz9L.png"
+  },
+  "Galatasaray": {
+    "logo": "assets/teams/galatasaray.png",
+    "source": "volleybox",
+    "sourceUrl": "https://volleybox.net/media/upload/teams/big_1785269073uRV2M.png"
+  },
+  "Ziraat Bank Ankara": {
+    "logo": "assets/teams/ziraat-bankkart.png",
+    "source": "volleybox",
+    "sourceUrl": "https://volleybox.net/media/upload/teams/big_1773402090Rb2jt.png"
+  },
+  "Vero Volley Milano": {
+    "logo": "assets/teams/numia-vero-volley-milano.png",
+    "source": "volleybox",
+    "sourceUrl": "https://volleybox.net/media/upload/teams/big_1770123159O7zIF.png"
+  },
+  "Power Volley Milano": {
+    "logo": "assets/teams/power-volley-milano.png",
+    "source": "volleybox",
+    "sourceUrl": "https://volleybox.net/media/upload/teams/1614209522dmd5Q.png"
+  },
+  "Levallois Paris Saint-Cloud": {
+    "logo": "assets/teams/levallois-paris.png",
+    "source": "volleybox",
+    "sourceUrl": "https://volleybox.net/media/upload/teams/big_1782205832T7qve.png"
+  },
+  "LOVB Miami": {
+    "logo": "assets/teams/lovb-miami.png",
+    "source": "lovb",
+    "sourceUrl": "https://www.lovb.com/api/media/file/MIA%20glyph%20black.svg"
+  },
+  "LOVB Salt Lake": {
+    "logo": "assets/teams/lovb-salt-lake.png",
+    "source": "lovb",
+    "sourceUrl": "https://www.lovb.com/api/media/file/team-salt-lake-1.svg"
+  },
+  "Minnesota": {
+    "logo": "assets/teams/lovb-minnesota.png",
+    "source": "lovb",
+    "sourceUrl": "https://www.lovb.com/api/media/file/minnesota-wide.svg"
+  },
+  "LOVB Minnesota": {
+    "logo": "assets/teams/lovb-minnesota.png",
+    "source": "lovb",
+    "sourceUrl": "https://www.lovb.com/api/media/file/minnesota-wide.svg"
+  },
+  "KUROBEアクアフェアリーズ富山": {
+    "logo": "assets/teams/sv-toyama.png",
+    "source": "svleague",
+    "sourceUrl": "svleague"
   }
 }

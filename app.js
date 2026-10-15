@@ -10,8 +10,8 @@
   let meta = {};
   let activeTab = "upcoming";
   let genderFilter = "all";
-  const PHOTO_V = "20261015d";
-  const CACHE_V = "20261015d";
+  const PHOTO_V = "20261015e";
+  const CACHE_V = "20261015e";
 
   const $ = (sel, el = document) => el.querySelector(sel);
   const $$ = (sel, el = document) => [...el.querySelectorAll(sel)];
@@ -184,8 +184,48 @@
     return (s.slice(0, 2) || "?").toUpperCase();
   }
 
+  // Normalize common spelling / width / short-name variants so matches hit logos.
+  const TEAM_ALIASES = {
+    "KUROBEアクアフェアリーズ富山": "ＫＵＲＯＢＥアクアフェアリーズ富山",
+    "Eczacıbaşı": "Eczacıbaşı Dynavit",
+    "Eczacibasi Dynavit": "Eczacıbaşı Dynavit",
+    "Eczacıbaşı Peron": "Eczacıbaşı Peron İstanbul",
+    "Eczacibasi Peron Istanbul": "Eczacıbaşı Peron İstanbul",
+    "Ilbank": "İlbank",
+    "ILBANK": "İlbank",
+    "Ziraat Bankkart Ankara": "Ziraat Bankkart",
+    "Ziraat Bankası": "Ziraat Bankkart",
+    "Galatasaray HDI": "Galatasaray",
+    "Galatasaray HDI Sigorta": "Galatasaray",
+    "Bogdanka LUK Lublin": "BOGDANKA LUK Lublin",
+    "LKPS Lublin": "LUK Lublin",
+    "Vero Volley": "Vero Volley Milano",
+    "Numia Vero Volley": "Numia Vero Volley Milano",
+    "Powervolley Milano": "Power Volley Milano",
+    "Alanya Belediyespor": "ON Hotels Alanya Belediyespor",
+    "ON Hotels Alanya": "ON Hotels Alanya Belediyespor",
+    "LOVB Minnesota": "Minnesota",
+    "Paris Saint-Cloud": "Levallois Paris Saint-Cloud",
+    "Les Mariannes": "Levallois Paris Saint-Cloud",
+  };
+
+  function resolveTeamName(name) {
+    const raw = String(name || "").trim();
+    if (!raw) return raw;
+    if (teamsMap[raw]) return raw;
+    if (TEAM_ALIASES[raw] && teamsMap[TEAM_ALIASES[raw]]) return TEAM_ALIASES[raw];
+    // fullwidth/halfwidth KUROBE already covered; try NFC
+    try {
+      const nfc = raw.normalize("NFC");
+      if (teamsMap[nfc]) return nfc;
+      if (TEAM_ALIASES[nfc] && teamsMap[TEAM_ALIASES[nfc]]) return TEAM_ALIASES[nfc];
+    } catch (_) {}
+    return raw;
+  }
+
   function teamLogoUrl(name) {
-    const meta = teamsMap[name];
+    const key = resolveTeamName(name);
+    const meta = teamsMap[key] || teamsMap[name];
     const logo = meta && meta.logo;
     if (!logo) return "";
     const base = assetUrl(logo);
