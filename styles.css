@@ -761,12 +761,41 @@ main {
   margin: 0 28px 10px 0;
 }
 .player-photo.lg {
-  width: 88px;
-  height: 88px;
-  min-height: 88px;
+  width: 100px;
+  height: 160px;
+  min-height: 160px;
   border-radius: 4px;
   border: 1px solid #333;
-  flex: 0 0 88px;
+  flex: 0 0 100px;
+  object-fit: contain;
+  object-position: center top;
+  background: #e8e8e8;
+}
+.season-pill {
+  appearance: none;
+  cursor: pointer;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 999px;
+  border: 1px solid #3a3a3a;
+  background: rgba(255,255,255,.06);
+  color: #bbb;
+  font-family: inherit;
+}
+.season-pill:hover { color: var(--white); border-color: #666; }
+.season-pill.active {
+  color: #ffb3b8;
+  border-color: rgba(230,0,18,.45);
+  background: rgba(230,0,18,.15);
+}
+.season-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
 }
 .season-tag {
   display: flex;

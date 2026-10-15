@@ -10,8 +10,8 @@
   let meta = {};
   let activeTab = "upcoming";
   let genderFilter = "all";
-  const PHOTO_V = "20261014k";
-  const CACHE_V = "20261014k";
+  const PHOTO_V = "20261015b";
+  const CACHE_V = "20261015b";
 
   const $ = (sel, el = document) => el.querySelector(sel);
   const $$ = (sel, el = document) => [...el.querySelectorAll(sel)];
@@ -228,7 +228,7 @@
     const base = p.photo || "/japan-vb-tracker/assets/players/placeholder.svg";
     const photo = base + (base.includes("?") ? "&" : "?") + "v=" + PHOTO_V;
     const fallback = "/japan-vb-tracker/assets/players/placeholder.svg?v=" + PHOTO_V;
-    const hasStats = !!playerStatsMap[p.id];
+    const hasStats = playerHasStats(p.id);
     const en = p.nameEn ? String(p.nameEn).toUpperCase() : "";
     return `
       <article class="player-card" tabindex="0" data-player-id="${esc(p.id)}" role="button"
@@ -451,7 +451,25 @@
     return x.toFixed(digits);
   }
 
-  function playerStatsSection(s) {
+  function normalizePlayerSeasons(entry) {
+    if (!entry) return [];
+    if (Array.isArray(entry.seasons) && entry.seasons.length) return entry.seasons;
+    // backward compat: old single-season object
+    if (entry.matches != null || entry.points != null || entry.season) return [entry];
+    return [];
+  }
+
+  function playerHasStats(id) {
+    return normalizePlayerSeasons(playerStatsMap[id]).length > 0;
+  }
+
+  function pickDefaultSeasonIndex(seasons) {
+    const vnl = seasons.findIndex((s) => /VNL\s*2026/i.test(String(s.season || "")));
+    if (vnl >= 0) return vnl;
+    return 0;
+  }
+
+  function renderSeasonStatsCards(s) {
     if (!s) {
       return `<p class="no-stats">暫無公開數據（唔會估分）。</p>`;
     }
@@ -483,28 +501,50 @@
       push("發球得分／Ace", s.servePoints, s.avgAces != null ? `場均 ${fmtNum(s.avgAces)}` : null);
     }
     push("救球", s.digs, s.digSuccessPct != null ? `成功率 ${fmtNum(s.digSuccessPct, 1)}%` : null);
-    push("接發球", s.receptions, [
+    const recSub = [
       s.recPositivePct != null ? `到位率 ${fmtNum(s.recPositivePct, 1)}%` : null,
       s.receptionErrors != null ? `失誤 ${s.receptionErrors}` : null,
-    ].filter(Boolean).join(" · ") || null);
+    ].filter(Boolean).join(" · ") || null;
+    push("接發球", s.receptions, recSub);
+    if (s.receptions == null && s.recPositivePct != null) {
+      push("接發球到位率", `${fmtNum(s.recPositivePct, 1)}%`, null);
+    }
     push("組織傳球", s.runningSets, "Running sets");
 
     if (!cards.length) {
       return `<p class="no-stats">暫無公開數據（唔會估分）。</p>`;
     }
     return `
-      <div class="season-tag">
-        <span class="badge upcoming">${esc(s.season || "VNL 2026")}</span>
+      <div class="season-tag" style="margin-top:8px">
         <span class="comp">來源：${esc(s.source || "Volleyball World / VBLineup")}</span>
       </div>
       ${s.note ? `<div class="note-box" style="margin-top:0;margin-bottom:12px">${esc(s.note)}</div>` : ""}
       <div class="pstat-grid">${cards.join("")}</div>`;
   }
 
+  function playerStatsSection(entry) {
+    const seasons = normalizePlayerSeasons(entry);
+    if (!seasons.length) {
+      return `<p class="no-stats">暫無公開數據（唔會估分）。</p>`;
+    }
+    const idx = pickDefaultSeasonIndex(seasons);
+    const pills = seasons.map((s, i) => {
+      const label = s.season || `賽季 ${i + 1}`;
+      const active = i === idx ? " active" : "";
+      return `<button type="button" class="season-pill${active}" data-season-idx="${i}" aria-pressed="${i === idx ? "true" : "false"}">${esc(label)}</button>`;
+    }).join("");
+    return `
+      <div class="season-tag">
+        <div class="season-pills" role="tablist" aria-label="賽季">${pills}</div>
+      </div>
+      <div id="player-season-stats">${renderSeasonStatsCards(seasons[idx])}</div>`;
+  }
+
   function openPlayer(id) {
     const p = players.find((x) => x.id === id);
     if (!p) return;
-    const s = playerStatsMap[id] || null;
+    const entry = playerStatsMap[id] || null;
+    const seasons = normalizePlayerSeasons(entry);
     const body = $("#modal-body");
     const base = p.photo || "/japan-vb-tracker/assets/players/placeholder.svg";
     const photo = base + (base.includes("?") ? "&" : "?") + "v=" + PHOTO_V;
@@ -512,7 +552,7 @@
     const clubBits = [p.club, p.league].filter(Boolean).join(" · ");
     body.innerHTML = `
       <div class="player-detail-head">
-        <img class="player-photo lg" src="${esc(photo)}" alt="" width="88" height="88"
+        <img class="player-photo lg" src="${esc(photo)}" alt="" width="100" height="160"
           decoding="async"
           onerror="this.onerror=null;this.src='${fallback}';" />
         <div>
@@ -527,8 +567,22 @@
       </div>
       ${p.note ? `<div class="note-box">${esc(p.note)}</div>` : ""}
       <h3 style="margin:16px 0 8px;font-size:0.95rem">賽季數據</h3>
-      ${playerStatsSection(s)}
+      ${playerStatsSection(entry)}
     `;
+    const pills = body.querySelectorAll(".season-pill");
+    const statsHost = body.querySelector("#player-season-stats");
+    pills.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const i = Number(btn.dataset.seasonIdx);
+        if (!seasons[i] || !statsHost) return;
+        pills.forEach((b) => {
+          const on = b === btn;
+          b.classList.toggle("active", on);
+          b.setAttribute("aria-pressed", on ? "true" : "false");
+        });
+        statsHost.innerHTML = renderSeasonStatsCards(seasons[i]);
+      });
+    });
     $("#modal").hidden = false;
     document.body.style.overflow = "hidden";
   }
