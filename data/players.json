@@ -9,7 +9,15 @@
     "league": "SV.LEAGUE MEN",
     "note": "VNL 2026 #1；隊長經驗",
     "photo": "/japan-vb-tracker/assets/players/nishida-yuji.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "三重県いなべ市",
+    "birthDate": "2000-01-30",
+    "heightCm": 186,
+    "weightKg": 86,
+    "spikeCm": 350,
+    "blockCm": 330,
+    "hand": "L"
   },
   {
     "id": "onodera-taishi",
@@ -21,7 +29,15 @@
     "league": "SV.LEAGUE MEN",
     "note": "VNL 2026 #2",
     "photo": "/japan-vb-tracker/assets/players/onodera-taishi.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "宮城県名取市",
+    "birthDate": "1996-02-27",
+    "heightCm": 202,
+    "weightKg": 95,
+    "spikeCm": 350,
+    "blockCm": 325,
+    "hand": "R"
   },
   {
     "id": "fukatsu-hideomi",
@@ -33,7 +49,14 @@
     "league": "SV.LEAGUE MEN",
     "note": "VNL 2026 #3",
     "photo": "/japan-vb-tracker/assets/players/fukatsu-hideomi.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "愛知県豊田市",
+    "birthDate": "1990-06-01",
+    "heightCm": 181,
+    "weightKg": 77,
+    "spikeCm": 325,
+    "blockCm": 305
   },
   {
     "id": "miyaura-kento",
@@ -45,7 +68,15 @@
     "league": "SV.LEAGUE MEN",
     "note": "VNL 2026 #4",
     "photo": "/japan-vb-tracker/assets/players/miyaura-kento.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "熊本県荒尾市",
+    "birthDate": "1999-02-22",
+    "heightCm": 190,
+    "weightKg": 86,
+    "spikeCm": 350,
+    "blockCm": 320,
+    "hand": "L"
   },
   {
     "id": "otsuka-tatsunori",
@@ -57,7 +88,15 @@
     "league": "SuperLega",
     "note": "VNL 2026 #5",
     "photo": "/japan-vb-tracker/assets/players/otsuka-tatsunori.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "大阪府枚方市",
+    "birthDate": "2000-11-05",
+    "heightCm": 195,
+    "weightKg": 87,
+    "spikeCm": 340,
+    "hand": "R",
+    "blockCm": 325
   },
   {
     "id": "yamauchi-akihiro",
@@ -69,7 +108,15 @@
     "league": "SV.LEAGUE MEN",
     "note": "VNL 2026 #6；決勝リザーブ",
     "photo": "/japan-vb-tracker/assets/players/yamauchi-akihiro.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "愛知県名古屋市",
+    "birthDate": "1993-11-30",
+    "heightCm": 204,
+    "weightKg": 85,
+    "spikeCm": 355,
+    "blockCm": 330,
+    "hand": "R"
   },
   {
     "id": "arai-yudai",
@@ -81,7 +128,15 @@
     "league": "SV.LEAGUE MEN",
     "note": "VNL 2026 #7",
     "photo": "/japan-vb-tracker/assets/players/arai-yudai.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "新潟県上越市",
+    "birthDate": "1998-06-27",
+    "heightCm": 188,
+    "weightKg": 85,
+    "spikeCm": 352,
+    "blockCm": 320,
+    "hand": "R"
   },
   {
     "id": "oya-masaki",
@@ -93,7 +148,15 @@
     "league": "SV.LEAGUE MEN",
     "note": "VNL 2026 #9",
     "photo": "/japan-vb-tracker/assets/players/oya-masaki.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "長崎県佐世保市",
+    "birthDate": "1995-04-23",
+    "heightCm": 177,
+    "weightKg": 74,
+    "spikeCm": 315,
+    "blockCm": 300,
+    "hand": "R"
   },
   {
     "id": "tomita-shoma",
@@ -105,7 +168,15 @@
     "league": "SV.LEAGUE MEN",
     "note": "VNL 2026 #11",
     "photo": "/japan-vb-tracker/assets/players/tomita-shoma.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "静岡県三島市",
+    "birthDate": "1997-06-20",
+    "heightCm": 190,
+    "weightKg": 81,
+    "spikeCm": 345,
+    "blockCm": 320,
+    "hand": "R"
   },
   {
     "id": "takahashi-ran",
@@ -117,7 +188,15 @@
     "league": "PlusLiga",
     "note": "VNL 2026 #12",
     "photo": "/japan-vb-tracker/assets/players/takahashi-ran.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "京都府",
+    "birthDate": "2001-09-02",
+    "heightCm": 188,
+    "weightKg": 84,
+    "spikeCm": 343,
+    "blockCm": 315,
+    "hand": "R"
   },
   {
     "id": "ogawa-tomohiro",
@@ -129,7 +208,15 @@
     "league": "PlusLiga",
     "note": "VNL 2026 #13",
     "photo": "/japan-vb-tracker/assets/players/ogawa-tomohiro.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "神奈川県横浜市",
+    "birthDate": "1996-07-04",
+    "heightCm": 176,
+    "weightKg": 66,
+    "spikeCm": 305,
+    "hand": "R",
+    "blockCm": 270
   },
   {
     "id": "ishikawa-yuki",
@@ -141,7 +228,15 @@
     "league": "Sultanlar Ligi (Men)",
     "note": "VNL 2026 #14；主将",
     "photo": "/japan-vb-tracker/assets/players/ishikawa-yuki.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "愛知県岡崎市",
+    "birthDate": "1995-12-11",
+    "heightCm": 192,
+    "weightKg": 88,
+    "spikeCm": 351,
+    "blockCm": 327,
+    "hand": "R"
   },
   {
     "id": "kai-masato",
@@ -153,7 +248,15 @@
     "league": "SV.LEAGUE MEN",
     "note": "VNL 2026 #15",
     "photo": "/japan-vb-tracker/assets/players/kai-masato.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "宮崎県延岡市",
+    "birthDate": "2003-09-25",
+    "heightCm": 200,
+    "weightKg": 86,
+    "spikeCm": 350,
+    "blockCm": 330,
+    "hand": "R"
   },
   {
     "id": "murayama-go",
@@ -165,7 +268,15 @@
     "league": "SV.LEAGUE MEN",
     "note": "VNL 2026 #16",
     "photo": "/japan-vb-tracker/assets/players/murayama-go.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "東京都練馬区",
+    "birthDate": "1998-07-30",
+    "heightCm": 192,
+    "weightKg": 81,
+    "spikeCm": 338,
+    "blockCm": 315,
+    "hand": "R"
   },
   {
     "id": "nishimoto-keigo",
@@ -177,7 +288,15 @@
     "league": "SV.LEAGUE MEN",
     "note": "VNL 2026 #17",
     "photo": "/japan-vb-tracker/assets/players/nishimoto-keigo.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "広島県尾道市",
+    "birthDate": "1998-10-27",
+    "heightCm": 188,
+    "weightKg": 91,
+    "spikeCm": 352,
+    "blockCm": 325,
+    "hand": "R"
   },
   {
     "id": "nishiyama-hiroto",
@@ -189,7 +308,14 @@
     "league": "SV.LEAGUE MEN",
     "note": "VNL 2026 #18",
     "photo": "/japan-vb-tracker/assets/players/nishiyama-hiroto.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "神奈川県南足柄市",
+    "birthDate": "2003-03-04",
+    "heightCm": 193,
+    "weightKg": 80,
+    "spikeCm": 350,
+    "hand": "R"
   },
   {
     "id": "yamamoto-tomohiro",
@@ -201,7 +327,15 @@
     "league": "SV.LEAGUE MEN",
     "note": "VNL 2026 #20",
     "photo": "/japan-vb-tracker/assets/players/yamamoto-tomohiro.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "北海道江別市",
+    "birthDate": "1994-11-05",
+    "heightCm": 171,
+    "weightKg": 70,
+    "spikeCm": 300,
+    "blockCm": 280,
+    "hand": "R"
   },
   {
     "id": "eiro-motoki",
@@ -213,7 +347,15 @@
     "league": "SV.LEAGUE MEN",
     "note": "VNL 2026 #21",
     "photo": "/japan-vb-tracker/assets/players/eiro-motoki.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "福岡県春日市",
+    "birthDate": "1996-06-08",
+    "heightCm": 192,
+    "weightKg": 80,
+    "spikeCm": 338,
+    "blockCm": 315,
+    "hand": "R"
   },
   {
     "id": "fujinaka-soshi",
@@ -225,7 +367,14 @@
     "league": "SV.LEAGUE MEN",
     "note": "VNL 2026 #22",
     "photo": "/japan-vb-tracker/assets/players/fujinaka-soshi.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "山口県周南市",
+    "birthDate": "1999-12-02",
+    "heightCm": 178,
+    "weightKg": 64,
+    "spikeCm": 325,
+    "blockCm": 305
   },
   {
     "id": "evbade-dan-larry",
@@ -237,7 +386,15 @@
     "league": "SV.LEAGUE MEN",
     "note": "VNL 2026 #23",
     "photo": "/japan-vb-tracker/assets/players/evbade-dan-larry.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "岐阜県海津市",
+    "birthDate": "2000-08-18",
+    "heightCm": 195,
+    "weightKg": 90,
+    "spikeCm": 350,
+    "blockCm": 333,
+    "hand": "R"
   },
   {
     "id": "takahashi-keihan",
@@ -249,7 +406,15 @@
     "league": "SV.LEAGUE MEN",
     "note": "VNL 2026 #24",
     "photo": "/japan-vb-tracker/assets/players/takahashi-keihan.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "千葉県旭市",
+    "birthDate": "2003-10-13",
+    "heightCm": 194,
+    "weightKg": 91,
+    "spikeCm": 360,
+    "blockCm": 325,
+    "hand": "R"
   },
   {
     "id": "shimokawa-ryo",
@@ -261,7 +426,15 @@
     "league": "SV.LEAGUE MEN",
     "note": "VNL 2026 #25",
     "photo": "/japan-vb-tracker/assets/players/shimokawa-ryo.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "鹿児島県指宿市",
+    "birthDate": "2000-01-12",
+    "heightCm": 178,
+    "weightKg": 65,
+    "spikeCm": 320,
+    "blockCm": 305,
+    "hand": "R"
   },
   {
     "id": "yamazaki-akito",
@@ -273,7 +446,15 @@
     "league": "SV.LEAGUE MEN",
     "note": "VNL 2026 #26",
     "photo": "/japan-vb-tracker/assets/players/yamazaki-akito.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "宮城県蔵王町",
+    "birthDate": "1997-10-16",
+    "heightCm": 190,
+    "weightKg": 75,
+    "spikeCm": 345,
+    "blockCm": 327,
+    "hand": "R"
   },
   {
     "id": "miwa-hiromasa",
@@ -285,7 +466,15 @@
     "league": "SV.LEAGUE MEN",
     "note": "VNL 2026 #29",
     "photo": "/japan-vb-tracker/assets/players/miwa-hiromasa.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "山口県萩市",
+    "birthDate": "1999-12-17",
+    "heightCm": 193,
+    "weightKg": 80,
+    "spikeCm": 343,
+    "blockCm": 315,
+    "hand": "R"
   },
   {
     "id": "nishikawa-keitaro",
@@ -297,7 +486,14 @@
     "league": "SV.LEAGUE MEN",
     "note": "VNL 2026 #30",
     "photo": "/japan-vb-tracker/assets/players/nishikawa-keitaro.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "大阪府大阪市",
+    "birthDate": "2000-04-14",
+    "heightCm": 195,
+    "weightKg": 93,
+    "spikeCm": 350,
+    "hand": "R"
   },
   {
     "id": "imahashi-yuki",
@@ -309,7 +505,14 @@
     "league": "SV.LEAGUE MEN",
     "note": "VNL 2026 #31",
     "photo": "/japan-vb-tracker/assets/players/imahashi-yuki.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "福岡県古賀市",
+    "birthDate": "2000-12-25",
+    "heightCm": 182,
+    "weightKg": 77,
+    "spikeCm": 325,
+    "hand": "L"
   },
   {
     "id": "sato-shunichiro",
@@ -321,7 +524,15 @@
     "league": "SV.LEAGUE MEN",
     "note": "VNL 2026 #32",
     "photo": "/japan-vb-tracker/assets/players/sato-shunichiro.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "宮城県仙台市",
+    "birthDate": "2000-05-17",
+    "heightCm": 205,
+    "weightKg": 95,
+    "spikeCm": 352,
+    "blockCm": 332,
+    "hand": "R"
   },
   {
     "id": "takaki-keishiro",
@@ -333,7 +544,13 @@
     "league": "SV.LEAGUE MEN",
     "note": "VNL 2026 #33",
     "photo": "/japan-vb-tracker/assets/players/takaki-keishiro.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "広島県広島市",
+    "birthDate": "2001-09-03",
+    "heightCm": 171,
+    "weightKg": 65,
+    "spikeCm": 310
   },
   {
     "id": "goto-rikuto",
@@ -345,7 +562,13 @@
     "league": "SV.LEAGUE MEN",
     "note": "VNL 2026 #34",
     "photo": "/japan-vb-tracker/assets/players/goto-rikuto.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "愛媛県松山市",
+    "birthDate": "2001-05-13",
+    "heightCm": 187,
+    "weightKg": 82,
+    "spikeCm": 335
   },
   {
     "id": "yamada-daiki",
@@ -357,7 +580,13 @@
     "league": "SV.LEAGUE MEN",
     "note": "VNL 2026 #38",
     "photo": "/japan-vb-tracker/assets/players/yamada-daiki.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "静岡県田方郡函南町",
+    "birthDate": "2001-08-07",
+    "heightCm": 191,
+    "weightKg": 81,
+    "spikeCm": 345
   },
   {
     "id": "wada-yukiko",
@@ -369,7 +598,14 @@
     "league": "Serie A1",
     "note": "VNL 2026 #1",
     "photo": "/japan-vb-tracker/assets/players/wada-yukiko.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "京都府京都市",
+    "birthDate": "2002-01-08",
+    "heightCm": 175,
+    "weightKg": 56,
+    "spikeCm": 293,
+    "hand": "R"
   },
   {
     "id": "araki-ayaka",
@@ -381,7 +617,15 @@
     "league": "SV.LEAGUE WOMEN",
     "note": "VNL 2026 #2",
     "photo": "/japan-vb-tracker/assets/players/araki-ayaka.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "福岡県大野城市",
+    "birthDate": "2001-09-02",
+    "heightCm": 185,
+    "weightKg": 78,
+    "spikeCm": 300,
+    "blockCm": 292,
+    "hand": "R"
   },
   {
     "id": "shimamura-haruyo",
@@ -393,7 +637,15 @@
     "league": "SV.LEAGUE WOMEN",
     "note": "VNL 2026 #3",
     "photo": "/japan-vb-tracker/assets/players/shimamura-haruyo.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "神奈川県鎌倉市",
+    "birthDate": "1992-03-04",
+    "heightCm": 182,
+    "weightKg": 78,
+    "spikeCm": 303,
+    "blockCm": 283,
+    "hand": "R"
   },
   {
     "id": "ishikawa-mayu",
@@ -405,7 +657,15 @@
     "league": "Sultanlar Ligi (Women)",
     "note": "VNL 2026 #4；主将",
     "photo": "/japan-vb-tracker/assets/players/ishikawa-mayu.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "愛知県岡崎市",
+    "birthDate": "2000-05-14",
+    "heightCm": 174,
+    "weightKg": 65,
+    "spikeCm": 300,
+    "blockCm": 290,
+    "hand": "R"
   },
   {
     "id": "sato-yoshino",
@@ -417,7 +677,13 @@
     "league": "Serie A1",
     "note": "VNL 2026 #5",
     "photo": "/japan-vb-tracker/assets/players/sato-yoshino.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "千葉県千葉市",
+    "birthDate": "2001-11-12",
+    "heightCm": 178,
+    "weightKg": 62,
+    "spikeCm": 305
   },
   {
     "id": "seki-nanami",
@@ -429,7 +695,14 @@
     "league": "Serie A1",
     "note": "VNL 2026 #6",
     "photo": "/japan-vb-tracker/assets/players/seki-nanami.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "千葉県船橋市",
+    "birthDate": "1999-06-12",
+    "heightCm": 171,
+    "weightKg": 60,
+    "spikeCm": 280,
+    "hand": "R"
   },
   {
     "id": "sakae-erika",
@@ -441,7 +714,15 @@
     "league": "SV.LEAGUE WOMEN",
     "note": "VNL 2026 #7",
     "photo": "/japan-vb-tracker/assets/players/sakae-erika.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "福岡県大野城市",
+    "birthDate": "1991-04-03",
+    "heightCm": 168,
+    "weightKg": 54,
+    "spikeCm": 280,
+    "blockCm": 270,
+    "hand": "R"
   },
   {
     "id": "kojima-manami",
@@ -453,7 +734,15 @@
     "league": "LOVB",
     "note": "VNL 2026 #8",
     "photo": "/japan-vb-tracker/assets/players/kojima-manami.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "宮城県仙台市",
+    "birthDate": "1994-11-07",
+    "heightCm": 158,
+    "weightKg": 58,
+    "spikeCm": 269,
+    "blockCm": 245,
+    "hand": "R"
   },
   {
     "id": "iwasawa-miiku",
@@ -465,7 +754,15 @@
     "league": "LOVB",
     "note": "VNL 2026 #9",
     "photo": "/japan-vb-tracker/assets/players/iwasawa-miiku.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "東京都町田市",
+    "birthDate": "1999-10-13",
+    "heightCm": 163,
+    "weightKg": 58,
+    "spikeCm": 270,
+    "blockCm": 240,
+    "hand": "R"
   },
   {
     "id": "nakagawa-tsukasa",
@@ -477,7 +774,12 @@
     "league": "SV.LEAGUE WOMEN",
     "note": "VNL 2026 #10",
     "photo": "/japan-vb-tracker/assets/players/nakagawa-tsukasa.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "大阪府",
+    "birthDate": "2000-08-13",
+    "heightCm": 159,
+    "spikeCm": 265
   },
   {
     "id": "yamada-nichika",
@@ -489,7 +791,15 @@
     "league": "SV.LEAGUE WOMEN",
     "note": "VNL 2026 #11",
     "photo": "/japan-vb-tracker/assets/players/yamada-nichika.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "愛知県豊田市",
+    "birthDate": "2000-02-24",
+    "heightCm": 184,
+    "weightKg": 74,
+    "spikeCm": 310,
+    "blockCm": 288,
+    "hand": "R"
   },
   {
     "id": "fukudome-satomi",
@@ -501,7 +811,15 @@
     "league": "SV.LEAGUE WOMEN",
     "note": "VNL 2026 #12",
     "photo": "/japan-vb-tracker/assets/players/fukudome-satomi.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "京都府京都市",
+    "birthDate": "1997-11-23",
+    "heightCm": 162,
+    "weightKg": 60,
+    "spikeCm": 275,
+    "blockCm": 260,
+    "hand": "R"
   },
   {
     "id": "yamaguchi-maki",
@@ -513,7 +831,14 @@
     "league": "SV.LEAGUE WOMEN",
     "note": "VNL 2026 #13",
     "photo": "/japan-vb-tracker/assets/players/yamaguchi-maki.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "神奈川県横浜市",
+    "birthDate": "1999-03-13",
+    "heightCm": 176,
+    "weightKg": 68,
+    "spikeCm": 300,
+    "hand": "R"
   },
   {
     "id": "shiode-hitomi",
@@ -525,7 +850,14 @@
     "league": "SV.LEAGUE WOMEN",
     "note": "VNL 2026 #14",
     "photo": "/japan-vb-tracker/assets/players/shiode-hitomi.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "北海道",
+    "birthDate": "1999-09-15",
+    "heightCm": 174,
+    "weightKg": 61,
+    "spikeCm": 276,
+    "hand": "R"
   },
   {
     "id": "miyabe-airi",
@@ -537,7 +869,15 @@
     "league": "USA League",
     "note": "VNL 2026 #15",
     "photo": "/japan-vb-tracker/assets/players/miyabe-airi.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "兵庫県尼崎市",
+    "birthDate": "1998-07-29",
+    "heightCm": 181,
+    "weightKg": 66,
+    "spikeCm": 313,
+    "blockCm": 290,
+    "hand": "R"
   },
   {
     "id": "shigihara-hinata",
@@ -549,7 +889,15 @@
     "league": "SV.LEAGUE WOMEN",
     "note": "VNL 2026 #16",
     "photo": "/japan-vb-tracker/assets/players/shigihara-hinata.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "福島県二本松市",
+    "birthDate": "2001-02-25",
+    "heightCm": 175,
+    "weightKg": 67,
+    "spikeCm": 298,
+    "blockCm": 280,
+    "hand": "R"
   },
   {
     "id": "kawazoe-miyu",
@@ -561,7 +909,13 @@
     "league": "SV.LEAGUE WOMEN",
     "note": "VNL 2026 #17",
     "photo": "/japan-vb-tracker/assets/players/kawazoe-miyu.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "長崎県大村",
+    "birthDate": "2001-09-22",
+    "heightCm": 170,
+    "weightKg": 58,
+    "spikeCm": 292
   },
   {
     "id": "miyabe-ameze",
@@ -573,7 +927,14 @@
     "league": "Ligue A",
     "note": "VNL 2026 #18",
     "photo": "/japan-vb-tracker/assets/players/miyabe-ameze.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "兵庫県尼崎市",
+    "birthDate": "2001-10-12",
+    "heightCm": 174,
+    "weightKg": 61,
+    "spikeCm": 303,
+    "blockCm": 270
   },
   {
     "id": "nishizaki-mana",
@@ -585,7 +946,15 @@
     "league": "SV.LEAGUE WOMEN",
     "note": "VNL 2026 #19",
     "photo": "/japan-vb-tracker/assets/players/nishizaki-mana.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "愛知県岡崎市",
+    "birthDate": "2002-05-01",
+    "heightCm": 158,
+    "weightKg": 53,
+    "spikeCm": 265,
+    "blockCm": 250,
+    "hand": "R"
   },
   {
     "id": "hirota-ai",
@@ -597,7 +966,15 @@
     "league": "SV.LEAGUE WOMEN",
     "note": "VNL 2026 #21",
     "photo": "/japan-vb-tracker/assets/players/hirota-ai.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "千葉県柏市",
+    "birthDate": "2003-08-23",
+    "heightCm": 176,
+    "weightKg": 65,
+    "spikeCm": 309,
+    "blockCm": 270,
+    "hand": "R"
   },
   {
     "id": "kitamado-ayane",
@@ -609,7 +986,15 @@
     "league": "SV.LEAGUE WOMEN",
     "note": "VNL 2026 #22",
     "photo": "/japan-vb-tracker/assets/players/kitamado-ayane.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "島根県松江市",
+    "birthDate": "2004-07-06",
+    "heightCm": 183,
+    "weightKg": 62,
+    "spikeCm": 297,
+    "blockCm": 285,
+    "hand": "R"
   },
   {
     "id": "inoue-miina",
@@ -621,7 +1006,13 @@
     "league": "SV.LEAGUE WOMEN",
     "note": "VNL 2026 #23；決勝リザーブ",
     "photo": "/japan-vb-tracker/assets/players/inoue-miina.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "千葉県印西市",
+    "birthDate": "2006-01-22",
+    "heightCm": 180,
+    "spikeCm": 303,
+    "hand": "R"
   },
   {
     "id": "hanaoka-chisato",
@@ -633,7 +1024,12 @@
     "league": "SV.LEAGUE WOMEN",
     "note": "VNL 2026 #24",
     "photo": "/japan-vb-tracker/assets/players/hanaoka-chisato.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "大阪府",
+    "birthDate": "2006-06-13",
+    "heightCm": 174,
+    "spikeCm": 288
   },
   {
     "id": "akimoto-misora",
@@ -645,7 +1041,14 @@
     "league": "Serie A1",
     "note": "VNL 2026 #26",
     "photo": "/japan-vb-tracker/assets/players/akimoto-misora.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "神奈川県",
+    "birthDate": "2006-08-18",
+    "heightCm": 185,
+    "spikeCm": 316,
+    "blockCm": 298,
+    "hand": "R"
   },
   {
     "id": "kinoe-moeka",
@@ -657,7 +1060,15 @@
     "league": "SV.LEAGUE WOMEN",
     "note": "VNL 2026 #29",
     "photo": "/japan-vb-tracker/assets/players/kinoe-moeka.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "神奈川県高座郡寒川町",
+    "birthDate": "1997-12-24",
+    "heightCm": 182,
+    "weightKg": 67,
+    "spikeCm": 298,
+    "blockCm": 285,
+    "hand": "R"
   },
   {
     "id": "shima-mikoto",
@@ -669,7 +1080,14 @@
     "league": "SV.LEAGUE WOMEN",
     "note": "VNL 2026 #30",
     "photo": "/japan-vb-tracker/assets/players/shima-mikoto.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "長野県佐久市",
+    "birthDate": "1999-01-18",
+    "heightCm": 175,
+    "weightKg": 65,
+    "spikeCm": 290,
+    "hand": "R"
   },
   {
     "id": "matsui-tamaki",
@@ -681,7 +1099,15 @@
     "league": "SV.LEAGUE WOMEN",
     "note": "VNL 2026 #31",
     "photo": "/japan-vb-tracker/assets/players/matsui-tamaki.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "千葉県松戸市",
+    "birthDate": "1998-01-10",
+    "heightCm": 170,
+    "weightKg": 63,
+    "spikeCm": 285,
+    "blockCm": 265,
+    "hand": "R"
   },
   {
     "id": "nishimura-minami",
@@ -693,6 +1119,13 @@
     "league": "SV.LEAGUE WOMEN",
     "note": "VNL 2026 #32",
     "photo": "/japan-vb-tracker/assets/players/nishimura-minami.jpg",
-    "vnl2026": true
+    "vnl2026": true,
+    "nationality": "日本",
+    "hometown": "福岡県久留米市",
+    "birthDate": "2000-03-23",
+    "heightCm": 168,
+    "weightKg": 59,
+    "spikeCm": 284,
+    "hand": "R"
   }
 ]

@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-15T14:33:51+08:00",
+  "lastUpdated": "2026-10-15T14:46:31+08:00",
   "timezone": "Asia/Taipei",
-  "sourcesNote": "2026-10-15 PM: player modal photo object-fit contain; multi-season stats (VNL 2026 + SV.LEAGUE 2025-26 RS).",
-  "version": 10
+  "sourcesNote": "2026-10-15 PM: player bio table (JVA/SVL/club/Wikipedia); modal scrollbar thin/dark; multi-season stats.",
+  "version": 11
 }

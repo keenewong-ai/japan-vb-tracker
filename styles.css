@@ -1100,3 +1100,44 @@ main {
   position: relative;
   z-index: 1;
 }
+
+
+/* Player bio info table (detail modal) */
+.bio-heading {
+  margin: 16px 0 8px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--white);
+}
+.bio-table {
+  background: rgba(0, 0, 0, 0.28);
+  border: 1px solid #2a2a2a;
+  border-radius: 6px;
+  padding: 2px 14px;
+  margin: 0 0 4px;
+}
+.bio-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 16px;
+  padding: 11px 0;
+  border-bottom: 1px solid rgba(120, 130, 150, 0.28);
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+.bio-row:last-child {
+  border-bottom: none;
+}
+.bio-label {
+  color: #8b93a3;
+  flex: 0 0 auto;
+  font-weight: 500;
+}
+.bio-value {
+  color: var(--white);
+  text-align: right;
+  flex: 1 1 auto;
+  font-weight: 600;
+  word-break: break-word;
+}

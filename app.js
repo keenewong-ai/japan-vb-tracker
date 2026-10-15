@@ -10,8 +10,8 @@
   let meta = {};
   let activeTab = "upcoming";
   let genderFilter = "all";
-  const PHOTO_V = "20261015b";
-  const CACHE_V = "20261015b";
+  const PHOTO_V = "20261015d";
+  const CACHE_V = "20261015d";
 
   const $ = (sel, el = document) => el.querySelector(sel);
   const $$ = (sel, el = document) => [...el.querySelectorAll(sel)];
@@ -90,6 +90,79 @@
     return POS_JA[String(pos).toUpperCase()] || pos;
   }
 
+  const POS_ZH = {
+    OP: "接應二傳",
+    OPP: "接應二傳",
+    OH: "主攻",
+    WS: "主攻",
+    MB: "副攻",
+    S: "二傳",
+    L: "自由人",
+  };
+
+  function positionLabelZh(pos) {
+    if (!pos) return "";
+    return POS_ZH[String(pos).toUpperCase()] || positionLabel(pos);
+  }
+
+  function ageFromBirth(iso, today = new Date()) {
+    if (!iso) return null;
+    const m = String(iso).match(/^(\d{4})-(\d{2})-(\d{2})/);
+    if (!m) return null;
+    const y = +m[1], mo = +m[2], d = +m[3];
+    let age = today.getFullYear() - y;
+    const tMo = today.getMonth() + 1;
+    const tD = today.getDate();
+    if (tMo < mo || (tMo === mo && tD < d)) age -= 1;
+    return age >= 0 && age < 80 ? age : null;
+  }
+
+  function formatBirthZh(iso) {
+    if (!iso) return "";
+    const m = String(iso).match(/^(\d{4})-(\d{2})-(\d{2})/);
+    if (!m) return String(iso);
+    const base = `${+m[1]}年${+m[2]}月${+m[3]}日`;
+    const age = ageFromBirth(iso);
+    return age != null ? `${base}（${age}歲）` : base;
+  }
+
+  function handLabelZh(hand) {
+    if (!hand) return "";
+    const h = String(hand).toUpperCase();
+    if (h === "L" || h === "LEFT" || hand === "左") return "左";
+    if (h === "R" || h === "RIGHT" || hand === "右") return "右";
+    return String(hand);
+  }
+
+  function playerBioRows(p) {
+    const rows = [];
+    if (p.nationality) rows.push(["國籍", p.nationality]);
+    const posZh = positionLabelZh(p.position);
+    if (posZh) rows.push(["位置", posZh]);
+    if (p.birthDate) rows.push(["生日", formatBirthZh(p.birthDate)]);
+    if (p.hometown) rows.push(["故鄉", p.hometown]);
+    if (p.heightCm != null) rows.push(["身高", `${p.heightCm} 厘米`]);
+    if (p.weightKg != null) rows.push(["體重", `${p.weightKg} 公斤`]);
+    if (p.spikeCm != null) rows.push(["擊球高度", `${p.spikeCm} 厘米`]);
+    if (p.blockCm != null) rows.push(["攔網高度", `${p.blockCm} 厘米`]);
+    const hand = handLabelZh(p.hand);
+    if (hand) rows.push(["慣用手", hand]);
+    return rows;
+  }
+
+  function renderPlayerBio(p) {
+    const rows = playerBioRows(p);
+    if (!rows.length) return "";
+    const lis = rows
+      .map(
+        ([label, value]) =>
+          `<div class="bio-row"><span class="bio-label">${esc(label)}</span><span class="bio-value">${esc(value)}</span></div>`
+      )
+      .join("");
+    return `
+      <h3 class="bio-heading">球員資料</h3>
+      <div class="bio-table" role="list">${lis}</div>`;
+  }
 
   const ASSET_BASE = "/japan-vb-tracker/";
 
@@ -566,6 +639,7 @@
         </div>
       </div>
       ${p.note ? `<div class="note-box">${esc(p.note)}</div>` : ""}
+      ${renderPlayerBio(p)}
       <h3 style="margin:16px 0 8px;font-size:0.95rem">賽季數據</h3>
       ${playerStatsSection(entry)}
     `;
