@@ -301,22 +301,51 @@
     "leagueCountryCode": "pl"
   },
   {
+    "id": "efeler-cup-ziraat-galatasaray-2026-10-13",
+    "datetime": "2026-10-13T00:30:00+08:00",
+    "status": "final",
+    "competition": "AXA Sigorta Şampiyonlar Kupası",
+    "home": "Ziraat Bankkart",
+    "away": "Galatasaray",
+    "venue": null,
+    "score": "1-3",
+    "setScores": [
+      "22-25",
+      "21-25",
+      "25-19",
+      "21-25"
+    ],
+    "broadcast": "TRT Spor Yıldız",
+    "japanPlayers": [
+      "石川祐希"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "土耳其男排冠軍盃；石川祐希官方帳報賽果（1-3）。主客場以官方賽果帖為準，場地未確認",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
+  },
+  {
     "id": "sultanlar-ilbank-eczacibasi-2026-10-14",
     "datetime": "2026-10-15T00:00:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "Sultanlar Ligi (Women)",
     "home": "İlbank",
     "away": "Eczacıbaşı Peron İstanbul",
     "venue": "TVF Ziraat Bankkart Voleybol Salonu, Ankara",
-    "score": null,
-    "setScores": null,
+    "score": "0-3",
+    "setScores": [
+      "23-25",
+      "17-25",
+      "14-25"
+    ],
     "broadcast": "TVF Voleybol TV (YouTube)",
     "japanPlayers": [
       "石川真佑"
     ],
     "gender": "women",
     "playerStats": {},
-    "note": "土超女排第3節；土耳其 10/14 19:00＝港 10/15 00:00",
+    "note": "土超女排第3節；Ecz 客場直落三勝，聯賽3連勝。石川真佑喺替補名單（AA／İHA）；個人得分未見官方公佈",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
