@@ -1,14 +1,14 @@
 [
   {
-    "id": "ecz-ilbank-win-pose-2026-10-14",
-    "date": "2026-10-14",
-    "playerId": "ishikawa-mayu",
-    "playerName": "石川真佑",
+    "id": "yuki-biteki-cover-x-2026-10-15",
+    "date": "2026-10-15",
+    "playerId": "ishikawa-yuki",
+    "playerName": "石川祐希",
     "platform": "x",
-    "account": "@EczacibasiSK",
-    "caption": "Eczacıbaşı 官方賽後合照：「Galibiyet pozumuz!」安卡拉客場擊敗 İlbank。",
-    "postUrl": "https://x.com/EczacibasiSK/status/2110423370533581011",
-    "image": "assets/social/ecz-ilbank-win-pose-2026-10-14.jpg"
+    "account": "@yuki14_official",
+    "caption": "石川祐希官方帳：美容誌『美的』12月號表紙（運動員首次），訪談談及往後職涯同想打到40多歲；10/22發售。",
+    "postUrl": "https://x.com/yuki14_official/status/2110659177169261007",
+    "image": "assets/social/yuki-biteki-cover-2026-10-15.jpg"
   },
   {
     "id": "mayu-ilbank-result-x-2026-10-15",
@@ -20,6 +20,17 @@
     "caption": "石川真佑報 İlbank 客場 3-0（25-23／25-17／25-14），開幕聯賽3連勝；下次 10/18 vs VakıfBank。",
     "postUrl": "https://x.com/m_ish_0514/status/2110531362688287071",
     "image": "assets/social/mayu-ilbank-result-x-2026-10-15.jpg"
+  },
+  {
+    "id": "yuki-anan-spur-2026-10-14",
+    "date": "2026-10-14",
+    "playerId": "ishikawa-yuki",
+    "playerName": "石川祐希",
+    "platform": "x",
+    "account": "@yuki14_official",
+    "caption": "石川祐希經理人帳：マニフレックス廣告登上『anan』10/14號同即將出嘅『SPUR』12月號，標語「休むことは、進むこと。」",
+    "postUrl": "https://x.com/yuki14_official/status/2110289554079109556",
+    "image": "assets/social/yuki-anan-spur-2026-10-14.jpg"
   },
   {
     "id": "otsuka-milano-kit-2026-10-14",
@@ -44,17 +55,6 @@
     "image": "assets/social/jva-iwasawa-punch-2026-10-14.jpg"
   },
   {
-    "id": "yuki-anan-spur-2026-10-14",
-    "date": "2026-10-14",
-    "playerId": "ishikawa-yuki",
-    "playerName": "石川祐希",
-    "platform": "x",
-    "account": "@yuki14_official",
-    "caption": "石川祐希經理人帳：マニフレックス廣告登上『anan』10/14號同即將出嘅『SPUR』12月號，標語「休むことは、進むこと。」",
-    "postUrl": "https://x.com/yuki14_official/status/2110289554079109556",
-    "image": "assets/social/yuki-anan-spur-2026-10-14.jpg"
-  },
-  {
     "id": "ecz-matchday-ilbank-2026-10-14",
     "date": "2026-10-14",
     "playerId": "ishikawa-mayu",
@@ -66,37 +66,15 @@
     "image": "assets/social/ecz-matchday-ilbank-2026-10-14.jpg"
   },
   {
-    "id": "ecz-mayu-kombine-tr-2026-10-13",
-    "date": "2026-10-13",
+    "id": "ecz-ilbank-win-pose-2026-10-14",
+    "date": "2026-10-14",
     "playerId": "ishikawa-mayu",
     "playerName": "石川真佑",
     "platform": "x",
     "account": "@EczacibasiSK",
-    "caption": "Eczacıbaşı 官方季票宣傳片：石川真佑試講土耳其語介紹購票（日刊亦有報道）。",
-    "postUrl": "https://x.com/EczacibasiSK/status/2109977752736547277",
-    "image": "assets/social/ecz-mayu-kombine-tr-2026-10-13.jpg"
-  },
-  {
-    "id": "jva-iwasawa-hbd-2026-10-13",
-    "date": "2026-10-13",
-    "playerId": "iwasawa-miiku",
-    "playerName": "岩澤実育",
-    "platform": "x",
-    "account": "@JVA_Volleyball",
-    "caption": "JVA 官方賀岩澤実育生日（2026.10.13）。",
-    "postUrl": "https://x.com/JVA_Volleyball/status/2109826460772921717",
-    "image": "assets/social/jva-iwasawa-hbd-2026-10-13.jpg"
-  },
-  {
-    "id": "jva-keihan-hbd-2026-10-13",
-    "date": "2026-10-13",
-    "playerId": "takahashi-keihan",
-    "playerName": "高橋慶帆",
-    "platform": "x",
-    "account": "@JVA_Volleyball",
-    "caption": "JVA 官方賀高橋慶帆生日（2026.10.13）。",
-    "postUrl": "https://x.com/JVA_Volleyball/status/2109827713536000014",
-    "image": "assets/social/jva-keihan-hbd-2026-10-13.jpg"
+    "caption": "Eczacıbaşı 官方賽後合照：「Galibiyet pozumuz!」安卡拉客場擊敗 İlbank。",
+    "postUrl": "https://x.com/EczacibasiSK/status/2110423370533581011",
+    "image": "assets/social/ecz-ilbank-win-pose-2026-10-14.jpg"
   },
   {
     "id": "otsuka-staff-milano-schedule-2026-10-13",
@@ -110,15 +88,48 @@
     "image": "assets/social/otsuka-staff-milano-schedule-2026-10-13.jpg"
   },
   {
-    "id": "jva-onodera-baba-2026-10-11",
-    "date": "2026-10-11",
-    "playerId": "onodera-taishi",
-    "playerName": "小野寺太志",
+    "id": "jva-keihan-hbd-2026-10-13",
+    "date": "2026-10-13",
+    "playerId": "takahashi-keihan",
+    "playerName": "高橋慶帆",
     "platform": "x",
     "account": "@JVA_Volleyball",
-    "caption": "JVA「つなげ2026」：小野寺太志玩老千挑戰片段。",
-    "postUrl": "https://x.com/JVA_Volleyball/status/2109207392462237911",
-    "image": "assets/social/jva-onodera-baba-2026-10-11.jpg"
+    "caption": "JVA 官方賀高橋慶帆生日（2026.10.13）。",
+    "postUrl": "https://x.com/JVA_Volleyball/status/2109827713536000014",
+    "image": "assets/social/jva-keihan-hbd-2026-10-13.jpg"
+  },
+  {
+    "id": "jva-iwasawa-hbd-2026-10-13",
+    "date": "2026-10-13",
+    "playerId": "iwasawa-miiku",
+    "playerName": "岩澤実育",
+    "platform": "x",
+    "account": "@JVA_Volleyball",
+    "caption": "JVA 官方賀岩澤実育生日（2026.10.13）。",
+    "postUrl": "https://x.com/JVA_Volleyball/status/2109826460772921717",
+    "image": "assets/social/jva-iwasawa-hbd-2026-10-13.jpg"
+  },
+  {
+    "id": "ecz-mayu-kombine-tr-2026-10-13",
+    "date": "2026-10-13",
+    "playerId": "ishikawa-mayu",
+    "playerName": "石川真佑",
+    "platform": "x",
+    "account": "@EczacibasiSK",
+    "caption": "Eczacıbaşı 官方季票宣傳片：石川真佑試講土耳其語介紹購票（日刊亦有報道）。",
+    "postUrl": "https://x.com/EczacibasiSK/status/2109977752736547277",
+    "image": "assets/social/ecz-mayu-kombine-tr-2026-10-13.jpg"
+  },
+  {
+    "id": "jva-miyabe-ameze-hbd-2026-10-12",
+    "date": "2026-10-12",
+    "playerId": "miyabe-ameze",
+    "playerName": "宮部愛芽世",
+    "platform": "x",
+    "account": "@JVA_Volleyball",
+    "caption": "JVA 官方賀宮部愛芽世生日（2026.10.12）。",
+    "postUrl": "https://x.com/JVA_Volleyball/status/2109464072936673599",
+    "image": "assets/social/jva-miyabe-ameze-hbd-2026-10-12.jpg"
   },
   {
     "id": "miyaura-matchday-bluteon-2026-10-11",
@@ -132,6 +143,17 @@
     "image": "assets/social/miyaura-matchday-bluteon-2026-10-11.jpg"
   },
   {
+    "id": "jva-onodera-baba-2026-10-11",
+    "date": "2026-10-11",
+    "playerId": "onodera-taishi",
+    "playerName": "小野寺太志",
+    "platform": "x",
+    "account": "@JVA_Volleyball",
+    "caption": "JVA「つなげ2026」：小野寺太志玩老千挑戰片段。",
+    "postUrl": "https://x.com/JVA_Volleyball/status/2109207392462237911",
+    "image": "assets/social/jva-onodera-baba-2026-10-11.jpg"
+  },
+  {
     "id": "jva-nishizaki-juggle-2026-10-10",
     "date": "2026-10-10",
     "playerId": "nishizaki-mana",
@@ -141,17 +163,6 @@
     "caption": "JVA 挑戰片：西崎愛菜排球控球／抬球挑戰。",
     "postUrl": "https://x.com/JVA_Volleyball/status/2108845001023094998",
     "image": "assets/social/jva-nishizaki-juggle-2026-10-10.jpg"
-  },
-  {
-    "id": "jva-miyabe-ameze-hbd-2026-10-12",
-    "date": "2026-10-12",
-    "playerId": "miyabe-ameze",
-    "playerName": "宮部愛芽世",
-    "platform": "x",
-    "account": "@JVA_Volleyball",
-    "caption": "JVA 官方賀宮部愛芽世生日（2026.10.12）。",
-    "postUrl": "https://x.com/JVA_Volleyball/status/2109464072936673599",
-    "image": "assets/social/jva-miyabe-ameze-hbd-2026-10-12.jpg"
   },
   {
     "id": "otsuka-miyaura-fany-2026-10-08",
@@ -187,17 +198,6 @@
     "image": "assets/social/otsuka-depart-italy-2026-10-04.jpg"
   },
   {
-    "id": "ran-suntory-ambassador-ig-2026-09-29",
-    "date": "2026-09-29",
-    "playerId": "takahashi-ran",
-    "playerName": "高橋藍",
-    "platform": "instagram",
-    "account": "@ran.volleyball0902",
-    "caption": "高橋藍 IG：就任 #サントリースポーツ 首任大使，兼 #乾杯までがスポーツだ 乾杯隊長。",
-    "postUrl": "https://www.instagram.com/p/Dd3JFLXCBMc/",
-    "image": "assets/social/ran-suntory-ambassador-ig-2026-09-29.jpg"
-  },
-  {
     "id": "sato-landed-verovolley-ig-2026-09-29",
     "date": "2026-09-29",
     "playerId": "sato-yoshino",
@@ -207,6 +207,17 @@
     "caption": "Vero Volley 官方 IG：佐藤淑乃抵達意大利「She’s landed.🇯🇵」。",
     "postUrl": "https://www.instagram.com/p/Dd3N4TdKSbK/",
     "image": "assets/social/sato-landed-verovolley-ig-2026-09-29.jpg"
+  },
+  {
+    "id": "ran-suntory-ambassador-ig-2026-09-29",
+    "date": "2026-09-29",
+    "playerId": "takahashi-ran",
+    "playerName": "高橋藍",
+    "platform": "instagram",
+    "account": "@ran.volleyball0902",
+    "caption": "高橋藍 IG：就任 #サントリースポーツ 首任大使，兼 #乾杯までがスポーツだ 乾杯隊長。",
+    "postUrl": "https://www.instagram.com/p/Dd3JFLXCBMc/",
+    "image": "assets/social/ran-suntory-ambassador-ig-2026-09-29.jpg"
   },
   {
     "id": "miyaura-supporters-meeting-2026-09-26",
@@ -220,17 +231,6 @@
     "image": "assets/social/miyaura-supporters-meeting-2026-09-26.jpg"
   },
   {
-    "id": "ecz-mayu-medical-2026-09-15",
-    "date": "2026-09-15",
-    "playerId": "ishikawa-mayu",
-    "playerName": "石川真佑",
-    "platform": "x",
-    "account": "@EczacibasiSK",
-    "caption": "Eczacıbaşı 官方：石川真佑等同隊喺 Memorial 醫院做季前體檢。",
-    "postUrl": "https://x.com/EczacibasiSK/status/2099851365988106500",
-    "image": "assets/social/ecz-mayu-medical-2026-09-15.jpg"
-  },
-  {
     "id": "miyaura-olympic-qualify-2026-09-15",
     "date": "2026-09-15",
     "playerId": "miyaura-kento",
@@ -240,6 +240,17 @@
     "caption": "宮浦：亞洲盃後寫「Qualified for Olympic games ✅」，多謝代表季支持。",
     "postUrl": "https://x.com/kento_miyaura_/status/2099841122923389292",
     "image": "assets/social/miyaura-olympic-qualify-2026-09-15.jpg"
+  },
+  {
+    "id": "ecz-mayu-medical-2026-09-15",
+    "date": "2026-09-15",
+    "playerId": "ishikawa-mayu",
+    "playerName": "石川真佑",
+    "platform": "x",
+    "account": "@EczacibasiSK",
+    "caption": "Eczacıbaşı 官方：石川真佑等同隊喺 Memorial 醫院做季前體檢。",
+    "postUrl": "https://x.com/EczacibasiSK/status/2099851365988106500",
+    "image": "assets/social/ecz-mayu-medical-2026-09-15.jpg"
   },
   {
     "id": "ran-awaji-yog-ig-2026-08-09",
