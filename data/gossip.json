@@ -1,5 +1,43 @@
 [
   {
+    "id": "ishikawa-siblings-hulu-turkey-2026-10-16",
+    "date": "2026-10-16",
+    "title": "石川兄妹土超賽事 Hulu 日本獨家直播決定",
+    "summary": "月刊バレーボール／Hulu：石川祐希（Ziraat）同石川真佑（Eczacıbaşı）所屬球隊為主嘅土耳其聯賽注目卡，由 Hulu 日本獨家實時／重播配信。初回：10/18（日）01:00（JST）Ziraat vs Fenerbahçe 男排開幕戰。",
+    "playerIds": [
+      "ishikawa-yuki",
+      "ishikawa-mayu"
+    ],
+    "playerNames": [
+      "石川祐希",
+      "石川真佑"
+    ],
+    "tags": [
+      "轉播",
+      "土超"
+    ],
+    "source": "月バレ.com",
+    "sourceUrl": "https://www.getsuvolley.com/261016_turkey_ishikawa"
+  },
+  {
+    "id": "yuki-groin-pain-supercup-2026-10-16",
+    "date": "2026-10-16",
+    "title": "石川祐希土超盃決賽欠場原因：鼠蹊部疼痛　教練確認已做 MRI",
+    "summary": "バレーボールキング報道：Ziraat 教練 Kavaz 向 Anadolu 通訊解釋，石川祐希喺土超盃決賽（vs 加拉塔薩雷）前晚鼠蹊部疼痛並接受 MRI；賽日朝早同賽前仍有痛感，為免影響球員同球隊前途而唔派上場。夏季代表隊期間亦有背、頸、膝輕傷。聯賽開幕戰 10/18（港 00:00）對 Fenerbahçe。",
+    "playerIds": [
+      "ishikawa-yuki"
+    ],
+    "playerNames": [
+      "石川祐希"
+    ],
+    "tags": [
+      "傷病",
+      "土超"
+    ],
+    "source": "バレーボールキング",
+    "sourceUrl": "https://volleyballking.jp/article/93930/"
+  },
+  {
     "id": "mayu-turkish-pr-video-2026-10-14",
     "date": "2026-10-14",
     "title": "石川真佑土超球會PR片試講土耳其語　同事一齊笑爆",
