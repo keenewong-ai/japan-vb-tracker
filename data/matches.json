@@ -218,7 +218,11 @@
     "away": "UYBA Busto Arsizio",
     "venue": "PalaVerde",
     "score": "3-0",
-    "setScores": null,
+    "setScores": [
+      "25-9",
+      "25-21",
+      "27-25"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "關菜々巳",
@@ -230,6 +234,9 @@
       "和田由紀子": {
         "points": 12,
         "note": "連兩場兩位數得分"
+      },
+      "關菜々巳": {
+        "points": 2
       }
     },
     "note": "關菜々巳返舊東家主場；義 10/10 20:30＝港 10/11 02:30",
@@ -713,7 +720,7 @@
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "PlusLiga 第1節；波蘭 15:00＝港 21:00。球會早前指官方聯賽首秀為對 Trefl（現程表 10/24）",
+    "note": "PlusLiga 第1節；波蘭 15:00＝港 21:00。下一場 Lublin 主場 vs Trefl：10/21 17:30＝港 23:30",
     "leagueCountry": "波蘭",
     "leagueCountryCode": "pl"
   },
@@ -1164,7 +1171,7 @@
   },
   {
     "id": "plusliga-lublin-trefl-2026-10-24",
-    "datetime": "2026-10-25T00:00:00+08:00",
+    "datetime": "2026-10-21T23:30:00+08:00",
     "status": "upcoming",
     "competition": "PlusLiga",
     "home": "BOGDANKA LUK Lublin",
@@ -1179,7 +1186,7 @@
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "PlusLiga 第2節；波蘭 10/24 18:00＝港 10/25 00:00；球會指日籍球員官方聯賽首秀場次",
+    "note": "PlusLiga 第2節；波蘭 10/21 17:30＝港 23:30（Sport1／PZPS 程表；原誤記 10/24）",
     "leagueCountry": "波蘭",
     "leagueCountryCode": "pl"
   },
