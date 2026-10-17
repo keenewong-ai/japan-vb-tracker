@@ -377,7 +377,7 @@
     "venue": "リプロ武道館",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [],
     "gender": "women",
     "playerStats": {},
@@ -395,7 +395,7 @@
     "venue": "とり野菜みそ BLUECATS ARENA",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "川添美優",
       "松井珠己",
@@ -417,10 +417,9 @@
     "venue": "有明コロシアム",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "村山豪",
-      "今橋祐希",
       "後藤陸翔"
     ],
     "gender": "men",
@@ -439,7 +438,7 @@
     "venue": "ナイスアリーナ",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "山口真季"
     ],
@@ -459,7 +458,7 @@
     "venue": "ひたちなか市総合運動公園総合体育館",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "島村春世",
       "志摩美古都"
@@ -480,7 +479,7 @@
     "venue": "HOS住吉スポーツセンター",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "GAORA SPORTS／J SPORTSオンデマンド",
     "japanPlayers": [
       "塩出仁美",
       "西崎愛菜"
@@ -501,7 +500,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "score": null,
     "setScores": null,
-    "broadcast": "J SPORTS 2",
+    "broadcast": "J SPORTS 2／テレビ神奈川（tvk）※ゴールデンライブ",
     "japanPlayers": [
       "中川つかさ",
       "山田二千華",
@@ -565,7 +564,7 @@
     "venue": "リプロ武道館",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [],
     "gender": "women",
     "playerStats": {},
@@ -583,7 +582,7 @@
     "venue": "HOS住吉スポーツセンター",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "GAORA SPORTS／J SPORTSオンデマンド",
     "japanPlayers": [
       "塩出仁美",
       "西崎愛菜"
@@ -604,7 +603,7 @@
     "venue": "とり野菜みそ BLUECATS ARENA",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "川添美優",
       "松井珠己",
@@ -626,10 +625,9 @@
     "venue": "有明コロシアム",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "村山豪",
-      "今橋祐希",
       "後藤陸翔"
     ],
     "gender": "men",
@@ -648,7 +646,7 @@
     "venue": "ナイスアリーナ",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "山口真季"
     ],
@@ -668,7 +666,7 @@
     "venue": "ひたちなか市総合運動公園総合体育館",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "島村春世",
       "志摩美古都"
@@ -689,7 +687,7 @@
     "venue": "東急ドレッセとどろきアリーナ",
     "score": null,
     "setScores": null,
-    "broadcast": "J SPORTS 1",
+    "broadcast": "J SPORTS 1※ゴールデンライブ",
     "japanPlayers": [
       "中川つかさ",
       "山田二千華",
@@ -864,7 +862,7 @@
     "venue": "大和工業アリーナ姫路",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "GAORA SPORTS／J SPORTSオンデマンド",
     "japanPlayers": [
       "福留慧美",
       "川添美優",
@@ -929,7 +927,7 @@
     "venue": "北ガスアリーナ札幌46",
     "score": null,
     "setScores": null,
-    "broadcast": "フジテレビNEXT",
+    "broadcast": "フジテレビNEXT／J SPORTSオンデマンド",
     "japanPlayers": [
       "西田有志",
       "山内晶大",
@@ -1069,7 +1067,6 @@
       "宮浦健人",
       "佐藤駿一郎",
       "村山豪",
-      "今橋祐希",
       "後藤陸翔"
     ],
     "gender": "men",
@@ -1200,7 +1197,7 @@
     "venue": "大和工業アリーナ姫路",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "GAORA SPORTS／J SPORTSオンデマンド",
     "japanPlayers": [
       "福留慧美",
       "川添美優",
@@ -1222,7 +1219,7 @@
     "venue": "北ガスアリーナ札幌46",
     "score": null,
     "setScores": null,
-    "broadcast": "フジテレビNEXT",
+    "broadcast": "フジテレビNEXT／J SPORTSオンデマンド",
     "japanPlayers": [
       "西田有志",
       "山内晶大",
@@ -1407,7 +1404,6 @@
       "宮浦健人",
       "佐藤駿一郎",
       "村山豪",
-      "今橋祐希",
       "後藤陸翔"
     ],
     "gender": "men",
@@ -1629,7 +1625,6 @@
       "三輪大将",
       "高木啓士郎",
       "村山豪",
-      "今橋祐希",
       "後藤陸翔"
     ],
     "gender": "men",
@@ -1809,7 +1804,6 @@
       "三輪大将",
       "高木啓士郎",
       "村山豪",
-      "今橋祐希",
       "後藤陸翔"
     ],
     "gender": "men",
