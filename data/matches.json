@@ -640,52 +640,77 @@
   {
     "id": "sv-women-ageo-denso-g2-2026-10-18",
     "datetime": "2026-10-18T13:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
     "home": "埼玉上尾メディックス",
     "away": "デンソーエアリービーズ",
     "venue": "リプロ武道館",
-    "score": null,
-    "setScores": null,
+    "score": "2-3",
+    "setScores": [
+      "21-25",
+      "25-18",
+      "22-25",
+      "27-25",
+      "13-15"
+    ],
     "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [],
     "gender": "women",
     "playerStats": {},
-    "note": "GAME2",
+    "note": "GAME2；上尾主場フルセット敗（公式記録）",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
   {
     "id": "sv-women-osaka-okayama-g2-2026-10-18",
     "datetime": "2026-10-18T13:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
     "home": "大阪マーヴェラス",
     "away": "岡山シーガルズ",
     "venue": "HOS住吉スポーツセンター",
-    "score": null,
-    "setScores": null,
+    "score": "3-1",
+    "setScores": [
+      "28-26",
+      "21-25",
+      "25-20",
+      "25-22"
+    ],
     "broadcast": "GAORA SPORTS／J SPORTSオンデマンド",
     "japanPlayers": [
       "塩出仁美",
       "西崎愛菜"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "GAME2",
+    "playerStats": {
+      "塩出仁美": {
+        "points": 0,
+        "note": "舉球員出場（公式）"
+      },
+      "西崎愛菜": {
+        "points": 0,
+        "note": "自由人（公式）"
+      }
+    },
+    "note": "GAME2；大阪MV開幕2連勝（公式記録／共同通信）",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
   {
     "id": "sv-women-pfu-toray-g2-2026-10-18",
     "datetime": "2026-10-18T13:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
     "home": "PFUブルーキャッツ石川かほく",
     "away": "東レアローズ滋賀",
     "venue": "とり野菜みそ BLUECATS ARENA",
-    "score": null,
-    "setScores": null,
+    "score": "1-3",
+    "setScores": [
+      "25-21",
+      "12-25",
+      "21-25",
+      "22-25"
+    ],
     "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "川添美優",
@@ -693,83 +718,137 @@
       "花岡千聡"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "GAME2",
+    "playerStats": {
+      "川添美優": {
+        "points": 13,
+        "note": "攻擊13（公式）"
+      },
+      "松井珠己": {
+        "points": 1,
+        "note": "攻擊1（公式）"
+      },
+      "花岡千聡": {
+        "points": 1,
+        "note": "攻擊1（東レ・公式）"
+      }
+    },
+    "note": "GAME2；東レ滋賀客場逆轉勝（公式記録）",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
   {
     "id": "sv-men-tokyo-gb-hokkaido-ys-g2-2026-10-18",
     "datetime": "2026-10-18T14:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "東京グレートベアーズ",
     "away": "北海道イエロースターズ",
     "venue": "有明コロシアム",
-    "score": null,
-    "setScores": null,
+    "score": "3-0",
+    "setScores": [
+      "25-19",
+      "25-17",
+      "25-21"
+    ],
     "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "村山豪",
       "後藤陸翔"
     ],
     "gender": "men",
-    "playerStats": {},
-    "note": "SV 男排開幕系列 GAME2",
+    "playerStats": {
+      "村山豪": {
+        "points": 9,
+        "note": "攻擊6＋攔網3（公式）"
+      },
+      "後藤陸翔": {
+        "points": 0,
+        "note": "未出場（公式）"
+      }
+    },
+    "note": "SV 男排開幕系列 GAME2；東京GB 開幕2連勝（公式記録）",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
   {
     "id": "sv-women-akita-kurobe-g2-2026-10-18",
     "datetime": "2026-10-18T14:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
     "home": "アランマーレ秋田庄内",
     "away": "ＫＵＲＯＢＥアクアフェアリーズ富山",
     "venue": "ナイスアリーナ",
-    "score": null,
-    "setScores": null,
+    "score": "0-3",
+    "setScores": [
+      "15-25",
+      "24-26",
+      "14-25"
+    ],
     "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "山口真季"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "GAME2",
+    "playerStats": {
+      "山口真季": {
+        "points": 4,
+        "note": "攻擊1＋攔網3（公式）"
+      }
+    },
+    "note": "GAME2；富山開幕2連勝ストレート（公式記録）",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
   {
     "id": "sv-women-astemo-gunma-g2-2026-10-18",
     "datetime": "2026-10-18T14:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
     "home": "Astemoリヴァーレ茨城",
     "away": "群馬グリーンウイングス",
     "venue": "ひたちなか市総合運動公園総合体育館",
-    "score": null,
-    "setScores": null,
+    "score": "1-3",
+    "setScores": [
+      "25-21",
+      "21-25",
+      "21-25",
+      "22-25"
+    ],
     "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "島村春世",
       "志摩美古都"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "GAME2",
+    "playerStats": {
+      "志摩美古都": {
+        "points": 17,
+        "note": "攻擊15＋攔網2（公式）"
+      },
+      "島村春世": {
+        "points": 14,
+        "note": "攻擊13＋攔網1（公式）"
+      }
+    },
+    "note": "GAME2；群馬客場逆轉勝（公式記録）",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
   {
     "id": "sv-women-nec-himeji-g2-2026-10-18",
     "datetime": "2026-10-18T15:35:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
     "home": "NEC レッドロケッツ川崎",
     "away": "ヴィクトリーナ姫路",
     "venue": "東急ドレッセとどろきアリーナ",
-    "score": null,
-    "setScores": null,
+    "score": "3-1",
+    "setScores": [
+      "21-25",
+      "25-16",
+      "25-17",
+      "30-28"
+    ],
     "broadcast": "J SPORTS 1※ゴールデンライブ",
     "japanPlayers": [
       "中川つかさ",
@@ -779,8 +858,29 @@
       "福留慧美"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "GAME2",
+    "playerStats": {
+      "廣田あい": {
+        "points": 20,
+        "note": "攻擊18＋攔網1＋ace1（公式）"
+      },
+      "甲萌香": {
+        "points": 8,
+        "note": "攻擊8（公式）"
+      },
+      "中川つかさ": {
+        "points": 2,
+        "note": "攻擊1＋ace1（公式）"
+      },
+      "山田二千華": {
+        "points": 0,
+        "note": "未出場（公式）"
+      },
+      "福留慧美": {
+        "points": 0,
+        "note": "姫路自由人（公式）"
+      }
+    },
+    "note": "GAME2；NEC川崎主場逆轉勝、1勝1敗（公式記録／共同通信）",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
