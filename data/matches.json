@@ -582,40 +582,58 @@
   {
     "id": "sultanlar-fener-ziraat-2026-10-18",
     "datetime": "2026-10-18T00:00:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "Efeler Ligi (Men)",
     "home": "Fenerbahçe Medicana",
     "away": "Ziraat Bankkart",
     "venue": "TVF Burhan Felek Vestel Voleybol Salonu, İstanbul",
-    "score": null,
-    "setScores": null,
+    "score": "0-3",
+    "setScores": [
+      "22-25",
+      "21-25",
+      "22-25"
+    ],
     "broadcast": "TRT Spor Yıldız／Hulu（日本）",
     "japanPlayers": [
       "石川祐希"
     ],
     "gender": "men",
-    "playerStats": {},
-    "note": "石川祐希土超男排（Efeler）首戰；土耳其 10/17 19:00＝港 10/18 00:00；Hulu 日本獨家直播（月バレ／Hulu 10/16 公布，JST 01:00＝港 00:00）",
+    "playerStats": {
+      "石川祐希": {
+        "points": 16,
+        "note": "攻擊15＋ace1（Efeler公式／Volleystation）"
+      }
+    },
+    "note": "石川祐希土超男排（Efeler）首戰完場；Fenerbahçe主場0-3敗；土耳其10/17 19:00＝港10/18 00:00。石川16分（攻擊15＋ace1）",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
   {
     "id": "serie-a1-milano-novara-2026-10-17",
     "datetime": "2026-10-18T02:30:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "Serie A1",
     "home": "Numia Vero Volley Milano",
     "away": "Igor Gorgonzola Novara",
     "venue": "Opiquad Arena, Monza",
-    "score": null,
-    "setScores": null,
+    "score": "3-0",
+    "setScores": [
+      "25-19",
+      "25-18",
+      "25-15"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "佐藤淑乃"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "意甲第3節；義 10/17 20:30＝港 10/18 02:30",
+    "playerStats": {
+      "佐藤淑乃": {
+        "points": 2,
+        "note": "第3局替補出場（Lega公式 tabellini）"
+      }
+    },
+    "note": "意甲第3節完場；Milano主場3-0勝Novara；義10/17 20:30＝港10/18 02:30。佐藤淑乃2分",
     "leagueCountry": "意大利",
     "leagueCountryCode": "it"
   },
