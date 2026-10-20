@@ -1008,6 +1008,53 @@
     "leagueCountryCode": "it"
   },
   {
+    "id": "plusliga-chelm-stilon-2026-10-19",
+    "datetime": "2026-10-19T23:30:00+08:00",
+    "status": "final",
+    "competition": "PlusLiga",
+    "home": "Podziemia Kredowe ChKS Chełm",
+    "away": "Cuprum Stilon Gorzów",
+    "venue": "Miejska Hala Sportowa, Chełm",
+    "score": "2-3",
+    "setScores": [
+      "25-19",
+      "21-25",
+      "21-25",
+      "25-21",
+      "7-15"
+    ],
+    "broadcast": "Polsat Sport",
+    "japanPlayers": [
+      "今橋祐希"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "PlusLiga 第1節；Chełm 主場 2-3 開季（Polsat Sport／siatkarsko）。今橋祐希未列入該場出場名單，無個人得分。",
+    "leagueCountry": "波蘭",
+    "leagueCountryCode": "pl"
+  },
+  {
+    "id": "plusliga-lublin-trefl-2026-10-21",
+    "datetime": "2026-10-21T23:30:00+08:00",
+    "status": "upcoming",
+    "competition": "PlusLiga",
+    "home": "BOGDANKA LUK Lublin",
+    "away": "Energa Trefl Gdańsk",
+    "venue": "Hala Globus, Lublin",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "高橋藍",
+      "小川智大"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "PlusLiga 第2節；波蘭 10/21 17:30＝港 23:30＠Hala Globus（官方 TAURON PDF／球會／siatkarsko；id 由誤記 10-24 更正）",
+    "leagueCountry": "波蘭",
+    "leagueCountryCode": "pl"
+  },
+  {
     "id": "serie-a1-busto-talmassons-2026-10-21",
     "datetime": "2026-10-22T02:00:00+08:00",
     "status": "upcoming",
@@ -1390,27 +1437,6 @@
     "leagueCountryCode": "tr"
   },
   {
-    "id": "plusliga-lublin-trefl-2026-10-24",
-    "datetime": "2026-10-21T23:30:00+08:00",
-    "status": "upcoming",
-    "competition": "PlusLiga",
-    "home": "BOGDANKA LUK Lublin",
-    "away": "Energa Trefl Gdańsk",
-    "venue": "Hala Globus, Lublin",
-    "score": null,
-    "setScores": null,
-    "broadcast": null,
-    "japanPlayers": [
-      "高橋藍",
-      "小川智大"
-    ],
-    "gender": "men",
-    "playerStats": {},
-    "note": "PlusLiga 第2節；波蘭 10/21 17:30＝港 23:30（Sport1／PZPS 程表；原誤記 10/24）",
-    "leagueCountry": "波蘭",
-    "leagueCountryCode": "pl"
-  },
-  {
     "id": "sv-women-himeji-pfu-g2-2026-10-25",
     "datetime": "2026-10-25T12:05:00+08:00",
     "status": "upcoming",
@@ -1654,6 +1680,26 @@
     "note": "土超女排；土耳其 10/25 19:00＝港 10/26 00:00",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
+  },
+  {
+    "id": "plusliga-chelm-resovia-2026-10-25",
+    "datetime": "2026-10-26T01:00:00+08:00",
+    "status": "upcoming",
+    "competition": "PlusLiga",
+    "home": "Podziemia Kredowe ChKS Chełm",
+    "away": "Asseco Resovia Rzeszów",
+    "venue": "Miejska Hala Sportowa, Chełm",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "今橋祐希"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "PlusLiga 第2節；波蘭 10/25 18:00（CET）＝港 10/26 01:00（官方 TAURON PDF）",
+    "leagueCountry": "波蘭",
+    "leagueCountryCode": "pl"
   },
   {
     "id": "superlega-milano-cuneo-2026-10-25",
@@ -2008,6 +2054,27 @@
     "note": "Efeler 第4節；土耳其 10/31 16:00＝港 21:00",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
+  },
+  {
+    "id": "plusliga-lublin-katowice-2026-10-31",
+    "datetime": "2026-11-01T03:30:00+08:00",
+    "status": "upcoming",
+    "competition": "PlusLiga",
+    "home": "BOGDANKA LUK Lublin",
+    "away": "GKS Katowice",
+    "venue": "Hala Globus, Lublin",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "高橋藍",
+      "小川智大"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "PlusLiga 第3節；波蘭 10/31 20:30（CET）＝港 11/1 03:30＠Hala Globus（官方 TAURON PDF）",
+    "leagueCountry": "波蘭",
+    "leagueCountryCode": "pl"
   },
   {
     "id": "sv-men-hiroshima-tokyo-g2-2026-11-01",
