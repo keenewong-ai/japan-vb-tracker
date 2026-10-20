@@ -1043,7 +1043,7 @@
     "venue": "Hala Globus, Lublin",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "Polsat Sport 1",
     "japanPlayers": [
       "高橋藍",
       "小川智大"
@@ -1691,7 +1691,7 @@
     "venue": "Miejska Hala Sportowa, Chełm",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "Polsat Sport 1",
     "japanPlayers": [
       "今橋祐希"
     ],
@@ -2279,5 +2279,86 @@
     "note": "GAME2；NHK BS 亦有轉播",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
+  },
+  {
+    "id": "plusliga-barkom-chelm-2026-11-01",
+    "datetime": "2026-11-01T22:00:00+08:00",
+    "status": "upcoming",
+    "competition": "PlusLiga",
+    "home": "Barkom Każany Lwów",
+    "away": "Podziemia Kredowe ChKS Chełm",
+    "venue": null,
+    "score": null,
+    "setScores": null,
+    "broadcast": "Polsat Sport 1",
+    "japanPlayers": [
+      "今橋祐希"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "PlusLiga 第3節；波蘭 11/1 15:00＝港 22:00；Chełm 客場（sport1.pl／Polsat 轉播表）",
+    "leagueCountry": "波蘭",
+    "leagueCountryCode": "pl"
+  },
+  {
+    "id": "superlega-milano-padova-2026-11-01",
+    "datetime": "2026-11-02T01:00:00+08:00",
+    "status": "upcoming",
+    "competition": "SuperLega",
+    "home": "Allianz Milano",
+    "away": "Pallavolo Padova",
+    "venue": "Allianz Cloud, Milano",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "大塚達宣"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "SuperLega 第3節；義 11/1 18:00＝港 11/2 01:00＠Allianz Cloud（legavolley.it 官方曆）",
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it"
+  },
+  {
+    "id": "plusliga-lublin-skra-2026-11-04",
+    "datetime": "2026-11-05T03:30:00+08:00",
+    "status": "upcoming",
+    "competition": "PlusLiga",
+    "home": "BOGDANKA LUK Lublin",
+    "away": "PGE GiEK SKRA Bełchatów",
+    "venue": "Hala Globus, Lublin",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "高橋藍",
+      "小川智大"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "PlusLiga 第4節；波蘭 11/4 20:30（CET）＝港 11/5 03:30＠Hala Globus（sport1.pl 2026-10-20 更新）",
+    "leagueCountry": "波蘭",
+    "leagueCountryCode": "pl"
+  },
+  {
+    "id": "efeler-ziraat-istanbulbbs-2026-11-07",
+    "datetime": "2026-11-07T21:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Efeler Ligi (Men)",
+    "home": "Ziraat Bankkart",
+    "away": "İstanbul BBSK",
+    "venue": "TVF Ziraat Bankkart Voleybol Salonu, Ankara",
+    "score": null,
+    "setScores": null,
+    "broadcast": "TVF Voleybol TV",
+    "japanPlayers": [
+      "石川祐希"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "Efeler 第5節；土耳其 11/7 16:00＝港 21:00（ziraatbankasisporkulubu.com 官方賽程）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
   }
 ]
