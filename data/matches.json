@@ -2444,5 +2444,45 @@
     "note": "意甲第7節；義 11/8 17:00 CET＝港 11/9 00:00＠Cervia（官方 Lega／UYBA 日曆）",
     "leagueCountry": "意大利",
     "leagueCountryCode": "it"
+  },
+  {
+    "id": "superlega-verona-milano-2026-11-04",
+    "datetime": "2026-11-05T03:30:00+08:00",
+    "status": "upcoming",
+    "competition": "SuperLega",
+    "home": "Rana Verona",
+    "away": "Allianz Milano",
+    "venue": "Pala MAGIS, Verona",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "大塚達宣"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "SuperLega 第4節；義 11/4 20:30＝港 11/5 03:30＠Pala MAGIS（legavolley.it／球會）",
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it"
+  },
+  {
+    "id": "superlega-milano-lube-2026-11-08",
+    "datetime": "2026-11-08T23:00:00+08:00",
+    "status": "upcoming",
+    "competition": "SuperLega",
+    "home": "Allianz Milano",
+    "away": "Cucine Lube Civitanova",
+    "venue": "Allianz Cloud, Milano",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "大塚達宣"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "SuperLega 第5節；義 11/8 16:00＝港 11/8 23:00＠Allianz Cloud（legavolley.it／球會）",
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it"
   }
 ]
