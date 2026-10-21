@@ -1061,7 +1061,7 @@
     "competition": "Serie A1",
     "home": "UYBA Busto Arsizio",
     "away": "CDA Volley Talmassons FVG",
-    "venue": "Biella Forum, Biella",
+    "venue": "E-Work Biella Forum, Biella",
     "score": null,
     "setScores": null,
     "broadcast": null,
@@ -2360,5 +2360,89 @@
     "note": "Efeler 第5節；土耳其 11/7 16:00＝港 21:00（ziraatbankasisporkulubu.com 官方賽程）",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
+  },
+  {
+    "id": "serie-a1-bergamo-milano-2026-10-21",
+    "datetime": "2026-10-22T02:30:00+08:00",
+    "status": "upcoming",
+    "competition": "Serie A1",
+    "home": "ChorusLife Volley Bergamo",
+    "away": "Numia Vero Volley Milano",
+    "venue": "Choruslife Arena, Bergamo",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "佐藤淑乃"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "意甲第4節；義 10/21 20:30＝港 10/22 02:30＠Choruslife Arena（官方 Lega Volley Femminile）",
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it"
+  },
+  {
+    "id": "serie-a1-chieri-busto-2026-10-31",
+    "datetime": "2026-11-01T03:30:00+08:00",
+    "status": "upcoming",
+    "competition": "Serie A1",
+    "home": "Reale Mutua Fenera Chieri",
+    "away": "UYBA Busto Arsizio",
+    "venue": "Palafenera, Chieri",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "關菜々巳",
+      "和田由紀子",
+      "秋本美空"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "意甲第6節；義 10/31 20:30 CET＝港 11/1 03:30＠Palafenera（官方 Lega／UYBA 日曆）",
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it"
+  },
+  {
+    "id": "serie-a1-milano-consolini-2026-11-01",
+    "datetime": "2026-11-02T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Serie A1",
+    "home": "Numia Vero Volley Milano",
+    "away": "Omag Consolini Volley 1907",
+    "venue": "Opiquad Arena, Monza",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "佐藤淑乃"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "意甲第6節；義 11/1 17:00 CET＝港 11/2 00:00＠Opiquad Arena Monza（官方 Lega）",
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it"
+  },
+  {
+    "id": "serie-a1-consolini-busto-2026-11-08",
+    "datetime": "2026-11-09T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Serie A1",
+    "home": "Omag Consolini Volley 1907",
+    "away": "UYBA Busto Arsizio",
+    "venue": "Palasport Di Cervia, Cervia",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "關菜々巳",
+      "和田由紀子",
+      "秋本美空"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "意甲第7節；義 11/8 17:00 CET＝港 11/9 00:00＠Cervia（官方 Lega／UYBA 日曆）",
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it"
   }
 ]
