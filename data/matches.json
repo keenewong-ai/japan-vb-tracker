@@ -1036,34 +1036,47 @@
   {
     "id": "plusliga-lublin-trefl-2026-10-21",
     "datetime": "2026-10-21T23:30:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "PlusLiga",
     "home": "BOGDANKA LUK Lublin",
     "away": "Energa Trefl Gdańsk",
     "venue": "Hala Globus, Lublin",
-    "score": null,
-    "setScores": null,
+    "score": "3-0",
+    "setScores": [
+      "25-22",
+      "25-22",
+      "25-21"
+    ],
     "broadcast": "Polsat Sport 1",
     "japanPlayers": [
       "高橋藍",
       "小川智大"
     ],
     "gender": "men",
-    "playerStats": {},
-    "note": "PlusLiga 第2節；波蘭 10/21 17:30＝港 23:30＠Hala Globus（官方 TAURON PDF／球會／siatkarsko；id 由誤記 10-24 更正）",
+    "playerStats": {
+      "高橋藍": {
+        "points": 9
+      }
+    },
+    "note": "PlusLiga 第2節完場；Lublin 主場 3-0；高橋藍 9 分、小川智大 libero 先發；MVP León 17 分（球會／Trefl／Polsat／報知）。下一場 10/25 Superpuchar vs Zawiercie＠Częstochowa",
     "leagueCountry": "波蘭",
     "leagueCountryCode": "pl"
   },
   {
     "id": "serie-a1-busto-talmassons-2026-10-21",
     "datetime": "2026-10-22T02:00:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "Serie A1",
     "home": "UYBA Busto Arsizio",
     "away": "CDA Volley Talmassons FVG",
     "venue": "E-Work Biella Forum, Biella",
-    "score": null,
-    "setScores": null,
+    "score": "3-1",
+    "setScores": [
+      "25-22",
+      "26-28",
+      "25-20",
+      "25-18"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "關菜々巳",
@@ -1071,8 +1084,20 @@
       "秋本美空"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "意甲第4節；義 10/21 20:00＝港 10/22 02:00",
+    "playerStats": {
+      "關菜々巳": {
+        "points": 1
+      },
+      "和田由紀子": {
+        "points": 22,
+        "note": "MVP"
+      },
+      "秋本美空": {
+        "points": 2,
+        "note": "第3局起替補出場（代 Grozer）"
+      }
+    },
+    "note": "意甲第4節完場；UYBA 主場 3-1 今季首勝；MVP 和田 22 分、關 1 分、秋本（Otomo）2 分（LVF tabellini／UYBA）。下一場 10/24 客場 vs Milano",
     "leagueCountry": "意大利",
     "leagueCountryCode": "it"
   },
@@ -2364,20 +2389,29 @@
   {
     "id": "serie-a1-bergamo-milano-2026-10-21",
     "datetime": "2026-10-22T02:30:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "Serie A1",
     "home": "ChorusLife Volley Bergamo",
     "away": "Numia Vero Volley Milano",
     "venue": "Choruslife Arena, Bergamo",
-    "score": null,
-    "setScores": null,
+    "score": "0-3",
+    "setScores": [
+      "14-25",
+      "23-25",
+      "15-25"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "佐藤淑乃"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "意甲第4節；義 10/21 20:30＝港 10/22 02:30＠Choruslife Arena（官方 Lega Volley Femminile）",
+    "playerStats": {
+      "佐藤淑乃": {
+        "points": 0,
+        "note": "LVF tabellini 有列名、無得分數字"
+      }
+    },
+    "note": "意甲第4節完場；Milano 客場 3-0；Egonu MVP 22 分；佐藤淑乃 tabellini 列名 0 分（LVF）。Milano 4 戰全勝 12 分並列榜首",
     "leagueCountry": "意大利",
     "leagueCountryCode": "it"
   },
@@ -2484,5 +2518,26 @@
     "note": "SuperLega 第5節；義 11/8 16:00＝港 11/8 23:00＠Allianz Cloud（legavolley.it／球會）",
     "leagueCountry": "意大利",
     "leagueCountryCode": "it"
+  },
+  {
+    "id": "superpuchar-zawiercie-lublin-2026-10-25",
+    "datetime": "2026-10-25T21:45:00+08:00",
+    "status": "upcoming",
+    "competition": "AL-KO Superpuchar Polski",
+    "home": "Aluron CMC Warta Zawiercie",
+    "away": "BOGDANKA LUK Lublin",
+    "venue": "Hala Sportowa / DMD Arena, Częstochowa",
+    "score": null,
+    "setScores": null,
+    "broadcast": "Polsat Sport 1",
+    "japanPlayers": [
+      "高橋藍",
+      "小川智大"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "波蘭超級盃；波蘭 10/25 14:45＝港 21:45＠Częstochowa（Lublin 球會官網／Polsat）。Zawiercie（聯賽冠軍）vs Lublin（盃賽冠軍）",
+    "leagueCountry": "波蘭",
+    "leagueCountryCode": "pl"
   }
 ]

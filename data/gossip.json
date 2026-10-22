@@ -311,5 +311,46 @@
     ],
     "source": "サンスポ",
     "sourceUrl": "https://www.sanspo.com/article/20260601-GCDB3GLX6RPITDSFXTLE5LJSDU/"
+  },
+  {
+    "id": "wada-uyba-first-win-mvp-2026-10-21",
+    "date": "2026-10-21",
+    "title": "和田由紀子 22 分 MVP　UYBA 今季意甲首勝",
+    "summary": "意甲女排第4節，UYBA 主場 3-1 擊敗 Talmassons，取得今季聯賽首勝；和田由紀子攻下 22 分當選 MVP，關菜々巳 1 分、秋本美空第3局起替補拿 2 分。",
+    "playerIds": [
+      "wada-yukiko",
+      "seki-nanami",
+      "akimoto-misora"
+    ],
+    "playerNames": [
+      "和田由紀子",
+      "關菜々巳",
+      "秋本美空"
+    ],
+    "tags": [
+      "賽事",
+      "MVP"
+    ],
+    "source": "Lega Volley Femminile / UYBA",
+    "sourceUrl": "https://www.legavolleyfemminile.it/laica-cioccolato-uyba-ecco-la-prima-vittoria-talmassons-battuta-3-1/"
+  },
+  {
+    "id": "ran-lublin-home-leon-duo-2026-10-21",
+    "date": "2026-10-21",
+    "title": "高橋藍主場首戰 9 分　同 León 搭檔 Lublin 3-0 Trefl",
+    "summary": "PlusLiga 第2節，Lublin 主場 Globus 3-0 勝 Trefl；Wilfredo León 復出 17 分 MVP，高橋藍 9 分，小川智大 libero 先發。10/25 將出戰波蘭超級盃對 Zawiercie。",
+    "playerIds": [
+      "takahashi-ran",
+      "ogawa-tomohiro"
+    ],
+    "playerNames": [
+      "高橋藍",
+      "小川智大"
+    ],
+    "tags": [
+      "賽事"
+    ],
+    "source": "報知スポーツ / BOGDANKA LUK Lublin",
+    "sourceUrl": "https://hochi.news/articles/20261022-OHT1T51021.html"
   }
 ]
