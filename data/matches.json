@@ -1104,13 +1104,18 @@
   {
     "id": "sv-women-aichi-osaka-2026-10-23",
     "datetime": "2026-10-23T18:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
     "home": "アリーザ愛知",
     "away": "大阪マーヴェラス",
     "venue": "刈谷市体育館",
-    "score": null,
-    "setScores": null,
+    "score": "1-3",
+    "setScores": [
+      "19-25",
+      "23-25",
+      "29-27",
+      "19-25"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "鴫原ひなた",
@@ -1118,7 +1123,20 @@
       "西崎愛菜"
     ],
     "gender": "women",
-    "playerStats": {},
+    "playerStats": {
+      "鴫原ひなた": {
+        "points": 14,
+        "note": "攻擊14（公式）"
+      },
+      "塩出仁美": {
+        "points": 0,
+        "note": "舉球員出場（公式）"
+      },
+      "西崎愛菜": {
+        "points": 0,
+        "note": "自由人（公式）"
+      }
+    },
     "note": "GAME1",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
@@ -1126,13 +1144,18 @@
   {
     "id": "sv-women-denso-hisamitsu-2026-10-23",
     "datetime": "2026-10-23T19:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
     "home": "デンソーエアリービーズ",
     "away": "SAGA久光スプリングス",
     "venue": "宝来屋 ボンズアリーナ",
-    "score": null,
-    "setScores": null,
+    "score": "1-3",
+    "setScores": [
+      "25-22",
+      "30-32",
+      "20-25",
+      "19-25"
+    ],
     "broadcast": "NHK BS",
     "japanPlayers": [
       "荒木彩花",
@@ -1142,7 +1165,28 @@
       "西村弥菜美"
     ],
     "gender": "women",
-    "playerStats": {},
+    "playerStats": {
+      "荒木彩花": {
+        "points": 17,
+        "note": "攻擊9＋攔網5＋ace3（公式）"
+      },
+      "栄絵里香": {
+        "points": 1,
+        "note": "攻擊1（公式）"
+      },
+      "北窓絢音": {
+        "points": 5,
+        "note": "攻擊4＋攔網1（公式）"
+      },
+      "井上未唯奈": {
+        "points": 0,
+        "note": "未出場（公式）"
+      },
+      "西村弥菜美": {
+        "points": 0,
+        "note": "自由人（公式）"
+      }
+    },
     "note": "GAME1",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
