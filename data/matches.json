@@ -1194,13 +1194,17 @@
   {
     "id": "sv-women-himeji-pfu-2026-10-24",
     "datetime": "2026-10-24T12:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
     "home": "ヴィクトリーナ姫路",
     "away": "PFUブルーキャッツ石川かほく",
     "venue": "大和工業アリーナ姫路",
-    "score": null,
-    "setScores": null,
+    "score": "0-3",
+    "setScores": [
+      "18-25",
+      "21-25",
+      "19-25"
+    ],
     "broadcast": "GAORA SPORTS／サンテレビジョン",
     "japanPlayers": [
       "福留慧美",
@@ -1216,13 +1220,18 @@
   {
     "id": "sv-men-suntory-voleas-2026-10-24",
     "datetime": "2026-10-24T13:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "サントリーサンバーズ大阪",
     "away": "ヴォレアス北海道",
     "venue": "Asueアリーナ大阪",
-    "score": null,
-    "setScores": null,
+    "score": "3-1",
+    "setScores": [
+      "25-23",
+      "17-25",
+      "26-24",
+      "25-23"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "小野寺太志",
@@ -1238,13 +1247,18 @@
   {
     "id": "sv-women-gunma-akita-2026-10-24",
     "datetime": "2026-10-24T13:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
     "home": "群馬グリーンウイングス",
     "away": "アランマーレ秋田庄内",
     "venue": "ALSOKぐんまアリーナ",
-    "score": null,
-    "setScores": null,
+    "score": "3-1",
+    "setScores": [
+      "25-19",
+      "25-12",
+      "22-25",
+      "25-13"
+    ],
     "broadcast": "群馬テレビ",
     "japanPlayers": [
       "島村春世",
@@ -1259,13 +1273,17 @@
   {
     "id": "sv-men-hokkaido-osaka-b-2026-10-24",
     "datetime": "2026-10-24T14:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "北海道イエロースターズ",
     "away": "大阪ブルテオン",
     "venue": "北ガスアリーナ札幌46",
-    "score": null,
-    "setScores": null,
+    "score": "0-3",
+    "setScores": [
+      "21-25",
+      "18-25",
+      "21-25"
+    ],
     "broadcast": "フジテレビNEXT／J SPORTSオンデマンド",
     "japanPlayers": [
       "西田有志",
@@ -1286,13 +1304,18 @@
   {
     "id": "sv-men-jtekt-toray-2026-10-24",
     "datetime": "2026-10-24T14:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "ジェイテクトSTINGS愛知",
     "away": "東レアローズ静岡",
     "venue": "ジェイテクトアリーナ奈良",
-    "score": null,
-    "setScores": null,
+    "score": "3-1",
+    "setScores": [
+      "22-25",
+      "25-20",
+      "25-21",
+      "27-25"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "藤中颯志",
@@ -1309,13 +1332,17 @@
   {
     "id": "sv-women-aichi-osaka-g2-2026-10-24",
     "datetime": "2026-10-24T14:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
     "home": "アリーザ愛知",
     "away": "大阪マーヴェラス",
     "venue": "刈谷市体育館",
-    "score": null,
-    "setScores": null,
+    "score": "3-0",
+    "setScores": [
+      "25-18",
+      "25-22",
+      "25-22"
+    ],
     "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "鴫原ひなた",
@@ -1331,13 +1358,18 @@
   {
     "id": "sv-women-astemo-nec-2026-10-24",
     "datetime": "2026-10-24T14:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
     "home": "Astemoリヴァーレ茨城",
     "away": "NEC レッドロケッツ川崎",
     "venue": "ひたちなか市総合運動公園総合体育館",
-    "score": null,
-    "setScores": null,
+    "score": "1-3",
+    "setScores": [
+      "22-25",
+      "25-15",
+      "16-25",
+      "21-25"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "中川つかさ",
@@ -1354,13 +1386,19 @@
   {
     "id": "sv-women-kurobe-toray-2026-10-24",
     "datetime": "2026-10-24T14:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
     "home": "ＫＵＲＯＢＥアクアフェアリーズ富山",
     "away": "東レアローズ滋賀",
     "venue": "黒部市総合体育センター",
-    "score": null,
-    "setScores": null,
+    "score": "2-3",
+    "setScores": [
+      "25-23",
+      "23-25",
+      "19-25",
+      "25-18",
+      "12-15"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "山口真季",
@@ -1373,10 +1411,15 @@
     "leagueCountryCode": "jp"
   },
   {
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
-    "score": null,
-    "setScores": null,
+    "score": "1-3",
+    "setScores": [
+      "25-23",
+      "21-25",
+      "22-25",
+      "25-27"
+    ],
     "broadcast": null,
     "gender": "women",
     "playerStats": {},
@@ -1393,13 +1436,17 @@
   {
     "id": "sv-men-wd-tokyo-2026-10-24",
     "datetime": "2026-10-24T16:35:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "ウルフドッグス名古屋",
     "away": "東京グレートベアーズ",
     "venue": "エントリオ",
-    "score": null,
-    "setScores": null,
+    "score": "3-0",
+    "setScores": [
+      "25-18",
+      "25-21",
+      "25-19"
+    ],
     "broadcast": "J SPORTS 2",
     "japanPlayers": [
       "深津英臣",
@@ -1417,13 +1464,19 @@
   {
     "id": "sv-men-shinshu-hiroshima-2026-10-24",
     "datetime": "2026-10-24T17:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "信州松本トライデンツ",
     "away": "広島サンダーズ",
     "venue": "エア・ウォーターアリーナ松本",
-    "score": null,
-    "setScores": null,
+    "score": "3-2",
+    "setScores": [
+      "24-26",
+      "19-25",
+      "25-21",
+      "25-22",
+      "15-10"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "新井雄大",
@@ -1441,13 +1494,17 @@
   {
     "id": "sv-women-denso-hisamitsu-g2-2026-10-24",
     "datetime": "2026-10-24T17:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
     "home": "デンソーエアリービーズ",
     "away": "SAGA久光スプリングス",
     "venue": "宝来屋 ボンズアリーナ",
-    "score": null,
-    "setScores": null,
+    "score": "0-3",
+    "setScores": [
+      "18-25",
+      "23-25",
+      "14-25"
+    ],
     "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "荒木彩花",
