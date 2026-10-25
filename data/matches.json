@@ -1522,13 +1522,17 @@
   {
     "id": "serie-a1-milano-busto-2026-10-24",
     "datetime": "2026-10-24T22:00:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "Serie A1",
     "home": "Numia Vero Volley Milano",
     "away": "UYBA Busto Arsizio",
     "venue": "Allianz Cloud, Milano",
-    "score": null,
-    "setScores": null,
+    "score": "3-0",
+    "setScores": [
+      "25-20",
+      "25-22",
+      "25-15"
+    ],
     "broadcast": "DAZN／LVF YouTube",
     "japanPlayers": [
       "佐藤淑乃",
@@ -1537,28 +1541,44 @@
       "秋本美空"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "意甲第5節；義 10/24 16:00＝港 22:00＠Allianz Cloud；佐藤淑乃 vs UYBA（關・和田・秋本）；串流 DAZN／LVF YouTube（milanosportiva 10/22）",
+    "playerStats": {
+      "佐藤淑乃": {
+        "points": 7
+      },
+      "和田由紀子": {
+        "points": 3
+      },
+      "秋本美空": {
+        "points": 5
+      }
+    },
+    "note": "意甲第5節完場；Milano 3-0 UYBA（25-20, 25-22, 25-15）。佐藤淑乃替補出場 7 分兼 MVP；和田 3 分、秋本（Otomo）5 分；關菜々巳上場無得分。來源：legavolleyfemminile.it／volleynews.it",
     "leagueCountry": "意大利",
     "leagueCountryCode": "it"
   },
   {
     "id": "efeler-ziraat-altekma-2026-10-24",
     "datetime": "2026-10-25T00:00:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "Efeler Ligi (Men)",
     "home": "Ziraat Bankkart",
     "away": "Altekma",
     "venue": "TVF Ziraat Bankkart Voleybol Salonu, Ankara",
-    "score": null,
-    "setScores": null,
+    "score": "3-2",
+    "setScores": [
+      "14-25",
+      "25-21",
+      "22-25",
+      "25-15",
+      "15-10"
+    ],
     "broadcast": "TVF Voleybol TV",
     "japanPlayers": [
       "石川祐希"
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "Efeler 第2節；土耳其 10/24 19:00＝港 10/25 00:00",
+    "note": "Efeler 第2節完場；Ziraat 3-2 Altekma（14-25, 25-21, 22-25, 25-15, 15-10）。石川祐希因開幕戰對 Fenerbahçe 後傷勢未入名單／欠場。來源：voleybolaktuel.com／star.com.tr／fotospor（AA）",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },

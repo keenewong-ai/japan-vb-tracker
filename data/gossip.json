@@ -352,5 +352,46 @@
     ],
     "source": "報知スポーツ / BOGDANKA LUK Lublin",
     "sourceUrl": "https://hochi.news/articles/20261022-OHT1T51021.html"
+  },
+  {
+    "id": "sato-mvp-milano-uyba-2026-10-24",
+    "date": "2026-10-24",
+    "title": "佐藤淑乃 MVP　Milano 主場 3-0 擊退 UYBA",
+    "summary": "意甲第5節，Numia Vero Volley Milano 主場 Allianz Cloud 3-0 勝 UYBA（25-20, 25-22, 25-15）。佐藤淑乃第二局起替補上場得 7 分並獲 MVP；UYBA 方面和田由紀子 3 分、秋本美空 5 分、關菜々巳上場無得分。",
+    "playerIds": [
+      "sato-yoshino",
+      "wada-yukiko",
+      "seki-nanami",
+      "akimoto-misora"
+    ],
+    "playerNames": [
+      "佐藤淑乃",
+      "和田由紀子",
+      "關菜々巳",
+      "秋本美空"
+    ],
+    "tags": [
+      "賽事"
+    ],
+    "source": "Lega Pallavolo Serie A Femminile",
+    "sourceUrl": "https://www.legavolleyfemminile.it/uyba-a-milano-vince-la-numia-vero-volley-le-farfalle-cedono-3-0/"
+  },
+  {
+    "id": "ishikawa-absent-altekma-2026-10-24",
+    "date": "2026-10-24",
+    "title": "石川祐希欠場　Ziraat 仍 3-2 險勝 Altekma",
+    "summary": "Efeler 第2節，Ziraat Bankkart 主場 3-2 勝 Altekma（14-25, 25-21, 22-25, 25-15, 15-10）。voleybolaktuel 報道石川祐希因開幕戰對 Fenerbahçe Medicana 後傷勢未入名單；球隊兩連勝積 5 分。",
+    "playerIds": [
+      "ishikawa-yuki"
+    ],
+    "playerNames": [
+      "石川祐希"
+    ],
+    "tags": [
+      "傷病",
+      "賽事"
+    ],
+    "source": "Voleybol Aktüel",
+    "sourceUrl": "https://www.voleybolaktuel.com/ishikawanin-yoklugunda-ziraat-bankkart-altekmayi-5-sette-gecebildi"
   }
 ]
