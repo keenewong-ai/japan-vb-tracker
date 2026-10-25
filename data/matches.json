@@ -1585,13 +1585,17 @@
   {
     "id": "sv-women-himeji-pfu-g2-2026-10-25",
     "datetime": "2026-10-25T12:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
     "home": "ヴィクトリーナ姫路",
     "away": "PFUブルーキャッツ石川かほく",
     "venue": "大和工業アリーナ姫路",
-    "score": null,
-    "setScores": null,
+    "score": "3-0",
+    "setScores": [
+      "25-23",
+      "25-23",
+      "25-18"
+    ],
     "broadcast": "GAORA SPORTS／サンテレビジョン",
     "japanPlayers": [
       "福留慧美",
@@ -1599,7 +1603,17 @@
       "松井珠己"
     ],
     "gender": "women",
-    "playerStats": {},
+    "playerStats": {
+      "川添美優": {
+        "points": 7
+      },
+      "松井珠己": {
+        "points": 0
+      },
+      "福留慧美": {
+        "points": 0
+      }
+    },
     "note": "GAME2",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
@@ -1607,13 +1621,18 @@
   {
     "id": "sv-men-hokkaido-osaka-b-g2-2026-10-25",
     "datetime": "2026-10-25T13:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "北海道イエロースターズ",
     "away": "大阪ブルテオン",
     "venue": "北ガスアリーナ札幌46",
-    "score": null,
-    "setScores": null,
+    "score": "1-3",
+    "setScores": [
+      "25-20",
+      "29-31",
+      "17-25",
+      "22-25"
+    ],
     "broadcast": "フジテレビNEXT／J SPORTSオンデマンド",
     "japanPlayers": [
       "西田有志",
@@ -1634,13 +1653,19 @@
   {
     "id": "sv-men-suntory-voleas-g2-2026-10-25",
     "datetime": "2026-10-25T13:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "サントリーサンバーズ大阪",
     "away": "ヴォレアス北海道",
     "venue": "Asueアリーナ大阪",
-    "score": null,
-    "setScores": null,
+    "score": "2-3",
+    "setScores": [
+      "19-25",
+      "22-25",
+      "25-20",
+      "25-23",
+      "23-25"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "小野寺太志",
@@ -1648,7 +1673,11 @@
       "下川諒"
     ],
     "gender": "men",
-    "playerStats": {},
+    "playerStats": {
+      "下川諒": {
+        "points": 0
+      }
+    },
     "note": "GAME2",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
@@ -1656,13 +1685,18 @@
   {
     "id": "sv-women-gunma-akita-g2-2026-10-25",
     "datetime": "2026-10-25T13:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
     "home": "群馬グリーンウイングス",
     "away": "アランマーレ秋田庄内",
     "venue": "ALSOKぐんまアリーナ",
-    "score": null,
-    "setScores": null,
+    "score": "3-1",
+    "setScores": [
+      "20-25",
+      "25-16",
+      "25-19",
+      "25-20"
+    ],
     "broadcast": "群馬テレビ",
     "japanPlayers": [
       "島村春世",
@@ -1677,13 +1711,19 @@
   {
     "id": "sv-men-shinshu-hiroshima-g2-2026-10-25",
     "datetime": "2026-10-25T13:35:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "信州松本トライデンツ",
     "away": "広島サンダーズ",
     "venue": "エア・ウォーターアリーナ松本",
-    "score": null,
-    "setScores": null,
+    "score": "3-2",
+    "setScores": [
+      "25-23",
+      "25-23",
+      "23-25",
+      "21-25",
+      "21-19"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "新井雄大",
@@ -1693,7 +1733,23 @@
       "高木啓士郎"
     ],
     "gender": "men",
-    "playerStats": {},
+    "playerStats": {
+      "新井雄大": {
+        "points": 13
+      },
+      "西本圭吾": {
+        "points": 10
+      },
+      "三輪大将": {
+        "points": 8
+      },
+      "永露元稀": {
+        "points": 0
+      },
+      "高木啓士郎": {
+        "points": 0
+      }
+    },
     "note": "GAME2",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
@@ -1701,13 +1757,17 @@
   {
     "id": "sv-men-jtekt-toray-g2-2026-10-25",
     "datetime": "2026-10-25T14:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "ジェイテクトSTINGS愛知",
     "away": "東レアローズ静岡",
     "venue": "ジェイテクトアリーナ奈良",
-    "score": null,
-    "setScores": null,
+    "score": "3-0",
+    "setScores": [
+      "25-23",
+      "25-14",
+      "25-18"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "藤中颯志",
@@ -1724,13 +1784,18 @@
   {
     "id": "sv-women-astemo-nec-g2-2026-10-25",
     "datetime": "2026-10-25T14:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
     "home": "Astemoリヴァーレ茨城",
     "away": "NEC レッドロケッツ川崎",
     "venue": "ひたちなか市総合運動公園総合体育館",
-    "score": null,
-    "setScores": null,
+    "score": "1-3",
+    "setScores": [
+      "21-25",
+      "17-25",
+      "25-17",
+      "24-26"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "中川つかさ",
@@ -1747,13 +1812,17 @@
   {
     "id": "sv-women-kurobe-toray-g2-2026-10-25",
     "datetime": "2026-10-25T14:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
     "home": "ＫＵＲＯＢＥアクアフェアリーズ富山",
     "away": "東レアローズ滋賀",
     "venue": "黒部市総合体育センター",
-    "score": null,
-    "setScores": null,
+    "score": "3-0",
+    "setScores": [
+      "25-18",
+      "25-13",
+      "25-11"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "山口真季",
@@ -1766,10 +1835,15 @@
     "leagueCountryCode": "jp"
   },
   {
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
-    "score": null,
-    "setScores": null,
+    "score": "3-1",
+    "setScores": [
+      "22-25",
+      "25-21",
+      "25-12",
+      "29-27"
+    ],
     "broadcast": null,
     "gender": "women",
     "playerStats": {},
@@ -1786,13 +1860,17 @@
   {
     "id": "sv-men-wd-tokyo-g2-2026-10-25",
     "datetime": "2026-10-25T15:35:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "ウルフドッグス名古屋",
     "away": "東京グレートベアーズ",
     "venue": "エントリオ",
-    "score": null,
-    "setScores": null,
+    "score": "3-0",
+    "setScores": [
+      "25-21",
+      "25-19",
+      "25-16"
+    ],
     "broadcast": "J SPORTS 2",
     "japanPlayers": [
       "深津英臣",
@@ -1802,7 +1880,17 @@
       "後藤陸翔"
     ],
     "gender": "men",
-    "playerStats": {},
+    "playerStats": {
+      "深津英臣": {
+        "points": 1
+      },
+      "後藤陸翔": {
+        "points": 15
+      },
+      "村山豪": {
+        "points": 1
+      }
+    },
     "note": "GAME2",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
