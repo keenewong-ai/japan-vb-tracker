@@ -1,5 +1,25 @@
 [
   {
+    "id": "ran-lublin-superpuchar-title-2026-10-25",
+    "date": "2026-10-25",
+    "title": "高橋藍波蘭首冠：Lublin 超級盃 3-0 衛冕",
+    "summary": "報知：Lublin（高橋藍・小川智大）喺 Częstochowa 以 3-0（34-32、25-20、25-18）擊敗聯賽冠軍 Zawiercie，連續兩年捧超級盃。高橋藍隊內並列第3嘅 15 分；小川智大先發 libero，第一局曾有關鍵防守。高橋藍今季轉戰波蘭首個錦標。",
+    "playerIds": [
+      "takahashi-ran",
+      "ogawa-tomohiro"
+    ],
+    "playerNames": [
+      "高橋藍",
+      "小川智大"
+    ],
+    "tags": [
+      "錦標",
+      "波蘭"
+    ],
+    "source": "スポーツ報知",
+    "sourceUrl": "https://hochi.news/articles/20261026-OHT1T51022.html"
+  },
+  {
     "id": "eiro-21me-fragrance-2026-10-21",
     "date": "2026-10-21",
     "title": "永露元稀自有品牌 21me 推出原創香水",

@@ -1898,60 +1898,88 @@
   {
     "id": "sultanlar-fener-eczacibasi-2026-10-25",
     "datetime": "2026-10-26T00:00:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "Sultanlar Ligi (Women)",
     "home": "Fenerbahçe Medicana",
     "away": "Eczacıbaşı Peron İstanbul",
     "venue": "TVF Burhan Felek Vestel Voleybol Salonu, İstanbul",
-    "score": null,
-    "setScores": null,
+    "score": "3-1",
+    "setScores": [
+      "25-27",
+      "27-25",
+      "25-21",
+      "25-22"
+    ],
     "broadcast": "TRT Spor Yıldız",
     "japanPlayers": [
       "石川真佑"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "土超女排；土耳其 10/25 19:00＝港 10/26 00:00",
+    "playerStats": {
+      "石川真佑": {
+        "note": "球會賽後出場名單無列名（Eczacıbaşı 官網）"
+      }
+    },
+    "note": "土超女第5節完場；Fenerbahçe 主場 3-1（25-27, 27-25, 25-21, 25-22）。石川真佑未見於球會出場名單。來源：eczacibasisporkulubu.org.tr／NTV／AA",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
   {
     "id": "plusliga-chelm-resovia-2026-10-25",
     "datetime": "2026-10-26T01:00:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "PlusLiga",
     "home": "Podziemia Kredowe ChKS Chełm",
     "away": "Asseco Resovia Rzeszów",
     "venue": "Miejska Hala Sportowa, Chełm",
-    "score": null,
-    "setScores": null,
+    "score": "0-3",
+    "setScores": [
+      "19-25",
+      "17-25",
+      "13-25"
+    ],
     "broadcast": "Polsat Sport 1",
     "japanPlayers": [
       "今橋祐希"
     ],
     "gender": "men",
-    "playerStats": {},
-    "note": "PlusLiga 第2節；波蘭 10/25 18:00（CET）＝港 10/26 01:00（官方 TAURON PDF）",
+    "playerStats": {
+      "今橋祐希": {
+        "points": 1
+      }
+    },
+    "note": "PlusLiga 第2節完場；Chełm 主場 0-3 負 Resovia（19-25, 17-25, 13-25）。今橋祐希先發 1 分。來源：siatka.org／Polsat Sport",
     "leagueCountry": "波蘭",
     "leagueCountryCode": "pl"
   },
   {
     "id": "superlega-milano-cuneo-2026-10-25",
     "datetime": "2026-10-26T02:00:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SuperLega",
     "home": "Allianz Milano",
     "away": "Acqua Sant’Anna Cuneo",
     "venue": "Allianz Cloud, Milano",
-    "score": null,
-    "setScores": null,
+    "score": "3-2",
+    "setScores": [
+      "25-21",
+      "25-27",
+      "25-20",
+      "20-25",
+      "19-17"
+    ],
     "broadcast": "DAZN",
     "japanPlayers": [
       "大塚達宣"
     ],
     "gender": "men",
-    "playerStats": {},
-    "note": "SuperLega 第2節；義 10/25 19:00＝港 10/26 02:00（DAZN）",
+    "playerStats": {
+      "大塚達宣": {
+        "points": 18,
+        "blocks": 5
+      }
+    },
+    "note": "SuperLega 第2節完場；Milano 主場 3-2（25-21, 25-27, 25-20, 20-25, 19-17）。大塚達宣 18 分（含 5 攔網）；MVP Simone Porro。來源：volleynews.it／Gazzetta",
     "leagueCountry": "意大利",
     "leagueCountryCode": "it"
   },
@@ -2731,21 +2759,32 @@
   {
     "id": "superpuchar-zawiercie-lublin-2026-10-25",
     "datetime": "2026-10-25T21:45:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "AL-KO Superpuchar Polski",
     "home": "Aluron CMC Warta Zawiercie",
     "away": "BOGDANKA LUK Lublin",
     "venue": "Hala Sportowa Częstochowa（DMD Arena）",
-    "score": null,
-    "setScores": null,
+    "score": "0-3",
+    "setScores": [
+      "32-34",
+      "20-25",
+      "18-25"
+    ],
     "broadcast": "Polsat Sport 1／Extra 2",
     "japanPlayers": [
       "高橋藍",
       "小川智大"
     ],
     "gender": "men",
-    "playerStats": {},
-    "note": "波蘭超級盃；開波 10/25 14:45 波蘭冬令（CET）＝港 21:45＠Częstochowa（Lublin 球會／場館官網）。Polsat Sport 1・Extra 2・Box Go 約 14:35 起播（Polsat 10/22）。Zawiercie（聯賽冠軍）vs Lublin（盃賽冠軍；高橋藍・小川）",
+    "playerStats": {
+      "高橋藍": {
+        "points": 15
+      },
+      "小川智大": {
+        "note": "先發 libero（siatka.org／Polsat 名單）"
+      }
+    },
+    "note": "波蘭超級盃完場；Zawiercie 主場 0-3 負 Lublin（32-34, 20-25, 18-25）。高橋藍 15 分；小川智大先發 libero；MVP Marcin Komenda。Lublin 連續兩年捧盃。來源：siatka.org／Polsat Sport／報知",
     "leagueCountry": "波蘭",
     "leagueCountryCode": "pl"
   }
