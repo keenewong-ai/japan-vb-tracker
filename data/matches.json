@@ -2200,6 +2200,28 @@
     "note": "SV女子第3節 GAME1"
   },
   {
+    "status": "upcoming",
+    "competition": "SV.LEAGUE MEN",
+    "home": "サントリーサンバーズ大阪",
+    "away": "日本製鉄堺ブレイザーズ",
+    "venue": "おおきにアリーナ舞洲",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "小野寺太志",
+      "大宅真樹",
+      "下川諒"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "leagueCountry": "日本",
+    "leagueCountryCode": "jp",
+    "id": "sv-men-suntory-sakai-2026-10-31",
+    "datetime": "2026-10-31T13:05:00+08:00",
+    "note": "GAME1；官方 match/detail/37986／サンバーズ官網"
+  },
+  {
     "id": "sv-men-hiroshima-tokyo-2026-10-31",
     "datetime": "2026-10-31T14:05:00+08:00",
     "status": "upcoming",
@@ -2508,6 +2530,28 @@
     "note": "SV女子第3節 GAME2"
   },
   {
+    "status": "upcoming",
+    "competition": "SV.LEAGUE MEN",
+    "home": "サントリーサンバーズ大阪",
+    "away": "日本製鉄堺ブレイザーズ",
+    "venue": "おおきにアリーナ舞洲",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "小野寺太志",
+      "大宅真樹",
+      "下川諒"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "leagueCountry": "日本",
+    "leagueCountryCode": "jp",
+    "id": "sv-men-suntory-sakai-g2-2026-11-01",
+    "datetime": "2026-11-01T13:05:00+08:00",
+    "note": "GAME2；サンバーズ官網／svleague.sports-shirabe"
+  },
+  {
     "id": "sv-men-toray-shinshu-g2-2026-11-01",
     "datetime": "2026-11-01T14:05:00+08:00",
     "status": "upcoming",
@@ -2787,6 +2831,257 @@
     "leagueCountryCode": "it"
   },
   {
+    "id": "sv-women-osaka-hisamitsu-2026-11-07",
+    "datetime": "2026-11-07T13:05:00+08:00",
+    "status": "upcoming",
+    "competition": "SV.LEAGUE WOMEN",
+    "home": "大阪マーヴェラス",
+    "away": "SAGA久光スプリングス",
+    "venue": "ベイコム総合体育館",
+    "score": null,
+    "setScores": null,
+    "broadcast": "GAORA SPORTS",
+    "japanPlayers": [
+      "塩出仁美",
+      "西崎愛菜",
+      "荒木彩花",
+      "栄絵里香",
+      "北窓絢音",
+      "井上未唯奈",
+      "西村弥菜美"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "SV女子第4節 GAME1；官方 match／しらべ帳",
+    "leagueCountry": "日本",
+    "leagueCountryCode": "jp"
+  },
+  {
+    "id": "sv-women-toray-gunma-2026-11-07",
+    "datetime": "2026-11-07T13:05:00+08:00",
+    "status": "upcoming",
+    "competition": "SV.LEAGUE WOMEN",
+    "home": "東レアローズ滋賀",
+    "away": "群馬グリーンウイングス",
+    "venue": "草津市立滋賀トヨタアリーナ",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "花岡千聡",
+      "島村春世",
+      "志摩美古都"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "SV女子第4節 GAME1；しらべ帳",
+    "leagueCountry": "日本",
+    "leagueCountryCode": "jp"
+  },
+  {
+    "id": "sv-women-pfu-astemo-2026-11-07",
+    "datetime": "2026-11-07T13:05:00+08:00",
+    "status": "upcoming",
+    "competition": "SV.LEAGUE WOMEN",
+    "home": "PFUブルーキャッツ石川かほく",
+    "away": "Astemoリヴァーレ茨城",
+    "venue": "とり野菜みそ BLUECATS ARENA",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "川添美優",
+      "松井珠己"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "SV女子第4節 GAME1；しらべ帳",
+    "leagueCountry": "日本",
+    "leagueCountryCode": "jp"
+  },
+  {
+    "id": "sv-men-shinshu-suntory-2026-11-07",
+    "datetime": "2026-11-07T14:05:00+08:00",
+    "status": "upcoming",
+    "competition": "SV.LEAGUE MEN",
+    "home": "信州松本トライデンツ",
+    "away": "サントリーサンバーズ大阪",
+    "venue": "ANCアリーナ",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "小野寺太志",
+      "大宅真樹",
+      "下川諒"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "GAME1；SV公式／しらべ帳",
+    "leagueCountry": "日本",
+    "leagueCountryCode": "jp"
+  },
+  {
+    "id": "sv-men-toray-osaka-b-2026-11-07",
+    "datetime": "2026-11-07T14:05:00+08:00",
+    "status": "upcoming",
+    "competition": "SV.LEAGUE MEN",
+    "home": "東レアローズ静岡",
+    "away": "大阪ブルテオン",
+    "venue": "香陵アリーナ",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "山田大貴",
+      "西田有志",
+      "山内晶大",
+      "富田将馬",
+      "甲斐優斗",
+      "西山大翔",
+      "山本智大",
+      "エバデダン・ラリー",
+      "西川馨太郎"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "GAME1；しらべ帳（SV公式日程）",
+    "leagueCountry": "日本",
+    "leagueCountryCode": "jp"
+  },
+  {
+    "id": "sv-women-nec-akita-2026-11-07",
+    "datetime": "2026-11-07T14:05:00+08:00",
+    "status": "upcoming",
+    "competition": "SV.LEAGUE WOMEN",
+    "home": "NEC レッドロケッツ川崎",
+    "away": "アランマーレ秋田庄内",
+    "venue": "東急ドレッセとどろきアリーナ",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "中川つかさ",
+      "山田二千華",
+      "廣田あい",
+      "甲萌香"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "SV女子第4節 GAME1；SV公式／しらべ帳",
+    "leagueCountry": "日本",
+    "leagueCountryCode": "jp"
+  },
+  {
+    "id": "sv-women-kurobe-ageo-2026-11-07",
+    "datetime": "2026-11-07T14:05:00+08:00",
+    "status": "upcoming",
+    "competition": "SV.LEAGUE WOMEN",
+    "home": "ＫＵＲＯＢＥアクアフェアリーズ富山",
+    "away": "埼玉上尾メディックス",
+    "venue": "黒部市総合体育センター",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "山口真季"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "SV女子第4節 GAME1；しらべ帳",
+    "leagueCountry": "日本",
+    "leagueCountryCode": "jp"
+  },
+  {
+    "id": "sv-women-aichi-okayama-2026-11-07",
+    "datetime": "2026-11-07T14:05:00+08:00",
+    "status": "upcoming",
+    "competition": "SV.LEAGUE WOMEN",
+    "home": "アリーザ愛知",
+    "away": "岡山シーガルズ",
+    "venue": "パークアリーナ小牧",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "鴫原ひなた"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "SV女子第4節 GAME1；しらべ帳",
+    "leagueCountry": "日本",
+    "leagueCountryCode": "jp"
+  },
+  {
+    "id": "sv-women-himeji-denso-2026-11-07",
+    "datetime": "2026-11-07T14:05:00+08:00",
+    "status": "upcoming",
+    "competition": "SV.LEAGUE WOMEN",
+    "home": "ヴィクトリーナ姫路",
+    "away": "デンソーエアリービーズ",
+    "venue": "SHOWAグループ総合体育館",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "福留慧美"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "SV女子第4節 GAME1；しらべ帳",
+    "leagueCountry": "日本",
+    "leagueCountryCode": "jp"
+  },
+  {
+    "id": "sv-men-wd-jtekt-2026-11-07",
+    "datetime": "2026-11-07T14:35:00+08:00",
+    "status": "upcoming",
+    "competition": "SV.LEAGUE MEN",
+    "home": "ウルフドッグス名古屋",
+    "away": "ジェイテクトSTINGS愛知",
+    "venue": "エントリオ",
+    "score": null,
+    "setScores": null,
+    "broadcast": "BS10・J SPORTS 2",
+    "japanPlayers": [
+      "深津英臣",
+      "宮浦健人",
+      "佐藤駿一郎",
+      "藤中颯志",
+      "高橋慶帆",
+      "山崎彰都"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "GAME1；SV公式／しらべ帳",
+    "leagueCountry": "日本",
+    "leagueCountryCode": "jp"
+  },
+  {
+    "id": "sv-men-sakai-hiroshima-2026-11-07",
+    "datetime": "2026-11-07T15:05:00+08:00",
+    "status": "upcoming",
+    "competition": "SV.LEAGUE MEN",
+    "home": "日本製鉄堺ブレイザーズ",
+    "away": "広島サンダーズ",
+    "venue": "日本製鉄堺体育館",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "新井雄大",
+      "西本圭吾",
+      "永露元稀",
+      "三輪大将",
+      "高木啓士郎"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "GAME1；SV公式／しらべ帳",
+    "leagueCountry": "日本",
+    "leagueCountryCode": "jp"
+  },
+  {
     "id": "efeler-ziraat-istanbulbbs-2026-11-07",
     "datetime": "2026-11-07T21:00:00+08:00",
     "status": "upcoming",
@@ -2825,6 +3120,257 @@
     "note": "意甲第7節；義 11/7 20:30 CET＝港 11/8 03:30＠Firenze（Lega Pallavolo Femminile 官方日曆）",
     "leagueCountry": "意大利",
     "leagueCountryCode": "it"
+  },
+  {
+    "id": "sv-men-shinshu-suntory-g2-2026-11-08",
+    "datetime": "2026-11-08T13:05:00+08:00",
+    "status": "upcoming",
+    "competition": "SV.LEAGUE MEN",
+    "home": "信州松本トライデンツ",
+    "away": "サントリーサンバーズ大阪",
+    "venue": "ANCアリーナ",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "小野寺太志",
+      "大宅真樹",
+      "下川諒"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "GAME2；SV公式 match/detail/37997",
+    "leagueCountry": "日本",
+    "leagueCountryCode": "jp"
+  },
+  {
+    "id": "sv-men-sakai-hiroshima-g2-2026-11-08",
+    "datetime": "2026-11-08T13:05:00+08:00",
+    "status": "upcoming",
+    "competition": "SV.LEAGUE MEN",
+    "home": "日本製鉄堺ブレイザーズ",
+    "away": "広島サンダーズ",
+    "venue": "日本製鉄堺体育館",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "新井雄大",
+      "西本圭吾",
+      "永露元稀",
+      "三輪大将",
+      "高木啓士郎"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "GAME2；SV公式／しらべ帳",
+    "leagueCountry": "日本",
+    "leagueCountryCode": "jp"
+  },
+  {
+    "id": "sv-women-osaka-hisamitsu-g2-2026-11-08",
+    "datetime": "2026-11-08T13:05:00+08:00",
+    "status": "upcoming",
+    "competition": "SV.LEAGUE WOMEN",
+    "home": "大阪マーヴェラス",
+    "away": "SAGA久光スプリングス",
+    "venue": "ベイコム総合体育館",
+    "score": null,
+    "setScores": null,
+    "broadcast": "GAORA SPORTS",
+    "japanPlayers": [
+      "塩出仁美",
+      "西崎愛菜",
+      "荒木彩花",
+      "栄絵里香",
+      "北窓絢音",
+      "井上未唯奈",
+      "西村弥菜美"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "SV女子第4節 GAME2；官方 match/detail/37481",
+    "leagueCountry": "日本",
+    "leagueCountryCode": "jp"
+  },
+  {
+    "id": "sv-women-nec-akita-g2-2026-11-08",
+    "datetime": "2026-11-08T13:05:00+08:00",
+    "status": "upcoming",
+    "competition": "SV.LEAGUE WOMEN",
+    "home": "NEC レッドロケッツ川崎",
+    "away": "アランマーレ秋田庄内",
+    "venue": "東急ドレッセとどろきアリーナ",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "中川つかさ",
+      "山田二千華",
+      "廣田あい",
+      "甲萌香"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "SV女子第4節 GAME2；SV公式／しらべ帳",
+    "leagueCountry": "日本",
+    "leagueCountryCode": "jp"
+  },
+  {
+    "id": "sv-women-toray-gunma-g2-2026-11-08",
+    "datetime": "2026-11-08T13:05:00+08:00",
+    "status": "upcoming",
+    "competition": "SV.LEAGUE WOMEN",
+    "home": "東レアローズ滋賀",
+    "away": "群馬グリーンウイングス",
+    "venue": "草津市立滋賀トヨタアリーナ",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "花岡千聡",
+      "島村春世",
+      "志摩美古都"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "SV女子第4節 GAME2；しらべ帳",
+    "leagueCountry": "日本",
+    "leagueCountryCode": "jp"
+  },
+  {
+    "id": "sv-women-pfu-astemo-g2-2026-11-08",
+    "datetime": "2026-11-08T13:05:00+08:00",
+    "status": "upcoming",
+    "competition": "SV.LEAGUE WOMEN",
+    "home": "PFUブルーキャッツ石川かほく",
+    "away": "Astemoリヴァーレ茨城",
+    "venue": "とり野菜みそ BLUECATS ARENA",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "川添美優",
+      "松井珠己"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "SV女子第4節 GAME2；しらべ帳",
+    "leagueCountry": "日本",
+    "leagueCountryCode": "jp"
+  },
+  {
+    "id": "sv-men-wd-jtekt-g2-2026-11-08",
+    "datetime": "2026-11-08T13:35:00+08:00",
+    "status": "upcoming",
+    "competition": "SV.LEAGUE MEN",
+    "home": "ウルフドッグス名古屋",
+    "away": "ジェイテクトSTINGS愛知",
+    "venue": "エントリオ",
+    "score": null,
+    "setScores": null,
+    "broadcast": "J SPORTS 2",
+    "japanPlayers": [
+      "深津英臣",
+      "宮浦健人",
+      "佐藤駿一郎",
+      "藤中颯志",
+      "高橋慶帆",
+      "山崎彰都"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "GAME2；SV公式／しらべ帳",
+    "leagueCountry": "日本",
+    "leagueCountryCode": "jp"
+  },
+  {
+    "id": "sv-men-toray-osaka-b-g2-2026-11-08",
+    "datetime": "2026-11-08T14:05:00+08:00",
+    "status": "upcoming",
+    "competition": "SV.LEAGUE MEN",
+    "home": "東レアローズ静岡",
+    "away": "大阪ブルテオン",
+    "venue": "香陵アリーナ",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "山田大貴",
+      "西田有志",
+      "山内晶大",
+      "富田将馬",
+      "甲斐優斗",
+      "西山大翔",
+      "山本智大",
+      "エバデダン・ラリー",
+      "西川馨太郎"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "GAME2；しらべ帳（SV公式日程）",
+    "leagueCountry": "日本",
+    "leagueCountryCode": "jp"
+  },
+  {
+    "id": "sv-women-kurobe-ageo-g2-2026-11-08",
+    "datetime": "2026-11-08T14:05:00+08:00",
+    "status": "upcoming",
+    "competition": "SV.LEAGUE WOMEN",
+    "home": "ＫＵＲＯＢＥアクアフェアリーズ富山",
+    "away": "埼玉上尾メディックス",
+    "venue": "黒部市総合体育センター",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "山口真季"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "SV女子第4節 GAME2；しらべ帳",
+    "leagueCountry": "日本",
+    "leagueCountryCode": "jp"
+  },
+  {
+    "id": "sv-women-aichi-okayama-g2-2026-11-08",
+    "datetime": "2026-11-08T14:05:00+08:00",
+    "status": "upcoming",
+    "competition": "SV.LEAGUE WOMEN",
+    "home": "アリーザ愛知",
+    "away": "岡山シーガルズ",
+    "venue": "パークアリーナ小牧",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "鴫原ひなた"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "SV女子第4節 GAME2；しらべ帳",
+    "leagueCountry": "日本",
+    "leagueCountryCode": "jp"
+  },
+  {
+    "id": "sv-women-himeji-denso-g2-2026-11-08",
+    "datetime": "2026-11-08T14:05:00+08:00",
+    "status": "upcoming",
+    "competition": "SV.LEAGUE WOMEN",
+    "home": "ヴィクトリーナ姫路",
+    "away": "デンソーエアリービーズ",
+    "venue": "SHOWAグループ総合体育館",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "福留慧美"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "SV女子第4節 GAME2；しらべ帳",
+    "leagueCountry": "日本",
+    "leagueCountryCode": "jp"
   },
   {
     "id": "superlega-milano-lube-2026-11-08",
@@ -2909,6 +3455,28 @@
     "leagueCountryCode": "it"
   },
   {
+    "id": "serie-a1-busto-vallefoglia-2026-11-11",
+    "datetime": "2026-11-12T03:30:00+08:00",
+    "status": "upcoming",
+    "competition": "Serie A1",
+    "home": "UYBA Busto Arsizio",
+    "away": "Megabox Ond. Savio Vallefoglia",
+    "venue": "E-Work Biella Forum, Biella",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "關菜々巳",
+      "和田由紀子",
+      "秋本美空"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "意甲第8節；義 11/11 20:30 CET＝港 11/12 03:30＠Biella（官方 Lega／UYBA 日曆）",
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it"
+  },
+  {
     "id": "sultanlar-zeren-eczacibasi-2026-11-15",
     "datetime": "2026-11-15T22:00:00+08:00",
     "status": "upcoming",
@@ -2927,6 +3495,28 @@
     "note": "土超女第9節；土耳其 11/15 17:00＝港 22:00 客場對 Zeren（Eczacıbaşı 官網賽程）",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
+  },
+  {
+    "id": "serie-a1-scandicci-busto-2026-11-15",
+    "datetime": "2026-11-16T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Serie A1",
+    "home": "Savino Del Bene Scandicci",
+    "away": "UYBA Busto Arsizio",
+    "venue": "Pala BigMat, Firenze",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "關菜々巳",
+      "和田由紀子",
+      "秋本美空"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "意甲第9節；義 11/15 17:00 CET＝港 11/16 00:00＠Firenze（官方 Lega／UYBA 日曆）",
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it"
   },
   {
     "id": "serie-a1-cuneo-milano-2026-11-15",
@@ -2969,6 +3559,28 @@
     "leagueCountryCode": "tr"
   },
   {
+    "id": "serie-a1-busto-firenze-2026-11-22",
+    "datetime": "2026-11-23T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Serie A1",
+    "home": "UYBA Busto Arsizio",
+    "away": "Il Bisonte Firenze",
+    "venue": "E-Work Biella Forum, Biella",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "關菜々巳",
+      "和田由紀子",
+      "秋本美空"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "意甲第10節；義 11/22 17:00 CET＝港 11/23 00:00＠Biella（官方 Lega／UYBA 日曆）",
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it"
+  },
+  {
     "id": "serie-a1-milano-imoco-2026-11-22",
     "datetime": "2026-11-23T01:00:00+08:00",
     "status": "upcoming",
@@ -2987,6 +3599,46 @@
     "note": "意甲第10節；義 11/22 18:00 CET＝港 11/23 01:00＠Assago（Lega 官方日曆）",
     "leagueCountry": "意大利",
     "leagueCountryCode": "it"
+  },
+  {
+    "id": "superlega-milano-trento-2026-11-22",
+    "datetime": "2026-11-23T01:00:00+08:00",
+    "status": "upcoming",
+    "competition": "SuperLega",
+    "home": "Allianz Milano",
+    "away": "Itas Trentino",
+    "venue": "Allianz Cloud, Milano",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "大塚達宣"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "SuperLega 第6節；義 11/22 18:00＝港 11/23 01:00＠Allianz Cloud（powervolleymilano.it 官方曆）",
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it"
+  },
+  {
+    "id": "cev-cl-eczacibasi-obrenovac-2026-11-24",
+    "datetime": "2026-11-25T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "CEV Champions League (Women)",
+    "home": "Eczacıbaşı Peron İstanbul",
+    "away": "Tent Obrenovac",
+    "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu, İstanbul",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "CEV CL Pool D；土耳其 11/24 19:00＝港 11/25 00:00 主場對 Tent Obrenovac（VolleyShift／womanleagues／CEV pool 資料）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
   },
   {
     "id": "serie-a1-talmassons-milano-2026-11-28",
@@ -3027,5 +3679,47 @@
     "note": "土超女第11節；土耳其 11/29 18:00＝港 23:00 主場對 Galatasaray（Eczacıbaşı 官網賽程）",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
+  },
+  {
+    "id": "serie-a1-brescia-busto-2026-11-29",
+    "datetime": "2026-11-30T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Serie A1",
+    "home": "Banca Valsabbina Millenium Brescia",
+    "away": "UYBA Busto Arsizio",
+    "venue": "Palasport Jimmy George, Montichiari",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "關菜々巳",
+      "和田由紀子",
+      "秋本美空"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "意甲第11節；義 11/29 17:00 CET＝港 11/30 00:00＠Montichiari（官方 Lega／UYBA 日曆）",
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it"
+  },
+  {
+    "id": "superlega-monza-milano-2026-11-29",
+    "datetime": "2026-11-30T01:00:00+08:00",
+    "status": "upcoming",
+    "competition": "SuperLega",
+    "home": "Vero Volley Monza",
+    "away": "Allianz Milano",
+    "venue": "Arena di Monza",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "大塚達宣"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "SuperLega 第7節；義 11/29 18:00＝港 11/30 01:00 客場 Monza（powervolleymilano.it 官方曆）",
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it"
   }
 ]
