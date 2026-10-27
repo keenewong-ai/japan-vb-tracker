@@ -2706,6 +2706,26 @@
     "leagueCountryCode": "it"
   },
   {
+    "id": "efeler-ziraat-sungurlu-2026-11-03",
+    "datetime": "2026-11-04T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Efeler Ligi (Men)",
+    "home": "Ziraat Bankkart",
+    "away": "Sungurlu Belediyesi Spor",
+    "venue": "TVF Ziraat Bankkart Voleybol Salonu, Ankara",
+    "score": null,
+    "setScores": null,
+    "broadcast": "TVF Voleybol TV",
+    "japanPlayers": [
+      "石川祐希"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "Efeler 中週；土耳其 11/3 19:00＝港 11/4 00:00＠Ankara（efeler.volleystation／VolleyShift）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
+  },
+  {
     "id": "sultanlar-besiktas-eczacibasi-2026-11-04",
     "datetime": "2026-11-05T00:00:00+08:00",
     "status": "upcoming",
@@ -2787,6 +2807,26 @@
     "leagueCountryCode": "tr"
   },
   {
+    "id": "serie-a1-scandicci-milano-2026-11-07",
+    "datetime": "2026-11-08T03:30:00+08:00",
+    "status": "upcoming",
+    "competition": "Serie A1 (Women)",
+    "home": "Savino Del Bene Scandicci",
+    "away": "Numia Vero Volley Milano",
+    "venue": "Pala BigMat, Firenze",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "佐藤淑乃"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "意甲第7節；義 11/7 20:30 CET＝港 11/8 03:30＠Firenze（Lega Pallavolo Femminile 官方日曆）",
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it"
+  },
+  {
     "id": "superlega-milano-lube-2026-11-08",
     "datetime": "2026-11-08T23:00:00+08:00",
     "status": "upcoming",
@@ -2805,6 +2845,26 @@
     "note": "SuperLega 第5節；義 11/8 16:00＝港 11/8 23:00＠Allianz Cloud（legavolley.it／球會）",
     "leagueCountry": "意大利",
     "leagueCountryCode": "it"
+  },
+  {
+    "id": "sultanlar-eczacibasi-goztepe-2026-11-08",
+    "datetime": "2026-11-08T23:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Sultanlar Ligi (Women)",
+    "home": "Eczacıbaşı Peron İstanbul",
+    "away": "Göztepe Yuppo",
+    "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu, İstanbul",
+    "score": null,
+    "setScores": null,
+    "broadcast": "Hulu（日本）",
+    "japanPlayers": [
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "土超女第8節；土耳其 11/8 18:00＝港 23:00 主場對 Göztepe（Eczacıbaşı 官網賽程／voley24）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
   },
   {
     "id": "serie-a1-consolini-busto-2026-11-08",
@@ -2827,5 +2887,145 @@
     "note": "意甲第7節；義 11/8 17:00 CET＝港 11/9 00:00＠Cervia（官方 Lega／UYBA 日曆）",
     "leagueCountry": "意大利",
     "leagueCountryCode": "it"
+  },
+  {
+    "id": "serie-a1-milano-brescia-2026-11-11",
+    "datetime": "2026-11-12T03:30:00+08:00",
+    "status": "upcoming",
+    "competition": "Serie A1 (Women)",
+    "home": "Numia Vero Volley Milano",
+    "away": "Banca Valsabbina Millenium Brescia",
+    "venue": "Allianz Cloud, Milano",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "佐藤淑乃"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "意甲第8節；義 11/11 20:30 CET＝港 11/12 03:30＠Allianz Cloud（Lega 官方日曆）",
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it"
+  },
+  {
+    "id": "sultanlar-zeren-eczacibasi-2026-11-15",
+    "datetime": "2026-11-15T22:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Sultanlar Ligi (Women)",
+    "home": "Zeren Spor",
+    "away": "Eczacıbaşı Peron İstanbul",
+    "venue": "TVF Ziraat Bankkart Spor Salonu, Ankara",
+    "score": null,
+    "setScores": null,
+    "broadcast": "Hulu（日本）",
+    "japanPlayers": [
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "土超女第9節；土耳其 11/15 17:00＝港 22:00 客場對 Zeren（Eczacıbaşı 官網賽程）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
+  },
+  {
+    "id": "serie-a1-cuneo-milano-2026-11-15",
+    "datetime": "2026-11-16T01:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Serie A1 (Women)",
+    "home": "Granda Volley Cuneo",
+    "away": "Numia Vero Volley Milano",
+    "venue": "Palazzo Dello Sport, Cuneo",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "佐藤淑乃"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "意甲第9節；義 11/15 18:00 CET＝港 11/16 01:00＠Cuneo（Lega 官方日曆）",
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it"
+  },
+  {
+    "id": "sultanlar-eczacibasi-kuzeyboru-2026-11-21",
+    "datetime": "2026-11-21T19:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Sultanlar Ligi (Women)",
+    "home": "Eczacıbaşı Peron İstanbul",
+    "away": "Kuzeyboru",
+    "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu, İstanbul",
+    "score": null,
+    "setScores": null,
+    "broadcast": "Hulu（日本）",
+    "japanPlayers": [
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "土超女第10節；土耳其 11/21 14:00＝港 19:00 主場對 Kuzeyboru（Eczacıbaşı 官網賽程）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
+  },
+  {
+    "id": "serie-a1-milano-imoco-2026-11-22",
+    "datetime": "2026-11-23T01:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Serie A1 (Women)",
+    "home": "Numia Vero Volley Milano",
+    "away": "Prosecco Doc A.Carraro Imoco Conegliano",
+    "venue": "Unipol Forum, Assago",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "佐藤淑乃"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "意甲第10節；義 11/22 18:00 CET＝港 11/23 01:00＠Assago（Lega 官方日曆）",
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it"
+  },
+  {
+    "id": "serie-a1-talmassons-milano-2026-11-28",
+    "datetime": "2026-11-29T03:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Serie A1 (Women)",
+    "home": "Cda Volley Talmassons Fvg",
+    "away": "Numia Vero Volley Milano",
+    "venue": "Pala Carnera, Udine",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "佐藤淑乃"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "意甲第11節；義 11/28 20:00 CET＝港 11/29 03:00＠Udine（Lega 官方日曆）",
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it"
+  },
+  {
+    "id": "sultanlar-eczacibasi-galatasaray-2026-11-29",
+    "datetime": "2026-11-29T23:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Sultanlar Ligi (Women)",
+    "home": "Eczacıbaşı Peron İstanbul",
+    "away": "Galatasaray Daikin",
+    "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu, İstanbul",
+    "score": null,
+    "setScores": null,
+    "broadcast": "Hulu（日本）",
+    "japanPlayers": [
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "土超女第11節；土耳其 11/29 18:00＝港 23:00 主場對 Galatasaray（Eczacıbaşı 官網賽程）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
   }
 ]
