@@ -2047,20 +2047,25 @@
   {
     "id": "efeler-ziraat-gaziantep-2026-10-27",
     "datetime": "2026-10-28T00:00:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "Efeler Ligi (Men)",
     "home": "Ziraat Bankkart",
     "away": "Gaziantep Gençlik Spor",
     "venue": "TVF Ziraat Bankkart Voleybol Salonu, Ankara",
-    "score": null,
-    "setScores": null,
+    "score": "3-1",
+    "setScores": [
+      "25-21",
+      "24-26",
+      "25-17",
+      "25-18"
+    ],
     "broadcast": "TVF Voleybol TV",
     "japanPlayers": [
       "石川祐希"
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "Efeler 第3節；土耳其 10/27 19:00＝港 10/28 00:00＠Ankara（efeler.volleystation／voley24／球會 fikstur 確認照常）。石川祐希第2節對 Altekma 未入名單欠場（右大腿傷勢；THE DIGEST 10/26）；球會未公布能否復出本場。",
+    "note": "Efeler 第3節完場；Ziraat 主場 3-1 Gaziantep（25-21, 24-26, 25-17, 25-18）。出場名單無石川祐希／Nimir（QGdoVolei；sondakika／haberler／efeler.volleystation）。Clevenot 27 分（er_volley／vblineup）。",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
@@ -3435,6 +3440,26 @@
     "leagueCountryCode": "it"
   },
   {
+    "id": "efeler-kupa-ziraat-alanya-2026-11-10",
+    "datetime": "2026-11-10T23:00:00+08:00",
+    "status": "upcoming",
+    "competition": "AXA Sigorta Kupa Voley (Men)",
+    "home": "Ziraat Bankkart",
+    "away": "ON Hotels Alanya Belediyespor",
+    "venue": "TVF Ziraat Bankkart Voleybol Salonu, Ankara",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "石川祐希"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "土耳其盃；土耳其 11/10 18:00＝港 23:00（ofsayt／Ziraat 賽程相關）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
+  },
+  {
     "id": "serie-a1-milano-brescia-2026-11-11",
     "datetime": "2026-11-12T03:30:00+08:00",
     "status": "upcoming",
@@ -3475,6 +3500,26 @@
     "note": "意甲第8節；義 11/11 20:30 CET＝港 11/12 03:30＠Biella（官方 Lega／UYBA 日曆）",
     "leagueCountry": "意大利",
     "leagueCountryCode": "it"
+  },
+  {
+    "id": "efeler-gebze-ziraat-2026-11-14",
+    "datetime": "2026-11-14T19:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Efeler Ligi (Men)",
+    "home": "Gebze Belediyesi",
+    "away": "Ziraat Bankkart",
+    "venue": null,
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "石川祐希"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "Efeler 第6節；土耳其 11/14 14:00＝港 19:00（ziraatbankasisporkulubu.com 官方 fikstur／ofsayt）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
   },
   {
     "id": "sultanlar-zeren-eczacibasi-2026-11-15",
@@ -3559,6 +3604,26 @@
     "leagueCountryCode": "tr"
   },
   {
+    "id": "efeler-ziraat-galatasaray-2026-11-21",
+    "datetime": "2026-11-21T21:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Efeler Ligi (Men)",
+    "home": "Ziraat Bankkart",
+    "away": "Galatasaray",
+    "venue": "TVF Ziraat Bankkart Voleybol Salonu, Ankara",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "石川祐希"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "Efeler 第7節；土耳其 11/21 16:00＝港 21:00（ziraatbankasisporkulubu.com 官方 fikstur）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
+  },
+  {
     "id": "serie-a1-busto-firenze-2026-11-22",
     "datetime": "2026-11-23T00:00:00+08:00",
     "status": "upcoming",
@@ -3637,6 +3702,26 @@
     "gender": "women",
     "playerStats": {},
     "note": "CEV CL Pool D；土耳其 11/24 19:00＝港 11/25 00:00 主場對 Tent Obrenovac（VolleyShift／womanleagues／CEV pool 資料）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
+  },
+  {
+    "id": "efeler-sportoto-ziraat-2026-11-28",
+    "datetime": "2026-11-29T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Efeler Ligi (Men)",
+    "home": "Spor Toto",
+    "away": "Ziraat Bankkart",
+    "venue": null,
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "石川祐希"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "Efeler 第8節；土耳其 11/28 19:00＝港 11/29 00:00（ziraatbankasisporkulubu.com 官方 fikstur）",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
