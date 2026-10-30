@@ -1,5 +1,39 @@
 [
   {
+    "id": "denso-rosamaria-return-japan-2026-10-29",
+    "date": "2026-10-29",
+    "title": "デンソー羅莎瑪莉亞 11/2 返日合流",
+    "summary": "バレーボールキング／球會 X：OP ロザマリア・モンチベレル（左膝內側副韌帶部分斷裂、巴西療養）將於 11/2 返日，之後與デンソーエアリービーズ合流復健。",
+    "playerIds": [],
+    "playerNames": [
+      "ロザマリア・モンチベレル"
+    ],
+    "tags": [
+      "傷病",
+      "復歸"
+    ],
+    "source": "バレーボールキング",
+    "sourceUrl": "https://volleyballking.jp/article/95404/"
+  },
+  {
+    "id": "onodera-knee-surgery-2026-10-29",
+    "date": "2026-10-29",
+    "title": "小野寺太志左膝手術　膝蓋大腿關節軟骨損傷",
+    "summary": "サントリーサンバーズ大阪官方：小野寺太志 10/28 接受左膝手術，診斷為左膝蓋大腿關節軟骨損傷；本人表示會盡早復健返場。",
+    "playerIds": [
+      "onodera-taishi"
+    ],
+    "playerNames": [
+      "小野寺太志"
+    ],
+    "tags": [
+      "傷病",
+      "手術"
+    ],
+    "source": "サントリーサンバーズ大阪",
+    "sourceUrl": "https://www.suntory.co.jp/culture-sports/sunbirds/news/detail/20261029.html"
+  },
+  {
     "id": "mayu-oggi-jewelry-ig-2026-10-28",
     "date": "2026-10-28",
     "title": "石川真佑公開 Oggi 誌面珠寶造型　非結婚宣布",

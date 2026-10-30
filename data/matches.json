@@ -2070,13 +2070,28 @@
     "leagueCountryCode": "tr"
   },
   {
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
-    "score": null,
-    "setScores": null,
+    "score": "3-2",
+    "setScores": [
+      "32-30",
+      "20-25",
+      "25-18",
+      "24-26",
+      "15-11"
+    ],
     "broadcast": null,
     "gender": "women",
-    "playerStats": {},
+    "playerStats": {
+      "塩出仁美": {
+        "points": 2,
+        "note": "攻擊0＋攔網1＋ace1（公式）"
+      },
+      "西崎愛菜": {
+        "points": 0,
+        "note": "自由人（公式）"
+      }
+    },
     "leagueCountry": "日本",
     "leagueCountryCode": "jp",
     "id": "sv-women-osaka-akita-2026-10-30",
@@ -2088,16 +2103,41 @@
       "塩出仁美",
       "西崎愛菜"
     ],
-    "note": "SV女子第3節 GAME1"
+    "note": "SV女子第3節 GAME1；官方 match/detail/37458；大阪 3-2 險勝"
   },
   {
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
-    "score": null,
-    "setScores": null,
+    "score": "0-3",
+    "setScores": [
+      "15-25",
+      "25-27",
+      "24-26"
+    ],
     "broadcast": null,
     "gender": "women",
-    "playerStats": {},
+    "playerStats": {
+      "廣田あい": {
+        "points": 12,
+        "note": "攻擊11＋ace1（公式）"
+      },
+      "甲萌香": {
+        "points": 8,
+        "note": "攻擊7＋ace1（公式）"
+      },
+      "中川つかさ": {
+        "points": 0,
+        "note": "舉球員出場（公式）"
+      },
+      "山田二千華": {
+        "points": 0,
+        "note": "未出場（公式）"
+      },
+      "山口真季": {
+        "points": 7,
+        "note": "攻擊2＋攔網3＋ace2（富山・公式）"
+      }
+    },
     "leagueCountry": "日本",
     "leagueCountryCode": "jp",
     "id": "sv-women-nec-kurobe-2026-10-30",
@@ -2112,7 +2152,7 @@
       "甲萌香",
       "山口真季"
     ],
-    "note": "SV女子第3節 GAME1；官方 match/detail/37456"
+    "note": "SV女子第3節 GAME1；官方 match/detail/37456；NEC 主場 0-3 負富山"
   },
   {
     "id": "sv-men-osaka-b-wd-2026-10-31",
