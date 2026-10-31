@@ -2157,13 +2157,19 @@
   {
     "id": "sv-men-osaka-b-wd-2026-10-31",
     "datetime": "2026-10-31T12:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "大阪ブルテオン",
     "away": "ウルフドッグス名古屋",
     "venue": "Asueアリーナ大阪",
-    "score": null,
-    "setScores": null,
+    "score": "2-3",
+    "setScores": [
+      "25-23",
+      "25-23",
+      "21-25",
+      "21-25",
+      "8-15"
+    ],
     "broadcast": "フジテレビNEXT／J SPORTSオンデマンド",
     "japanPlayers": [
       "西田有志",
@@ -2179,21 +2185,31 @@
       "佐藤駿一郎"
     ],
     "gender": "men",
-    "playerStats": {},
-    "note": "GAME1",
+    "playerStats": {
+      "甲斐優斗": {
+        "points": 20,
+        "note": "攻擊17＋攔網1＋ace2（WoV／サンスポ）"
+      }
+    },
+    "note": "GAME1；公式記録：大阪B 2-3 WD名古屋（0-2から逆転）。甲斐優斗20点（攻撃17＋攔網1＋ace2・WoV／報道）",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
   {
     "id": "sv-men-voleas-jtekt-2026-10-31",
     "datetime": "2026-10-31T13:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "ヴォレアス北海道",
     "away": "ジェイテクトSTINGS愛知",
     "venue": "リクルートスタッフィング リック&スー旭川体育館",
-    "score": null,
-    "setScores": null,
+    "score": "1-3",
+    "setScores": [
+      "23-25",
+      "25-16",
+      "24-26",
+      "12-25"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "藤中颯志",
@@ -2202,15 +2218,21 @@
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "GAME1",
+    "note": "GAME1；公式記録：ヴォレアス 1-3 STINGS愛知",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
   {
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
-    "score": null,
-    "setScores": null,
+    "score": "3-2",
+    "setScores": [
+      "25-23",
+      "18-25",
+      "18-25",
+      "25-21",
+      "15-11"
+    ],
     "broadcast": null,
     "gender": "women",
     "playerStats": {},
@@ -2222,13 +2244,18 @@
     "away": "Astemoリヴァーレ茨城",
     "venue": "上尾運動公園体育館",
     "japanPlayers": [],
-    "note": "SV女子第3節 GAME1"
+    "note": "SV女子第3節 GAME1；公式記録：埼玉上尾 3-2 Astemo"
   },
   {
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
-    "score": null,
-    "setScores": null,
+    "score": "3-1",
+    "setScores": [
+      "25-17",
+      "25-22",
+      "23-25",
+      "25-22"
+    ],
     "broadcast": null,
     "gender": "women",
     "playerStats": {},
@@ -2242,16 +2269,21 @@
     "japanPlayers": [
       "花岡千聡"
     ],
-    "note": "SV女子第3節 GAME1"
+    "note": "SV女子第3節 GAME1；公式記録：東レ滋賀 3-1 デンソー"
   },
   {
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "サントリーサンバーズ大阪",
     "away": "日本製鉄堺ブレイザーズ",
     "venue": "おおきにアリーナ舞洲",
-    "score": null,
-    "setScores": null,
+    "score": "1-3",
+    "setScores": [
+      "25-27",
+      "25-19",
+      "20-25",
+      "23-25"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "小野寺太志",
@@ -2264,18 +2296,23 @@
     "leagueCountryCode": "jp",
     "id": "sv-men-suntory-sakai-2026-10-31",
     "datetime": "2026-10-31T13:05:00+08:00",
-    "note": "GAME1；官方 match/detail/37986／サンバーズ官網。小野寺太志：10/28 左膝手術後復健中（サンバーズ公式 10/29）"
+    "note": "GAME1；公式記録：サントリー 1-3 日鉄堺BZ。小野寺太志：10/28 左膝手術後復健中（サンバーズ公式）"
   },
   {
     "id": "sv-men-hiroshima-tokyo-2026-10-31",
     "datetime": "2026-10-31T14:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "広島サンダーズ",
     "away": "東京グレートベアーズ",
     "venue": "広島グリーンアリーナ",
-    "score": null,
-    "setScores": null,
+    "score": "1-3",
+    "setScores": [
+      "24-26",
+      "27-29",
+      "25-21",
+      "23-25"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "新井雄大",
@@ -2288,35 +2325,46 @@
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "GAME1",
+    "note": "GAME1；公式記録：広島TH 1-3 東京GB",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
   {
     "id": "sv-men-toray-shinshu-2026-10-31",
     "datetime": "2026-10-31T14:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "東レアローズ静岡",
     "away": "信州松本トライデンツ",
     "venue": "このはなアリーナ",
-    "score": null,
-    "setScores": null,
+    "score": "3-1",
+    "setScores": [
+      "19-25",
+      "25-21",
+      "25-21",
+      "25-22"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "山田大貴"
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "GAME1",
+    "note": "GAME1；公式記録：東レ静岡 3-1 松本TD",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
   {
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
-    "score": null,
-    "setScores": null,
+    "score": "2-3",
+    "setScores": [
+      "18-25",
+      "25-19",
+      "25-22",
+      "19-25",
+      "11-15"
+    ],
     "broadcast": null,
     "gender": "women",
     "playerStats": {},
@@ -2332,13 +2380,19 @@
       "川添美優",
       "松井珠己"
     ],
-    "note": "SV女子第3節 GAME1"
+    "note": "SV女子第3節 GAME1；公式記録：A愛知 2-3 PFU"
   },
   {
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
-    "score": null,
-    "setScores": null,
+    "score": "3-2",
+    "setScores": [
+      "23-25",
+      "21-25",
+      "25-22",
+      "25-22",
+      "15-7"
+    ],
     "broadcast": null,
     "gender": "women",
     "playerStats": {},
@@ -2357,13 +2411,18 @@
       "西村弥菜美",
       "福留慧美"
     ],
-    "note": "SV女子第3節 GAME1"
+    "note": "SV女子第3節 GAME1；公式記録：SAGA久光 3-2 姫路（0-2逆転・開幕5連勝）"
   },
   {
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
-    "score": null,
-    "setScores": null,
+    "score": "1-3",
+    "setScores": [
+      "22-25",
+      "25-20",
+      "19-25",
+      "19-25"
+    ],
     "broadcast": null,
     "gender": "women",
     "playerStats": {},
@@ -2378,13 +2437,18 @@
       "島村春世",
       "志摩美古都"
     ],
-    "note": "SV女子第3節 GAME1"
+    "note": "SV女子第3節 GAME1；公式記録：岡山 1-3 群馬"
   },
   {
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
-    "score": null,
-    "setScores": null,
+    "score": "1-3",
+    "setScores": [
+      "25-23",
+      "21-25",
+      "27-29",
+      "19-25"
+    ],
     "broadcast": null,
     "gender": "women",
     "playerStats": {},
@@ -2402,13 +2466,17 @@
       "甲萌香",
       "山口真季"
     ],
-    "note": "SV女子第3節 GAME2"
+    "note": "SV女子第3節 GAME2；公式記録：NEC川崎 1-3 富山（公式 match/detail/37457）"
   },
   {
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
-    "score": null,
-    "setScores": null,
+    "score": "3-0",
+    "setScores": [
+      "25-23",
+      "25-20",
+      "27-25"
+    ],
     "broadcast": null,
     "gender": "women",
     "playerStats": {},
@@ -2423,7 +2491,7 @@
       "塩出仁美",
       "西崎愛菜"
     ],
-    "note": "SV女子第3節 GAME2"
+    "note": "SV女子第3節 GAME2；公式記録：大阪MV 3-0 A秋田庄内"
   },
   {
     "id": "efeler-alanya-ziraat-2026-10-31",
