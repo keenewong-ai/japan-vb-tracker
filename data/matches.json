@@ -2164,7 +2164,7 @@
     "venue": "Asueアリーナ大阪",
     "score": null,
     "setScores": null,
-    "broadcast": "フジテレビNEXT",
+    "broadcast": "フジテレビNEXT／J SPORTSオンデマンド",
     "japanPlayers": [
       "西田有志",
       "山内晶大",
@@ -2264,7 +2264,7 @@
     "leagueCountryCode": "jp",
     "id": "sv-men-suntory-sakai-2026-10-31",
     "datetime": "2026-10-31T13:05:00+08:00",
-    "note": "GAME1；官方 match/detail/37986／サンバーズ官網"
+    "note": "GAME1；官方 match/detail/37986／サンバーズ官網。小野寺太志：10/28 左膝手術後復健中（サンバーズ公式 10/29）"
   },
   {
     "id": "sv-men-hiroshima-tokyo-2026-10-31",
@@ -2594,7 +2594,7 @@
     "leagueCountryCode": "jp",
     "id": "sv-men-suntory-sakai-g2-2026-11-01",
     "datetime": "2026-11-01T13:05:00+08:00",
-    "note": "GAME2；サンバーズ官網／svleague.sports-shirabe"
+    "note": "GAME2；サンバーズ官網／svleague.sports-shirabe。小野寺太志：10/28 左膝手術後復健中（サンバーズ公式 10/29）"
   },
   {
     "id": "sv-men-toray-shinshu-g2-2026-11-01",
