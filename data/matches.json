@@ -1349,7 +1349,6 @@
     "japanPlayers": [
       "藤中颯志",
       "高橋慶帆",
-      "山崎彰都",
       "山田大貴"
     ],
     "gender": "men",
@@ -1801,7 +1800,6 @@
     "japanPlayers": [
       "藤中颯志",
       "高橋慶帆",
-      "山崎彰都",
       "山田大貴"
     ],
     "gender": "men",
@@ -2182,7 +2180,8 @@
       "西川馨太郎",
       "深津英臣",
       "宮浦健人",
-      "佐藤駿一郎"
+      "佐藤駿一郎",
+      "山崎彰都"
     ],
     "gender": "men",
     "playerStats": {
@@ -2213,8 +2212,7 @@
     "broadcast": null,
     "japanPlayers": [
       "藤中颯志",
-      "高橋慶帆",
-      "山崎彰都"
+      "高橋慶帆"
     ],
     "gender": "men",
     "playerStats": {},
@@ -2591,14 +2589,20 @@
   {
     "id": "sv-men-hiroshima-tokyo-g2-2026-11-01",
     "datetime": "2026-11-01T13:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "広島サンダーズ",
     "away": "東京グレートベアーズ",
     "venue": "広島グリーンアリーナ",
-    "score": null,
-    "setScores": null,
-    "broadcast": null,
+    "score": "3-2",
+    "setScores": [
+      "20-25",
+      "25-13",
+      "19-25",
+      "26-24",
+      "15-12"
+    ],
+    "broadcast": "テレビ新広島",
     "japanPlayers": [
       "新井雄大",
       "西本圭吾",
@@ -2610,37 +2614,51 @@
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "GAME2",
+    "note": "GAME2；公式記録：広島TH 3-2 東京GB（今季初白星）",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
   {
     "id": "sv-men-voleas-jtekt-g2-2026-11-01",
     "datetime": "2026-11-01T13:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "ヴォレアス北海道",
     "away": "ジェイテクトSTINGS愛知",
     "venue": "リクルートスタッフィング リック&スー旭川体育館",
-    "score": null,
-    "setScores": null,
+    "score": "1-3",
+    "setScores": [
+      "25-20",
+      "27-29",
+      "20-25",
+      "21-25"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "藤中颯志",
-      "高橋慶帆",
-      "山崎彰都"
+      "高橋慶帆"
     ],
     "gender": "men",
-    "playerStats": {},
-    "note": "GAME2",
+    "playerStats": {
+      "高橋慶帆": {
+        "points": 3,
+        "note": "攻擊2＋ace1（svleague.jp公式個人記録）"
+      }
+    },
+    "note": "GAME2；公式記録：ヴォレアス 1-3 STINGS愛知",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
   {
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
-    "score": null,
-    "setScores": null,
+    "score": "1-3",
+    "setScores": [
+      "19-25",
+      "19-25",
+      "25-22",
+      "14-25"
+    ],
     "broadcast": null,
     "gender": "women",
     "playerStats": {},
@@ -2652,14 +2670,20 @@
     "away": "Astemoリヴァーレ茨城",
     "venue": "上尾運動公園体育館",
     "japanPlayers": [],
-    "note": "SV女子第3節 GAME2"
+    "note": "SV女子第3節 GAME2；公式記録：埼玉上尾 1-3 Astemo"
   },
   {
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
-    "score": null,
-    "setScores": null,
-    "broadcast": null,
+    "score": "3-2",
+    "setScores": [
+      "21-25",
+      "22-25",
+      "25-23",
+      "25-18",
+      "15-12"
+    ],
+    "broadcast": "GAORA SPORTS",
     "gender": "women",
     "playerStats": {},
     "leagueCountry": "日本",
@@ -2672,16 +2696,21 @@
     "japanPlayers": [
       "花岡千聡"
     ],
-    "note": "SV女子第3節 GAME2"
+    "note": "SV女子第3節 GAME2；公式記録：東レ滋賀 3-2 デンソー"
   },
   {
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "サントリーサンバーズ大阪",
     "away": "日本製鉄堺ブレイザーズ",
     "venue": "おおきにアリーナ舞洲",
-    "score": null,
-    "setScores": null,
+    "score": "1-3",
+    "setScores": [
+      "19-25",
+      "17-25",
+      "25-19",
+      "23-25"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "小野寺太志",
@@ -2694,33 +2723,44 @@
     "leagueCountryCode": "jp",
     "id": "sv-men-suntory-sakai-g2-2026-11-01",
     "datetime": "2026-11-01T13:05:00+08:00",
-    "note": "GAME2；サンバーズ官網／svleague.sports-shirabe。小野寺太志：10/28 左膝手術後復健中（サンバーズ公式 10/29）"
+    "note": "GAME2；公式記録：サントリー 1-3 日鉄堺BZ"
   },
   {
     "id": "sv-men-toray-shinshu-g2-2026-11-01",
     "datetime": "2026-11-01T14:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "東レアローズ静岡",
     "away": "信州松本トライデンツ",
     "venue": "このはなアリーナ",
-    "score": null,
-    "setScores": null,
+    "score": "3-2",
+    "setScores": [
+      "25-20",
+      "17-25",
+      "25-21",
+      "21-25",
+      "15-10"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "山田大貴"
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "GAME2",
+    "note": "GAME2；公式記録：東レ静岡 3-2 松本TD",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
   {
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
-    "score": null,
-    "setScores": null,
+    "score": "3-1",
+    "setScores": [
+      "25-18",
+      "22-25",
+      "25-18",
+      "25-18"
+    ],
     "broadcast": null,
     "gender": "women",
     "playerStats": {},
@@ -2736,13 +2776,17 @@
       "川添美優",
       "松井珠己"
     ],
-    "note": "SV女子第3節 GAME2"
+    "note": "SV女子第3節 GAME2；公式記録：A愛知 3-1 PFU"
   },
   {
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
-    "score": null,
-    "setScores": null,
+    "score": "3-0",
+    "setScores": [
+      "25-20",
+      "26-24",
+      "25-23"
+    ],
     "broadcast": null,
     "gender": "women",
     "playerStats": {},
@@ -2761,13 +2805,18 @@
       "西村弥菜美",
       "福留慧美"
     ],
-    "note": "SV女子第3節 GAME2"
+    "note": "SV女子第3節 GAME2；公式記録：SAGA久光 3-0 姫路（開幕6連勝）"
   },
   {
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
-    "score": null,
-    "setScores": null,
+    "score": "1-3",
+    "setScores": [
+      "25-17",
+      "14-25",
+      "21-25",
+      "18-25"
+    ],
     "broadcast": null,
     "gender": "women",
     "playerStats": {},
@@ -2782,19 +2831,24 @@
       "島村春世",
       "志摩美古都"
     ],
-    "note": "SV女子第3節 GAME2"
+    "note": "SV女子第3節 GAME2；公式記録：岡山 1-3 群馬"
   },
   {
     "id": "sv-men-osaka-b-wd-g2-2026-11-01",
     "datetime": "2026-11-01T15:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "大阪ブルテオン",
     "away": "ウルフドッグス名古屋",
     "venue": "Asueアリーナ大阪",
-    "score": null,
-    "setScores": null,
-    "broadcast": "フジテレビNEXT / NHK BS",
+    "score": "3-1",
+    "setScores": [
+      "20-25",
+      "25-20",
+      "25-13",
+      "25-16"
+    ],
+    "broadcast": "NHK BS／フジテレビNEXT",
     "japanPlayers": [
       "西田有志",
       "山内晶大",
@@ -2806,11 +2860,41 @@
       "西川馨太郎",
       "深津英臣",
       "宮浦健人",
-      "佐藤駿一郎"
+      "佐藤駿一郎",
+      "山崎彰都"
     ],
     "gender": "men",
-    "playerStats": {},
-    "note": "GAME2；NHK BS 亦有轉播",
+    "playerStats": {
+      "甲斐優斗": {
+        "points": 19,
+        "note": "攻擊14＋攔網4＋ace1（svleague.jp公式個人記録）"
+      },
+      "西田有志": {
+        "points": 18,
+        "note": "攻擊13＋攔網3＋ace2（svleague.jp公式個人記録）"
+      },
+      "富田将馬": {
+        "points": 10,
+        "note": "攻擊9＋ace1（svleague.jp公式個人記録）"
+      },
+      "西川馨太郎": {
+        "points": 8,
+        "note": "攻擊5＋攔網2＋ace1（svleague.jp公式個人記録）"
+      },
+      "エバデダン・ラリー": {
+        "points": 7,
+        "note": "攻擊6＋ace1（svleague.jp公式個人記録）"
+      },
+      "山崎彰都": {
+        "points": 13,
+        "note": "攻擊10＋攔網2＋ace1（svleague.jp公式個人記録／WD）"
+      },
+      "深津英臣": {
+        "points": 1,
+        "note": "ace1（svleague.jp公式個人記録）"
+      }
+    },
+    "note": "GAME2；公式記録：大阪B 3-1 WD名古屋（雪辱）。甲斐19／西田18／山崎13",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
@@ -3946,5 +4030,28 @@
     "note": "SuperLega 第7節；義 11/29 18:00＝港 11/30 01:00 客場 Monza（powervolleymilano.it 官方曆）",
     "leagueCountry": "意大利",
     "leagueCountryCode": "it"
+  },
+  {
+    "id": "sv-men-kagoshima-hokkaido-ys-g2-2026-11-01",
+    "datetime": "2026-11-01T13:05:00+08:00",
+    "status": "final",
+    "competition": "SV.LEAGUE MEN",
+    "home": "フラーゴラッド鹿児島",
+    "away": "北海道イエロースターズ",
+    "venue": "ユピテルアリーナ霧島",
+    "score": "1-3",
+    "setScores": [
+      "26-28",
+      "20-25",
+      "25-23",
+      "20-25"
+    ],
+    "broadcast": "J SPORTS 2",
+    "japanPlayers": [],
+    "gender": "men",
+    "playerStats": {},
+    "note": "GAME2；公式記録：F鹿児島 1-3 北海道YS（晨早日曆有、matches 補入）",
+    "leagueCountry": "日本",
+    "leagueCountryCode": "jp"
   }
 ]
