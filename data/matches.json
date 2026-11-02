@@ -2917,8 +2917,13 @@
       "石川真佑"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "土超女第6節完場；Eczacıbaşı 主場 3-0 Manisa（30-28, 25-11, 25-20）。石川真佑正選上場（名單含 Ishikawa）；個人得分未見可靠公開數字故不寫。來源：IHA／Haberler／Sporx／SHA 2026-11-01",
+    "playerStats": {
+      "石川真佑": {
+        "points": 9,
+        "note": "攻擊9（VolleyStation 公式個人記録；攔網0／ace0）"
+      }
+    },
+    "note": "土超女第6節完場；Eczacıbaşı 主場 3-0 Manisa（30-28, 25-11, 25-20）。石川真佑正選 9 分（攻擊9）。來源：sultanlar.volleystation／Eczacıbaşı 官網 2026-11-01",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
