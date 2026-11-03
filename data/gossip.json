@@ -1,5 +1,41 @@
 [
   {
+    "id": "mayu-ribon-debut-2026-11-02",
+    "date": "2026-11-02",
+    "title": "石川真佑《りぼん》12月號初登場　專訪＋漫畫聯名",
+    "summary": "石川真佑本人 X：11/2 發售《りぼん》12月號首次登場，刊彩色專訪；並有木下ほのか《翔けて春風》特別聯名插畫。本人晒「りぼんポーズ」花絮相。",
+    "playerIds": [
+      "ishikawa-mayu"
+    ],
+    "playerNames": [
+      "石川真佑"
+    ],
+    "tags": [
+      "生活",
+      "媒體"
+    ],
+    "source": "石川真佑公式X",
+    "sourceUrl": "https://x.com/m_ish_0514/status/2117179940034723870"
+  },
+  {
+    "id": "sato-first-start-14pts-2026-11-02",
+    "date": "2026-11-02",
+    "title": "佐藤淑乃 Serie A 初先發 14 分　Milano 開幕 6 連勝",
+    "summary": "バレーボールキング：意甲女第6節 Numia Vero Volley Milano 主場 3-0 勝 Consolini（25-22, 25-16, 25-11）。佐藤淑乃今季首度先發，攔網 2 分在內攞到隊內次高 14 分；Milano 開幕 6 連勝。次戰 11/8（港）客場 vs Scandicci。",
+    "playerIds": [
+      "sato-yoshino"
+    ],
+    "playerNames": [
+      "佐藤淑乃"
+    ],
+    "tags": [
+      "賽事",
+      "表現"
+    ],
+    "source": "バレーボールキング",
+    "sourceUrl": "https://volleyballking.jp/article/95994/"
+  },
+  {
     "id": "yuki-bench-ziraat-4wins-2026-11-01",
     "date": "2026-11-01",
     "title": "石川祐希連續 3 場未入名單　Ziraat 仍開幕 4 連勝",

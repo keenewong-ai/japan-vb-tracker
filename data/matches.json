@@ -2920,7 +2920,7 @@
     "playerStats": {
       "石川真佑": {
         "points": 9,
-        "note": "攻擊9（VolleyStation 公式個人記録；攔網0／ace0）"
+        "note": "聯賽初先發；攻擊9（VolleyStation 公式個人記録；攔網0／ace0；本人X確認）"
       }
     },
     "note": "土超女第6節完場；Eczacıbaşı 主場 3-0 Manisa（30-28, 25-11, 25-20）。石川真佑正選 9 分（攻擊9）。來源：sultanlar.volleystation／Eczacıbaşı 官網 2026-11-01",
@@ -3059,14 +3059,14 @@
     "venue": "Hala Globus, Lublin",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "Polsat Sport 1",
     "japanPlayers": [
       "高橋藍",
       "小川智大"
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "PlusLiga 第4節；波蘭 11/4 20:30（CET）＝港 11/5 03:30＠Hala Globus（sport1.pl 2026-10-20 更新）",
+    "note": "PlusLiga 第4節；波蘭 11/4 20:30（CET）＝港 11/5 03:30＠Hala Globus（sport1.pl 2026-10-20 更新）；轉播 Polsat Sport 1（sport1.pl 2026-11-02）。",
     "leagueCountry": "波蘭",
     "leagueCountryCode": "pl"
   },
