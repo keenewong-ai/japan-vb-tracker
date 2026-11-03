@@ -3025,7 +3025,7 @@
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "Efeler 中週；土耳其 11/3 19:00＝港 11/4 00:00＠Ankara（efeler.volleystation／VolleyShift）",
+    "note": "Efeler 第11節（前倒し）；土耳其 11/3 19:00＝港 11/4 00:00（JST 01:00）＠Ankara。石川祐希公式X Match Day（2026-11-03）確認轉播 TVF Voleybol TV；出場名單未公布（近況連續未入名單，待賽後確認）。",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
@@ -3039,13 +3039,13 @@
     "venue": "TVF Burhan Felek Vestel Voleybol Salonu, İstanbul",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "Hulu（日本）",
     "japanPlayers": [
       "石川真佑"
     ],
     "gender": "women",
     "playerStats": {},
-    "note": "土超女第7節；土耳其 11/4 19:00＝港 11/5 00:00 客場對 Beşiktaş（Eczacıbaşı 官網賽程）",
+    "note": "土超女第7節；土耳其 11/4 19:00＝港 11/5 00:00 客場對 Beşiktaş（Eczacıbaşı 官網賽程）；日本配信 Hulu（VolleyShift／球會慣例）",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
@@ -3059,7 +3059,7 @@
     "venue": "Hala Globus, Lublin",
     "score": null,
     "setScores": null,
-    "broadcast": "Polsat Sport 1",
+    "broadcast": "Polsat Sport 1／VBTV",
     "japanPlayers": [
       "高橋藍",
       "小川智大"
@@ -3080,7 +3080,7 @@
     "venue": "Pala MAGIS, Verona",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "VBTV",
     "japanPlayers": [
       "大塚達宣"
     ],
@@ -3654,7 +3654,7 @@
   },
   {
     "id": "sultanlar-eczacibasi-goztepe-2026-11-08",
-    "datetime": "2026-11-08T23:00:00+08:00",
+    "datetime": "2026-11-08T20:00:00+08:00",
     "status": "upcoming",
     "competition": "Sultanlar Ligi (Women)",
     "home": "Eczacıbaşı Peron İstanbul",
@@ -3668,7 +3668,7 @@
     ],
     "gender": "women",
     "playerStats": {},
-    "note": "土超女第8節；土耳其 11/8 18:00＝港 23:00 主場對 Göztepe（Eczacıbaşı 官網賽程／voley24）",
+    "note": "土超女第8節；土耳其 11/8 15:00＝港 20:00 主場對 Göztepe（Eczacıbaşı 官網／球會X 2026-11-03 確認 15.00）",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
@@ -3778,7 +3778,7 @@
   },
   {
     "id": "sultanlar-zeren-eczacibasi-2026-11-15",
-    "datetime": "2026-11-15T22:00:00+08:00",
+    "datetime": "2026-11-15T19:00:00+08:00",
     "status": "upcoming",
     "competition": "Sultanlar Ligi (Women)",
     "home": "Zeren Spor",
@@ -3792,7 +3792,7 @@
     ],
     "gender": "women",
     "playerStats": {},
-    "note": "土超女第9節；土耳其 11/15 17:00＝港 22:00 客場對 Zeren（Eczacıbaşı 官網賽程）",
+    "note": "土超女第9節；土耳其 11/15 14:00＝港 19:00 客場對 Zeren（Eczacıbaşı 官網賽程 2026-11-03 核對）",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
