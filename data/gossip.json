@@ -1,5 +1,40 @@
 [
   {
+    "id": "mayu-besiktas-sub-1pt-2026-11-05",
+    "date": "2026-11-05",
+    "title": "石川真佑第3局替補1分　Eczacıbaşı 客場直落三勝今季5勝",
+    "summary": "土超女第7節客場對 Beşiktaş；真佑由替補第3局終盤出場打入攻擊1分。Eczacıbaşı 3-0（25-15,25-16,25-16）今季5勝。次戰 11/8 港時間20:00 主場 vs Göztepe。",
+    "playerIds": [
+      "ishikawa-mayu"
+    ],
+    "playerNames": [
+      "石川真佑"
+    ],
+    "tags": [
+      "賽況"
+    ],
+    "source": "バレーボールキング",
+    "sourceUrl": "https://volleyballking.jp/article/96475/"
+  },
+  {
+    "id": "onodera-rehab-suntory-x-2026-11-04",
+    "date": "2026-11-04",
+    "title": "小野寺太志リハビリ順調　サントリー公式X公開近況影片",
+    "summary": "左膝蓋大腿關節軟骨損傷手術後，サントリーサンバーズ大阪公式X報「リハビリ順調です」，並公開小野寺投球近況影片；復歸時期未公布。",
+    "playerIds": [
+      "onodera-taishi"
+    ],
+    "playerNames": [
+      "小野寺太志"
+    ],
+    "tags": [
+      "傷病",
+      "リハビリ"
+    ],
+    "source": "THE ANSWER",
+    "sourceUrl": "https://the-ans.jp/news/748789/"
+  },
+  {
     "id": "yuki-bench-sungurlu-vk-2026-11-04",
     "date": "2026-11-04",
     "title": "バレーボールキング：祐希連續4場未入名單　Ziraat 仍直落3-0開幕5連勝",

@@ -3075,8 +3075,13 @@
       "石川真佑"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "土超女第7節完場；Beşiktaş 主場 0-3 Eczacıbaşı（15-25, 16-25, 16-25；約78–79分鐘＠Burhan Felek）。Eczacıbaşı 先發 Elif／Ebrar／Aslı／Antropova／Uzelac／Weitzel；石川真佑列替補名單（土耳其媒體 IHA／Akşam／Ajansspor／Habertürk 出場名單）。未見公開個人得分，playerStats 留空。來源：iha.com.tr／aksam.com.tr／ajansspor 2026-11-04。",
+    "playerStats": {
+      "石川真佑": {
+        "points": 1,
+        "note": "第3局終盤替補出場；攻擊1分（バレーボールキング 2026-11-05）"
+      }
+    },
+    "note": "土超女第7節完場；Beşiktaş 主場 0-3 Eczacıbaşı（15-25, 16-25, 16-25；約78–79分鐘＠Burhan Felek）。石川真佑替補第3局終盤出場、攻擊1分；Ecz 今季5勝。來源：バレーボールキング／iha.com.tr／aksam.com.tr 2026-11-04～05。",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
