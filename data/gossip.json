@@ -1,5 +1,23 @@
 [
   {
+    "id": "yuki-ziraat-ig-practice-hair-2026-11-06",
+    "date": "2026-11-06",
+    "title": "石川祐希練習照上熱搜　球迷討論「さらさらヘア」形象變化",
+    "summary": "日刊體育報道 Ziraat 官方 IG 更新約17張練習相，當中有祐希未特別髮型定型嘅直髮樣；球迷留言覺得印象變聰明／沉穩。未有新嘅復出時間表。",
+    "playerIds": [
+      "ishikawa-yuki"
+    ],
+    "playerNames": [
+      "石川祐希"
+    ],
+    "tags": [
+      "生活",
+      "社交"
+    ],
+    "source": "日刊スポーツ",
+    "sourceUrl": "https://www.nikkansports.com/sports/news/202611060000833.html"
+  },
+  {
     "id": "mayu-besiktas-sub-1pt-2026-11-05",
     "date": "2026-11-05",
     "title": "石川真佑第3局替補1分　Eczacıbaşı 客場直落三勝今季5勝",
@@ -51,6 +69,24 @@
     ],
     "source": "バレーボールキング",
     "sourceUrl": "https://volleyballking.jp/article/96218/"
+  },
+  {
+    "id": "yuki-bench-sungurlu-5wins-2026-11-03",
+    "date": "2026-11-03",
+    "title": "石川祐希連續 4 場未入名單　Ziraat 仍主場 3-0 開幕 5 連勝",
+    "summary": "Efeler 第11節（前倒し）Ziraat 主場 3-0 勝 Sungurlu（25-21, 25-22, 25-22），開幕 5 連勝。石川祐希公式帳報賽果；土耳其媒體出場名單仍無石川（自第2節起連續第4場）。球會未有最新傷勢官方說明。",
+    "playerIds": [
+      "ishikawa-yuki"
+    ],
+    "playerNames": [
+      "石川祐希"
+    ],
+    "tags": [
+      "傷病",
+      "賽事"
+    ],
+    "source": "石川祐希公式X／haberler（AA）",
+    "sourceUrl": "https://x.com/yuki14_official/status/2117677675045416975"
   },
   {
     "id": "mayu-halloween-blackcat-2026-11-02",
@@ -627,23 +663,5 @@
     ],
     "source": "バレーボールキング",
     "sourceUrl": "https://volleyballking.jp/article/81986/"
-  },
-  {
-    "id": "yuki-bench-sungurlu-5wins-2026-11-03",
-    "date": "2026-11-03",
-    "title": "石川祐希連續 4 場未入名單　Ziraat 仍主場 3-0 開幕 5 連勝",
-    "summary": "Efeler 第11節（前倒し）Ziraat 主場 3-0 勝 Sungurlu（25-21, 25-22, 25-22），開幕 5 連勝。石川祐希公式帳報賽果；土耳其媒體出場名單仍無石川（自第2節起連續第4場）。球會未有最新傷勢官方說明。",
-    "playerIds": [
-      "ishikawa-yuki"
-    ],
-    "playerNames": [
-      "石川祐希"
-    ],
-    "tags": [
-      "傷病",
-      "賽事"
-    ],
-    "source": "石川祐希公式X／haberler（AA）",
-    "sourceUrl": "https://x.com/yuki14_official/status/2117677675045416975"
   }
 ]

@@ -1611,6 +1611,35 @@
     "leagueCountryCode": "tr"
   },
   {
+    "id": "ligue-a-saintdie-levallois-2026-10-24",
+    "datetime": "2026-10-25T02:30:00+08:00",
+    "status": "final",
+    "competition": "Ligue A (Women)",
+    "home": "Saint-Dié-des-Vosges",
+    "away": "Levallois Paris Saint-Cloud",
+    "venue": "Palais Omnisports Joseph Claudel, Saint-Dié-des-Vosges",
+    "score": "0-3",
+    "setScores": [
+      "16-25",
+      "12-25",
+      "17-25"
+    ],
+    "broadcast": null,
+    "japanPlayers": [
+      "宮部愛芽世"
+    ],
+    "gender": "women",
+    "playerStats": {
+      "宮部愛芽世": {
+        "points": 8,
+        "note": "全3局先發；攻擊6／攔網2（FIRSTVOLLEYBALL／聯賽公式記録）"
+      }
+    },
+    "note": "法甲女第5節完場；Saint-Dié 主場 0-3 Levallois（16-25,12-25,17-25）。宮部愛芽世 8 分。來源：firstvolleyball.info 2026-10-25。",
+    "leagueCountry": "法國",
+    "leagueCountryCode": "fr"
+  },
+  {
     "id": "sv-women-himeji-pfu-g2-2026-10-25",
     "datetime": "2026-10-25T12:05:00+08:00",
     "status": "final",
@@ -2516,6 +2545,32 @@
     "note": "Efeler 第4節完場；Alanya 主場 2-3 負 Ziraat（25-19, 19-25, 27-25, 25-27, 7-15）。土耳其媒體出場名單無石川祐希（同第2–3節）。來源：sondakika／haberler／gettosport／StatsHub",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
+  },
+  {
+    "id": "ligue-a-mulhouse-levallois-2026-10-31",
+    "datetime": "2026-11-01T03:00:00+08:00",
+    "status": "final",
+    "competition": "Ligue A (Women)",
+    "home": "Volley Mulhouse Alsace",
+    "away": "Levallois Paris Saint-Cloud",
+    "venue": "Mulhouse",
+    "score": "2-3",
+    "setScores": [
+      "25-18",
+      "25-22",
+      "17-25",
+      "21-25",
+      "19-21"
+    ],
+    "broadcast": null,
+    "japanPlayers": [
+      "宮部愛芽世"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "法甲女第6節完場；Mulhouse 主場 2-3 Levallois（25-18,25-22,17-25,21-25,19-21）。Levallois 仍不敗（5戰）；宮部個人得分未見可靠公開統計故唔寫。來源：BetExplorer／VolleyTracker／Mulhouse 官網 2026-10-31。",
+    "leagueCountry": "法國",
+    "leagueCountryCode": "fr"
   },
   {
     "id": "plusliga-lublin-katowice-2026-10-31",
@@ -3773,6 +3828,26 @@
     "leagueCountryCode": "it"
   },
   {
+    "id": "ligue-a-levallois-nantes-2026-11-08",
+    "datetime": "2026-11-09T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Ligue A (Women)",
+    "home": "Levallois Paris Saint-Cloud",
+    "away": "Neptunes de Nantes",
+    "venue": "Palais des Sports Marcel Cerdan, Levallois-Perret",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "宮部愛芽世"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "法甲女第7節；法 11/8 17:00 CET＝港 11/9 00:00 主場 vs Nantes（les-mariannes.fr／Billetweb／BetExplorer）",
+    "leagueCountry": "法國",
+    "leagueCountryCode": "fr"
+  },
+  {
     "id": "plusliga-olsztyn-lublin-2026-11-09",
     "datetime": "2026-11-10T00:30:00+08:00",
     "status": "upcoming",
@@ -3874,6 +3949,26 @@
     "note": "意甲第8節；義 11/11 20:30 CET＝港 11/12 03:30＠Biella（官方 Lega／UYBA 日曆）",
     "leagueCountry": "意大利",
     "leagueCountryCode": "it"
+  },
+  {
+    "id": "ligue-a-beziers-levallois-2026-11-13",
+    "datetime": "2026-11-14T02:30:00+08:00",
+    "status": "upcoming",
+    "competition": "Ligue A (Women)",
+    "home": "Béziers Volley",
+    "away": "Levallois Paris Saint-Cloud",
+    "venue": "Palais des Sports Béziers Méditerranée Mazeran, Béziers",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "宮部愛芽世"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "法甲女第8節；法 11/13 19:30 CET＝港 11/14 02:30 客場 vs Béziers（BetExplorer／Béziers 觀光局賽程）",
+    "leagueCountry": "法國",
+    "leagueCountryCode": "fr"
   },
   {
     "id": "sv-men-wd-sakai-2026-11-14",
@@ -4869,6 +4964,26 @@
     "leagueCountryCode": "tr"
   },
   {
+    "id": "ligue-a-levallois-bordeaux-2026-11-21",
+    "datetime": "2026-11-22T02:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Ligue A (Women)",
+    "home": "Levallois Paris Saint-Cloud",
+    "away": "Bordeaux Mérignac",
+    "venue": "Palais des Sports Marcel Cerdan, Levallois-Perret",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "宮部愛芽世"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "法甲女第9節；法 11/21 19:00 CET＝港 11/22 02:00 主場 vs Bordeaux（les-mariannes.fr／BetExplorer）",
+    "leagueCountry": "法國",
+    "leagueCountryCode": "fr"
+  },
+  {
     "id": "sv-men-stings-tokyo-g2-2026-11-22",
     "datetime": "2026-11-22T12:05:00+08:00",
     "status": "upcoming",
@@ -5276,11 +5391,12 @@
     "setScores": null,
     "broadcast": null,
     "japanPlayers": [
-      "佐藤淑乃"
+      "佐藤淑乃",
+      "宮部愛芽世"
     ],
     "gender": "women",
     "playerStats": {},
-    "note": "歐冠女 Pool C；義 11/25 20:00 CET＝港 11/26 03:00＠Allianz Cloud vs Paris Saint-Cloud（Vero Volley／Volleybox／womanleagues）",
+    "note": "歐冠女 Pool C；義 11/25 20:00 CET＝港 11/26 03:00＠Allianz Cloud vs Paris Saint-Cloud（Vero Volley／Volleybox／womanleagues）；客隊 Levallois 有宮部愛芽世。",
     "leagueCountry": "歐洲",
     "leagueCountryCode": "eu"
   },
