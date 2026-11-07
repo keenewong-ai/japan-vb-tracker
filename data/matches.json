@@ -4247,7 +4247,7 @@
   },
   {
     "id": "plusliga-lublin-resovia-2026-11-15",
-    "datetime": "2026-11-15T00:00:00+08:00",
+    "datetime": "2026-11-15T22:00:00+08:00",
     "status": "upcoming",
     "competition": "PlusLiga",
     "home": "BOGDANKA LUK Lublin",
@@ -4255,14 +4255,14 @@
     "venue": "Hala Globus, Lublin",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "Polsat Sport / TV",
     "japanPlayers": [
       "高橋藍",
       "小川智大"
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "PlusLiga；Lublin 主場 vs Resovia（lkpslublin terminarz 列 15.11；開波時間待官方確認，暫用日期占位）",
+    "note": "PlusLiga 第6節；波蘭 11/15 15:00＝港 22:00＠HSW Globus vs Resovia（TAURON Liga 官方賽程 PDF 2026-11-06／lkpslublin terminarz）",
     "leagueCountry": "波蘭",
     "leagueCountryCode": "pl"
   },
@@ -4585,12 +4585,12 @@
   },
   {
     "id": "plusliga-stilon-lublin-2026-11-18",
-    "datetime": "2026-11-18T00:00:00+08:00",
+    "datetime": "2026-11-19T03:30:00+08:00",
     "status": "upcoming",
     "competition": "PlusLiga",
     "home": "Cuprum Stilon Gorzów",
     "away": "BOGDANKA LUK Lublin",
-    "venue": null,
+    "venue": "Arena Gorzów, Gorzów Wielkopolski",
     "score": null,
     "setScores": null,
     "broadcast": null,
@@ -4600,7 +4600,7 @@
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "PlusLiga；Stilon 主場 vs Lublin（lkpslublin terminarz 列 18.11；開波時間待官方確認）",
+    "note": "PlusLiga 第7節；波蘭 11/18 20:30＝港 11/19 03:30＠Arena Gorzów vs Lublin（TAURON Liga 官方賽程 PDF 2026-11-06／lkpslublin terminarz）",
     "leagueCountry": "波蘭",
     "leagueCountryCode": "pl"
   },
@@ -5360,7 +5360,7 @@
   },
   {
     "id": "plusliga-lublin-suwalki-2026-11-25",
-    "datetime": "2026-11-25T00:00:00+08:00",
+    "datetime": "2026-11-24T03:30:00+08:00",
     "status": "upcoming",
     "competition": "PlusLiga",
     "home": "BOGDANKA LUK Lublin",
@@ -5375,7 +5375,7 @@
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "PlusLiga；Lublin 主場 vs Suwałki（lkpslublin terminarz 列 25.11；開波時間待官方確認）",
+    "note": "PlusLiga 第8節；波蘭 11/23 20:30＝港 11/24 03:30＠HSW Globus vs Suwałki（日期以 TAURON Liga PDF 23.11 為準，非先前 25.11 框架日；開波時間據 lkpslublin terminarz）",
     "leagueCountry": "波蘭",
     "leagueCountryCode": "pl"
   },
@@ -5407,7 +5407,7 @@
     "competition": "PlusLiga",
     "home": "Jastrzębie Barkom",
     "away": "BOGDANKA LUK Lublin",
-    "venue": null,
+    "venue": "Hala Widowiskowo-Sportowa, Jastrzębie-Zdrój",
     "score": null,
     "setScores": null,
     "broadcast": null,
@@ -5417,7 +5417,7 @@
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "PlusLiga；Barkom 主場 vs Lublin（lkpslublin terminarz 列 28.11；開波時間待官方確認）",
+    "note": "PlusLiga 第9節；波蘭 11/28 主場 Jastrzębie Barkom vs Lublin（TAURON Liga PDF 確認日期；開波時間待官方補）",
     "leagueCountry": "波蘭",
     "leagueCountryCode": "pl"
   },
