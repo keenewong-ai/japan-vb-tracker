@@ -3552,60 +3552,79 @@
   {
     "id": "efeler-ziraat-istanbulbbs-2026-11-07",
     "datetime": "2026-11-07T21:00:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "Efeler Ligi (Men)",
     "home": "Ziraat Bankkart",
     "away": "İstanbul BBSK",
     "venue": "TVF Ziraat Bankkart Voleybol Salonu, Ankara",
-    "score": null,
-    "setScores": null,
+    "score": "3-0",
+    "setScores": [
+      "25-20",
+      "25-17",
+      "25-14"
+    ],
     "broadcast": "TVF Voleybol TV",
     "japanPlayers": [
       "石川祐希"
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "Efeler Ligi 第5節；HKT 21:00 開波。更新時（約21:1x）官方／球會仍未刊完場分數，維持 upcoming。石川祐希近期因傷連續未入名單（DIGEST／VK），今場出賽待確認。",
+    "note": "Efeler 第5節完場；Ziraat 主場 3-0 İstanbul BBSK（25-20, 25-17, 25-14）。土耳其媒體出場名單（AA／TRTSpor／haberler）無石川祐希（自第2節起連續第5場未入名單）。來源：haberler／TRTSpor（AA）；賽時 73 分鐘。",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
   {
     "id": "plusliga-chelm-norwid-2026-11-07",
     "datetime": "2026-11-08T01:00:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "PlusLiga",
     "home": "Podziemia Kredowe ChKS Chełm",
     "away": "NEONET Norwid Częstochowa",
     "venue": null,
-    "score": null,
-    "setScores": null,
+    "score": "3-2",
+    "setScores": [
+      "16-25",
+      "25-21",
+      "22-25",
+      "25-18",
+      "15-10"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "今橋祐希"
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "PlusLiga 第5節；波蘭約 11/7 18:00 CET＝港 11/8 01:00（VolleyballTV 17:00 UTC／賽程站）",
+    "note": "PlusLiga／Tauron Liga 第5節完場；Chełm 主場 3-2 Norwid（16-25, 25-21, 22-25, 25-18, 15-10）。今橋祐希列 Chełm 替補名單，報道無個人得分故不寫。MVP Esfandiar 28 分。來源：Polsat Sport／Dziennik Wschodni／Kurier Lubelski 2026-11-07",
     "leagueCountry": "波蘭",
     "leagueCountryCode": "pl"
   },
   {
     "id": "serie-a1-scandicci-milano-2026-11-07",
     "datetime": "2026-11-08T03:30:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "Serie A1 (Women)",
     "home": "Savino Del Bene Scandicci",
     "away": "Numia Vero Volley Milano",
     "venue": "Pala BigMat, Firenze",
-    "score": null,
-    "setScores": null,
+    "score": "0-3",
+    "setScores": [
+      "21-25",
+      "22-25",
+      "17-25"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "佐藤淑乃"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "意甲第7節；義 11/7 20:30 CET＝港 11/8 03:30＠Firenze（Lega Pallavolo Femminile 官方日曆）",
+    "playerStats": {
+      "佐藤淑乃": {
+        "points": 0,
+        "note": "Tuttosport／Volley News tabellini 有列名、無得分數字（非 Non entrate）"
+      }
+    },
+    "note": "意甲第7節完場；Scandicci 主場 0-3 負 Milano（21-25, 22-25, 17-25）。佐藤淑乃 tabellini 列名 0 分；MVP Egonu 21 分。Milano 7 戰全勝。來源：legavolleyfemminile.it／Tuttosport／volleynews.it 2026-11-07",
     "leagueCountry": "意大利",
     "leagueCountryCode": "it"
   },
