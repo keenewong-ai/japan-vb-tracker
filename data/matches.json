@@ -3682,7 +3682,7 @@
     "playerStats": {
       "三輪大将": {
         "points": 13,
-        "note": "攻擊13（公式 match/detail/38003）"
+        "note": "攻擊13（14打中13、決定率92.9%；公式 B帳票 match/form/?id=38003）"
       },
       "新井雄大": {
         "points": 11,
@@ -4045,10 +4045,11 @@
     "gender": "women",
     "playerStats": {
       "石川真佑": {
-        "note": "替補入場（Hürriyet／Akşam／İz Gazete 出場名單括號內列 Ishikawa，İz Gazete 寫明後備入場）；未見公開個人得分，唔寫分數"
+        "points": 1,
+        "note": "替補出場1局；攻擊1（0攔網／0發球ace）。Hürriyet／球會出場名單列 Ishikawa 為替補入場；逐場數據見 VBLineup Sultanlar 2026/27（同站 Manisa 9分、Beşiktaş 1分與既有媒體記錄一致）"
       }
     },
-    "note": "土超女第8節；Eczacıbaşı 3-0 Göztepe（25-20, 25-18, 25-18；Hürriyet／Akşam 2026-11-08）。石川真佑列入替補出場，未見公開個人得分。",
+    "note": "土超女第8節；Eczacıbaşı 3-0 Göztepe（25-20, 25-18, 25-18；Hürriyet／Akşam／球會 2026-11-08）。石川真佑替補出場錄得 1 分（VBLineup 逐場統計；Hürriyet／球會名單確認替補入場）。",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
