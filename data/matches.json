@@ -4027,53 +4027,75 @@
   {
     "id": "sultanlar-eczacibasi-goztepe-2026-11-08",
     "datetime": "2026-11-08T20:00:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "Sultanlar Ligi (Women)",
     "home": "Eczacıbaşı Peron İstanbul",
     "away": "Göztepe Yuppo",
     "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu, İstanbul",
-    "score": null,
-    "setScores": null,
+    "score": "3-0",
+    "setScores": [
+      "25-20",
+      "25-18",
+      "25-18"
+    ],
     "broadcast": "Hulu（日本）",
     "japanPlayers": [
       "石川真佑"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "土超女第8節；土耳其 11/8 15:00＝港 20:00 主場對 Göztepe（Eczacıbaşı 官網／球會X 2026-11-03 確認 15.00）",
+    "playerStats": {
+      "石川真佑": {
+        "note": "替補入場（Hürriyet／Akşam／İz Gazete 出場名單括號內列 Ishikawa，İz Gazete 寫明後備入場）；未見公開個人得分，唔寫分數"
+      }
+    },
+    "note": "土超女第8節；Eczacıbaşı 3-0 Göztepe（25-20, 25-18, 25-18；Hürriyet／Akşam 2026-11-08）。石川真佑列入替補出場，未見公開個人得分。",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
   {
     "id": "superlega-milano-lube-2026-11-08",
     "datetime": "2026-11-08T23:00:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SuperLega",
     "home": "Allianz Milano",
     "away": "Cucine Lube Civitanova",
     "venue": "Allianz Cloud, Milano",
-    "score": null,
-    "setScores": null,
+    "score": "0-3",
+    "setScores": [
+      "18-25",
+      "19-25",
+      "14-25"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "大塚達宣"
     ],
     "gender": "men",
-    "playerStats": {},
-    "note": "SuperLega 第5節；義 11/8 16:00＝港 11/8 23:00＠Allianz Cloud（legavolley.it／球會）",
+    "playerStats": {
+      "大塚達宣": {
+        "points": 0,
+        "note": "未上場（身體不適 risentimento fisico；legavolley.it 名單 N.E.）"
+      }
+    },
+    "note": "SuperLega 第5節；Allianz Milano 0-3 Cucine Lube Civitanova（18-25, 19-25, 14-25；legavolley.it 2026-11-08）。大塚達宣因身體不適未上場。",
     "leagueCountry": "意大利",
     "leagueCountryCode": "it"
   },
   {
     "id": "serie-a1-consolini-busto-2026-11-08",
     "datetime": "2026-11-09T00:00:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "Serie A1",
     "home": "Omag Consolini Volley 1907",
     "away": "UYBA Busto Arsizio",
     "venue": "Palasport Di Cervia, Cervia",
-    "score": null,
-    "setScores": null,
+    "score": "1-3",
+    "setScores": [
+      "23-25",
+      "25-18",
+      "22-25",
+      "19-25"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "關菜々巳",
@@ -4081,28 +4103,50 @@
       "秋本美空"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "意甲第7節；義 11/8 17:00 CET＝港 11/9 00:00＠Cervia（官方 Lega／UYBA 日曆）",
+    "playerStats": {
+      "關菜々巳": {
+        "points": 1,
+        "note": "正選二傳；發球ace1；MVP（legavolleyfemminile.it match-center/748026）"
+      },
+      "和田由紀子": {
+        "points": 15,
+        "note": "攻擊12＋攔網2＋發球ace1（公式 matchstats）"
+      },
+      "秋本美空": {
+        "points": 1,
+        "note": "替補出場（公式名單 Miku Otomo）；攻擊1（matchstats）"
+      }
+    },
+    "note": "意甲第7節；Omag Consolini 1-3 UYBA（23-25, 25-18, 22-25, 19-25；Lega Femminile 公式 match-center/748026）。關菜々巳 MVP。",
     "leagueCountry": "意大利",
     "leagueCountryCode": "it"
   },
   {
     "id": "ligue-a-levallois-nantes-2026-11-08",
     "datetime": "2026-11-09T00:00:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "Ligue A (Women)",
     "home": "Levallois Paris Saint-Cloud",
     "away": "Neptunes de Nantes",
     "venue": "Palais des Sports Marcel Cerdan, Levallois-Perret",
-    "score": null,
-    "setScores": null,
+    "score": "3-0",
+    "setScores": [
+      "25-20",
+      "25-17",
+      "25-17"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "宮部愛芽世"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "法甲女第7節；法 11/8 17:00 CET＝港 11/9 00:00 主場 vs Nantes（les-mariannes.fr／Billetweb／BetExplorer）",
+    "playerStats": {
+      "宮部愛芽世": {
+        "points": 16,
+        "note": "先發；全隊最高分（Ouest-France 兩篇賽後記錄一致）"
+      }
+    },
+    "note": "法甲女第7節；Levallois Paris Saint-Cloud 3-0 Neptunes de Nantes（25-20, 25-17, 25-17；Ouest-France 2026-11-08）。宮部愛芽世 16 分。",
     "leagueCountry": "法國",
     "leagueCountryCode": "fr"
   },
