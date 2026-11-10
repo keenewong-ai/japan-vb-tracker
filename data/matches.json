@@ -4154,27 +4154,41 @@
   {
     "id": "plusliga-olsztyn-lublin-2026-11-09",
     "datetime": "2026-11-10T00:30:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "PlusLiga",
     "home": "Energa Indykpol AZS Olsztyn",
     "away": "BOGDANKA LUK Lublin",
     "venue": "Hala Urania, Olsztyn",
-    "score": null,
-    "setScores": null,
+    "score": "1-3",
+    "setScores": [
+      "18-25",
+      "21-25",
+      "25-23",
+      "20-25"
+    ],
     "broadcast": "Polsat Sport 1",
     "japanPlayers": [
       "高橋藍",
       "小川智大"
     ],
     "gender": "men",
-    "playerStats": {},
-    "note": "PlusLiga 第5節；波蘭 11/9 17:30＝港 11/10 00:30＠Urania（Olsztyn 球會購票頁／Lublin terminarz）",
+    "playerStats": {
+      "高橋藍": {
+        "points": 18,
+        "note": "MVP；攻擊16（決定率59%）＋攔網1＋ace1；接球正面率56%（Olsztyn 球會／Lublin24／Web Vôlei／mecze24）"
+      },
+      "小川智大": {
+        "points": 0,
+        "note": "先發 libero（Polsat Sport／mecze24 名單）"
+      }
+    },
+    "note": "PlusLiga 第5節完場；Olsztyn 主場 1-3 負 Lublin（18-25, 21-25, 25-23, 20-25＠Hala Urania）。高橋藍 18 分並當選 MVP；小川智大先發 libero 0 分。Lublin 開季 5 戰全勝暫列榜首。來源：energaindykpolazs.pl／Polsat Sport／Lublin24／Web Vôlei／mecze24。",
     "leagueCountry": "波蘭",
     "leagueCountryCode": "pl"
   },
   {
     "id": "efeler-kupa-ziraat-alanya-2026-11-10",
-    "datetime": "2026-11-10T23:00:00+08:00",
+    "datetime": "2026-11-10T21:30:00+08:00",
     "status": "upcoming",
     "competition": "AXA Sigorta Kupa Voley (Men)",
     "home": "Ziraat Bankkart",
@@ -4182,13 +4196,13 @@
     "venue": "TVF Ziraat Bankkart Voleybol Salonu, Ankara",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "TRT Spor Yıldız",
     "japanPlayers": [
       "石川祐希"
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "土耳其盃；土耳其 11/10 18:00＝港 23:00（ofsayt／Ziraat 賽程相關）",
+    "note": "土耳其盃八強；TVF 官方 fikstur／Sporx（引 TVF 公布）列土耳其 11/10 16:30＝港 21:30＠Ankara TVF Ziraat Bankkart Voleybol Salonu；轉播 TRT Spor Yıldız。先前 ofsayt 寫 18:00／港 23:00 已更正。",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
@@ -4199,16 +4213,16 @@
     "competition": "PlusLiga",
     "home": "GKS Katowice",
     "away": "Podziemia Kredowe ChKS Chełm",
-    "venue": null,
+    "venue": "Arena Katowice, Katowice",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "Polsat Sport 1",
     "japanPlayers": [
       "今橋祐希"
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "PlusLiga；VolleyballTV 列 11/10 16:30 UTC＝港 11/11 00:30 Chełm 客場 vs GKS（含今橋名單）",
+    "note": "PlusLiga；波蘭 11/10 17:30＝港 11/11 00:30＠Arena Katowice，Chełm 客場 vs GKS（球會官網／mecze24）。今橋祐希列喺 Chełm 報名名單（二傳）。轉播 Polsat Sport 1。",
     "leagueCountry": "波蘭",
     "leagueCountryCode": "pl"
   },
