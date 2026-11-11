@@ -43,5 +43,10 @@
     "country": "亞洲",
     "countryCode": "asia",
     "flag": "assets/flags/asia.svg"
+  },
+  "FIVB Men's Club World Championship": {
+    "country": "波蘭",
+    "countryCode": "pl",
+    "flag": "assets/flags/pl.svg"
   }
 }

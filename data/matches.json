@@ -6339,5 +6339,125 @@
     "note": "SuperLega 第7節；義 11/29 18:00＝港 11/30 01:00 客場 Monza（powervolleymilano.it 官方曆）",
     "leagueCountry": "意大利",
     "leagueCountryCode": "it"
+  },
+  {
+    "id": "plusliga-warszawa-chelm-2026-11-13",
+    "datetime": "2026-11-14T00:30:00+08:00",
+    "status": "upcoming",
+    "competition": "PlusLiga",
+    "home": "PGE Projekt Warszawa",
+    "away": "Podziemia Kredowe ChKS Chełm",
+    "venue": "Arena Ursynów, Warszawa",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "今橋祐希"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "PlusLiga 第6節；波蘭 11/13 17:30 CET＝港 11/14 00:30＠Arena Ursynów（Sport.pl／Stadiro／Projekt Warszawa 門票頁）。今橋祐希列 Chełm 報名名單（二傳）。",
+    "leagueCountry": "波蘭",
+    "leagueCountryCode": "pl"
+  },
+  {
+    "id": "efeler-ziraat-halkbank-2026-12-12",
+    "datetime": "2026-12-12T23:30:00+08:00",
+    "status": "upcoming",
+    "competition": "Efeler Ligi (Men)",
+    "home": "Ziraat Bankkart",
+    "away": "Halkbank",
+    "venue": "TVF Ziraat Bankkart Voleybol Salonu, Ankara",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "石川祐希"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "Efeler 第9節；土耳其 12/12 18:30＝港 23:30 主場對 Halkbank（ziraatbankasisporkulubu.com 官方 fikstur）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
+  },
+  {
+    "id": "fivb-cwc-renata-ziraat-2026-12-15",
+    "datetime": "2026-12-15T23:00:00+08:00",
+    "status": "upcoming",
+    "competition": "FIVB Men's Club World Championship",
+    "home": "Vôlei Renata",
+    "away": "Ziraat Bankkart",
+    "venue": "Arena Sosnowiec, Sosnowiec",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "石川祐希"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "FIVB 男子俱樂部世錦賽小組A；波蘭 12/15 16:00 CET＝港 23:00＠Arena Sosnowiec（TVF 官方公告 10/30／WorldofVolley CET 賽程）",
+    "leagueCountry": "波蘭",
+    "leagueCountryCode": "pl"
+  },
+  {
+    "id": "fivb-cwc-zawiercie-ziraat-2026-12-16",
+    "datetime": "2026-12-17T02:30:00+08:00",
+    "status": "upcoming",
+    "competition": "FIVB Men's Club World Championship",
+    "home": "Aluron CMC Warta Zawiercie",
+    "away": "Ziraat Bankkart",
+    "venue": "Arena Sosnowiec, Sosnowiec",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "石川祐希"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "FIVB 男子俱樂部世錦賽小組A；波蘭 12/16 19:30 CET＝港 12/17 02:30＠Arena Sosnowiec（TVF 官方公告 10/30／WorldofVolley CET 賽程）",
+    "leagueCountry": "波蘭",
+    "leagueCountryCode": "pl"
+  },
+  {
+    "id": "fivb-cwc-ziraat-sirjan-2026-12-17",
+    "datetime": "2026-12-17T23:00:00+08:00",
+    "status": "upcoming",
+    "competition": "FIVB Men's Club World Championship",
+    "home": "Ziraat Bankkart",
+    "away": "Foolad Sirjan Iranian",
+    "venue": "Arena Sosnowiec, Sosnowiec",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "石川祐希"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "FIVB 男子俱樂部世錦賽小組A；波蘭 12/17 16:00 CET＝港 23:00＠Arena Sosnowiec（TVF 官方公告 10/30／WorldofVolley CET 賽程）",
+    "leagueCountry": "波蘭",
+    "leagueCountryCode": "pl"
+  },
+  {
+    "id": "efeler-sultanbeyli-ziraat-2026-12-23",
+    "datetime": "2026-12-23T21:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Efeler Ligi (Men)",
+    "home": "Sultanbeyli Belediye Spor",
+    "away": "Ziraat Bankkart",
+    "venue": null,
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "石川祐希"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "Efeler 第12節；土耳其 12/23 16:00＝港 21:00 客場對 Sultanbeyli（ziraatbankasisporkulubu.com 官方 fikstur）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
   }
 ]
