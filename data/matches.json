@@ -4189,40 +4189,55 @@
   {
     "id": "efeler-kupa-ziraat-alanya-2026-11-10",
     "datetime": "2026-11-10T21:30:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "AXA Sigorta Kupa Voley (Men)",
     "home": "Ziraat Bankkart",
     "away": "ON Hotels Alanya Belediyespor",
     "venue": "TVF Ziraat Bankkart Voleybol Salonu, Ankara",
-    "score": null,
-    "setScores": null,
+    "score": "3-0",
+    "setScores": [
+      "25-23",
+      "25-13",
+      "25-15"
+    ],
     "broadcast": "TRT Spor Yıldız",
     "japanPlayers": [
       "石川祐希"
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "土耳其盃八強；TVF 官方 fikstur／Sporx（引 TVF 公布）列土耳其 11/10 16:30＝港 21:30＠Ankara TVF Ziraat Bankkart Voleybol Salonu；轉播 TRT Spor Yıldız。先前 ofsayt 寫 18:00／港 23:00 已更正。",
+    "note": "土耳其盃八強完場；Ziraat 主場 3-0 ON Hotels Alanya Belediyespor（25-23, 25-13, 25-15；約71分鐘＠TVF Ziraat Bankkart Voleybol Salonu），晉級四強。官方 Volleystation scoresheet 同土耳其媒體出場名單（Akşam／Fanatik／haberler）均無石川祐希（自第2節起連續未入名單）。來源：TVF／Akşam／Fanatik／Volleystation scoresheet 2026-11-10。",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
   {
     "id": "plusliga-katowice-chelm-2026-11-10",
     "datetime": "2026-11-11T00:30:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "PlusLiga",
     "home": "GKS Katowice",
     "away": "Podziemia Kredowe ChKS Chełm",
     "venue": "Arena Katowice, Katowice",
-    "score": null,
-    "setScores": null,
+    "score": "2-3",
+    "setScores": [
+      "16-25",
+      "23-25",
+      "25-20",
+      "25-19",
+      "13-15"
+    ],
     "broadcast": "Polsat Sport 1",
     "japanPlayers": [
       "今橋祐希"
     ],
     "gender": "men",
-    "playerStats": {},
-    "note": "PlusLiga；波蘭 11/10 17:30＝港 11/11 00:30＠Arena Katowice，Chełm 客場 vs GKS（球會官網／mecze24）。今橋祐希列喺 Chełm 報名名單（二傳）。轉播 Polsat Sport 1。",
+    "playerStats": {
+      "今橋祐希": {
+        "points": 0,
+        "note": "替補二傳上場 0 分（mecze24 逐人得分；ESKA／Kurier Lubelski 列為替補）"
+      }
+    },
+    "note": "PlusLiga／Tauron Liga 第4節補賽完場；GKS Katowice 主場 2-3 負 Chełm（16-25, 23-25, 25-20, 25-19, 13-15＠Arena Katowice；128分鐘）。今橋祐希替補上場 0 分。來源：Polsat Sport／mecze24／ESKA／Eurosport 2026-11-10。",
     "leagueCountry": "波蘭",
     "leagueCountryCode": "pl"
   },
@@ -4656,7 +4671,7 @@
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "GAME2；SV公式／しらべ帳",
+    "note": "GAME2；SV公式／しらべ帳。太陽鳥大阪官方（2026-11-09）公布一ノ瀬漣加盟（背號3）；本場賽後預定喺場地打招呼，入隊日期調整中。",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
@@ -5300,6 +5315,26 @@
     "note": "法甲女第9節；法 11/21 19:00 CET＝港 11/22 02:00 主場 vs Bordeaux（les-mariannes.fr／BetExplorer）",
     "leagueCountry": "法國",
     "leagueCountryCode": "fr"
+  },
+  {
+    "id": "plusliga-chelm-trefl-2026-11-21",
+    "datetime": "2026-11-22T03:30:00+08:00",
+    "status": "upcoming",
+    "competition": "PlusLiga",
+    "home": "Podziemia Kredowe ChKS Chełm",
+    "away": "Energa Trefl Gdańsk",
+    "venue": "HS MOSiR, Chełm",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "今橋祐希"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "PlusLiga；波蘭 11/21 20:30＝港 11/22 03:30＠HS MOSiR Chełm（Trefl 官網賽程／mecze24）。今橋祐希列 Chełm 報名名單（二傳）。",
+    "leagueCountry": "波蘭",
+    "leagueCountryCode": "pl"
   },
   {
     "id": "sv-men-stings-tokyo-g2-2026-11-22",
