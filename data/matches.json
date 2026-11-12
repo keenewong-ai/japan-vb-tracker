@@ -4348,11 +4348,7 @@
       "宮浦健人",
       "山崎彰都",
       "佐藤駿一郎",
-      "新井雄大",
-      "西本圭吾",
-      "永露元稀",
-      "三輪大将",
-      "高木啓士郎"
+      "大宅真樹"
     ],
     "gender": "men",
     "playerStats": {},
@@ -4373,7 +4369,6 @@
     "broadcast": null,
     "japanPlayers": [
       "小野寺太志",
-      "大宅真樹",
       "下川諒",
       "藤中颯志",
       "高橋慶帆"
@@ -4668,11 +4663,7 @@
       "宮浦健人",
       "山崎彰都",
       "佐藤駿一郎",
-      "新井雄大",
-      "西本圭吾",
-      "永露元稀",
-      "三輪大将",
-      "高木啓士郎"
+      "大宅真樹"
     ],
     "gender": "men",
     "playerStats": {},
@@ -4693,7 +4684,6 @@
     "broadcast": null,
     "japanPlayers": [
       "小野寺太志",
-      "大宅真樹",
       "下川諒",
       "藤中颯志",
       "高橋慶帆"
@@ -4946,6 +4936,26 @@
     "leagueCountryCode": "it"
   },
   {
+    "id": "kupa-voley-eczacibasi-aras-kargo-2026-11-18",
+    "datetime": "2026-11-19T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "AXA Sigorta Kupa Voley (Women)",
+    "home": "Eczacıbaşı Peron İstanbul",
+    "away": "Aras Kargo",
+    "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu, İstanbul",
+    "score": null,
+    "setScores": null,
+    "broadcast": "TVF Voleybol TV / Tabii Spor",
+    "japanPlayers": [
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "土耳其盃女排八強；土耳其 11/18 19:00＝港 11/19 00:00 主場對 Aras Kargo（TVF 官方賽程 2026-10-27：2027 Kadınlar AXA Sigorta Kupa Voley 八強節目）。",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
+  },
+  {
     "id": "plusliga-stilon-lublin-2026-11-18",
     "datetime": "2026-11-19T03:30:00+08:00",
     "status": "upcoming",
@@ -5110,7 +5120,6 @@
     "broadcast": null,
     "japanPlayers": [
       "小野寺太志",
-      "大宅真樹",
       "下川諒"
     ],
     "gender": "men",
@@ -5272,11 +5281,7 @@
     "setScores": null,
     "broadcast": null,
     "japanPlayers": [
-      "新井雄大",
-      "西本圭吾",
-      "永露元稀",
-      "三輪大将",
-      "高木啓士郎",
+      "大宅真樹",
       "山田大貴"
     ],
     "gender": "men",
@@ -5401,7 +5406,6 @@
     "broadcast": null,
     "japanPlayers": [
       "小野寺太志",
-      "大宅真樹",
       "下川諒"
     ],
     "gender": "men",
@@ -5422,11 +5426,7 @@
     "setScores": null,
     "broadcast": null,
     "japanPlayers": [
-      "新井雄大",
-      "西本圭吾",
-      "永露元稀",
-      "三輪大将",
-      "高木啓士郎",
+      "大宅真樹",
       "山田大貴"
     ],
     "gender": "men",
@@ -5843,7 +5843,6 @@
     "broadcast": null,
     "japanPlayers": [
       "小野寺太志",
-      "大宅真樹",
       "下川諒",
       "深津英臣",
       "宮浦健人",
@@ -6160,7 +6159,6 @@
     "broadcast": null,
     "japanPlayers": [
       "小野寺太志",
-      "大宅真樹",
       "下川諒",
       "深津英臣",
       "宮浦健人",

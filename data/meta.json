@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-12T09:22:31+08:00",
+  "lastUpdated": "2026-11-12T21:22:54+08:00",
   "timezone": "Asia/Hong_Kong",
-  "sourcesNote": "2026-11-12 AM：意甲女排第8節兩場完場寫入——Milano 3-1 Brescia（佐藤淑乃先發3分；Lega 官方戰報／tabellini），UYBA 2-3 Vallefoglia（和田24、秋本／Otomo 12、關3；Lega tabellini／UYBA 戰報）。土耳其盃男排四強對賽已公布（Ziraat vs Spor Toto；Sabah／TVF 11/11）但開波時間未定故未加場；CEV CL Ziraat×Montpellier 日期來源仍不一致（12/8 vs 12/9）故未加場。未發明分數；未改 Google Calendar。",
-  "version": 63
+  "sourcesNote": "2026-11-12 PM：新增土盃女排八強 Eczacıbaşı 主場 vs Aras Kargo（11/18 19:00 土耳其＝11/19 00:00 HKT；TVF 官方賽程）。並按 players.json 所屬球會修正 10 場 SV 男排即將開波名單：大宅真樹改回堺ブレイザーズ場次、誤掛喺堺場嘅廣島5人移走、誤掛喺太陽鳥場嘅大宅移除。土耳其盃男排四強對賽已公布但開波時間仍未定，未加場；CEV CL Ziraat×Montpellier 日期來源仍不一致（12/8 vs 12/9），未加場。未發明分數；未改 Google Calendar。",
+  "version": 64
 }

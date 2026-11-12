@@ -48,5 +48,15 @@
     "country": "波蘭",
     "countryCode": "pl",
     "flag": "assets/flags/pl.svg"
+  },
+  "AXA Sigorta Kupa Voley (Men)": {
+    "country": "土耳其",
+    "countryCode": "tr",
+    "flag": "assets/flags/tr.svg"
+  },
+  "AXA Sigorta Kupa Voley (Women)": {
+    "country": "土耳其",
+    "countryCode": "tr",
+    "flag": "assets/flags/tr.svg"
   }
 }
