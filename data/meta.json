@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-12T21:22:54+08:00",
+  "lastUpdated": "2026-11-13T09:33:39+08:00",
   "timezone": "Asia/Hong_Kong",
-  "sourcesNote": "2026-11-12 PM：新增土盃女排八強 Eczacıbaşı 主場 vs Aras Kargo（11/18 19:00 土耳其＝11/19 00:00 HKT；TVF 官方賽程）。並按 players.json 所屬球會修正 10 場 SV 男排即將開波名單：大宅真樹改回堺ブレイザーズ場次、誤掛喺堺場嘅廣島5人移走、誤掛喺太陽鳥場嘅大宅移除。土耳其盃男排四強對賽已公布但開波時間仍未定，未加場；CEV CL Ziraat×Montpellier 日期來源仍不一致（12/8 vs 12/9），未加場。未發明分數；未改 Google Calendar。",
-  "version": 64
+  "sourcesNote": "2026-11-13 AM：按 powervolleymilano.it／legavolley.it 官方節目，修正 SuperLega 第6節 Allianz Milano×Itas Trentino 開波時間為義 11/22 17:00 CET＝港 11/23 00:00（先前誤作 18:00）。新增大塚達宣 SuperLega 官方曆 12月～2月共 15 場；新增法甲女第10節 Chamalières×Levallois（11/28 20:00 CET＝港 11/29 03:00）同第11節 Levallois×Le Cannet（12/5 19:00 CET＝港 12/6 02:00）（SpikeLive／BetExplorer）。已核對 PlusLiga Warszawa×Chełm（今晚 17:30 CET＝港 11/14 00:30）、法甲 Béziers×Levallois（19:30 CET＝港 11/14 02:30）、SV.LEAGUE 第4節 11/14–15、Efeler Gebze×Ziraat（14:00 TR＝港 19:00）時間不變、尚未完場。土耳其盃男排四強（Ziraat×Spor Toto）開波時間仍未公布，CEV CL Ziraat×Montpellier 日期來源仍不一致，未加場。未發明分數；未改 Google Calendar。",
+  "version": 65
 }

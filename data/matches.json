@@ -5682,7 +5682,7 @@
   },
   {
     "id": "superlega-milano-trento-2026-11-22",
-    "datetime": "2026-11-23T01:00:00+08:00",
+    "datetime": "2026-11-23T00:00:00+08:00",
     "status": "upcoming",
     "competition": "SuperLega",
     "home": "Allianz Milano",
@@ -5696,7 +5696,7 @@
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "SuperLega 第6節；義 11/22 18:00＝港 11/23 01:00＠Allianz Cloud（powervolleymilano.it 官方曆）",
+    "note": "SuperLega 第6節；義 11/22 17:00 CET＝港 11/23 00:00＠Allianz Cloud（powervolleymilano.it 官方曆／legavolley.it 第6–10節節目；先前誤作 18:00）。",
     "leagueCountry": "意大利",
     "leagueCountryCode": "it"
   },
@@ -6486,5 +6486,345 @@
     "note": "Efeler 第12節；土耳其 12/23 16:00＝港 21:00 客場對 Sultanbeyli（ziraatbankasisporkulubu.com 官方 fikstur）",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
+  },
+  {
+    "status": "upcoming",
+    "competition": "SuperLega",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "大塚達宣"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it",
+    "id": "superlega-milano-perugia-2026-12-02",
+    "datetime": "2026-12-03T03:00:00+08:00",
+    "home": "Allianz Milano",
+    "away": "Sir Susa Scai Perugia",
+    "venue": "Allianz Cloud, Milano",
+    "note": "SuperLega 第8節；義 12/2 20:00 CET＝港 12/3 03:00＠Allianz Cloud vs Perugia（powervolleymilano.it 官方曆）"
+  },
+  {
+    "status": "upcoming",
+    "competition": "SuperLega",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "大塚達宣"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it",
+    "id": "superlega-pordenone-milano-2026-12-06",
+    "datetime": "2026-12-07T01:00:00+08:00",
+    "home": "Tinet Prata di Pordenone",
+    "away": "Allianz Milano",
+    "venue": "Palasport Crisafulli, Pordenone",
+    "note": "SuperLega 第9節；義 12/6 18:00 CET＝港 12/7 01:00 客場 Pordenone（powervolleymilano.it 官方曆）"
+  },
+  {
+    "status": "upcoming",
+    "competition": "SuperLega",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "大塚達宣"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it",
+    "id": "superlega-milano-piacenza-2026-12-13",
+    "datetime": "2026-12-14T01:00:00+08:00",
+    "home": "Allianz Milano",
+    "away": "Gas Sales Bluenergy Piacenza",
+    "venue": "Allianz Cloud, Milano",
+    "note": "SuperLega 第10節；義 12/13 18:00 CET＝港 12/14 01:00＠Allianz Cloud vs Piacenza（powervolleymilano.it 官方曆）"
+  },
+  {
+    "status": "upcoming",
+    "competition": "SuperLega",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "大塚達宣"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it",
+    "id": "superlega-modena-milano-2026-12-20",
+    "datetime": "2026-12-21T01:00:00+08:00",
+    "home": "Valsa Group Modena",
+    "away": "Allianz Milano",
+    "venue": "PalaSport G.Panini, Modena",
+    "note": "SuperLega 第11節；義 12/20 18:00 CET＝港 12/21 01:00 客場 Modena（powervolleymilano.it 官方曆）"
+  },
+  {
+    "status": "upcoming",
+    "competition": "SuperLega",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "大塚達宣"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it",
+    "id": "superlega-milano-monza-2026-12-26",
+    "datetime": "2026-12-27T01:00:00+08:00",
+    "home": "Allianz Milano",
+    "away": "Vero Volley Monza",
+    "venue": "Allianz Cloud, Milano",
+    "note": "SuperLega 第12節；義 12/26 18:00 CET＝港 12/27 01:00＠Allianz Cloud vs Monza（powervolleymilano.it 官方曆）"
+  },
+  {
+    "status": "upcoming",
+    "competition": "SuperLega",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "大塚達宣"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it",
+    "id": "superlega-perugia-milano-2027-01-03",
+    "datetime": "2027-01-04T01:00:00+08:00",
+    "home": "Sir Susa Scai Perugia",
+    "away": "Allianz Milano",
+    "venue": "Pala Barton Energy, Perugia",
+    "note": "SuperLega；義 1/3 18:00 CET＝港 1/4 01:00 客場 Perugia（powervolleymilano.it 官方曆）"
+  },
+  {
+    "status": "upcoming",
+    "competition": "SuperLega",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "大塚達宣"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it",
+    "id": "superlega-cuneo-milano-2027-01-10",
+    "datetime": "2027-01-11T01:00:00+08:00",
+    "home": "Acqua Sant’Anna Cuneo",
+    "away": "Allianz Milano",
+    "venue": "Palasport di Cuneo, Cuneo",
+    "note": "SuperLega；義 1/10 18:00 CET＝港 1/11 01:00 客場 Cuneo（powervolleymilano.it 官方曆）"
+  },
+  {
+    "status": "upcoming",
+    "competition": "SuperLega",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "大塚達宣"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it",
+    "id": "superlega-milano-cisterna-2027-01-13",
+    "datetime": "2027-01-14T01:00:00+08:00",
+    "home": "Allianz Milano",
+    "away": "Cisterna Volley",
+    "venue": "Allianz Cloud, Milano",
+    "note": "SuperLega；義 1/13 18:00 CET＝港 1/14 01:00＠Allianz Cloud vs Cisterna（powervolleymilano.it 官方曆）"
+  },
+  {
+    "status": "upcoming",
+    "competition": "SuperLega",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "大塚達宣"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it",
+    "id": "superlega-piacenza-milano-2027-01-17",
+    "datetime": "2027-01-18T01:00:00+08:00",
+    "home": "Gas Sales Bluenergy Piacenza",
+    "away": "Allianz Milano",
+    "venue": "PalabancaSport, Piacenza",
+    "note": "SuperLega；義 1/17 18:00 CET＝港 1/18 01:00 客場 Piacenza（powervolleymilano.it 官方曆）"
+  },
+  {
+    "status": "upcoming",
+    "competition": "SuperLega",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "大塚達宣"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it",
+    "id": "superlega-milano-verona-2027-01-24",
+    "datetime": "2027-01-25T01:00:00+08:00",
+    "home": "Allianz Milano",
+    "away": "Rana Verona",
+    "venue": "Allianz Cloud, Milano",
+    "note": "SuperLega；義 1/24 18:00 CET＝港 1/25 01:00＠Allianz Cloud vs Verona（powervolleymilano.it 官方曆）"
+  },
+  {
+    "status": "upcoming",
+    "competition": "SuperLega",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "大塚達宣"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it",
+    "id": "superlega-trento-milano-2027-01-31",
+    "datetime": "2027-02-01T01:00:00+08:00",
+    "home": "Itas Trentino",
+    "away": "Allianz Milano",
+    "venue": "BTS Arena, Trento",
+    "note": "SuperLega；義 1/31 18:00 CET＝港 2/1 01:00 客場 Trento（powervolleymilano.it 官方曆）"
+  },
+  {
+    "status": "upcoming",
+    "competition": "SuperLega",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "大塚達宣"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it",
+    "id": "superlega-milano-modena-2027-02-14",
+    "datetime": "2027-02-15T01:00:00+08:00",
+    "home": "Allianz Milano",
+    "away": "Valsa Group Modena",
+    "venue": "Allianz Cloud, Milano",
+    "note": "SuperLega；義 2/14 18:00 CET＝港 2/15 01:00＠Allianz Cloud vs Modena（powervolleymilano.it 官方曆）"
+  },
+  {
+    "status": "upcoming",
+    "competition": "SuperLega",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "大塚達宣"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it",
+    "id": "superlega-lube-milano-2027-02-21",
+    "datetime": "2027-02-22T01:00:00+08:00",
+    "home": "Cucine Lube Civitanova",
+    "away": "Allianz Milano",
+    "venue": "Eurosuole Forum, Civitanova Marche",
+    "note": "SuperLega；義 2/21 18:00 CET＝港 2/22 01:00 客場 Civitanova（powervolleymilano.it 官方曆）"
+  },
+  {
+    "status": "upcoming",
+    "competition": "SuperLega",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "大塚達宣"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it",
+    "id": "superlega-padova-milano-2027-02-24",
+    "datetime": "2027-02-25T01:00:00+08:00",
+    "home": "Pallavolo Padova",
+    "away": "Allianz Milano",
+    "venue": null,
+    "note": "SuperLega；義 2/24 18:00 CET＝港 2/25 01:00 客場 Padova（powervolleymilano.it 官方曆）"
+  },
+  {
+    "status": "upcoming",
+    "competition": "SuperLega",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "大塚達宣"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "leagueCountry": "意大利",
+    "leagueCountryCode": "it",
+    "id": "superlega-milano-pordenone-2027-02-28",
+    "datetime": "2027-03-01T01:00:00+08:00",
+    "home": "Allianz Milano",
+    "away": "Tinet Prata di Pordenone",
+    "venue": "Allianz Cloud, Milano",
+    "note": "SuperLega；義 2/28 18:00 CET＝港 3/1 01:00＠Allianz Cloud vs Pordenone（powervolleymilano.it 官方曆）"
+  },
+  {
+    "status": "upcoming",
+    "competition": "Ligue A (Women)",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "宮部愛芽世"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "leagueCountry": "法國",
+    "leagueCountryCode": "fr",
+    "id": "ligue-a-chamalieres-levallois-2026-11-28",
+    "datetime": "2026-11-29T03:00:00+08:00",
+    "home": "Chamalières",
+    "away": "Levallois Paris Saint-Cloud",
+    "venue": null,
+    "note": "法甲女第10節；法 11/28 20:00 CET＝港 11/29 03:00 客場 vs Chamalières（SpikeLive／BetExplorer）"
+  },
+  {
+    "status": "upcoming",
+    "competition": "Ligue A (Women)",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "宮部愛芽世"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "leagueCountry": "法國",
+    "leagueCountryCode": "fr",
+    "id": "ligue-a-levallois-lecannet-2026-12-05",
+    "datetime": "2026-12-06T02:00:00+08:00",
+    "home": "Levallois Paris Saint-Cloud",
+    "away": "Volero Le Cannet",
+    "venue": "Palais des Sports Marcel Cerdan, Levallois-Perret",
+    "note": "法甲女第11節；法 12/5 19:00 CET＝港 12/6 02:00 主場 vs Le Cannet（SpikeLive／BetExplorer）"
   }
 ]
