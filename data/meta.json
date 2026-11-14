@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-14T09:19:18+08:00",
+  "lastUpdated": "2026-11-14T21:18:34+08:00",
   "timezone": "Asia/Hong_Kong",
-  "sourcesNote": "2026-11-14 AM：更新 2 場完場——PlusLiga 第6節 Warszawa 主場 3-1 勝 Chełm（16-25, 31-29, 26-24, 25-17），今橋祐希替補二傳 0 分（Sport.pl／Eurosport／mecze24／Siatka24）；法甲女第8節 Béziers 主場 3-2 勝 Levallois（25-22, 25-19, 18-25, 22-25, 16-14），宮部愛芽世個人數據未見可靠來源故不記入（SpikeLive／Sportybell）。今晚 Efeler 第6節 Gebze×Ziraat（石川祐希）補上場地 Gebze Spor Salonu 同 TRT Spor Yıldız 直播。土耳其盃男排四強（Ziraat×Spor Toto）開波時間仍未公布；CEV CL Ziraat×Montpellier 日期來源仍不一致，未加場。未發明分數；未改 Google Calendar。",
-  "version": 67
+  "sourcesNote": "2026-11-14 PM：更新 12 場完場——SV男子第4節 GAME1 全 6 場（名古屋 3-2 堺、太陽鳥大阪 3-1 STINGS、北海道 3-0 広島、東京GB 2-3 信州、東レ静岡 3-1 ヴォレアス、大阪B 3-0 鹿児島）同 SV女子第5節 GAME1 有追蹤球員嘅 5 場（上尾 3-1 大阪MV、久光 2-3 PFU、デンソー 0-3 愛知、姫路 3-1 東レ滋賀、岡山 3-2 NEC川崎）；個人數據據 SV公式 match/detail 同 B帳票。宮浦健人、佐藤駿一郎、小野寺太志、井上未唯奈、エバデダン・ラリー今場未見公式登錄，不記入個人數據。公式登錄見藤中颯志以自由人出戰東レ静岡，已從STINGS場次名單改列東レ場次（players.json 球會欄暫未改，待移籍來源）。Efeler 第6節 Gebze 1-3 Ziraat（28-30, 25-22, 20-25, 20-25），石川祐希登錄但未出場（Ofsayt 完場統計；Ziraat 官方 fikstur 當時未刷新）。未發明分數；未改 Google Calendar。",
+  "version": 68
 }
