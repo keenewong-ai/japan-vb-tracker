@@ -4315,20 +4315,26 @@
   {
     "id": "ligue-a-beziers-levallois-2026-11-13",
     "datetime": "2026-11-14T02:30:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "Ligue A (Women)",
     "home": "Béziers Volley",
     "away": "Levallois Paris Saint-Cloud",
     "venue": "Palais des Sports Béziers Méditerranée Mazeran, Béziers",
-    "score": null,
-    "setScores": null,
+    "score": "3-2",
+    "setScores": [
+      "25-22",
+      "25-19",
+      "18-25",
+      "22-25",
+      "16-14"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "宮部愛芽世"
     ],
     "gender": "women",
     "playerStats": {},
-    "note": "法甲女第8節；法 11/13 19:30 CET＝港 11/14 02:30 客場 vs Béziers（BetExplorer／Béziers 觀光局賽程）",
+    "note": "法甲女第8節完場；Béziers 主場 3-2 勝 Levallois（25-22, 25-19, 18-25, 22-25, 16-14）。宮部愛芽世個人數據未見可靠來源，暫不記入。來源：SpikeLive／Sportybell 2026-11-13。",
     "leagueCountry": "法國",
     "leagueCountryCode": "fr"
   },
@@ -4589,16 +4595,16 @@
     "competition": "Efeler Ligi (Men)",
     "home": "Gebze Belediyesi",
     "away": "Ziraat Bankkart",
-    "venue": null,
+    "venue": "Gebze Spor Salonu, Kocaeli",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "TRT Spor Yıldız",
     "japanPlayers": [
       "石川祐希"
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "Efeler 第6節；土耳其 11/14 14:00＝港 19:00（ziraatbankasisporkulubu.com 官方 fikstur／ofsayt）",
+    "note": "Efeler 第6節；土耳其 11/14 14:00＝港 19:00＠Gebze Spor Salonu。直播 TRT Spor Yıldız（mavikocaeli 賽前報道／TVF 轉載節目表；ziraatbankasisporkulubu.com 官方 fikstur 核對開波時間）。",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
@@ -6370,20 +6376,30 @@
   {
     "id": "plusliga-warszawa-chelm-2026-11-13",
     "datetime": "2026-11-14T00:30:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "PlusLiga",
     "home": "PGE Projekt Warszawa",
     "away": "Podziemia Kredowe ChKS Chełm",
     "venue": "Arena Ursynów, Warszawa",
-    "score": null,
-    "setScores": null,
+    "score": "3-1",
+    "setScores": [
+      "16-25",
+      "31-29",
+      "26-24",
+      "25-17"
+    ],
     "broadcast": "Polsat Sport 1 / Polsat Sport Extra 2 / Polsat Box Go",
     "japanPlayers": [
       "今橋祐希"
     ],
     "gender": "men",
-    "playerStats": {},
-    "note": "PlusLiga 第6節；波蘭 11/13 17:30 CET＝港 11/14 00:30＠Arena Ursynów（Sport.pl／Stadiro／Projekt Warszawa 門票頁）。今橋祐希列 Chełm 報名名單（二傳）。",
+    "playerStats": {
+      "今橋祐希": {
+        "points": 0,
+        "note": "Blankenau 喺第2局局點（25-26）扭傷腳踝退下後頂替二傳；0 分（mecze24 逐人得分：發球 6／失誤 1、防守 3、助攻 22；Eurosport／SportoweFakty／Siatka24 列為替補）"
+      }
+    },
+    "note": "PlusLiga 第6節完場；PGE Projekt Warszawa 主場 3-1 勝 Chełm（16-25, 31-29, 26-24, 25-17；94分鐘＠Arena Ursynów）。Chełm 先贏首局，二傳 Blankenau 喺第2局局點傷退，今橋祐希頂替上場 0 分。MVP Jurij Semeniuk。來源：Sport.pl／SportoweFakty／Eurosport／mecze24／Siatka24 2026-11-13。",
     "leagueCountry": "波蘭",
     "leagueCountryCode": "pl"
   },
