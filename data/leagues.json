@@ -58,5 +58,10 @@
     "country": "土耳其",
     "countryCode": "tr",
     "flag": "assets/flags/tr.svg"
+  },
+  "LOVB": {
+    "country": "美國",
+    "countryCode": "us",
+    "flag": "assets/flags/us.svg"
   }
 }

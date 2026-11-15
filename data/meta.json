@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-14T21:18:34+08:00",
+  "lastUpdated": "2026-11-15T09:19:29+08:00",
   "timezone": "Asia/Hong_Kong",
-  "sourcesNote": "2026-11-14 PM：更新 12 場完場——SV男子第4節 GAME1 全 6 場（名古屋 3-2 堺、太陽鳥大阪 3-1 STINGS、北海道 3-0 広島、東京GB 2-3 信州、東レ静岡 3-1 ヴォレアス、大阪B 3-0 鹿児島）同 SV女子第5節 GAME1 有追蹤球員嘅 5 場（上尾 3-1 大阪MV、久光 2-3 PFU、デンソー 0-3 愛知、姫路 3-1 東レ滋賀、岡山 3-2 NEC川崎）；個人數據據 SV公式 match/detail 同 B帳票。宮浦健人、佐藤駿一郎、小野寺太志、井上未唯奈、エバデダン・ラリー今場未見公式登錄，不記入個人數據。公式登錄見藤中颯志以自由人出戰東レ静岡，已從STINGS場次名單改列東レ場次（players.json 球會欄暫未改，待移籍來源）。Efeler 第6節 Gebze 1-3 Ziraat（28-30, 25-22, 20-25, 20-25），石川祐希登錄但未出場（Ofsayt 完場統計；Ziraat 官方 fikstur 當時未刷新）。未發明分數；未改 Google Calendar。",
-  "version": 68
+  "sourcesNote": "2026-11-15 AM：昨晚完場已入帳，今早未有新完場分數。更正藤中颯志球會為東レアローズ静岡（2026-06-19 由太陽鳥大阪轉投，SV公式選手頁／東レ発表），並將之後 STINGS 場次名單改列東レ場次；未改寫已完場但對賽東レ嘅 10/24–25 場次名單（藤中屬東レ一邊）。補今日 SV GAME2 部分場次 J SPORTSオンデマンド、意甲第9節 Scandicci×Busto／Cuneo×Milano 轉播 DAZN。新增 LOVB 3 場開季賽程（小島満菜美 Salt Lake 主場 12/19 vs Austin；岩澤実育 12/22 客場 Minnesota、1/6 主場 vs Austin；LOVB 官方賽程稿）。八卦：高橋藍同味之素營養／調理支援合約（PR TIMES 2026-11-13）。宮部愛芽世上仗個人數據仍缺可靠來源，不記入。未發明分數；未改 Google Calendar。",
+  "version": 69
 }

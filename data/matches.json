@@ -2240,7 +2240,6 @@
     ],
     "broadcast": null,
     "japanPlayers": [
-      "藤中颯志",
       "高橋慶帆"
     ],
     "gender": "men",
@@ -2690,7 +2689,6 @@
     ],
     "broadcast": null,
     "japanPlayers": [
-      "藤中颯志",
       "高橋慶帆"
     ],
     "gender": "men",
@@ -3483,7 +3481,6 @@
       "深津英臣",
       "宮浦健人",
       "佐藤駿一郎",
-      "藤中颯志",
       "高橋慶帆",
       "山崎彰都"
     ],
@@ -3870,7 +3867,6 @@
       "深津英臣",
       "宮浦健人",
       "佐藤駿一郎",
-      "藤中颯志",
       "高橋慶帆",
       "山崎彰都"
     ],
@@ -4884,7 +4880,7 @@
     "venue": "HAPPINESS ARENA",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "深津英臣",
       "宮浦健人",
@@ -4908,7 +4904,7 @@
     "venue": "おおきにアリーナ舞洲",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "小野寺太志",
       "下川諒",
@@ -4950,7 +4946,7 @@
     "venue": "サイデン化学アリーナさいたま",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "塩出仁美",
       "西崎愛菜"
@@ -4971,7 +4967,7 @@
     "venue": "サロンパスアリーナ",
     "score": null,
     "setScores": null,
-    "broadcast": "J SPORTS 2",
+    "broadcast": "J SPORTS 2 / J SPORTSオンデマンド",
     "japanPlayers": [
       "荒木彩花",
       "栄絵里香",
@@ -5018,7 +5014,7 @@
     "venue": "国立代々木競技場第二体育館",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "村山豪",
       "後藤陸翔"
@@ -5039,7 +5035,7 @@
     "venue": "このはなアリーナ",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "山田大貴",
       "藤中颯志"
@@ -5060,7 +5056,7 @@
     "venue": "パナソニックアリーナ",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "西田有志",
       "山内晶大",
@@ -5087,7 +5083,7 @@
     "venue": "山陽ふれあい公園総合体育館",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "中川つかさ",
       "山田二千華",
@@ -5130,7 +5126,7 @@
     "venue": "Pala BigMat, Firenze",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "DAZN",
     "japanPlayers": [
       "關菜々巳",
       "和田由紀子",
@@ -5152,7 +5148,7 @@
     "venue": "Palazzo Dello Sport, Cuneo",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "DAZN",
     "japanPlayers": [
       "佐藤淑乃"
     ],
@@ -5238,7 +5234,6 @@
     "setScores": null,
     "broadcast": null,
     "japanPlayers": [
-      "藤中颯志",
       "高橋慶帆",
       "村山豪",
       "後藤陸翔"
@@ -5509,7 +5504,8 @@
     "broadcast": null,
     "japanPlayers": [
       "大宅真樹",
-      "山田大貴"
+      "山田大貴",
+      "藤中颯志"
     ],
     "gender": "men",
     "playerStats": {},
@@ -5609,7 +5605,6 @@
     "setScores": null,
     "broadcast": null,
     "japanPlayers": [
-      "藤中颯志",
       "高橋慶帆",
       "村山豪",
       "後藤陸翔"
@@ -5654,7 +5649,8 @@
     "broadcast": null,
     "japanPlayers": [
       "大宅真樹",
-      "山田大貴"
+      "山田大貴",
+      "藤中颯志"
     ],
     "gender": "men",
     "playerStats": {},
@@ -6183,6 +6179,7 @@
     "broadcast": null,
     "japanPlayers": [
       "山田大貴",
+      "藤中颯志",
       "新井雄大",
       "西本圭吾",
       "永露元稀",
@@ -6207,7 +6204,6 @@
     "setScores": null,
     "broadcast": null,
     "japanPlayers": [
-      "藤中颯志",
       "高橋慶帆"
     ],
     "gender": "men",
@@ -6479,6 +6475,7 @@
     "broadcast": null,
     "japanPlayers": [
       "山田大貴",
+      "藤中颯志",
       "新井雄大",
       "西本圭吾",
       "永露元稀",
@@ -6503,7 +6500,6 @@
     "setScores": null,
     "broadcast": null,
     "japanPlayers": [
-      "藤中颯志",
       "高橋慶帆"
     ],
     "gender": "men",
@@ -7214,7 +7210,8 @@
       "宮浦健人",
       "山崎彰都",
       "佐藤駿一郎",
-      "山田大貴"
+      "山田大貴",
+      "藤中颯志"
     ],
     "gender": "men",
     "playerStats": {},
@@ -7238,7 +7235,8 @@
       "宮浦健人",
       "山崎彰都",
       "佐藤駿一郎",
-      "山田大貴"
+      "山田大貴",
+      "藤中颯志"
     ],
     "gender": "men",
     "playerStats": {},
@@ -7266,7 +7264,6 @@
       "山本智大",
       "エバデダン・ラリー",
       "西川馨太郎",
-      "藤中颯志",
       "高橋慶帆"
     ],
     "gender": "men",
@@ -7295,7 +7292,6 @@
       "山本智大",
       "エバデダン・ラリー",
       "西川馨太郎",
-      "藤中颯志",
       "高橋慶帆"
     ],
     "gender": "men",
@@ -8222,5 +8218,65 @@
     "note": "PlusLiga 第26節；波蘭 2027-03-27（TAURON Liga 官方賽程 PDF 2026-11-13 確認日期；開波時間待官方補）",
     "leagueCountry": "波蘭",
     "leagueCountryCode": "pl"
+  },
+  {
+    "id": "lovb-saltlake-austin-2026-12-19",
+    "datetime": "2026-12-20T10:00:00+08:00",
+    "status": "upcoming",
+    "competition": "LOVB",
+    "home": "LOVB Salt Lake",
+    "away": "LOVB Austin",
+    "venue": "SLCC Bruin Arena, Salt Lake City",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "小島満菜美"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "LOVB 2026-27 例行賽；當地 12/19 19:00 MT＝港 12/20 10:00 主場對 Austin（LOVB 官方賽程稿 2026-11-06）",
+    "leagueCountry": "美國",
+    "leagueCountryCode": "us"
+  },
+  {
+    "id": "lovb-minnesota-miami-2026-12-22",
+    "datetime": "2026-12-23T09:00:00+08:00",
+    "status": "upcoming",
+    "competition": "LOVB",
+    "home": "LOVB Minnesota",
+    "away": "LOVB Miami",
+    "venue": "Maturi Pavilion, Minneapolis",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "岩澤実育"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "LOVB 2026-27 例行賽；當地 12/22 19:00 CT＝港 12/23 09:00 客場對 Minnesota（LOVB 官方賽程稿 2026-11-06／バレーボールキング）",
+    "leagueCountry": "美國",
+    "leagueCountryCode": "us"
+  },
+  {
+    "id": "lovb-miami-austin-2027-01-06",
+    "datetime": "2027-01-07T09:00:00+08:00",
+    "status": "upcoming",
+    "competition": "LOVB",
+    "home": "LOVB Miami",
+    "away": "LOVB Austin",
+    "venue": "Watsco Arena, Coral Gables",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "岩澤実育"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "LOVB 2026-27 邁阿密主場首戰；當地 1/6 20:00 ET＝港 1/7 09:00 vs Austin（LOVB 官方賽程稿 2026-11-06／バレーボールキング）",
+    "leagueCountry": "美國",
+    "leagueCountryCode": "us"
   }
 ]
