@@ -732,5 +732,42 @@
     ],
     "source": "バレーボールキング",
     "sourceUrl": "https://volleyballking.jp/article/81986/"
+  },
+  {
+    "id": "tiri-lublin-watch-ran-ogawa-2026-11-16",
+    "date": "2026-11-16",
+    "title": "蒂利監督到盧布林觀戰　同高橋藍、小川智大合照",
+    "summary": "日刊體育報道，盧布林官方社交帳號公開 Team Japan 合照：日本男排監督羅朗・蒂利（Laurent Tillie）企喺高橋藍同小川智大中間，兩位球員豎起拇指，小川仲擺出射心心姿勢。15 日對 Resovia 嘅比賽，高橋藍攻入全場最高 14 分、小川當選 MVP，盧布林開季 6 連勝。",
+    "playerIds": [
+      "takahashi-ran",
+      "ogawa-tomohiro"
+    ],
+    "playerNames": [
+      "高橋藍",
+      "小川智大"
+    ],
+    "tags": [
+      "代表隊",
+      "生活"
+    ],
+    "source": "日刊スポーツ",
+    "sourceUrl": "https://www.nikkansports.com/sports/news/202611160001350.html"
+  },
+  {
+    "id": "wada-serie-a1-avg-14-3-2026-11-15",
+    "date": "2026-11-15",
+    "title": "和田由紀子開幕 8 場平均 14.3 分　接近石川真佑同期起步",
+    "summary": "SPREAD／運動公論報道，轉戰意甲 UYBA 嘅和田由紀子開幕 8 場有 7 場錄得雙位數得分，累積 114 分做球隊最高，聯賽排名第 12；場均 14.3 分接近石川真佑佛羅倫斯時期開幕 8 場嘅 14.8 分，同埋諾瓦拉首季嘅 14.5 分。前節對 Vallefoglia 更攻入全場最高 24 分。",
+    "playerIds": [
+      "wada-yukiko"
+    ],
+    "playerNames": [
+      "和田由紀子"
+    ],
+    "tags": [
+      "訪談"
+    ],
+    "source": "SPREAD（スポーツブル）",
+    "sourceUrl": "https://sportsbull.jp/p/2457694/"
   }
 ]
