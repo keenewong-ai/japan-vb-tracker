@@ -769,5 +769,40 @@
     ],
     "source": "SPREAD（スポーツブル）",
     "sourceUrl": "https://sportsbull.jp/p/2457694/"
+  },
+  {
+    "id": "shiode-toss-precision-2026-11-17",
+    "date": "2026-11-17",
+    "title": "塩出仁美今季主題：托球精度同組織發想力",
+    "summary": "排球王 17 日刊登大阪 MV 二傳塩出仁美專訪。佢話今夏亞洲盃出場有限、A 代表好多時喺場邊，令佢帶住危機感迎接 SV 新季，想提升托球精度同組織攻擊嘅發想力，尤其係 A 傳稍為偏離都能用中間快攻。球會 GAME1／GAME2 經常輪換先發，酒井大祐監督話要畀球員機會，最終令戰力膨脹。",
+    "playerIds": [
+      "shiode-hitomi"
+    ],
+    "playerNames": [
+      "塩出仁美"
+    ],
+    "tags": [
+      "訪談"
+    ],
+    "source": "バレーボールキング",
+    "sourceUrl": "https://volleyballking.jp/article/97193/"
+  },
+  {
+    "id": "otsuka-milano-jtb-tour-2026-11-17",
+    "date": "2026-11-17",
+    "title": "大塚達宣米蘭現地觀戰團　11/19 起會員先行抽籤",
+    "summary": "JTB 體育 17 日公布，將舉辦大塚達宣效力嘅 Power Volley Milano 現地觀戰團（羽田出發、成田回程），包括比賽觀戰、參觀球隊訓練、乘坐球隊官方巴士，同埋參加者限定嘅大塚座談，另有簽名特典。11 月 19 日（四）12:00 至 11 月 23 日 23:59 喺大塚官方網站會員先行抽籤報名，抽籤結果同購買期為 11 月 26 日 15:00 至 11 月 29 日。",
+    "playerIds": [
+      "otsuka-tatsunori"
+    ],
+    "playerNames": [
+      "大塚達宣"
+    ],
+    "tags": [
+      "出國",
+      "生活"
+    ],
+    "source": "JTBスポーツ",
+    "sourceUrl": "https://www.jtb.co.jp/sports/news/20261117_1/index.asp"
   }
 ]

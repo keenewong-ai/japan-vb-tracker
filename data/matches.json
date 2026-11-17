@@ -6259,7 +6259,7 @@
   },
   {
     "id": "plusliga-barkom-lublin-2026-11-28",
-    "datetime": "2026-11-28T00:00:00+08:00",
+    "datetime": "2026-11-29T03:30:00+08:00",
     "status": "upcoming",
     "competition": "PlusLiga",
     "home": "Jastrzębie Barkom",
@@ -6274,7 +6274,7 @@
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "PlusLiga 第9節；波蘭 11/28 主場 Jastrzębie Barkom vs Lublin（TAURON Liga PDF 確認日期；開波時間待官方補）",
+    "note": "PlusLiga 第9節；波蘭 11/28 20:30＝港 11/29 03:30＠Jastrzębie-Zdrój vs Lublin（lkpslublin.pl 官方 terminarz 確認開波時間）",
     "leagueCountry": "波蘭",
     "leagueCountryCode": "pl"
   },
@@ -7814,7 +7814,7 @@
   },
   {
     "id": "plusliga-lublin-chelm-2026-12-04",
-    "datetime": "2026-12-04T00:00:00+08:00",
+    "datetime": "2026-12-05T00:30:00+08:00",
     "status": "upcoming",
     "competition": "PlusLiga",
     "home": "BOGDANKA LUK Lublin",
@@ -7830,7 +7830,7 @@
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "PlusLiga 第10節；波蘭 12/04＠HSW Globus（TAURON Liga 官方賽程 PDF 2026-11-13 確認日期；開波時間待官方補）",
+    "note": "PlusLiga 第10節；波蘭 12/04 17:30＝港 12/05 00:30＠HSW Globus vs Chełm（lkpslublin.pl 官方 terminarz 確認開波時間）",
     "leagueCountry": "波蘭",
     "leagueCountryCode": "pl"
   },
@@ -8530,5 +8530,45 @@
     "note": "LOVB 2026-27 邁阿密主場首戰；當地 1/6 20:00 ET＝港 1/7 09:00 vs Austin（LOVB 官方賽程稿 2026-11-06／バレーボールキング）",
     "leagueCountry": "美國",
     "leagueCountryCode": "us"
+  },
+  {
+    "id": "cev-cl-eczacibasi-scandicci-2026-12-17",
+    "datetime": "2026-12-18T01:00:00+08:00",
+    "status": "upcoming",
+    "competition": "CEV Champions League (Women)",
+    "home": "Eczacıbaşı Peron İstanbul",
+    "away": "Savino Del Bene Scandicci",
+    "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu, İstanbul",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "CEV CL Pool D；土耳其 12/17 20:00＝港 12/18 01:00 主場對 Scandicci（Wikipedia 引 CEV 當地時間；womanleagues 同樣列出 20:00）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
+  },
+  {
+    "id": "cev-cl-eczacibasi-tovuz-2027-01-12",
+    "datetime": "2027-01-12T23:00:00+08:00",
+    "status": "upcoming",
+    "competition": "CEV Champions League (Women)",
+    "home": "Eczacıbaşı Peron İstanbul",
+    "away": "Turan Tovuz",
+    "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu, İstanbul",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "CEV CL Pool D；土耳其 1/12 18:00＝港 23:00 主場對 Turan Tovuz（Wikipedia 引 CEV 當地時間）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
   }
 ]
