@@ -8610,5 +8610,115 @@
     "note": "CEV CL Pool D 客場；義 2/3 18:30 CET＝土耳其 20:30＝港 2/4 01:30＠Palazzo Wanny vs Scandicci（VBLineup 17:30 UTC／womanleagues 20:30 GMT+3／Mintonette 20:30）。",
     "leagueCountry": "歐洲",
     "leagueCountryCode": "eu"
+  },
+  {
+    "id": "fivb-cwc-nec-eczacibasi-2026-12-08",
+    "datetime": "2026-12-08T21:00:00+08:00",
+    "status": "upcoming",
+    "competition": "FIVB Women's Club World Championship",
+    "home": "NEC レッドロケッツ川崎",
+    "away": "Eczacıbaşı Peron İstanbul",
+    "venue": "Wlamir Marques Multi-Sports Gymnasium, São Paulo",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "中川つかさ",
+      "山田二千華",
+      "廣田あい",
+      "甲萌香",
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "FIVB 女子俱樂部世錦賽小組A；巴西 12/8 10:00（UTC-3）＝港 21:00＠Wlamir Marques，聖保羅，NEC vs Eczacıbaşı（NEC 官方賽程稿 2026-09-08／TVF 官方公告 2026-09-11 TSİ 16:00）。",
+    "leagueCountry": "巴西",
+    "leagueCountryCode": "br"
+  },
+  {
+    "id": "fivb-cwc-nec-alianza-2026-12-09",
+    "datetime": "2026-12-10T00:30:00+08:00",
+    "status": "upcoming",
+    "competition": "FIVB Women's Club World Championship",
+    "home": "NEC レッドロケッツ川崎",
+    "away": "Club Alianza Lima",
+    "venue": "Wlamir Marques Multi-Sports Gymnasium, São Paulo",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "中川つかさ",
+      "山田二千華",
+      "廣田あい",
+      "甲萌香"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "FIVB 女子俱樂部世錦賽小組A；巴西 12/9 13:30（UTC-3）＝港 12/10 00:30＠Wlamir Marques vs Alianza Lima（NEC 官方賽程稿 2026-09-08：日本時間 12/10 01:30）。",
+    "leagueCountry": "巴西",
+    "leagueCountryCode": "br"
+  },
+  {
+    "id": "fivb-cwc-osasco-eczacibasi-2026-12-09",
+    "datetime": "2026-12-10T07:30:00+08:00",
+    "status": "upcoming",
+    "competition": "FIVB Women's Club World Championship",
+    "home": "Osasco São Cristóvão Saúde",
+    "away": "Eczacıbaşı Peron İstanbul",
+    "venue": "Wlamir Marques Multi-Sports Gymnasium, São Paulo",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "FIVB 女子俱樂部世錦賽小組A；巴西 12/9 20:30（UTC-3）＝港 12/10 07:30＠Wlamir Marques，Osasco vs Eczacıbaşı（NEC 官方賽程稿 2026-09-08／TVF 官方公告 TSİ 12/10 02:30）。",
+    "leagueCountry": "巴西",
+    "leagueCountryCode": "br"
+  },
+  {
+    "id": "fivb-cwc-eczacibasi-alianza-2026-12-10",
+    "datetime": "2026-12-11T00:30:00+08:00",
+    "status": "upcoming",
+    "competition": "FIVB Women's Club World Championship",
+    "home": "Eczacıbaşı Peron İstanbul",
+    "away": "Club Alianza Lima",
+    "venue": "Wlamir Marques Multi-Sports Gymnasium, São Paulo",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "FIVB 女子俱樂部世錦賽小組A；巴西 12/10 13:30（UTC-3）＝港 12/11 00:30＠Wlamir Marques，Eczacıbaşı vs Alianza Lima（NEC 官方賽程稿 2026-09-08／TVF 官方公告 TSİ 19:30）。",
+    "leagueCountry": "巴西",
+    "leagueCountryCode": "br"
+  },
+  {
+    "id": "fivb-cwc-osasco-nec-2026-12-10",
+    "datetime": "2026-12-11T07:30:00+08:00",
+    "status": "upcoming",
+    "competition": "FIVB Women's Club World Championship",
+    "home": "Osasco São Cristóvão Saúde",
+    "away": "NEC レッドロケッツ川崎",
+    "venue": "Wlamir Marques Multi-Sports Gymnasium, São Paulo",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "中川つかさ",
+      "山田二千華",
+      "廣田あい",
+      "甲萌香"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "FIVB 女子俱樂部世錦賽小組A；巴西 12/10 20:30（UTC-3）＝港 12/11 07:30＠Wlamir Marques，Osasco vs NEC（NEC 官方賽程稿 2026-09-08：日本時間 12/11 08:30）。",
+    "leagueCountry": "巴西",
+    "leagueCountryCode": "br"
   }
 ]

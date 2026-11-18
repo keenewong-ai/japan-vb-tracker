@@ -49,6 +49,11 @@
     "countryCode": "pl",
     "flag": "assets/flags/pl.svg"
   },
+  "FIVB Women's Club World Championship": {
+    "country": "巴西",
+    "countryCode": "br",
+    "flag": "assets/flags/br.svg"
+  },
   "AXA Sigorta Kupa Voley (Men)": {
     "country": "土耳其",
     "countryCode": "tr",
