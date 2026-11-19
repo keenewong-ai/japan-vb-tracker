@@ -5413,41 +5413,63 @@
   {
     "id": "kupa-voley-eczacibasi-aras-kargo-2026-11-18",
     "datetime": "2026-11-19T00:00:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "AXA Sigorta Kupa Voley (Women)",
     "home": "Eczacıbaşı Peron İstanbul",
     "away": "Aras Kargo",
     "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu, İstanbul",
-    "score": null,
-    "setScores": null,
+    "score": "3-0",
+    "setScores": [
+      "25-17",
+      "25-12",
+      "25-16"
+    ],
     "broadcast": "TVF Voleybol TV / Tabii Spor",
     "japanPlayers": [
       "石川真佑"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "土耳其盃女排八強；土耳其 11/18 19:00＝港 11/19 00:00 主場對 Aras Kargo（TVF 官方賽程 2026-10-27：2027 Kadınlar AXA Sigorta Kupa Voley 八強節目）。",
+    "playerStats": {
+      "石川真佑": {
+        "points": 0,
+        "note": "列官方名單但未上場（Sultanlar Cup VolleyStation 官方 scoresheet 無局次標記；VBLineup：Named in the squad, but never took the court）"
+      }
+    },
+    "note": "土耳其盃女排八強完場；Eczacıbaşı Peron İstanbul 主場 3-0 勝 Aras Kargo（25-17, 25-12, 25-16；70分鐘＠Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu），晉級四強，將對 Fenerbahçe Medicana（四強賽程待 TVF 公布）。石川真佑列官方名單但未上場。來源：TVF／Sultanlar Cup VolleyStation 官方 scoresheet、Eczacıbaşı 官方戰報 2026-11-18。",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
   {
     "id": "plusliga-stilon-lublin-2026-11-18",
     "datetime": "2026-11-19T03:30:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "PlusLiga",
     "home": "Cuprum Stilon Gorzów",
     "away": "BOGDANKA LUK Lublin",
     "venue": "Arena Gorzów, Gorzów Wielkopolski",
-    "score": null,
-    "setScores": null,
+    "score": "0-3",
+    "setScores": [
+      "20-25",
+      "18-25",
+      "18-25"
+    ],
     "broadcast": "富士電視台 NEXT・FOD（日語實況，11/19 04:25 起）",
     "japanPlayers": [
       "高橋藍",
       "小川智大"
     ],
     "gender": "men",
-    "playerStats": {},
-    "note": "PlusLiga 第7節；波蘭 11/18 20:30＝港 11/19 03:30＠Arena Gorzów vs Lublin（TAURON Liga 官方賽程 PDF 2026-11-06／lkpslublin terminarz）",
+    "playerStats": {
+      "高橋藍": {
+        "points": 10,
+        "note": "先發；10 分（Polsat Sport／mecze24／WorldofVolley）"
+      },
+      "小川智大": {
+        "points": 0,
+        "note": "先發 libero；0 分（Polsat Sport 出場名單／mecze24）"
+      }
+    },
+    "note": "PlusLiga 第7節完場；Cuprum Stilon Gorzów 主場 0-3 負 BOGDANKA LUK Lublin（20-25, 18-25, 18-25；74分鐘＠Arena Gorzów）。高橋藍先發 10 分，小川智大先發 libero 0 分。Lublin 開季 7 連勝、聯賽仍不敗（局數 21-2）。來源：Polsat Sport／mecze24／WorldofVolley 2026-11-18。",
     "leagueCountry": "波蘭",
     "leagueCountryCode": "pl"
   },
