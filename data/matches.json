@@ -5817,13 +5817,13 @@
     "venue": "TVF Ziraat Bankkart Voleybol Salonu, Ankara",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "TRT Spor Yıldız",
     "japanPlayers": [
       "石川祐希"
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "Efeler 第7節；土耳其 11/21 16:00＝港 21:00（ziraatbankasisporkulubu.com 官方 fikstur）",
+    "note": "Efeler 第7節；土耳其 11/21 16:00＝港 21:00＠TVF Ziraat Bankkart Voleybol Salonu（ziraatbankasisporkulubu.com 官方 fikstur 再確認；TRT Spor Yıldız）。石川祐希治療近尾聲，土耳其媒體指有望復出（屬預期，非已上場）。",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
@@ -7796,7 +7796,7 @@
   },
   {
     "id": "plusliga-chelm-zawiercie-2026-11-29",
-    "datetime": "2026-11-29T00:00:00+08:00",
+    "datetime": "2026-11-29T22:00:00+08:00",
     "status": "upcoming",
     "competition": "PlusLiga",
     "home": "Podziemia Kredowe ChKS Chełm",
@@ -7804,13 +7804,13 @@
     "venue": "HS MOSiR Chełm",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "Polsat Sport 1（波蘭 14:45 起）",
     "japanPlayers": [
       "今橋祐希"
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "PlusLiga 第9節；波蘭 11/29（TAURON Liga 官方賽程 PDF 2026-11-13 確認日期；開波時間待官方補）",
+    "note": "PlusLiga 第9節；波蘭 11/29 15:00＝港 22:00＠HS MOSiR Chełm vs Zawiercie（mecze24 開波 15:00；teleman.pl 列 Polsat Sport 1 14:45 起）。今橋祐希列 Chełm 報名名單（二傳）。",
     "leagueCountry": "波蘭",
     "leagueCountryCode": "pl"
   },
@@ -7883,7 +7883,7 @@
     "competition": "PlusLiga",
     "home": "NEONET Norwid Częstochowa",
     "away": "BOGDANKA LUK Lublin",
-    "venue": "HS Częstochowa",
+    "venue": "DMD Arena Częstochowa",
     "score": null,
     "setScores": null,
     "broadcast": null,
@@ -7893,7 +7893,7 @@
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "PlusLiga 第11節；波蘭 12/14（TAURON Liga 官方賽程 PDF 2026-11-13 確認日期；開波時間待官方補）",
+    "note": "PlusLiga 第11節；波蘭 12/14＠DMD Arena Częstochowa（hala-czestochowa.pl 場館日曆確認日期；開波時間待官方補）",
     "leagueCountry": "波蘭",
     "leagueCountryCode": "pl"
   },
