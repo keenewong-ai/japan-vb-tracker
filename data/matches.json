@@ -5476,13 +5476,17 @@
   {
     "id": "sv-men-kagoshima-wd-2026-11-20",
     "datetime": "2026-11-20T18:35:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "フラーゴラッド鹿児島",
     "away": "ウルフドッグス名古屋",
     "venue": "Fアリーナいちき串木野",
-    "score": null,
-    "setScores": null,
+    "score": "0-3",
+    "setScores": [
+      "18-25",
+      "17-25",
+      "21-25"
+    ],
     "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "深津英臣",
@@ -5491,8 +5495,13 @@
       "佐藤駿一郎"
     ],
     "gender": "men",
-    "playerStats": {},
-    "note": "GAME1；SV公式／しらべ帳",
+    "playerStats": {
+      "山崎彰都": {
+        "points": 8,
+        "note": "先發出戰3局；攻擊8＋攔網0＋發球ace0（攻擊15打／8成功／0失敗、決定率53.33%；公式 match/detail/38016）"
+      }
+    },
+    "note": "SV男子第5節 GAME1完場；ウルフドッグス名古屋 作客 3-0 勝 フラーゴラッド鹿児島（18-25, 17-25, 21-25；官方 match/detail/38016／sheet=b）。山崎彰都先發打滿3局 8 分。深津英臣、宮浦健人、佐藤駿一郎今場未見公式登錄，個人數據不記入。",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
