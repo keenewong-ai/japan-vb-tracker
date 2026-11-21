@@ -5508,13 +5508,19 @@
   {
     "id": "sv-men-stings-tokyo-2026-11-21",
     "datetime": "2026-11-21T12:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "ジェイテクトSTINGS愛知",
     "away": "東京グレートベアーズ",
     "venue": "CNAアリーナ★あきた",
-    "score": null,
-    "setScores": null,
+    "score": "3-2",
+    "setScores": [
+      "21-25",
+      "22-25",
+      "25-21",
+      "25-23",
+      "15-13"
+    ],
     "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "高橋慶帆",
@@ -5522,21 +5528,39 @@
       "後藤陸翔"
     ],
     "gender": "men",
-    "playerStats": {},
-    "note": "GAME1；SV公式／しらべ帳",
+    "playerStats": {
+      "高橋慶帆": {
+        "points": 1,
+        "note": "替補出戰2局（第1、3局）；攻擊1＋攔網0＋發球ace0（攻擊2打／1成功／1失敗、決定率50.0%；公式 match/detail/38020）"
+      },
+      "村山豪": {
+        "points": 11,
+        "note": "先發出戰5局；攻擊6＋攔網4＋發球ace1（攻擊9打／6成功／0失敗、決定率66.7%；公式 match/detail/38020）"
+      },
+      "後藤陸翔": {
+        "points": 11,
+        "note": "先發出戰5局；攻擊10＋攔網1＋發球ace0（攻擊26打／10成功／1失敗、決定率38.5%；公式 match/detail/38020）"
+      }
+    },
+    "note": "SV男子第5節 GAME1完場；ジェイテクトSTINGS愛知 主場 3-2 勝 東京グレートベアーズ（21-25, 22-25, 25-21, 25-23, 15-13；官方 match/detail/38020／sheet=b）。後藤陸翔先發打滿5局 11 分，村山豪先發打滿5局 11 分（攔網4＋發球ace1），高橋慶帆替補第1、3局 1 分。",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
   {
     "id": "sv-women-gunma-aichi-2026-11-21",
     "datetime": "2026-11-21T13:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
     "home": "群馬グリーンウイングス",
     "away": "アリーザ愛知",
     "venue": "ヤマト市民体育館前橋",
-    "score": null,
-    "setScores": null,
+    "score": "1-3",
+    "setScores": [
+      "25-16",
+      "18-25",
+      "22-25",
+      "17-25"
+    ],
     "broadcast": "群馬テレビ／J SPORTSオンデマンド",
     "japanPlayers": [
       "島村春世",
@@ -5544,62 +5568,104 @@
       "鴫原ひなた"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "GAME1；SV公式／しらべ帳",
+    "playerStats": {
+      "島村春世": {
+        "points": 8,
+        "note": "先發出戰4局；攻擊6＋攔網2＋發球ace0（攻擊11打／6成功／0失敗、決定率54.5%；公式 match/detail/37502）"
+      },
+      "志摩美古都": {
+        "points": 12,
+        "note": "先發出戰4局；攻擊10＋攔網2＋發球ace0（攻擊31打／10成功／4失敗、決定率32.3%；公式 match/detail/37502）"
+      },
+      "鴫原ひなた": {
+        "points": 11,
+        "note": "出場4局（第2、3、4局先發、第1局替補）；攻擊10＋攔網1＋發球ace0（攻擊28打／10成功／0失敗、決定率35.7%；公式 match/detail/37502）"
+      }
+    },
+    "note": "SV女子交流戰第6節 GAME1完場；アリーザ愛知 作客 3-1 勝 群馬グリーンウイングス（25-16, 18-25, 22-25, 17-25；官方 match/detail/37502／sheet=b）。志摩美古都先發打滿4局 12 分，島村春世 8 分；鴫原ひなた出場4局（第1局替補、第2–4局先發）11 分。",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
   {
     "id": "sv-women-pfu-ageo-2026-11-21",
     "datetime": "2026-11-21T13:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
     "home": "PFUブルーキャッツ石川かほく",
     "away": "埼玉上尾メディックス",
     "venue": "とり野菜みそ BLUECATS ARENA",
-    "score": null,
-    "setScores": null,
+    "score": "3-2",
+    "setScores": [
+      "28-26",
+      "22-25",
+      "25-16",
+      "22-25",
+      "15-9"
+    ],
     "broadcast": "J SPORTS 2／J SPORTSオンデマンド※ゴールデンライブ",
     "japanPlayers": [
       "川添美優",
       "松井珠己"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "GAME1；SV公式／しらべ帳",
+    "playerStats": {
+      "川添美優": {
+        "points": 3,
+        "note": "先發出戰2局（第1、2局）；攻擊3＋攔網0＋發球ace0（攻擊17打／3成功／1失敗、決定率17.6%；公式 match/detail/37504）"
+      },
+      "松井珠己": {
+        "points": 1,
+        "note": "先發出戰5局；攻擊1＋攔網0＋發球ace0（攻擊2打／1成功／0失敗、決定率50.0%；公式 match/detail/37504）"
+      }
+    },
+    "note": "SV女子交流戰第6節 GAME1完場；PFUブルーキャッツ石川かほく 主場 3-2 勝 埼玉上尾メディックス（28-26, 22-25, 25-16, 22-25, 15-9；官方 match/detail/37504／sheet=b）。川添美優先發出戰第1、2局 3 分，松井珠己先發打滿5局 1 分。",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
   {
     "id": "sv-women-toray-okayama-2026-11-21",
     "datetime": "2026-11-21T13:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
     "home": "東レアローズ滋賀",
     "away": "岡山シーガルズ",
     "venue": "滋賀ダイハツアリーナ",
-    "score": null,
-    "setScores": null,
+    "score": "0-3",
+    "setScores": [
+      "19-25",
+      "16-25",
+      "17-25"
+    ],
     "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "花岡千聡"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "GAME1；SV公式／しらべ帳",
+    "playerStats": {
+      "花岡千聡": {
+        "points": 0,
+        "note": "替補出戰3局（第1、2、3局）；攻擊0＋攔網0＋發球ace0（公式 match/detail/37506）"
+      }
+    },
+    "note": "SV女子西地區第6節 GAME1完場；岡山シーガルズ 作客 3-0 勝 東レアローズ滋賀（19-25, 16-25, 17-25；官方 match/detail/37506／sheet=b）。花岡千聡替補出戰3局 0 分。",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
   {
     "id": "sv-women-osaka-kurobe-2026-11-21",
     "datetime": "2026-11-21T13:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
     "home": "大阪マーヴェラス",
     "away": "ＫＵＲＯＢＥアクアフェアリーズ富山",
     "venue": "おおきにアリーナ舞洲",
-    "score": null,
-    "setScores": null,
+    "score": "3-1",
+    "setScores": [
+      "25-22",
+      "25-23",
+      "20-25",
+      "25-19"
+    ],
     "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "塩出仁美",
@@ -5607,21 +5673,38 @@
       "山口真季"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "GAME1；SV公式／しらべ帳",
+    "playerStats": {
+      "塩出仁美": {
+        "points": 0,
+        "note": "替補出戰1局（第3局）；攻擊0＋攔網0＋發球ace0（公式 match/detail/37508）"
+      },
+      "西崎愛菜": {
+        "points": 0,
+        "note": "以自由人出戰4局；攻擊0＋攔網0＋發球ace0（公式 match/detail/37508）"
+      },
+      "山口真季": {
+        "points": 7,
+        "note": "先發出戰4局；攻擊3＋攔網4＋發球ace0（攻擊11打／3成功／1失敗、決定率27.3%；公式 match/detail/37508）"
+      }
+    },
+    "note": "SV女子交流戰第6節 GAME1完場；大阪マーヴェラス 主場 3-1 勝 ＫＵＲＯＢＥアクアフェアリーズ富山（25-22, 25-23, 20-25, 25-19；官方 match/detail/37508／sheet=b）。山口真季先發打滿4局 7 分（攔網4），西崎愛菜以自由人打滿4局 0 分，塩出仁美替補第3局 0 分。",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
   {
     "id": "sv-men-hokkaido-suntory-2026-11-21",
     "datetime": "2026-11-21T14:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "北海道イエロースターズ",
     "away": "サントリーサンバーズ大阪",
     "venue": "北海きたえーる",
-    "score": null,
-    "setScores": null,
+    "score": "0-3",
+    "setScores": [
+      "22-25",
+      "27-29",
+      "21-25"
+    ],
     "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "小野寺太志",
@@ -5629,20 +5712,24 @@
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "GAME1；SV公式／しらべ帳",
+    "note": "SV男子第5節 GAME1完場；サントリーサンバーズ大阪 作客 3-0 勝 北海道イエロースターズ（22-25, 27-29, 21-25；官方 match/detail/38018／sheet=b）。下川諒名單有登錄但未出場。小野寺太志今場未見公式登錄，個人數據不記入。",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
   {
     "id": "sv-men-osaka-b-shinshu-2026-11-21",
     "datetime": "2026-11-21T14:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "大阪ブルテオン",
     "away": "信州松本トライデンツ",
     "venue": "パナソニックアリーナ",
-    "score": null,
-    "setScores": null,
+    "score": "3-0",
+    "setScores": [
+      "25-19",
+      "25-20",
+      "25-17"
+    ],
     "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "西田有志",
@@ -5655,21 +5742,51 @@
       "西川馨太郎"
     ],
     "gender": "men",
-    "playerStats": {},
-    "note": "GAME1；SV公式／しらべ帳",
+    "playerStats": {
+      "西田有志": {
+        "points": 14,
+        "note": "先發出戰3局；攻擊11＋攔網2＋發球ace1（攻擊20打／11成功／2失敗、決定率55.0%；公式 match/detail/38022）"
+      },
+      "富田将馬": {
+        "points": 8,
+        "note": "先發出戰3局；攻擊5＋攔網2＋發球ace1（攻擊11打／5成功／1失敗、決定率45.5%；公式 match/detail/38022）"
+      },
+      "甲斐優斗": {
+        "points": 12,
+        "note": "先發出戰3局；攻擊11＋攔網0＋發球ace1（攻擊17打／11成功／1失敗、決定率64.7%；公式 match/detail/38022）"
+      },
+      "山本智大": {
+        "points": 0,
+        "note": "以自由人出戰3局；攻擊0＋攔網0＋發球ace0（公式 match/detail/38022）"
+      },
+      "エバデダン・ラリー": {
+        "points": 11,
+        "note": "先發出戰3局；攻擊4＋攔網6＋發球ace1（攻擊7打／4成功／0失敗、決定率57.1%；公式 match/detail/38022）"
+      },
+      "西川馨太郎": {
+        "points": 0,
+        "note": "替補出戰2局（第1、2局）；攻擊0＋攔網0＋發球ace0（公式 match/detail/38022）"
+      }
+    },
+    "note": "SV男子第5節 GAME1完場；大阪ブルテオン 主場 3-0 勝 信州松本トライデンツ（25-19, 25-20, 25-17；官方 match/detail/38022／sheet=b）。西田有志先發打滿3局 14 分，甲斐優斗 12 分，エバデダン・ラリー 11 分，富田将馬 8 分；山本智大以自由人打滿3局。西川馨太郎替補第1、2局 0 分。山内晶大、西山大翔名單有登錄但未出場。",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
   {
     "id": "sv-men-hiroshima-voreas-2026-11-21",
     "datetime": "2026-11-21T14:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "広島サンダーズ",
     "away": "ヴォレアス北海道",
     "venue": "広島サンプラザホール",
-    "score": null,
-    "setScores": null,
+    "score": "1-3",
+    "setScores": [
+      "25-21",
+      "23-25",
+      "17-25",
+      "21-25"
+    ],
     "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "新井雄大",
@@ -5679,21 +5796,43 @@
       "高木啓士郎"
     ],
     "gender": "men",
-    "playerStats": {},
-    "note": "GAME1；SV公式／しらべ帳",
+    "playerStats": {
+      "新井雄大": {
+        "points": 13,
+        "note": "先發出戰4局；攻擊11＋攔網2＋發球ace0（攻擊20打／11成功／2失敗、決定率55.0%；公式 match/detail/38026）"
+      },
+      "西本圭吾": {
+        "points": 8,
+        "note": "先發出戰4局；攻擊6＋攔網2＋發球ace0（攻擊10打／6成功／0失敗、決定率60.0%；公式 match/detail/38026）"
+      },
+      "永露元稀": {
+        "points": 1,
+        "note": "先發出戰4局；攻擊1＋攔網0＋發球ace0（攻擊1打／1成功／0失敗、決定率100.0%；公式 match/detail/38026）"
+      },
+      "三輪大将": {
+        "points": 3,
+        "note": "先發出戰4局；攻擊3＋攔網0＋發球ace0（攻擊8打／3成功／1失敗、決定率37.5%；公式 match/detail/38026）"
+      }
+    },
+    "note": "SV男子第5節 GAME1完場；ヴォレアス北海道 作客 3-1 勝 広島サンダーズ（25-21, 23-25, 17-25, 21-25；官方 match/detail/38026／sheet=b）。新井雄大先發打滿4局 13 分，西本圭吾 8 分，三輪大将 3 分，永露元稀 1 分。高木啓士郎今場未見公式登錄，個人數據不記入。",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
   {
     "id": "sv-women-denso-nec-2026-11-21",
     "datetime": "2026-11-21T14:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
     "home": "デンソーエアリービーズ",
     "away": "NEC レッドロケッツ川崎",
     "venue": "ダイセンアリーナ西尾",
-    "score": null,
-    "setScores": null,
+    "score": "1-3",
+    "setScores": [
+      "26-24",
+      "19-25",
+      "18-25",
+      "16-25"
+    ],
     "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "中川つかさ",
@@ -5702,41 +5841,72 @@
       "甲萌香"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "GAME1；SV公式／しらべ帳",
+    "playerStats": {
+      "中川つかさ": {
+        "points": 1,
+        "note": "先發出戰4局；攻擊0＋攔網0＋發球ace1（公式 match/detail/37498）"
+      },
+      "山田二千華": {
+        "points": 5,
+        "note": "先發出戰3局（第2、3、4局）；攻擊2＋攔網3＋發球ace0（攻擊10打／2成功／1失敗、決定率20.0%；公式 match/detail/37498）"
+      },
+      "廣田あい": {
+        "points": 20,
+        "note": "先發出戰4局；攻擊17＋攔網2＋發球ace1（攻擊36打／17成功／1失敗、決定率47.2%；公式 match/detail/37498）"
+      },
+      "甲萌香": {
+        "points": 4,
+        "note": "先發出戰4局；攻擊3＋攔網1＋發球ace0（攻擊5打／3成功／0失敗、決定率60.0%；公式 match/detail/37498）"
+      }
+    },
+    "note": "SV女子東地區第6節 GAME1完場；NEC レッドロケッツ川崎 作客 3-1 勝 デンソーエアリービーズ（26-24, 19-25, 18-25, 16-25；官方 match/detail/37498／sheet=b）。廣田あい先發打滿4局 20 分，山田二千華先發出戰第2–4局 5 分，甲萌香先發打滿4局 4 分，中川つかさ先發打滿4局 1 分（發球ace1）。",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
   {
     "id": "sv-women-astemo-himeji-2026-11-21",
     "datetime": "2026-11-21T14:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
     "home": "Astemoリヴァーレ茨城",
     "away": "ヴィクトリーナ姫路",
     "venue": "ひたちなか市総合運動公園総合体育館",
-    "score": null,
-    "setScores": null,
+    "score": "1-3",
+    "setScores": [
+      "22-25",
+      "25-20",
+      "23-25",
+      "21-25"
+    ],
     "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "福留慧美"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "GAME1；SV公式／しらべ帳",
+    "playerStats": {
+      "福留慧美": {
+        "points": 0,
+        "note": "以自由人出戰4局；攻擊0＋攔網0＋發球ace0（公式 match/detail/37500）"
+      }
+    },
+    "note": "SV女子交流戰第6節 GAME1完場；ヴィクトリーナ姫路 作客 3-1 勝 Astemoリヴァーレ茨城（22-25, 25-20, 23-25, 21-25；官方 match/detail/37500／sheet=b）。福留慧美以自由人打滿4局 0 分。",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
   {
     "id": "sv-women-hisamitsu-akita-2026-11-21",
     "datetime": "2026-11-21T14:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE WOMEN",
     "home": "SAGA久光スプリングス",
     "away": "アランマーレ秋田庄内",
     "venue": "SAGAアリーナ",
-    "score": null,
-    "setScores": null,
+    "score": "3-0",
+    "setScores": [
+      "25-17",
+      "26-24",
+      "25-19"
+    ],
     "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "荒木彩花",
@@ -5746,21 +5916,43 @@
       "西村弥菜美"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "GAME1；SV公式／しらべ帳",
+    "playerStats": {
+      "荒木彩花": {
+        "points": 9,
+        "note": "先發出戰3局；攻擊9＋攔網0＋發球ace0（攻擊12打／9成功／1失敗、決定率75.0%；公式 match/detail/37510）"
+      },
+      "栄絵里香": {
+        "points": 2,
+        "note": "先發出戰3局；攻擊2＋攔網0＋發球ace0（攻擊3打／2成功／0失敗、決定率66.7%；公式 match/detail/37510）"
+      },
+      "北窓絢音": {
+        "points": 4,
+        "note": "出場3局（第3局先發、第1、2局替補）；攻擊4＋攔網0＋發球ace0（攻擊12打／4成功／1失敗、決定率33.3%；公式 match/detail/37510）"
+      },
+      "西村弥菜美": {
+        "points": 0,
+        "note": "以自由人出戰3局；攻擊0＋攔網0＋發球ace0（公式 match/detail/37510）"
+      }
+    },
+    "note": "SV女子交流戰第6節 GAME1完場；SAGA久光スプリングス 主場 3-0 勝 アランマーレ秋田庄内（25-17, 26-24, 25-19；官方 match/detail/37510／sheet=b）。荒木彩花先發打滿3局 9 分，北窓絢音出場3局（第1–2局替補、第3局先發）4 分，栄絵里香先發打滿3局 2 分；西村弥菜美以自由人打滿3局。井上未唯奈今場未見公式登錄，個人數據不記入。",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
   {
     "id": "sv-men-kagoshima-wd-g2-2026-11-21",
     "datetime": "2026-11-21T14:35:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "フラーゴラッド鹿児島",
     "away": "ウルフドッグス名古屋",
     "venue": "Fアリーナいちき串木野",
-    "score": null,
-    "setScores": null,
+    "score": "1-3",
+    "setScores": [
+      "28-30",
+      "15-25",
+      "28-26",
+      "18-25"
+    ],
     "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "深津英臣",
@@ -5769,21 +5961,32 @@
       "佐藤駿一郎"
     ],
     "gender": "men",
-    "playerStats": {},
-    "note": "GAME2；SV公式／しらべ帳",
+    "playerStats": {
+      "山崎彰都": {
+        "points": 9,
+        "note": "先發出戰4局；攻擊9＋攔網0＋發球ace0（攻擊22打／9成功／4失敗、決定率40.9%；公式 match/detail/38017）"
+      }
+    },
+    "note": "SV男子第5節 GAME2完場；ウルフドッグス名古屋 作客 3-1 勝 フラーゴラッド鹿児島（28-30, 15-25, 28-26, 18-25；官方 match/detail/38017／sheet=b）。山崎彰都先發打滿4局 9 分。深津英臣、宮浦健人、佐藤駿一郎今場未見公式登錄，個人數據不記入。",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
   {
     "id": "sv-men-sakai-toray-2026-11-21",
     "datetime": "2026-11-21T15:05:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "日本製鉄堺ブレイザーズ",
     "away": "東レアローズ静岡",
     "venue": "日本製鉄堺体育館",
-    "score": null,
-    "setScores": null,
+    "score": "3-2",
+    "setScores": [
+      "25-21",
+      "25-19",
+      "21-25",
+      "18-25",
+      "15-11"
+    ],
     "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "大宅真樹",
@@ -5791,28 +5994,50 @@
       "藤中颯志"
     ],
     "gender": "men",
-    "playerStats": {},
-    "note": "GAME1；SV公式／しらべ帳",
+    "playerStats": {
+      "大宅真樹": {
+        "points": 2,
+        "note": "先發出戰5局；攻擊0＋攔網1＋發球ace1（公式 match/detail/38024）"
+      },
+      "山田大貴": {
+        "points": 14,
+        "note": "出場4局（第3、4、5局先發、第2局替補）；攻擊13＋攔網1＋發球ace0（攻擊19打／13成功／0失敗、決定率68.4%；公式 match/detail/38024）"
+      },
+      "藤中颯志": {
+        "points": 0,
+        "note": "以自由人出戰5局；攻擊0＋攔網0＋發球ace0（公式 match/detail/38024）"
+      }
+    },
+    "note": "SV男子第5節 GAME1完場；日本製鉄堺ブレイザーズ 主場 3-2 勝 東レアローズ静岡（25-21, 25-19, 21-25, 18-25, 15-11；官方 match/detail/38024／sheet=b）。大宅真樹先發打滿5局 2 分（攔網1＋發球ace1）。山田大貴出場4局（第2局替補、第3–5局先發）14 分。藤中颯志以自由人打滿5局 0 分。",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
   {
     "id": "sultanlar-eczacibasi-kuzeyboru-2026-11-21",
     "datetime": "2026-11-21T19:00:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "Sultanlar Ligi (Women)",
     "home": "Eczacıbaşı Peron İstanbul",
     "away": "Kuzeyboru",
     "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu, İstanbul",
-    "score": null,
-    "setScores": null,
+    "score": "3-0",
+    "setScores": [
+      "25-15",
+      "25-23",
+      "25-22"
+    ],
     "broadcast": "Hulu（日本）",
     "japanPlayers": [
       "石川真佑"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "土超女第10節；土耳其 11/21 14:00＝港 19:00 主場對 Kuzeyboru（Eczacıbaşı 官網賽程）",
+    "playerStats": {
+      "石川真佑": {
+        "points": 0,
+        "note": "替補第3局出場、0分（接發球1；Sultanlar Ligi 官方 VolleyStation scoresheet）"
+      }
+    },
+    "note": "土超女第10節完場；Eczacıbaşı Peron İstanbul 主場 3-0 勝 Kuzeyboru（25-15, 25-23, 25-22；80分鐘＠Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu）。石川真佑替補第3局出場、0分（接發球1）。來源：Sultanlar Ligi 官方 VolleyStation scoresheet、Eczacıbaşı 官網賽程／Birgün 2026-11-21。",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
