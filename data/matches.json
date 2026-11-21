@@ -8751,5 +8751,305 @@
     "note": "FIVB 女子俱樂部世錦賽小組A；巴西 12/10 20:30（UTC-3）＝港 12/11 07:30＠Wlamir Marques，Osasco vs NEC（NEC 官方賽程稿 2026-09-08：日本時間 12/11 08:30）。",
     "leagueCountry": "巴西",
     "leagueCountryCode": "br"
+  },
+  {
+    "id": "sultanlar-eczacibasi-nilufer-2026-12-20",
+    "datetime": "2026-12-20T23:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Sultanlar Ligi (Women)",
+    "home": "Eczacıbaşı Peron İstanbul",
+    "away": "Nilüfer BLD.",
+    "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu, İstanbul",
+    "score": null,
+    "setScores": null,
+    "broadcast": "Hulu（日本）",
+    "japanPlayers": [
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "土超女第14節；土耳其 12/20 18:00＝港 23:00 主場對 Nilüfer BLD.（Eczacıbaşı 官網賽程）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
+  },
+  {
+    "id": "sultanlar-eczacibasi-thy-2026-12-22",
+    "datetime": "2026-12-23T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Sultanlar Ligi (Women)",
+    "home": "Eczacıbaşı Peron İstanbul",
+    "away": "THY",
+    "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu, İstanbul",
+    "score": null,
+    "setScores": null,
+    "broadcast": "Hulu（日本）",
+    "japanPlayers": [
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "土超女第13節；土耳其 12/22 19:00＝港 12/23 00:00 主場對 THY（Eczacıbaşı 官網賽程）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
+  },
+  {
+    "id": "sultanlar-aras-kargo-eczacibasi-2027-01-02",
+    "datetime": "2027-01-02T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Sultanlar Ligi (Women)",
+    "home": "Aras Kargo",
+    "away": "Eczacıbaşı Peron İstanbul",
+    "venue": "TVF Atatürk Voleybol Vestel Spor Kompleksi, İstanbul",
+    "score": null,
+    "setScores": null,
+    "broadcast": "Hulu（日本）",
+    "japanPlayers": [
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "土超女第15節；土耳其 1/02 客場對 Aras Kargo＠TVF Atatürk Voleybol Vestel Spor Kompleksi（Eczacıbaşı 官網賽程確認日期；開波時間待官方補）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
+  },
+  {
+    "id": "sultanlar-afyon-eczacibasi-2027-01-05",
+    "datetime": "2027-01-05T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Sultanlar Ligi (Women)",
+    "home": "Afyon Belediyesi Yüntaş",
+    "away": "Eczacıbaşı Peron İstanbul",
+    "venue": "Prof. Dr. Veysel Eroğlu Spor Salonu",
+    "score": null,
+    "setScores": null,
+    "broadcast": "Hulu（日本）",
+    "japanPlayers": [
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "土超女第12節；土耳其 1/05 客場對 Afyon Belediyesi Yüntaş＠Prof. Dr. Veysel Eroğlu Spor Salonu（Eczacıbaşı 官網賽程確認日期；開波時間待官方補）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
+  },
+  {
+    "id": "sultanlar-eczacibasi-ilbank-2027-01-09",
+    "datetime": "2027-01-09T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Sultanlar Ligi (Women)",
+    "home": "Eczacıbaşı Peron İstanbul",
+    "away": "İlbank",
+    "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu, İstanbul",
+    "score": null,
+    "setScores": null,
+    "broadcast": "Hulu（日本）",
+    "japanPlayers": [
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "土超女第16節；土耳其 1/09 主場對 İlbank（Eczacıbaşı 官網賽程確認日期；開波時間待官方補）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
+  },
+  {
+    "id": "sultanlar-vakifbank-eczacibasi-2027-01-16",
+    "datetime": "2027-01-16T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Sultanlar Ligi (Women)",
+    "home": "VakıfBank",
+    "away": "Eczacıbaşı Peron İstanbul",
+    "venue": "VakıfBank Spor Sarayı, İstanbul",
+    "score": null,
+    "setScores": null,
+    "broadcast": "Hulu（日本）",
+    "japanPlayers": [
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "土超女第17節；土耳其 1/16 客場對 VakıfBank＠VakıfBank Spor Sarayı（Eczacıbaşı 官網賽程確認日期；開波時間待官方補）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
+  },
+  {
+    "id": "sultanlar-eczacibasi-fener-2027-01-23",
+    "datetime": "2027-01-23T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Sultanlar Ligi (Women)",
+    "home": "Eczacıbaşı Peron İstanbul",
+    "away": "Fenerbahçe Medicana",
+    "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu, İstanbul",
+    "score": null,
+    "setScores": null,
+    "broadcast": "Hulu（日本）",
+    "japanPlayers": [
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "土超女第18節；土耳其 1/23 主場對 Fenerbahçe Medicana（Eczacıbaşı 官網賽程確認日期；開波時間待官方補）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
+  },
+  {
+    "id": "sultanlar-manisa-eczacibasi-2027-01-30",
+    "datetime": "2027-01-30T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Sultanlar Ligi (Women)",
+    "home": "Manisa Büyükşehir Belediye Spor",
+    "away": "Eczacıbaşı Peron İstanbul",
+    "venue": "Muradiye Kapalı Spor Salonu",
+    "score": null,
+    "setScores": null,
+    "broadcast": "Hulu（日本）",
+    "japanPlayers": [
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "土超女第19節；土耳其 1/30 客場對 Manisa Büyükşehir Belediye Spor＠Muradiye Kapalı Spor Salonu（Eczacıbaşı 官網賽程確認日期；開波時間待官方補）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
+  },
+  {
+    "id": "sultanlar-eczacibasi-besiktas-2027-02-06",
+    "datetime": "2027-02-06T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Sultanlar Ligi (Women)",
+    "home": "Eczacıbaşı Peron İstanbul",
+    "away": "Beşiktaş",
+    "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu, İstanbul",
+    "score": null,
+    "setScores": null,
+    "broadcast": "Hulu（日本）",
+    "japanPlayers": [
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "土超女第20節；土耳其 2/06 主場對 Beşiktaş（Eczacıbaşı 官網賽程確認日期；開波時間待官方補）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
+  },
+  {
+    "id": "sultanlar-goztepe-eczacibasi-2027-02-13",
+    "datetime": "2027-02-13T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Sultanlar Ligi (Women)",
+    "home": "Göztepe Yuppo",
+    "away": "Eczacıbaşı Peron İstanbul",
+    "venue": "TVF Atatürk Voleybol Vestel Spor Kompleksi, İstanbul",
+    "score": null,
+    "setScores": null,
+    "broadcast": "Hulu（日本）",
+    "japanPlayers": [
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "土超女第21節；土耳其 2/13 客場對 Göztepe Yuppo＠TVF Atatürk Voleybol Vestel Spor Kompleksi（Eczacıbaşı 官網賽程確認日期；開波時間待官方補）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
+  },
+  {
+    "id": "sultanlar-eczacibasi-zeren-2027-02-20",
+    "datetime": "2027-02-20T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Sultanlar Ligi (Women)",
+    "home": "Eczacıbaşı Peron İstanbul",
+    "away": "Zeren Spor",
+    "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu, İstanbul",
+    "score": null,
+    "setScores": null,
+    "broadcast": "Hulu（日本）",
+    "japanPlayers": [
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "土超女第22節；土耳其 2/20 主場對 Zeren Spor（Eczacıbaşı 官網賽程確認日期；開波時間待官方補）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
+  },
+  {
+    "id": "sultanlar-kuzeyboru-eczacibasi-2027-02-27",
+    "datetime": "2027-02-27T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Sultanlar Ligi (Women)",
+    "home": "Kuzeyboru",
+    "away": "Eczacıbaşı Peron İstanbul",
+    "venue": "Aksaray Spor Salonu",
+    "score": null,
+    "setScores": null,
+    "broadcast": "Hulu（日本）",
+    "japanPlayers": [
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "土超女第23節；土耳其 2/27 客場對 Kuzeyboru＠Aksaray Spor Salonu（Eczacıbaşı 官網賽程確認日期；開波時間待官方補）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
+  },
+  {
+    "id": "sultanlar-galatasaray-eczacibasi-2027-03-06",
+    "datetime": "2027-03-06T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Sultanlar Ligi (Women)",
+    "home": "Galatasaray Daikin",
+    "away": "Eczacıbaşı Peron İstanbul",
+    "venue": "Burhan Felek Spor Salonu, İstanbul",
+    "score": null,
+    "setScores": null,
+    "broadcast": "Hulu（日本）",
+    "japanPlayers": [
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "土超女第24節；土耳其 3/06 客場對 Galatasaray Daikin＠Burhan Felek Spor Salonu（Eczacıbaşı 官網賽程確認日期；開波時間待官方補）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
+  },
+  {
+    "id": "sultanlar-eczacibasi-afyon-2027-03-13",
+    "datetime": "2027-03-13T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Sultanlar Ligi (Women)",
+    "home": "Eczacıbaşı Peron İstanbul",
+    "away": "Afyon Belediyesi Yüntaş",
+    "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu, İstanbul",
+    "score": null,
+    "setScores": null,
+    "broadcast": "Hulu（日本）",
+    "japanPlayers": [
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "土超女第25節；土耳其 3/13 主場對 Afyon Belediyesi Yüntaş（Eczacıbaşı 官網賽程確認日期；開波時間待官方補）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
+  },
+  {
+    "id": "sultanlar-thy-eczacibasi-2027-03-20",
+    "datetime": "2027-03-20T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "Sultanlar Ligi (Women)",
+    "home": "THY",
+    "away": "Eczacıbaşı Peron İstanbul",
+    "venue": "Burhan Felek Spor Salonu, İstanbul",
+    "score": null,
+    "setScores": null,
+    "broadcast": "Hulu（日本）",
+    "japanPlayers": [
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "土超女第26節；土耳其 3/20 客場對 THY＠Burhan Felek Spor Salonu（Eczacıbaşı 官網賽程確認日期；開波時間待官方補）",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
   }
 ]
