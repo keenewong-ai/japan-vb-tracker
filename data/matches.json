@@ -6044,60 +6044,89 @@
   {
     "id": "efeler-ziraat-galatasaray-2026-11-21",
     "datetime": "2026-11-21T21:00:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "Efeler Ligi (Men)",
     "home": "Ziraat Bankkart",
     "away": "Galatasaray",
     "venue": "TVF Ziraat Bankkart Voleybol Salonu, Ankara",
-    "score": null,
-    "setScores": null,
+    "score": "3-0",
+    "setScores": [
+      "25-18",
+      "25-23",
+      "32-30"
+    ],
     "broadcast": "TRT Spor Yıldız",
     "japanPlayers": [
       "石川祐希"
     ],
     "gender": "men",
-    "playerStats": {},
-    "note": "Efeler 第7節；土耳其 11/21 16:00＝港 21:00＠TVF Ziraat Bankkart Voleybol Salonu（ziraatbankasisporkulubu.com 官方 fikstur 再確認；TRT Spor Yıldız）。石川祐希治療近尾聲，土耳其媒體指有望復出（屬預期，非已上場）。",
+    "playerStats": {
+      "石川祐希": {
+        "points": 0,
+        "note": "傷癒復出打 2 局；攻擊 0、攔網 0、發球 0、失誤 2（VBLineup）"
+      }
+    },
+    "note": "Efeler 第7節完場；Ziraat 主場 3-0 勝 Galatasaray（25-18, 25-23, 32-30＠TVF Ziraat Bankkart Voleybol Salonu；約104分鐘）。石川祐希傷癒復出，替補上場 2 局 0 分。來源：Milliyet（AA）／Sporanki／VBLineup；Ziraat 官方 fikstur 當時仍顯示 0-0 未刷新。",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
   {
     "id": "ligue-a-levallois-bordeaux-2026-11-21",
     "datetime": "2026-11-22T02:00:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "Ligue A (Women)",
     "home": "Levallois Paris Saint-Cloud",
     "away": "Bordeaux Mérignac",
     "venue": "Palais des Sports Marcel Cerdan, Levallois-Perret",
-    "score": null,
-    "setScores": null,
+    "score": "3-1",
+    "setScores": [
+      "25-20",
+      "27-29",
+      "25-16",
+      "25-22"
+    ],
     "broadcast": null,
     "japanPlayers": [
       "宮部愛芽世"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "法甲女第9節；法 11/21 19:00 CET＝港 11/22 02:00 主場 vs Bordeaux（les-mariannes.fr／BetExplorer）",
+    "playerStats": {
+      "宮部愛芽世": {
+        "points": 0,
+        "note": "列名單未出場（LNV Data Project 公式記録：四局均無上場位置）"
+      }
+    },
+    "note": "法甲女第9節完場；Levallois 主場 3-1 勝 Bordeaux Mérignac（25-20, 27-29, 25-16, 25-22＠Palais des Sports Marcel Cerdan；觀眾 698）。宮部愛芽世列名單未出場。來源：LNV Data Project 公式記録／VolleyTracker 2026-11-21。",
     "leagueCountry": "法國",
     "leagueCountryCode": "fr"
   },
   {
     "id": "plusliga-chelm-trefl-2026-11-21",
     "datetime": "2026-11-22T03:30:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "PlusLiga",
     "home": "Podziemia Kredowe ChKS Chełm",
     "away": "Energa Trefl Gdańsk",
     "venue": "HS MOSiR, Chełm",
-    "score": null,
-    "setScores": null,
-    "broadcast": null,
+    "score": "1-3",
+    "setScores": [
+      "25-15",
+      "23-25",
+      "26-28",
+      "18-25"
+    ],
+    "broadcast": "Polsat Sport",
     "japanPlayers": [
       "今橋祐希"
     ],
     "gender": "men",
-    "playerStats": {},
-    "note": "PlusLiga；波蘭 11/21 20:30＝港 11/22 03:30＠HS MOSiR Chełm（Trefl 官網賽程／mecze24）。今橋祐希列 Chełm 報名名單（二傳）。",
+    "playerStats": {
+      "今橋祐希": {
+        "points": 3,
+        "note": "先發二傳 3 分（Trefl 官網名單／TAURON Liga／mecze24；Polsat Sport 列先發）"
+      }
+    },
+    "note": "PlusLiga／Tauron Liga 第7節完場；Chełm 主場 1-3 負 Trefl Gdańsk（25-15, 23-25, 26-28, 18-25＠HS MOSiR Chełm；116分鐘）。今橋祐希先發 3 分。MVP Michał Gierżot 26 分。來源：TAURON Liga 官方／Trefl 官網／Polsat Sport 2026-11-21。",
     "leagueCountry": "波蘭",
     "leagueCountryCode": "pl"
   },
