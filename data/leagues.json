@@ -68,5 +68,20 @@
     "country": "美國",
     "countryCode": "us",
     "flag": "assets/flags/us.svg"
+  },
+  "CEV Champions League (Men)": {
+    "country": "歐洲",
+    "countryCode": "eu",
+    "flag": "assets/flags/eu.svg"
+  },
+  "CEV Champions League (Women)": {
+    "country": "歐洲",
+    "countryCode": "eu",
+    "flag": "assets/flags/eu.svg"
+  },
+  "Serie A1 (Women)": {
+    "country": "意大利",
+    "countryCode": "it",
+    "flag": "assets/flags/it.svg"
   }
 }

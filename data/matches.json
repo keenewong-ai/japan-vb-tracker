@@ -6708,19 +6708,19 @@
     "id": "efeler-onikisubat-ziraat-2026-11-24",
     "datetime": "2026-11-24T19:00:00+08:00",
     "status": "upcoming",
-    "competition": "Efeler Ligi",
+    "competition": "Efeler Ligi (Men)",
     "home": "Akedaş Onikişubat Belediyespor",
     "away": "Ziraat Bankkart",
-    "venue": null,
+    "venue": "Merkez 1 Spor Salonu, Kahramanmaraş",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "TVF Voleybol TV",
     "japanPlayers": [
       "石川祐希"
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "土超男；土耳其 11/24 14:00＝港 19:00 客場 Onikişubat（ofsayt／VolleyShift／Efeler 賽程）",
+    "note": "Efeler 第10節；土耳其 11/24 14:00＝港 19:00 客場＠Merkez 1 Spor Salonu, Kahramanmaraş（TVF 2026-2027 11月官方賽程 PDF／Efeler VolleyStation 官方場次頁確認日期、開波同場地；轉播 TVF Voleybol TV）。",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
@@ -6740,7 +6740,7 @@
     ],
     "gender": "women",
     "playerStats": {},
-    "note": "CEV CL Pool D；土耳其 11/24 19:00＝港 11/25 00:00 主場對 Tent Obrenovac（VolleyShift／womanleagues／CEV pool 資料）",
+    "note": "CEV CL Pool D；土耳其 11/24 19:00＝港 11/25 00:00 主場對 Tent Obrenovac（CEV 官方 Competition View：當地 19:00＠Eczacibasi Spor Salonu；塞爾維亞排協 OSSRB 亦列當地 17:00 CET＝土 19:00，轉播 Arena Sport 5）。",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
@@ -7089,16 +7089,16 @@
     "competition": "Efeler Ligi (Men)",
     "home": "Spor Toto",
     "away": "Ziraat Bankkart",
-    "venue": null,
+    "venue": "TVF Ziraat Bankkart Voleybol Salonu, Ankara",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "TRT Spor Yıldız",
     "japanPlayers": [
       "石川祐希"
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "Efeler 第8節；土耳其 11/28 19:00＝港 11/29 00:00（ziraatbankasisporkulubu.com 官方 fikstur）",
+    "note": "Efeler 第8節；土耳其 11/28 19:00＝港 11/29 00:00＠TVF Ziraat Bankkart Voleybol Salonu, Ankara（主隊 Spor Toto；TVF 2026-2027 11月官方賽程 PDF 確認場地同轉播 TRT Spor Yıldız；開波時間另據 ziraatbankasisporkulubu.com 官方 fikstur）。",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
@@ -7363,13 +7363,13 @@
     "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu, İstanbul",
     "score": null,
     "setScores": null,
-    "broadcast": "Hulu（日本）",
+    "broadcast": "TRT Spor Yıldız／Hulu（日本）",
     "japanPlayers": [
       "石川真佑"
     ],
     "gender": "women",
     "playerStats": {},
-    "note": "土超女第11節；土耳其 11/29 18:00＝港 23:00 主場對 Galatasaray（Eczacıbaşı 官網賽程）",
+    "note": "土超女第11節；土耳其 11/29 18:00＝港 23:00 主場對 Galatasaray＠Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu（Eczacıbaşı 官網賽程；TVF 2026-2027 11月官方賽程 PDF 確認轉播 TRT Spor Yıldız）。",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
@@ -7444,6 +7444,26 @@
     "note": "PlusLiga 第6節完場；PGE Projekt Warszawa 主場 3-1 勝 Chełm（16-25, 31-29, 26-24, 25-17；94分鐘＠Arena Ursynów）。Chełm 先贏首局，二傳 Blankenau 喺第2局局點傷退，今橋祐希頂替上場 0 分。MVP Jurij Semeniuk。來源：Sport.pl／SportoweFakty／Eurosport／mecze24／Siatka24 2026-11-13。",
     "leagueCountry": "波蘭",
     "leagueCountryCode": "pl"
+  },
+  {
+    "id": "cev-cl-ziraat-montpellier-2026-12-09",
+    "datetime": "2026-12-10T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "CEV Champions League (Men)",
+    "home": "Ziraat Bankkart",
+    "away": "Montpellier HSC VB",
+    "venue": "TVF Ziraat Bankkart Voleybol Salonu, Ankara",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "石川祐希"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "CEV CL 男小組賽 CLVM 34；土耳其 12/09 19:00＝港 12/10 00:00 主場對 Montpellier HSC VB＠TVF Ziraat Bankkart Voleybol Salonu（CEV 官方 Competition View 當地時間、場地同球證名單；VolleyballTV 同列 16:00 UTC）。",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
   },
   {
     "id": "efeler-ziraat-halkbank-2026-12-12",
@@ -7666,6 +7686,26 @@
     "note": "SuperLega；義 1/3 18:00 CET＝港 1/4 01:00 客場 Perugia（powervolleymilano.it 官方曆）"
   },
   {
+    "id": "cev-cl-dinamo-ziraat-2027-01-05",
+    "datetime": "2027-01-06T01:00:00+08:00",
+    "status": "upcoming",
+    "competition": "CEV Champions League (Men)",
+    "home": "Dinamo București",
+    "away": "Ziraat Bankkart",
+    "venue": "Dinamo, București",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "石川祐希"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "CEV CL 男小組賽 CLVM 36；羅馬尼亞 1/05 19:00 EET＝港 1/06 01:00 客場對 Dinamo București（CEV 官方 Competition View 當地 19:00＠Dinamo BUCURESTI）。",
+    "leagueCountry": "歐洲",
+    "leagueCountryCode": "eu"
+  },
+  {
     "status": "upcoming",
     "competition": "SuperLega",
     "score": null,
@@ -7726,6 +7766,26 @@
     "note": "SuperLega；義 1/17 18:00 CET＝港 1/18 01:00 客場 Piacenza（powervolleymilano.it 官方曆）"
   },
   {
+    "id": "cev-cl-ziraat-perugia-2027-01-20",
+    "datetime": "2027-01-21T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "CEV Champions League (Men)",
+    "home": "Ziraat Bankkart",
+    "away": "Sir Sicoma Monini Perugia",
+    "venue": "TVF Ziraat Bankkart Voleybol Salonu, Ankara",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "石川祐希"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "CEV CL 男小組賽 CLVM 37；土耳其 1/20 19:00＝港 1/21 00:00 主場對 Sir Sicoma Monini Perugia＠TVF Ziraat Bankkart Voleybol Salonu（CEV 官方 Competition View 當地時間、場地同球證名單）。",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
+  },
+  {
     "status": "upcoming",
     "competition": "SuperLega",
     "score": null,
@@ -7744,6 +7804,26 @@
     "away": "Rana Verona",
     "venue": "Allianz Cloud, Milano",
     "note": "SuperLega；義 1/24 18:00 CET＝港 1/25 01:00＠Allianz Cloud vs Verona（powervolleymilano.it 官方曆）"
+  },
+  {
+    "id": "cev-cl-ziraat-dinamo-2027-01-26",
+    "datetime": "2027-01-27T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "CEV Champions League (Men)",
+    "home": "Ziraat Bankkart",
+    "away": "Dinamo București",
+    "venue": "TVF Ziraat Bankkart Voleybol Salonu, Ankara",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "石川祐希"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "CEV CL 男小組賽 CLVM 40；土耳其 1/26 19:00＝港 1/27 00:00 主場對 Dinamo București＠TVF Ziraat Bankkart Voleybol Salonu（CEV 官方 Competition View 當地 19:00＠Ankara）。",
+    "leagueCountry": "土耳其",
+    "leagueCountryCode": "tr"
   },
   {
     "status": "upcoming",
@@ -7766,6 +7846,26 @@
     "note": "SuperLega；義 1/31 18:00 CET＝港 2/1 01:00 客場 Trento（powervolleymilano.it 官方曆）"
   },
   {
+    "id": "cev-cl-montpellier-ziraat-2027-02-09",
+    "datetime": "2027-02-10T02:30:00+08:00",
+    "status": "upcoming",
+    "competition": "CEV Champions League (Men)",
+    "home": "Montpellier HSC VB",
+    "away": "Ziraat Bankkart",
+    "venue": "Palais des Sports Jacques Chaban Delmas, Castelnau-le-Lez",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "石川祐希"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "CEV CL 男小組賽 CLVM 42；法國 2/09 19:30 CET＝港 2/10 02:30 客場＠Palais des Sports Jacques Chaban Delmas, Castelnau-le-Lez vs Montpellier HSC VB（CEV 官方 Competition View 當地時間、場地同球證名單）。",
+    "leagueCountry": "歐洲",
+    "leagueCountryCode": "eu"
+  },
+  {
     "status": "upcoming",
     "competition": "SuperLega",
     "score": null,
@@ -7784,6 +7884,26 @@
     "away": "Valsa Group Modena",
     "venue": "Allianz Cloud, Milano",
     "note": "SuperLega；義 2/14 18:00 CET＝港 2/15 01:00＠Allianz Cloud vs Modena（powervolleymilano.it 官方曆）"
+  },
+  {
+    "id": "cev-cl-perugia-ziraat-2027-02-17",
+    "datetime": "2027-02-18T03:30:00+08:00",
+    "status": "upcoming",
+    "competition": "CEV Champions League (Men)",
+    "home": "Sir Sicoma Monini Perugia",
+    "away": "Ziraat Bankkart",
+    "venue": "Pala Barton, Perugia",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "石川祐希"
+    ],
+    "gender": "men",
+    "playerStats": {},
+    "note": "CEV CL 男小組賽 CLVM 43；義 2/17 20:30 CET＝港 2/18 03:30 客場＠Pala Barton vs Sir Sicoma Monini Perugia（CEV 官方 Competition View 當地時間、場地同球證名單）。",
+    "leagueCountry": "歐洲",
+    "leagueCountryCode": "eu"
   },
   {
     "status": "upcoming",
