@@ -6734,34 +6734,47 @@
     "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu, İstanbul",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "tabii Spor／Arena Sport 5",
     "japanPlayers": [
       "石川真佑"
     ],
     "gender": "women",
     "playerStats": {},
-    "note": "CEV CL Pool D；土耳其 11/24 19:00＝港 11/25 00:00 主場對 Tent Obrenovac（CEV 官方 Competition View：當地 19:00＠Eczacibasi Spor Salonu；塞爾維亞排協 OSSRB 亦列當地 17:00 CET＝土 19:00，轉播 Arena Sport 5）。",
+    "note": "CEV CL Pool D；土耳其 11/24 19:00＝港 11/25 00:00 主場對 Tent Obrenovac（CEV 官方 Competition View：當地 19:00＠Eczacibasi Spor Salonu；塞爾維亞排協 OSSRB 列當地 17:00 CET＝土 19:00，轉播 Arena Sport 5；土耳其轉播 tabii Spor）。",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
   {
     "id": "plusliga-lublin-suwalki-2026-11-25",
     "datetime": "2026-11-24T03:30:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "PlusLiga",
     "home": "BOGDANKA LUK Lublin",
     "away": "Ślepsk Malow Suwałki",
     "venue": "Hala Globus, Lublin",
-    "score": null,
-    "setScores": null,
+    "score": "3-0",
+    "setScores": [
+      "25-18",
+      "25-22",
+      "25-22"
+    ],
     "broadcast": "富士電視台 ONE・FOD（日語實況，11/24 04:25 起）",
     "japanPlayers": [
       "高橋藍",
       "小川智大"
     ],
     "gender": "men",
-    "playerStats": {},
-    "note": "PlusLiga 第8節；波蘭 11/23 20:30＝港 11/24 03:30＠HSW Globus vs Suwałki（日期以 TAURON Liga PDF 23.11 為準，非先前 25.11 框架日；開波時間據 lkpslublin terminarz）",
+    "playerStats": {
+      "高橋藍": {
+        "points": 12,
+        "note": "先發；12分（mecze24 球員得分表／Polsat Sport）；報道提及第3局發球ace（Polsat Sport）"
+      },
+      "小川智大": {
+        "points": 0,
+        "note": "先發自由人；0分（mecze24 球員得分表；Polsat Sport 先發名單）"
+      }
+    },
+    "note": "PlusLiga／Tauron Liga 第8節完場；Lublin 主場 3-0 勝 Suwałki（25-18, 25-22, 25-22＠HSW Globus；81分鐘、3996人）。高橋藍先發 12 分、小川智大先發自由人。Lublin 開幕 8 連勝、聯賽唯一不敗。來源：TAURON Liga 官方場次頁／官方賽程 PDF（2026-11-23）、Polsat Sport、mecze24。",
     "leagueCountry": "波蘭",
     "leagueCountryCode": "pl"
   },
@@ -8549,12 +8562,12 @@
   },
   {
     "id": "plusliga-norwid-lublin-2026-12-14",
-    "datetime": "2026-12-14T00:00:00+08:00",
+    "datetime": "2026-12-13T00:00:00+08:00",
     "status": "upcoming",
     "competition": "PlusLiga",
     "home": "NEONET Norwid Częstochowa",
     "away": "BOGDANKA LUK Lublin",
-    "venue": "DMD Arena Częstochowa",
+    "venue": "HS Częstochowa",
     "score": null,
     "setScores": null,
     "broadcast": null,
@@ -8564,7 +8577,7 @@
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "PlusLiga 第11節；波蘭 12/14＠DMD Arena Częstochowa（hala-czestochowa.pl 場館日曆確認日期；開波時間待官方補）",
+    "note": "PlusLiga 第11節；波蘭 12/13＠HS Częstochowa（Żużlowa 4）。日期同場地以 TAURON Liga 官方賽程 PDF（Warszawa, 2026-11-23 22:32）同 Lublin 官網 terminarz 為準（早前場館日曆曾列 12/14＠DMD Arena，同最新官方來源不一致，改跟官方 PDF）。開波時間待官方補。",
     "leagueCountry": "波蘭",
     "leagueCountryCode": "pl"
   },
