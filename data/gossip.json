@@ -1,5 +1,25 @@
 [
   {
+    "id": "sato-cl-debut-2026-11-25",
+    "date": "2026-11-24",
+    "title": "佐藤淑乃迎歐冠處子秀　米蘭主場改喺蒙扎 Opiquad Arena",
+    "summary": "Vero Volley 官方 11 月 24 日預告，歐冠女排小組 C 首戰喺蒙扎 Opiquad Arena 舉行（義 11/25 20:00＝港 11/26 03:00），對手 Levallois Paris Saint-Cloud。球會點名佐藤淑乃將迎來歐洲賽事處子秀（同場還有 Vázquez、Di Napoli）；客隊名單有宮部愛芽世。轉播 Sky Sport Max／DAZN。是否先發要睇當日名單。",
+    "playerIds": [
+      "sato-yoshino",
+      "miyabe-ameze"
+    ],
+    "playerNames": [
+      "佐藤淑乃",
+      "宮部愛芽世"
+    ],
+    "tags": [
+      "賽事",
+      "歐冠"
+    ],
+    "source": "Vero Volley",
+    "sourceUrl": "https://www.verovolley.com/la-numia-vero-volley-milano-torna-in-europa-mercoledi-allopiquad-arena-lesordio-in-cev-champions-league-contro-levallois-paris/"
+  },
+  {
     "id": "yuki-cwc-roster-2026-11-18",
     "date": "2026-11-18",
     "title": "石川祐希入選男子俱樂部世錦賽參賽名單",
