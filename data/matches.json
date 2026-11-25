@@ -6736,20 +6736,29 @@
   {
     "id": "cev-cl-eczacibasi-obrenovac-2026-11-24",
     "datetime": "2026-11-25T00:00:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "CEV Champions League (Women)",
     "home": "Eczacıbaşı Peron İstanbul",
     "away": "Tent Obrenovac",
     "venue": "Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu, İstanbul",
-    "score": null,
-    "setScores": null,
+    "score": "3-0",
+    "setScores": [
+      "25-19",
+      "25-19",
+      "25-10"
+    ],
     "broadcast": "tabii Spor／Arena Sport 5",
     "japanPlayers": [
       "石川真佑"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "CEV CL Pool D；土耳其 11/24 19:00＝港 11/25 00:00 主場對 Tent Obrenovac（CEV 官方 Competition View：當地 19:00＠Eczacibasi Spor Salonu；塞爾維亞排協 OSSRB 列當地 17:00 CET＝土 19:00，轉播 Arena Sport 5；土耳其轉播 tabii Spor）。",
+    "playerStats": {
+      "石川真佑": {
+        "points": 9,
+        "note": "先發打滿 3 局；攻擊 8／21（決定率 38%），攔網 0，發球 ace 1（11 次／失誤 2），接球 8（正面率 75%、1 失誤）。來源：CEV 官方 MatchStatistics 2026-11-24"
+      }
+    },
+    "note": "CEV CL Pool D 完場；Eczacıbaşı 主場 3-0 勝 Tent Obrenovac（25-19, 25-19, 25-10；70分鐘＠Eczacıbaşı Spor Kulübü HDI Sigorta Spor Salonu）。石川真佑先發打滿 3 局、9 分（攻擊 8／21、ace 1）。MVP Antropova 17 分。來源：CEV 官方 MatchStatistics／CEV 戰報／TVF 2026-11-24。",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
@@ -9287,8 +9296,8 @@
     "leagueCountryCode": "tr"
   },
   {
-    "id": "cev-cl-eczacibasi-tovuz-2027-01-12",
-    "datetime": "2027-01-12T23:00:00+08:00",
+    "id": "cev-cl-eczacibasi-tovuz-2026-12-02",
+    "datetime": "2026-12-03T00:30:00+08:00",
     "status": "upcoming",
     "competition": "CEV Champions League (Women)",
     "home": "Eczacıbaşı Peron İstanbul",
@@ -9302,7 +9311,7 @@
     ],
     "gender": "women",
     "playerStats": {},
-    "note": "CEV CL Pool D；土耳其 1/12 18:00＝港 23:00 主場對 Turan Tovuz（Wikipedia 引 CEV 當地時間）",
+    "note": "CEV CL Pool D；土耳其 12/02 19:30＝港 12/03 00:30 主場對 Turan Tovuz（volleyball.it 引 CEV 裁判任命／Wikipedia 賽程／womanleagues 19:30 GMT+3）。原誤記為 2027-01-12 18:00，已按官方賽程更正。",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
   },
@@ -9755,5 +9764,206 @@
     "note": "土超女第26節；土耳其 3/20 客場對 THY＠Burhan Felek Spor Salonu（Eczacıbaşı 官網賽程確認日期；開波時間待官方補）",
     "leagueCountry": "土耳其",
     "leagueCountryCode": "tr"
+  },
+  {
+    "id": "cev-cl-tovuz-eczacibasi-2027-01-13",
+    "datetime": "2027-01-13T23:00:00+08:00",
+    "status": "upcoming",
+    "competition": "CEV Champions League (Women)",
+    "home": "Turan Tovuz",
+    "away": "Eczacıbaşı Peron İstanbul",
+    "venue": null,
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "石川真佑"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "CEV CL Pool D 客場；阿塞拜疆 1/13 19:00（AZT, UTC+4）＝港 23:00 對 Turan Tovuz（volleyball.it 引 CEV 裁判任命／Wikipedia 賽程列當地 19:00）。",
+    "leagueCountry": "歐洲",
+    "leagueCountryCode": "eu"
+  },
+  {
+    "id": "cev-cl-vasas-milano-2026-12-01",
+    "datetime": "2026-12-02T01:30:00+08:00",
+    "status": "upcoming",
+    "competition": "CEV Champions League (Women)",
+    "home": "Vasas Óbuda Budapest",
+    "away": "Numia Vero Volley Milano",
+    "venue": null,
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "佐藤淑乃"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "CEV CL Pool C 客場；匈 12/01 18:30 CET＝港 12/02 01:30 vs Vasas Óbuda Budapest（volleyball.it 引 CEV 裁判任命／Wikipedia 賽程）。",
+    "leagueCountry": "歐洲",
+    "leagueCountryCode": "eu"
+  },
+  {
+    "id": "cev-cl-levallois-fener-2026-12-03",
+    "datetime": "2026-12-04T03:00:00+08:00",
+    "status": "upcoming",
+    "competition": "CEV Champions League (Women)",
+    "home": "Levallois Paris Saint-Cloud",
+    "away": "Fenerbahçe Medicana",
+    "venue": null,
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "宮部愛芽世"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "CEV CL Pool C；法 12/03 20:00 CET＝港 12/04 03:00 主場對 Fenerbahçe Medicana（volleyball.it 引 CEV 裁判任命／Wikipedia 賽程）。",
+    "leagueCountry": "歐洲",
+    "leagueCountryCode": "eu"
+  },
+  {
+    "id": "cev-cl-vasas-levallois-2026-12-15",
+    "datetime": "2026-12-16T01:30:00+08:00",
+    "status": "upcoming",
+    "competition": "CEV Champions League (Women)",
+    "home": "Vasas Óbuda Budapest",
+    "away": "Levallois Paris Saint-Cloud",
+    "venue": null,
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "宮部愛芽世"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "CEV CL Pool C 客場；匈 12/15 18:30 CET＝港 12/16 01:30 vs Vasas Óbuda Budapest（volleyball.it 引 CEV 裁判任命／Wikipedia 賽程）。",
+    "leagueCountry": "歐洲",
+    "leagueCountryCode": "eu"
+  },
+  {
+    "id": "cev-cl-milano-fener-2026-12-17",
+    "datetime": "2026-12-18T03:30:00+08:00",
+    "status": "upcoming",
+    "competition": "CEV Champions League (Women)",
+    "home": "Numia Vero Volley Milano",
+    "away": "Fenerbahçe Medicana",
+    "venue": "Allianz Cloud, Milano",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "佐藤淑乃"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "CEV CL Pool C；義 12/17 20:30 CET＝港 12/18 03:30＠Allianz Cloud vs Fenerbahçe Medicana（volleyball.it 引 CEV 裁判任命列 Palasport Allianz Cloud／Wikipedia 賽程）。",
+    "leagueCountry": "歐洲",
+    "leagueCountryCode": "eu"
+  },
+  {
+    "id": "cev-cl-fener-levallois-2027-01-12",
+    "datetime": "2027-01-13T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "CEV Champions League (Women)",
+    "home": "Fenerbahçe Medicana",
+    "away": "Levallois Paris Saint-Cloud",
+    "venue": null,
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "宮部愛芽世"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "CEV CL Pool C 客場；土耳其 1/12 19:00＝港 1/13 00:00 vs Fenerbahçe Medicana（volleyball.it 引 CEV 裁判任命／Wikipedia 賽程）。",
+    "leagueCountry": "歐洲",
+    "leagueCountryCode": "eu"
+  },
+  {
+    "id": "cev-cl-milano-vasas-2027-01-12",
+    "datetime": "2027-01-13T03:30:00+08:00",
+    "status": "upcoming",
+    "competition": "CEV Champions League (Women)",
+    "home": "Numia Vero Volley Milano",
+    "away": "Vasas Óbuda Budapest",
+    "venue": "Opiquad Arena, Monza",
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "佐藤淑乃"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "CEV CL Pool C；義 1/12 20:30 CET＝港 1/13 03:30＠Opiquad Arena, Monza vs Vasas Óbuda Budapest（volleyball.it 引 CEV 裁判任命列 Palasport Opiquad Arena／Wikipedia 賽程）。",
+    "leagueCountry": "歐洲",
+    "leagueCountryCode": "eu"
+  },
+  {
+    "id": "cev-cl-levallois-milano-2027-01-26",
+    "datetime": "2027-01-27T03:00:00+08:00",
+    "status": "upcoming",
+    "competition": "CEV Champions League (Women)",
+    "home": "Levallois Paris Saint-Cloud",
+    "away": "Numia Vero Volley Milano",
+    "venue": null,
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "佐藤淑乃",
+      "宮部愛芽世"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "CEV CL Pool C；法 1/26 20:00 CET＝港 1/27 03:00 Levallois 主場對 Milano（volleyball.it 引 CEV 裁判任命／Wikipedia 賽程）。雙方都有日本球員（佐藤淑乃、宮部愛芽世）。",
+    "leagueCountry": "歐洲",
+    "leagueCountryCode": "eu"
+  },
+  {
+    "id": "cev-cl-fener-milano-2027-02-03",
+    "datetime": "2027-02-04T00:00:00+08:00",
+    "status": "upcoming",
+    "competition": "CEV Champions League (Women)",
+    "home": "Fenerbahçe Medicana",
+    "away": "Numia Vero Volley Milano",
+    "venue": null,
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "佐藤淑乃"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "CEV CL Pool C 客場；土耳其 2/03 19:00＝港 2/04 00:00 vs Fenerbahçe Medicana（volleyball.it 引 CEV 裁判任命／Wikipedia 賽程）。",
+    "leagueCountry": "歐洲",
+    "leagueCountryCode": "eu"
+  },
+  {
+    "id": "cev-cl-levallois-vasas-2027-02-03",
+    "datetime": "2027-02-04T03:00:00+08:00",
+    "status": "upcoming",
+    "competition": "CEV Champions League (Women)",
+    "home": "Levallois Paris Saint-Cloud",
+    "away": "Vasas Óbuda Budapest",
+    "venue": null,
+    "score": null,
+    "setScores": null,
+    "broadcast": null,
+    "japanPlayers": [
+      "宮部愛芽世"
+    ],
+    "gender": "women",
+    "playerStats": {},
+    "note": "CEV CL Pool C；法 2/03 20:00 CET＝港 2/04 03:00 主場對 Vasas Óbuda Budapest（volleyball.it 引 CEV 裁判任命／Wikipedia 賽程）。",
+    "leagueCountry": "歐洲",
+    "leagueCountryCode": "eu"
   }
 ]
