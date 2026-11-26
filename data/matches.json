@@ -6829,13 +6829,19 @@
   {
     "id": "sv-men-sakai-tokyo-2026-11-26",
     "datetime": "2026-11-26T18:35:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "SV.LEAGUE MEN",
     "home": "日本製鉄堺ブレイザーズ",
     "away": "東京グレートベアーズ",
     "venue": "和歌山ビッグホエール",
-    "score": null,
-    "setScores": null,
+    "score": "2-3",
+    "setScores": [
+      "25-23",
+      "25-21",
+      "20-25",
+      "22-25",
+      "13-15"
+    ],
     "broadcast": "GAORA SPORTS／J SPORTSオンデマンド",
     "japanPlayers": [
       "大宅真樹",
@@ -6843,8 +6849,21 @@
       "後藤陸翔"
     ],
     "gender": "men",
-    "playerStats": {},
-    "note": "GAME1；SV男子第6節＠和歌山ビッグホエール（官方 match/detail/38028）；轉播 GAORA SPORTS",
+    "playerStats": {
+      "大宅真樹": {
+        "points": 1,
+        "note": "先發出戰5局；攻擊0＋攔網1＋發球ace0（公式 match/detail/38028）"
+      },
+      "村山豪": {
+        "points": 3,
+        "note": "先發出戰2局（第1、2局）；攻擊3＋攔網0＋發球ace0（攻擊7打／3成功／0失敗、決定率42.9%；公式 match/detail/38028）"
+      },
+      "後藤陸翔": {
+        "points": 17,
+        "note": "先發出戰5局；攻擊14＋攔網1＋發球ace2（攻擊31打／14成功／0失敗、決定率45.2%；公式 match/detail/38028）"
+      }
+    },
+    "note": "SV男子第6節 GAME1完場；日本製鉄堺ブレイザーズ 主場 2-3 負 東京グレートベアーズ（25-23, 25-21, 20-25, 22-25, 13-15；官方 match/detail/38028）。後藤陸翔先發打滿5局 17 分（攻擊14＋攔網1＋發球ace2），村山豪先發第1、2局 3 分，大宅真樹先發打滿5局 1 分（攔網1）。轉播 GAORA SPORTS／J SPORTSオンデマンド。",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
