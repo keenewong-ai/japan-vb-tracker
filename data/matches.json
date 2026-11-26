@@ -6799,21 +6799,30 @@
   {
     "id": "cev-cl-milano-paris-2026-11-25",
     "datetime": "2026-11-26T03:00:00+08:00",
-    "status": "upcoming",
+    "status": "final",
     "competition": "CEV Champions League (Women)",
     "home": "Numia Vero Volley Milano",
     "away": "Levallois Paris Saint-Cloud",
     "venue": "Opiquad Arena, Monza",
-    "score": null,
-    "setScores": null,
+    "score": "3-0",
+    "setScores": [
+      "25-20",
+      "25-19",
+      "25-11"
+    ],
     "broadcast": "Sky Sport Max／DAZN",
     "japanPlayers": [
       "佐藤淑乃",
       "宮部愛芽世"
     ],
     "gender": "women",
-    "playerStats": {},
-    "note": "歐冠女 Pool C 首戰；義 11/25 20:00 CET＝港 11/26 03:00＠Opiquad Arena, Monza vs Levallois Paris Saint-Cloud（Vero Volley 官方 2026-11-24 確認場地同轉播 Sky Sport Max／DAZN；volleyball.it／OA Sport 一致）。佐藤淑乃列米蘭名單，將迎歐洲賽事處子秀；客隊 Levallois 名單有宮部愛芽世。早前誤記 Allianz Cloud。",
+    "playerStats": {
+      "佐藤淑乃": {
+        "points": 0,
+        "note": "替補出戰第1、3局；攻擊0＋攔網0＋發球ace0（發球2次／失誤1；接球2、正面率100%、完美率100%；公式 CEV MatchStatistics）"
+      }
+    },
+    "note": "CEV CL Pool C 完場；Numia Vero Volley Milano 主場 3-0 勝 Levallois Paris Saint-Cloud（25-20, 25-19, 25-11；76分鐘＠Opiquad Arena, Monza；觀眾 2,614）。佐藤淑乃替補出戰第1、3局 0 分（發球 2 次／失誤 1、接球 2）。宮部愛芽世今場未見公式登錄，個人數據不記入。MVP Paola Egonu 19 分。來源：CEV 官方 MatchStatistics／CEV MatchPage／Vero Volley 官方戰報／volleyball.it。",
     "leagueCountry": "歐洲",
     "leagueCountryCode": "eu"
   },
@@ -9792,7 +9801,7 @@
     "competition": "CEV Champions League (Women)",
     "home": "Vasas Óbuda Budapest",
     "away": "Numia Vero Volley Milano",
-    "venue": null,
+    "venue": "ÉRD Aréna, Érd",
     "score": null,
     "setScores": null,
     "broadcast": null,
@@ -9801,7 +9810,7 @@
     ],
     "gender": "women",
     "playerStats": {},
-    "note": "CEV CL Pool C 客場；匈 12/01 18:30 CET＝港 12/02 01:30 vs Vasas Óbuda Budapest（volleyball.it 引 CEV 裁判任命／Wikipedia 賽程）。",
+    "note": "CEV CL Pool C 客場；匈 12/01 18:30 CET＝港 12/02 01:30＠ÉRD Aréna, Érd（Velencei út 39-41, 2030；容量 2,300）vs Vasas Óbuda Budapest（CEV 官方 match centre CLVW 40 確認場地同地址；volleyball.it 引 CEV 裁判任命／Wikipedia 賽程確認開波時間）。",
     "leagueCountry": "歐洲",
     "leagueCountryCode": "eu"
   },
