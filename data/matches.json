@@ -6917,14 +6917,14 @@
     "venue": "Hala Widowiskowo-Sportowa, Jastrzębie-Zdrój",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "Polsat Sport 1／Polsat Sport Extra 2（波蘭 20:20 起）",
     "japanPlayers": [
       "高橋藍",
       "小川智大"
     ],
     "gender": "men",
     "playerStats": {},
-    "note": "PlusLiga 第9節；波蘭 11/28 20:30＝港 11/29 03:30＠Jastrzębie-Zdrój vs Lublin（lkpslublin.pl 官方 terminarz 確認開波時間）",
+    "note": "PlusLiga 第9節；波蘭 11/28 20:30＝港 11/29 03:30＠Jastrzębie-Zdrój vs Lublin（lkpslublin.pl 官方 terminarz 確認開波時間）。轉播 Polsat Sport 1／Polsat Sport Extra 2（波蘭 20:20 起；Polsat Sport 官方轉播稿 2026-11-27）。",
     "leagueCountry": "波蘭",
     "leagueCountryCode": "pl"
   },
@@ -7054,7 +7054,7 @@
     "venue": "シゲトーアリーナ岡山",
     "score": null,
     "setScores": null,
-    "broadcast": "J SPORTSオンデマンド",
+    "broadcast": "テレビせとうち／J SPORTSオンデマンド",
     "japanPlayers": [
       "荒木彩花",
       "栄絵里香",
@@ -7064,7 +7064,7 @@
     ],
     "gender": "women",
     "playerStats": {},
-    "note": "GAME1；SV公式／しらべ帳",
+    "note": "GAME1；SV公式賽程頁確認轉播 テレビせとうち／J SPORTSオンデマンド",
     "leagueCountry": "日本",
     "leagueCountryCode": "jp"
   },
@@ -8112,7 +8112,7 @@
     "venue": "国立代々木競技場第一体育館",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "村山豪",
       "後藤陸翔"
@@ -8133,7 +8133,7 @@
     "venue": "国立代々木競技場第一体育館",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "村山豪",
       "後藤陸翔"
@@ -8154,7 +8154,7 @@
     "venue": "エフピコアリーナふくやま",
     "score": null,
     "setScores": null,
-    "broadcast": "J SPORTS 3",
+    "broadcast": "J SPORTS 3／J SPORTSオンデマンド",
     "japanPlayers": [
       "新井雄大",
       "西本圭吾",
@@ -8180,7 +8180,7 @@
     "venue": "エフピコアリーナふくやま",
     "score": null,
     "setScores": null,
-    "broadcast": "J SPORTS 2",
+    "broadcast": "J SPORTS 2／J SPORTSオンデマンド",
     "japanPlayers": [
       "新井雄大",
       "西本圭吾",
@@ -8206,7 +8206,7 @@
     "venue": "Fアリーナいちき串木野",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "大宅真樹"
     ],
@@ -8226,7 +8226,7 @@
     "venue": "Fアリーナいちき串木野",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "大宅真樹"
     ],
@@ -8246,7 +8246,7 @@
     "venue": "エントリオ",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "深津英臣",
       "宮浦健人",
@@ -8271,7 +8271,7 @@
     "venue": "エントリオ",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "深津英臣",
       "宮浦健人",
@@ -8296,7 +8296,7 @@
     "venue": "GLION ARENA KOBE",
     "score": null,
     "setScores": null,
-    "broadcast": "フジテレビTWO",
+    "broadcast": "フジテレビTWO／J SPORTSオンデマンド",
     "japanPlayers": [
       "西田有志",
       "山内晶大",
@@ -8324,7 +8324,7 @@
     "venue": "GLION ARENA KOBE",
     "score": null,
     "setScores": null,
-    "broadcast": "フジテレビNEXT",
+    "broadcast": "フジテレビNEXT／J SPORTSオンデマンド",
     "japanPlayers": [
       "西田有志",
       "山内晶大",
@@ -8352,7 +8352,7 @@
     "venue": "高崎アリーナ",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "島村春世",
       "志摩美古都",
@@ -8378,7 +8378,7 @@
     "venue": "高崎アリーナ",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "島村春世",
       "志摩美古都",
@@ -8404,7 +8404,7 @@
     "venue": "とり野菜みそ BLUECATS ARENA",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "川添美優",
       "松井珠己",
@@ -8427,7 +8427,7 @@
     "venue": "とり野菜みそ BLUECATS ARENA",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "川添美優",
       "松井珠己",
@@ -8450,7 +8450,7 @@
     "venue": "黒部市総合体育センター",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "山口真季"
     ],
@@ -8470,7 +8470,7 @@
     "venue": "黒部市総合体育センター",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "山口真季"
     ],
@@ -8490,7 +8490,7 @@
     "venue": "刈谷市体育館",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "鴫原ひなた",
       "花岡千聡"
@@ -8511,7 +8511,7 @@
     "venue": "刈谷市体育館",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "鴫原ひなた",
       "花岡千聡"
@@ -8532,7 +8532,7 @@
     "venue": "シゲトーアリーナ岡山",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "福留慧美"
     ],
@@ -8552,7 +8552,7 @@
     "venue": "シゲトーアリーナ岡山",
     "score": null,
     "setScores": null,
-    "broadcast": null,
+    "broadcast": "J SPORTSオンデマンド",
     "japanPlayers": [
       "福留慧美"
     ],
